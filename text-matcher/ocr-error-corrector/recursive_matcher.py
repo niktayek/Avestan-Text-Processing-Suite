@@ -3,14 +3,14 @@ import json
 import nltk
 
 import sys
-sys.setrecursionlimit(sys.getrecursionlimit()*3)
+sys.setrecursionlimit(sys.getrecursionlimit()*10)
 
-from data_loader import load_normalized_words
+from data_loader import load_ocr_words, load_manual_words
 
 
 def main():
-    manual_words = load_normalized_words("0040_plain_text.txt")
-    ocr_words = load_normalized_words("OCR_manual_aligned.txt")
+    manual_words = load_manual_words()
+    ocr_words = load_ocr_words()
 
     # print(manual_words[:60])
     # print(ocr_words[:60])
@@ -18,7 +18,7 @@ def main():
 
     manual_index, ocr_index = 0, 0
     end_manual_index, end_ocr_index, matches, _ = recursive_match(manual_words, ocr_words, manual_index, ocr_index, 0)
-    print(f"Matched OCR: {ocr_index} to {end_ocr_index} with CAB: {manual_index} to {end_manual_index}")
+    print(f"Matched OCR: {ocr_index} to {end_ocr_index} with manual: {manual_index} to {end_manual_index}")
     with open("matches.json", "w") as f:
         f.write(json.dumps(matches))
     return
@@ -75,7 +75,12 @@ def single_match(manual_word, ocr_word):
     return False
 
 def remove_vowels(text):
-    text = re.sub(r"[ą̇aeoāąēōūīəə̄ēyẏ\d]", '', text)
+    text = re.sub(r"[ą̇aeoāąēōūīəə̄ēyẏw\.\d]", '', text)
+    text = re.sub(r"[A-Z]", '', text)
+    # text = re.sub(r"ʾ'", '', text)
+    text = re.sub(r"Ḇ", '', text)
+    text = re.sub(r"Š", '', text)
+    text = re.sub(r"p̄", '', text)
     text = re.sub(r'([^u])u([^u])', r"\1\2", text)
     text = re.sub(r'([^i])i([^i])', r"\1\2", text)
     uniform_list = [

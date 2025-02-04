@@ -1,12 +1,12 @@
 import json
 
 
-from data_loader import load_normalized_words
+from data_loader import load_manual_words, load_ocr_words
 
 
 def main():
-    manual_words = load_normalized_words("0040_plain_text.txt")
-    ocr_words = load_normalized_words("OCR_manual_aligned.txt")
+    manual_words = load_manual_words()
+    ocr_words = load_ocr_words()
 
     with open("matches.json", "r") as f:
         matches = json.loads(f.read())
