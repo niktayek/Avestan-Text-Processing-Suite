@@ -12,8 +12,8 @@ def main():
     manual_words = load_manual_words()
     ocr_words = load_ocr_words()
 
-    # print(manual_words[:60])
-    # print(ocr_words[:60])
+    # print('manual\t', len(manual_words))
+    # print('ocr\t', len(ocr_words))
     # return
 
     manual_index, ocr_index = 0, 0
@@ -75,12 +75,7 @@ def single_match(manual_word, ocr_word):
     return False
 
 def remove_vowels(text):
-    text = re.sub(r"[ą̇aeoāąēōūīəə̄ēyẏw\.\d]", '', text)
-    text = re.sub(r"[A-Z]", '', text)
-    # text = re.sub(r"ʾ'", '', text)
-    text = re.sub(r"Ḇ", '', text)
-    text = re.sub(r"Š", '', text)
-    text = re.sub(r"p̄", '', text)
+    text = re.sub(r"[ą̇aeoāąēōūīəə̄ēyẏ\.\d]", '', text)
     text = re.sub(r'([^u])u([^u])', r"\1\2", text)
     text = re.sub(r'([^i])i([^i])', r"\1\2", text)
     uniform_list = [
