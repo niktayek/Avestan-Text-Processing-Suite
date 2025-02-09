@@ -3,11 +3,11 @@ import string
 
 
 def load_ocr_words() -> list[str]:
-    return load_normalized_words("data/OCR_manual_aligned.txt")
+    return load_normalized_words("data/TD2_16_29_Mackenzie_OCR.txt")
 
 
 def load_manual_words() -> list[str]:
-    return load_normalized_words("data/0040_plain_Avestan.txt")
+    return load_normalized_words("data/TD2_16_29_Mackenzie_manual_clean.txt")
 
 
 def load_normalized_words(file_path: str) -> list[str]:
@@ -15,7 +15,15 @@ def load_normalized_words(file_path: str) -> list[str]:
         text = f.read()
         text = re.sub(r"\n", " ", text)
         text = re.sub(r"\s+", " ", text)
-        return [word for word in text.split(" ") if word and not is_pahlavi(word)]
+        text = re.sub(r"[WYwy]", "", text)  # only for pahlavi
+        text = re.sub(r"\d", "", text)   # only for pahlavi
+        return [
+            word
+            for word in text.split(" ")
+            if
+                word
+                # and not is_pahlavi(word)  # only for avestan
+        ]
 
 
 def is_pahlavi(word):

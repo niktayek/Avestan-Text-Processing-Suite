@@ -8,7 +8,7 @@ def main():
     manual_words = load_manual_words()
     ocr_words = load_ocr_words()
 
-    with open("matches.json", "r") as f:
+    with open("res/matches.json", "r") as f:
         matches = json.loads(f.read())
 
     print(f'number of matches: {len(matches)}')
@@ -46,7 +46,7 @@ def main():
         ocr_cur_ind += 1
         manual_cur_ind += 1
 
-    with open('matched_text.txt', 'w') as f:
+    with open('res/matched_text.txt', 'w') as f:
         f.write(f'{line_ocr}\n{line_manual}')
 
 def print_words(word_1, word_2, line_1, line_2):

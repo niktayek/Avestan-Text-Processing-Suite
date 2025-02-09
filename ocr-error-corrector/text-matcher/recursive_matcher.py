@@ -19,7 +19,7 @@ def main():
     manual_index, ocr_index = 0, 0
     end_manual_index, end_ocr_index, matches, _ = recursive_match(manual_words, ocr_words, manual_index, ocr_index, 0)
     print(f"Matched OCR: {ocr_index} to {end_ocr_index} with manual: {manual_index} to {end_manual_index}")
-    with open("matches.json", "w") as f:
+    with open("res/matches.json", "w") as f:
         f.write(json.dumps(matches))
     return
 
@@ -66,15 +66,15 @@ def single_match(manual_word, ocr_word):
         return False
     if manual_word == ocr_word:
         return True
-    manual_word_without_vowels = remove_vowels(manual_word)
-    ocr_word_without_vowels = remove_vowels(ocr_word)
-    if manual_word_without_vowels == ocr_word_without_vowels:
+    # manual_word_without_vowels = remove_vowels(manual_word)  # only for Avestan
+    # ocr_word_without_vowels = remove_vowels(ocr_word)  # only for Avestan
+    if manual_word == ocr_word:
         return True
-    if nltk.edit_distance(manual_word_without_vowels, ocr_word_without_vowels) <= 1:
+    if nltk.edit_distance(manual_word, ocr_word) <= 1:
         return True
     return False
 
-def remove_vowels(text):
+def remove_vowels_avestan(text):
     text = re.sub(r"[ą̇aeoāąēōūīəə̄ēyẏ\.\d]", '', text)
     text = re.sub(r'([^u])u([^u])', r"\1\2", text)
     text = re.sub(r'([^i])i([^i])', r"\1\2", text)
