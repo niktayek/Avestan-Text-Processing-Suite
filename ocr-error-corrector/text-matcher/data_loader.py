@@ -1,13 +1,15 @@
 import re
 import string
 
+import config
+
 
 def load_ocr_words() -> list[str]:
-    return load_normalized_words("data/TD2_16_29_Mackenzie_OCR.txt")
+    return load_normalized_words(config.OCR_FILE_PATH)
 
 
 def load_manual_words() -> list[str]:
-    return load_normalized_words("data/TD2_16_29_Mackenzie_manual_clean.txt")
+    return load_normalized_words(config.MANUAL_FILE_PATH)
 
 
 def load_normalized_words(file_path: str) -> list[str]:
@@ -15,15 +17,17 @@ def load_normalized_words(file_path: str) -> list[str]:
         text = f.read()
         text = re.sub(r"\n", " ", text)
         text = re.sub(r"\s+", " ", text)
-        text = re.sub(r"[WYwy]", "", text)  # only for pahlavi
-        text = re.sub(r"\d", "", text)   # only for pahlavi
-        return [
-            word
-            for word in text.split(" ")
-            if
-                word
-                # and not is_pahlavi(word)  # only for avestan
-        ]
+
+        if config.LANGUAGE == "pahlavi":
+            text = re.sub(r"[WYwy]", "", text)
+            text = re.sub(r"\d", "", text)
+
+        words = [word for word in text.split(" ") if word]
+
+        if config.LANGUAGE == "avestan":
+            words = [word for word in words if not is_pahlavi(word)]
+
+        return words
 
 
 def is_pahlavi(word):
