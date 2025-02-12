@@ -14,8 +14,10 @@ class CABText:
         self._items = self._list_items()
 
     def _load_xml(self, file_path):
-        tree = etree.parse(file_path)
-        root = tree.getroot()
+        parser = etree.XMLParser(recover=True)
+        with open(file_path, 'r') as f:
+            xml_str = f.read()
+        root = etree.fromstring(xml_str, parser)
         all_abs = root.findall('.//ab')
         return [
             (
