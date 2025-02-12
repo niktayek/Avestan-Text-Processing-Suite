@@ -14,31 +14,31 @@ def main():
     print(f'number of matches: {len(matches)}')
 
     match_ind = 0
-    manual_cur_ind = matches[0][0]
-    ocr_cur_ind = matches[0][1]
-    line_ocr = 'OCR: '
-    line_manual = 'manual: '
-    max_ocr_ind = min(matches[-1][1] + 10, len(ocr_words))
-    max_manual_ind = min(matches[-1][0] + 10, len(manual_words))
+    manual_cur_ind = 0
+    ocr_cur_ind = 0
+    line_ocr = 'OCR:\t'
+    line_manual = 'manual:\t'
+    max_ocr_ind = min(matches[-1][1][1] + 10, len(ocr_words))
+    max_manual_ind = min(matches[-1][0][1] + 10, len(manual_words))
     while manual_cur_ind < max_manual_ind and ocr_cur_ind < max_ocr_ind:
         if match_ind < len(matches):
-            if manual_cur_ind == matches[match_ind][0] and ocr_cur_ind == matches[match_ind][1]:
-                ocr_word = ocr_words[ocr_cur_ind]
-                manual_word = manual_words[manual_cur_ind]
+            if manual_cur_ind == matches[match_ind][0][0] and ocr_cur_ind == matches[match_ind][1][0]:
+                ocr_word = ''.join(ocr_words[ocr_cur_ind:matches[match_ind][1][1]])
+                manual_word = ''.join(manual_words[manual_cur_ind:matches[match_ind][0][1]])
                 line_ocr, line_manual = print_words(
-                    f'*{ocr_word}* ({ocr_cur_ind})',
-                    f'*{manual_word}* ({manual_cur_ind})',
+                    f'*{ocr_word}* ({ocr_cur_ind}-{matches[match_ind][1][1]})',
+                    f'*{manual_word}* ({manual_cur_ind}-{matches[match_ind][0][1]})',
                     line_ocr, line_manual
                 )
+                ocr_cur_ind = matches[match_ind][1][1]
+                manual_cur_ind = matches[match_ind][0][1]
                 match_ind += 1
-                ocr_cur_ind += 1
-                manual_cur_ind += 1
                 continue
-            if manual_cur_ind == matches[match_ind][0]:
+            if manual_cur_ind == matches[match_ind][0][0]:
                 line_ocr, line_manual = print_words(ocr_words[ocr_cur_ind], '', line_ocr, line_manual)
                 ocr_cur_ind += 1
                 continue
-            if ocr_cur_ind == matches[match_ind][1]:
+            if ocr_cur_ind == matches[match_ind][1][0]:
                 line_ocr, line_manual = print_words('', manual_words[manual_cur_ind], line_ocr, line_manual)
                 manual_cur_ind += 1
                 continue
