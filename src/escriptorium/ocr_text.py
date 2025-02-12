@@ -30,7 +30,10 @@ class OCRText:
         for line_id, line in enumerate(self._lines):
             words = line.split(" ")
             for ind, word in enumerate(words):
-                items.append(self.Word(self.Word.Address(line_id, ind), word))
+                word = word.strip()
+                word = word.replace('.', '. ')
+                for word_part in word.split():
+                    items.append(self.Word(self.Word.Address(line_id, ind), word_part))
         return items
 
     def __getitem__(self, item):
