@@ -1,6 +1,7 @@
 import re
 import json
 import nltk
+from datetime import datetime
 
 import sys
 sys.setrecursionlimit(sys.getrecursionlimit()*10)
@@ -26,22 +27,24 @@ def recursive_match(manual_words, ocr_words, manual_index, ocr_index, error_coun
     if (manual_index, ocr_index, error_counter) in memo:
         return memo[(manual_index, ocr_index, error_counter)]
 
-    print(manual_index, ocr_index)
+    # print(manual_index, ocr_index)
     if manual_index >= len(manual_words) or ocr_index >= len(ocr_words) or error_counter > config.ERROR_THRESHOLD:
         memo[(manual_index, ocr_index, error_counter)] = [manual_index, ocr_index, [], error_counter]
         return memo[(manual_index, ocr_index, error_counter)]
 
     if config.LANGUAGE == 'avestan':
-        if manual_words[manual_index][1] in config.AVESTAN_MANUAL_IGNORE_LIST:
+        if manual_words[manual_index] in config.AVESTAN_MANUAL_IGNORE_LIST:
             memo[(manual_index, ocr_index, error_counter)] = recursive_match(manual_words, ocr_words, manual_index + 1, ocr_index, error_counter)
             memo[(manual_index, ocr_index, error_counter)][3] += calculate_error_counter(error_counter)
             return memo[(manual_index, ocr_index, error_counter)]
-        if ocr_words[ocr_index][1] in config.AVESTAN_OCR_IGNORE_LIST:
+        if ocr_words[ocr_index] in config.AVESTAN_OCR_IGNORE_LIST:
             memo[(manual_index, ocr_index, error_counter)] = recursive_match(manual_words, ocr_words, manual_index, ocr_index + 1, error_counter)
             memo[(manual_index, ocr_index, error_counter)][3] += calculate_error_counter(error_counter)
             return memo[(manual_index, ocr_index, error_counter)]
 
     best = (manual_index, ocr_index, [], float('inf'))
+    if ocr_index == 0 and manual_index == 0:
+        print(f'checking for exact match at {datetime.now()}')
     if single_match(manual_words[manual_index], ocr_words[ocr_index]):
         memo_val = recursive_match(manual_words, ocr_words, manual_index + 1, ocr_index + 1, 0)
         best = [
@@ -55,6 +58,9 @@ def recursive_match(manual_words, ocr_words, manual_index, ocr_index, error_coun
         ]
 
     for i in range(2, config.MERGE_THRESHOLD):
+        if ocr_index == 0 and manual_index == 0:
+            print(f'checking for matches by merging ocr {i} words at {datetime.now()}')
+
         if not single_match(manual_words[manual_index], ''.join(ocr_words[ocr_index:ocr_index + i])):
             continue
 
@@ -72,6 +78,9 @@ def recursive_match(manual_words, ocr_words, manual_index, ocr_index, error_coun
             ]
 
     for i in range(2, config.MERGE_THRESHOLD):
+        if ocr_index == 0 and manual_index == 0:
+            print(f'checking for matches by merging manual {i} words at {datetime.now()}')
+
         if not single_match(''.join(manual_words[manual_index:manual_index + i]), ocr_words[ocr_index]):
             continue
 
@@ -89,11 +98,17 @@ def recursive_match(manual_words, ocr_words, manual_index, ocr_index, error_coun
             ]
 
     for i in range(1, config.SKIP_THRESHOLD):
+        if ocr_index == 0 and manual_index == 0:
+            print(f'checking for matches by skipping ocr {i} words at {datetime.now()}')
+
         candidate = recursive_match(manual_words, ocr_words, manual_index, ocr_index + i, error_counter + i)
         candidate[3] += calculate_error_counter(error_counter)
         if (len(candidate[2]), -candidate[3]) > (len(best[2]), -best[3]):
             best = candidate
     for i in range(1, config.SKIP_THRESHOLD):
+        if ocr_index == 0 and manual_index == 0:
+            print(f'checking for matches by skipping manual {i} words at {datetime.now()}')
+
         candidate = recursive_match(manual_words, ocr_words, manual_index + i, ocr_index, error_counter + i)
         candidate[3] += calculate_error_counter(error_counter)
         if (len(candidate[2]), -candidate[3]) > (len(best[2]), -best[3]):
