@@ -3,11 +3,17 @@ import re
 from lxml import etree
 
 
-class CABText:
+# This reads CAB XML files and let us go over the words one by one.
+class CABXML:
     @dataclasses.dataclass
-    class Address:
-        id: str
-        index: int
+    class Word:
+        @dataclasses.dataclass
+        class Address:
+            id: str
+            index: int
+
+        address: Address
+        word: str
 
     def __init__(self, file_path):
         self._abs = self._load_xml(file_path)
@@ -32,7 +38,7 @@ class CABText:
             # text = re.sub('(\\.|\s+)', ' ', text)
             words = text.split(" ")
             for ind, word in enumerate(words):
-                items.append((self.Address(id, ind), word))
+                items.append(self.Word(self.Word.Address(id, ind), word))
         return items
 
     def __getitem__(self, item):
