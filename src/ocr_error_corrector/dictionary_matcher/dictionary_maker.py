@@ -1,8 +1,8 @@
 import json
 import nltk
-from cab.cab_xml import CABXML
-from escriptorium.ocr_text import OCRText
-from ocr_error_corrector.text_matcher.config import DISTANCE_THRESHOLD
+from src.cab.cab_xml import CABXML
+from src.escriptorium.ocr_text import OCRText
+from src.ocr_error_corrector.text_matcher.config import DISTANCE_THRESHOLD
 
 LANGUAGE = 'avestan'
 MANUAL_FILE_PATH = '../../data/Videvdad_Static.xml'
