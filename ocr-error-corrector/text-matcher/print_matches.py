@@ -14,8 +14,8 @@ def main():
     print(f'number of matches: {len(matches)}')
 
     match_ind = 0
-    manual_cur_ind = 0
-    ocr_cur_ind = 0
+    manual_cur_ind = matches[0][0][0]
+    ocr_cur_ind = matches[0][1][0]
     line_ocr = 'OCR:\t'
     line_manual = 'manual:\t'
     max_ocr_ind = min(matches[-1][1][1] + 10, len(ocr_words))

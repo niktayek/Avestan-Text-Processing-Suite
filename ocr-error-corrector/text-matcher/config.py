@@ -1,15 +1,16 @@
-LANGUAGE = 'pahlavi'
-# LANGUAGE = 'avestan'
+# LANGUAGE = 'pahlavi'
+LANGUAGE = 'avestan'
 
-OCR_FILE_PATH = 'data/TD2_16_29_Mackenzie_OCR.txt'
-MANUAL_FILE_PATH = 'data/TD2_16_29_Mackenzie_manual_clean.txt'
+OCR_FILE_PATH = 'data/16r_30v_0040_OCR_output.txt'
+MANUAL_FILE_PATH = 'data/static_yasna_clean.txt'
 
 # ERROR_ACCUMULATION_METHOD = 'constant'
 ERROR_ACCUMULATION_METHOD = 'linear'
 ERROR_THRESHOLD = 10
 SKIP_THRESHOLD = 5
 MERGE_THRESHOLD = 5
-DISTANCE_THRESHOLD = 3
+DISTANCE_THRESHOLD = 2
+STARTING_MATCH_THRESHOLD = 5
 
 AVESTAN_MANUAL_IGNORE_LIST = ['W', 'Y']
 AVESTAN_OCR_IGNORE_LIST = ['W', 'Y']

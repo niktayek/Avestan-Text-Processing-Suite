@@ -14,9 +14,12 @@ def match():
     manual_words = load_manual_words()
     ocr_words = load_ocr_words()
 
-    end_manual_index, end_ocr_index, matches, _ = recursive_match(manual_words, ocr_words, 0, 0, 0)
+    start_ocr_index = 0
+    start_manual_index = find_starting_match(manual_words, ocr_words)
+    print(f"Starting match at {start_manual_index} in manual and {start_ocr_index} in ocr")
+    end_manual_index, end_ocr_index, matches, _ = recursive_match(manual_words, ocr_words, start_manual_index, start_ocr_index, 0)
     print(f"Matched {len(matches)} words")
-    print(f"OCR: 0 to {end_ocr_index} with manual: 0 to {end_manual_index}")
+    print(f"OCR: {start_ocr_index} to {end_ocr_index} with manual: {start_manual_index} to {end_manual_index}")
     with open("res/matches.json", "w") as f:
         f.write(json.dumps(matches))
     return
@@ -116,6 +119,20 @@ def recursive_match(manual_words, ocr_words, manual_index, ocr_index, error_coun
 
     memo[(manual_index, ocr_index, error_counter)] = best
     return memo[(manual_index, ocr_index, error_counter)]
+
+
+def find_starting_match(manual_words, ocr_words):
+    manual_ind = 0
+    while manual_ind < len(manual_words) - config.STARTING_MATCH_THRESHOLD:
+        consecutive_matches = 0
+        for i in range(config.STARTING_MATCH_THRESHOLD):
+            if not single_match(manual_words[manual_ind + i], ocr_words[i]):
+                break
+            consecutive_matches += 1
+        if consecutive_matches == config.STARTING_MATCH_THRESHOLD:
+            break
+        manual_ind += 1
+    return manual_ind
 
 
 def single_match(manual_word, ocr_word):
