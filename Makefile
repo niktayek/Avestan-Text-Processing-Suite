@@ -44,9 +44,11 @@ test:
 ocr:
 	poetry run kraken \
 		--batch-input './data/tmp/*.png' \
-		--suffix ocr.txt \
+		--suffix _ocr.txt \
 		segment -bl --model ./models/segmentation/0088_flip_seg2.mlmodel \
 		ocr --model ./models/recognition/manuscript_0088/model_best.mlmodel
+#		--suffix _ocr.xml \
+#		--alto \
 
 ########################################################################################
 # Git Repository Initialization
