@@ -46,3 +46,9 @@ class CABXML:
 
     def __len__(self):
         return len(self._items)
+
+
+if __name__ == '__main__':
+    cab_xml = CABXML('/home/nikta/Downloads/static_yasna.xml')
+    for word in cab_xml:
+        print(word)
