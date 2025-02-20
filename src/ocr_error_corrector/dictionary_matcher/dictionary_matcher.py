@@ -6,8 +6,8 @@ from src.escriptorium.ocr_text import OCRText
 from src.ocr_error_corrector.text_matcher.config import DISTANCE_THRESHOLD
 
 LANGUAGE = 'avestan'
-MANUAL_FILE_PATH = '../../../data/Videvdad_Static.xml'
-OCR_FILE_PATH = '../../../data/62v_65r_OCR_4210.txt'
+MANUAL_FILE_PATH = '../../../data/CAB/static_yasna.xml'
+OCR_FILE_PATH = '../../../data/tmp/tmp_ocr.txt'
 DISTANCE_THRESHOLD = 2
 
 
@@ -15,15 +15,17 @@ def main():
     dictionary = create_dictionary(MANUAL_FILE_PATH)
     ocr_words = read_ocr_words(OCR_FILE_PATH)
     matches = match_ocr_words(ocr_words, dictionary)
-    with open('res/matches.json', 'w', encoding='utf8') as f:
+    with open('matches.json', 'w', encoding='utf8') as f:
         matches_json = [
             {
                 'ocr_word': match[0][0],
                 'manual_word': match[0][1],
+                'distance': match[0][2],
                 'address': asdict(match[1])
             }
             for match in matches
         ]
+        matches_json = sorted(matches_json, key=lambda x: -x['distance'])
         f.write(json.dumps(matches_json, ensure_ascii=False, indent=4))
 
 def match_ocr_words(ocr_words: OCRText, dictionary: set[str]):
@@ -42,7 +44,7 @@ def find_match(ocr_word: str, dictionary: set[str]):
         return memo[ocr_word]
 
     if ocr_word in dictionary:
-        memo[ocr_word] = (ocr_word, ocr_word)
+        memo[ocr_word] = (ocr_word, ocr_word, 0)
         return memo[ocr_word]
 
     matched_words = []
@@ -52,7 +54,8 @@ def find_match(ocr_word: str, dictionary: set[str]):
     matched_words = sorted(matched_words)
     memo[ocr_word] = (
         ocr_word,
-        matched_words[0][1] if matched_words else ''
+        matched_words[0][1] if matched_words else '',
+        matched_words[0][0] if matched_words else 1000,
     )
     return memo[ocr_word]
 
