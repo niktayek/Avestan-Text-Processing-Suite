@@ -1,0 +1,3 @@
+[submodule "escriptorium"]
+	path = escriptorium
+	url = git@github.com:UB-Mannheim/escriptorium.git
