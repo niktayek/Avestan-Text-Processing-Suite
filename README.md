@@ -1,12 +1,17 @@
 # OCR
 This project contains everything in the OCR project (e.g., python code, data, ocr models). The goal of this project is to automatically generate the transliteration of Avestan manuscripts in the XML format provided by the CAB project.
 
+## Project steps
+1. Export data from the CAB project: this project provides images of Avestan manuscripts and the transliteration of some pages in XML format. `src/cab` folder contains the code to read the CAB XML output. Sometimes we need to make changes to the images (e.g., mirror the images) to improve the OCR results. `src/image` folder contains the code to process images.
+2. Import data to eScriptorium: we use eScriptorium to build training data for the segmentation and recognition models. We upload CAB images, create the segmentation data using eScriptorium graphical tools, add the transliteration (either by transliterating from scratch or by copy-pasting from CAB), and then export the data in ALTO XML format. `src/escriptorium` folder contains the code to read eScriptorium exports.
+3. Train the models: we train the segmentation and recognition models using the ALTO XML files. We use the Makefile commands for training. The trained models are saved in the `models` folder.
+4. Upload the models to eScriptorium and run OCR: we upload the trained models to eScriptorium to use them for OCR. We then upload the manuscript pages from CAB to eScriptorium and run OCR on the uploaded pages. We export the OCR results in ALTO XML format. `src/escriptorium` folder contains the code to read eScriptorium OCR exports (which are in the same ALTO XML format as the training data).
+5. Translate the ALTO XML to CAB XML: we translate the ALTO XML output of eScriptorium to the CAB XML format. In this step, if CAB has the transliteration of a different manuscript from the same ceremony, we extract the stanza ids from CAB.
+
 ## Directory structure
 
 ### data
-This folder contains all the data used in this project. Here are the data sources:
-1. The CAB project: this project provides images of Avestan manuscripts and the transliteration of some of the pages in XML format.
-2. eScriptorium: we use eScriptorium to build training data for the segmentation and recognition models. We upload images (e.g., CAB images), create the segmentation data using eScriptorium graphical tools, add the transliteration (either by transliterating from scratch or by copy-pasting from an existing source like CAB), and then export the data in ALTO XML format. We use the ALTO XML files to train the segmentation and recognition models (using the Makefile commands).
+This folder contains all the data used in this project.
 
 ### src
 This folder contains all the code developef for this project.
