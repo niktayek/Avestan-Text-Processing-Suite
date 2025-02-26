@@ -1,14 +1,4 @@
-########################################################################################
-# OCR train and test
-########################################################################################
-
-data_dir := './data/escriptorium/export_doc7_0088_flip_alto_202502171531'
-model_dir := './models/recognition'
-#prev_model := 'Sephardi_01.mlmodel'
-prev_model := 'manuscript_0088/attempt_12/model_best.mlmodel'
-next_model := 'manuscript_0088/attempt_15'
-learning_rate := 0.000049
-# start learning rate at 0.0001 and decrease by 10% every 10 epochs
+data_dir := './data/escriptorium/export_doc29_0093_ab5_pagexml_20250226181451'
 
 compile:
 	poetry run ketos compile \
@@ -17,25 +7,54 @@ compile:
 		--output $(data_dir)/dataset.arrow \
 		$(data_dir)/*.xml
 
-train:
-	mkdir -p $(model_dir)/$(next_model)
+########################################################################################
+# Recognition train and test
+########################################################################################
+
+rec_model_dir := './models/recognition'
+#rec_prev_model := 'Sephardi_01.mlmodel'
+rec_prev_model := 'manuscript_0093/attempt_09/model_best.mlmodel'
+rec_next_model := 'manuscript_0093/attempt_10'
+rec_learning_rate := 0.00003
+# start learning rate at 0.0001 and decrease by 10% every 10 epochs
+
+train-rec:
+	mkdir -p $(rec_model_dir)/$(rec_next_model)
 	poetry run ketos train \
 		--workers 8 \
-		--output $(model_dir)/$(next_model)/model \
-		--load $(model_dir)/$(prev_model) \
+		--output $(rec_model_dir)/$(rec_next_model)/model \
+		--load $(rec_model_dir)/$(rec_prev_model) \
 		--resize new \
 		--epochs 100 \
 		--min-epochs 20 \
-		--lrate $(learning_rate) \
+		--lrate $(rec_learning_rate) \
 		--format-type binary \
 		$(data_dir)/dataset.arrow
 
-test:
+test-rec:
 	poetry run ketos test \
-		--model $(model_dir)/$(prev_model) \
+		--model $(rec_model_dir)/$(rec_prev_model) \
 		--workers 8 \
 		--format-type binary \
 		$(data_dir)/dataset.arrow
+
+########################################################################################
+# Segmentation train
+########################################################################################
+
+seg_model_dir := './models/segmentation'
+seg_next_model := 'manuscript_0090/attempt_01'
+seg_prev_model := '0088_flip_seg2.mlmodel'
+
+train-seg:
+	poetry run ketos segtrain \
+		--workers 1 \
+		--threads 1 \
+		--output $(seg_model_dir)/$(seg_next_model)/model \
+		--epochs 100 \
+		--min-epochs 20 \
+		--format-type page \
+		$(data_dir)/*.xml
 
 ########################################################################################
 # OCR run
@@ -43,10 +62,11 @@ test:
 
 ocr:
 	poetry run kraken \
-		--batch-input './data/tmp/*.png' \
+		--verbose \
+		--batch-input './data/Test_40/*.png' \
 		--suffix _ocr.txt \
 		segment -bl --model ./models/segmentation/0088_flip_seg2.mlmodel \
-		ocr --model ./models/recognition/manuscript_0088/model_best.mlmodel
+		ocr --model ./models/recognition/manuscript_0040/model_best.mlmodel
 #		--suffix _ocr.xml \
 #		--alto \
 
