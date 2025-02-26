@@ -1,7 +1,4 @@
 import dataclasses
-import os
-import xml.etree.ElementTree as ET
-import re
 
 
 # It reads eScriptorium OCR text output and let us go over the words one by one.
