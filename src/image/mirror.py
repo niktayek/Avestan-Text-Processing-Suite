@@ -9,6 +9,7 @@ for filename in os.listdir(input_folder):
     if os.path.splitext(filename.lower())[-1] not in [".png", ".jpg", ".tiff"]:
         continue
 
+    os.makedirs(output_folder, exist_ok=True)
     input_path = os.path.join(input_folder, filename)
     output_path = os.path.join(output_folder, f"{os.path.splitext(filename)[0]}_mirrored{os.path.splitext(filename)[1]}")
 
