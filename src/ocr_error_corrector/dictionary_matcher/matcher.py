@@ -4,19 +4,18 @@ import nltk
 from dataclasses import asdict
 from src.cab.cab_xml import CABXML
 from src.escriptorium.ocr_text import OCRText
-from src.ocr_error_corrector.sequence_matcher.config import DISTANCE_THRESHOLD
-
-LANGUAGE = 'avestan'
-MANUAL_FILE_PATH = '../../../data/CAB/static_yasna.xml'
-OCR_FILE_PATH = '../../../data/escriptorium/0090_first_part_for_error_corrector.txt'
-DISTANCE_THRESHOLD = 2
+from src.ocr_error_corrector.dictionary_matcher.config import (
+    MANUAL_FILE_PATH,
+    OCR_FILE_PATH,
+    DISTANCE_THRESHOLD,
+)
 
 
 def main():
     dictionary = create_dictionary(MANUAL_FILE_PATH)
     ocr_words = read_ocr_words(OCR_FILE_PATH)
     matches = match_ocr_words(ocr_words, dictionary)
-    with open('matches.json', 'w', encoding='utf8') as f:
+    with open('res/matches.json', 'w', encoding='utf8') as f:
         matches = [
             {
                 'ocr_word': match[0][0],
