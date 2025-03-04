@@ -38,3 +38,12 @@ class OCRText:
 
     def __len__(self):
         return len(self._items)
+
+    def save(self, file_path):
+        with open(file_path, mode='w', encoding='utf8') as f:
+            cur_line = 0
+            for word in self:
+                if word.address.line != cur_line:
+                    cur_line = word.address.line
+                    f.write('\n')
+                f.write(word.word + ' ')
