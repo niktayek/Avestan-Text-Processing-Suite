@@ -9,7 +9,7 @@ from src.ocr_error_corrector.sequence_matcher.config import DISTANCE_THRESHOLD
 LANGUAGE = 'avestan'
 MANUAL_FILE_PATH = '../../../data/CAB/static_yasna.xml'
 OCR_FILE_PATH = '../../../data/escriptorium/0090_first_part_for_error_corrector.txt'
-DISTANCE_THRESHOLD = 3
+DISTANCE_THRESHOLD = 2
 
 
 def main():
@@ -52,10 +52,10 @@ def find_match(ocr_word: str, dictionary: set[str]):
         memo[ocr_word] = (ocr_word, ocr_word, 0)
         return memo[ocr_word]
 
-    normalized_ocr_word = remove_vowels(ocr_word)
+    normalized_ocr_word = normalize(ocr_word)
     matched_words = []
     for word in dictionary:
-        normalized_word = remove_vowels(word)
+        normalized_word = normalize(word)
         if (dist := nltk.edit_distance(normalized_word, normalized_ocr_word)) <= DISTANCE_THRESHOLD:
             matched_words.append((dist, word))
     matched_words = sorted(matched_words)
@@ -66,24 +66,26 @@ def find_match(ocr_word: str, dictionary: set[str]):
     )
     return memo[ocr_word]
 
-def remove_vowels(text):
-    text = re.sub(r"[ą̇aeoāąēōūīəə̄ēyẏ\.\d]", '', text)
-    text = re.sub(r'([^u])u([^u])', r"\1\2", text)
-    text = re.sub(r'([^i])i([^i])', r"\1\2", text)
+def normalize(text):
     uniform_list = [
+        ('a', ['ą', 'ą̇', 'å', 'ā']),
+        ('ae', ['aē']),
+        ('o', ['ō']),
+        ('ao', ['aō']),
+        ('z', ['ž']),
+        ('uu', ['ū', 'ī', 'ii']),
         ('ŋ', ['ŋ́', 'ŋᵛ']),
-        ('s', ['š', 'š́', 'ṣ']),
+        ('s', ['š', 'š́', 'ṣ', 'ṣ̌']),
         ('mh', ['m̨']),
-        ('x', ['θ', 'x́']),
-        ('y', ['ẏ']),
-        ('n', ['ń']),
-        ('x́', ['xᵛ']),
+        ('x', ['θ', 'x́', 'x́', 'xᵛ']),
+        ('n', ['ń', 'ṇ']),
         ('t', ['δ', 't', 't̰']),
-        ('y', ['ẏ'])
+        ('y', ['ẏ']),
     ]
     for uniform in uniform_list:
         for char in uniform[1]:
             text = re.sub(char, uniform[0], text)
+    # text = re.sub(r'[^a-z]*', '', text)
     return text
 
 
