@@ -9,12 +9,12 @@ def main():
     non_exact_matches = 0
     no_matches = 0
     for match in matches:
-        if match[0] == match[1]:
+        if match['distance'] == 0:
             exact_matches += 1
-        elif match[1] == '':
-            no_matches += 1
-        else:
+        elif match['distance'] < 1000:
             non_exact_matches += 1
+        else:
+            no_matches += 1
     print(f'exact matches: {exact_matches}')
     print(f'non exact matches: {non_exact_matches}')
     print(f'no matches: {no_matches}')
