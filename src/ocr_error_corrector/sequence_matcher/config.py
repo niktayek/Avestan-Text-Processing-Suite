@@ -1,9 +1,8 @@
 # LANGUAGE = 'pahlavi'
 LANGUAGE = 'avestan'
 
-OCR_FILE_PATH = 'data/16r_30v_0040_OCR_output.txt'
-MANUAL_FILE_PATH = 'data/static_yasna_clean.txt'
-
+OCR_FILE_PATH = '../../../data/escriptorium/0090_first_part_for_error_corrector.txt'
+MANUAL_FILE_PATH = '../../../data/static_yasna_clean.txt'
 # ERROR_ACCUMULATION_METHOD = 'constant'
 ERROR_ACCUMULATION_METHOD = 'linear'
 ERROR_THRESHOLD = 10
