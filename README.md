@@ -6,7 +6,7 @@ This project contains everything in the OCR project (e.g., python code, data, oc
 2. Import data to eScriptorium: we use eScriptorium to build training data for the segmentation and recognition models. We upload CAB images, create the segmentation data using eScriptorium graphical tools, add the transliteration (either by transliterating from scratch or by copy-pasting from CAB), and then export the data in ALTO XML format. `src/escriptorium` folder contains the code to read eScriptorium exports.
 3. Train the models: we train the segmentation and recognition models using the ALTO XML files. We use the Makefile commands for training. The trained models are saved in the `models` folder.
 4. Upload the models to eScriptorium and run OCR: we upload the trained models to eScriptorium to use them for OCR. We then upload the manuscript pages from CAB to eScriptorium and run OCR on the uploaded pages. We export the OCR results in ALTO XML format. `src/escriptorium` folder contains the code to read eScriptorium OCR exports (which are in the same ALTO XML format as the training data).
-5. Translate the ALTO XML to CAB XML: we translate the ALTO XML output of eScriptorium to the CAB XML format. In this step, if CAB has the transliteration of a different manuscript from the same ceremony, we extract the stanza ids from CAB.
+5. Translate the ALTO XML to CAB XML: we translate the ALTO XML output of eScriptorium to the CAB XML format. In this step, if CAB has the transliteration of a different manuscript from the same ceremony, we extract the stanza ids from CAB. `src/xml_translator` folder contains the code to translate ALTO XML to CAB XML.
 
 ## Directory structure
 

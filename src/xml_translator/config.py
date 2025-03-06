@@ -1,0 +1,5 @@
+CAB_XML_PATH = "data/cab/FragardVidevdad.xml"
+OCR_XML_DIR = "data/ocr/4210"
+MATCH_JSON_PATH = "res/matches.json"
+MATCHED_TEXT_PATH = "res/matched_text.txt"
+NEW_XML_PATH = "res/new.xml"
