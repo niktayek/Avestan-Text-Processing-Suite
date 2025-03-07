@@ -87,3 +87,12 @@ start-escriptorium:
 
 stop-escriptorium:
 	cd escriptorium && sudo docker compose down
+
+########################################################################################
+# Install repo
+########################################################################################
+
+setup:
+	asdf install
+	git submodule update --init --recursive
+	poetry install --no-root
