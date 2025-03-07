@@ -48,17 +48,17 @@ def recursive_match(cab_text, ocr_text, cab_index, ocr_index, error_counter):
         memo[(cab_index, ocr_index, error_counter)] = [cab_index, ocr_index, [], error_counter]
         return memo[(cab_index, ocr_index, error_counter)]
 
-    if cab_text[cab_index][1] in ['W', 'Y']:
+    if cab_text[cab_index].word in ['W', 'Y']:
         memo[(cab_index, ocr_index, error_counter)] = recursive_match(cab_text, ocr_text, cab_index+1, ocr_index, error_counter)
         memo[(cab_index, ocr_index, error_counter)][3] += error_counter
         return memo[(cab_index, ocr_index, error_counter)]
-    if ocr_text[ocr_index][1] in ['W', 'Y']:
+    if ocr_text[ocr_index].word in ['W', 'Y']:
         memo[(cab_index, ocr_index, error_counter)] = recursive_match(cab_text, ocr_text, cab_index, ocr_index+1, error_counter)
         memo[(cab_index, ocr_index, error_counter)][3] += error_counter
         return memo[(cab_index, ocr_index, error_counter)]
 
     best = (cab_index, ocr_index, [], float('inf'))
-    if single_match(cab_text[cab_index][1], ocr_text[ocr_index][1]):
+    if single_match(cab_text[cab_index].word, ocr_text[ocr_index].word):
         memo_val = recursive_match(cab_text, ocr_text, cab_index+1, ocr_index+1, 0)
         best = [memo_val[0], memo_val[1], [(cab_index, ocr_index)] + memo_val[2], memo_val[3] + error_counter]
     for i in range(1, 5):
@@ -77,9 +77,9 @@ def recursive_match(cab_text, ocr_text, cab_index, ocr_index, error_counter):
 
 def check_strong_match(cab_text, ocr_text, cab_index, ocr_index, k=3):
     for i in range(k):
-        _, cab_word = cab_text[cab_index + i]
-        _, ocr_word = ocr_text[ocr_index + i]
-        if not single_match(cab_word, ocr_word):
+        cab_word = cab_text[cab_index + i]
+        ocr_word = ocr_text[ocr_index + i]
+        if not single_match(cab_word.word, ocr_word.word):
             return False
         # if remove_vowels(cab_word) != remove_vowels(ocr_word):
         #     return False

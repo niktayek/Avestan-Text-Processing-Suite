@@ -24,15 +24,15 @@ def main():
     empty_all_abs(xml)
     prev_match_ind = 0
     for match_ind in range(len(matches)):
-        prev_cab_id = cab_text[matches[prev_match_ind]['cab_ind']][0].id
-        cur_cab_id = cab_text[matches[match_ind]['cab_ind']][0].id
+        prev_cab_id = cab_text[matches[prev_match_ind]['cab_ind']].address.id
+        cur_cab_id = cab_text[matches[match_ind]['cab_ind']].address.id
         if prev_cab_id != cur_cab_id:
             # ocr_segment = ' '.join(word for _, word in ocr_text[matches[prev_match_ind]['ocr_ind']:matches[match_ind]['ocr_ind']])
             ocr_segment = generate_ocr_segment(ocr_text, matches[prev_match_ind]['ocr_ind'], matches[match_ind]['ocr_ind'])
             replace_text(xml, prev_cab_id, ocr_segment)
             prev_match_ind = match_ind
     ocr_segment = ' '.join(word for _, word in ocr_text[matches[prev_match_ind]['ocr_ind']:matches[-1]['ocr_ind']])
-    cur_cab_id = cab_text[matches[-1]['cab_ind']][0].id
+    cur_cab_id = cab_text[matches[-1]['cab_ind']].address.id
     replace_text(xml, cur_cab_id, ocr_segment)
 
     tree.write(NEW_XML_PATH, encoding="utf-8", xml_declaration=True)
@@ -61,20 +61,20 @@ def empty_all_abs(xml):
 
 
 def generate_ocr_segment(ocr_text, start, end):
-    prev_address = ocr_text[start][0]
+    prev_address = ocr_text[start].address
     ocr_segment = []
-    if start == 0 or prev_address.page != ocr_text[start - 1][0].page:
+    if start == 0 or prev_address.page != ocr_text[start - 1].address.page:
         ocr_segment.append(f'<page {prev_address.page}/>')
-    if start == 0 or prev_address.line != ocr_text[start - 1][0].line:
+    if start == 0 or prev_address.line != ocr_text[start - 1].address.line:
         ocr_segment.append(f'<line {prev_address.line + 1}/>')
-    ocr_segment.append(ocr_text[start][1])
+    ocr_segment.append(ocr_text[start].word)
     for i in range(start + 1, end):
-        cur_address = ocr_text[i][0]
+        cur_address = ocr_text[i].address
         if cur_address.page != prev_address.page:
             ocr_segment.append(f'<page {cur_address.page}/>')
         if cur_address.line != prev_address.line:
             ocr_segment.append(f'<line {cur_address.line + 1}/>')
-        ocr_segment.append(ocr_text[i][1])
+        ocr_segment.append(ocr_text[i].word)
         prev_address = cur_address
     return ocr_segment
 
