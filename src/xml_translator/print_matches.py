@@ -29,11 +29,11 @@ def main():
     while cab_cur_ind < max_cab_ind and ocr_cur_ind < max_ocr_ind:
         if match_ind < len(matches):
             if cab_cur_ind == matches[match_ind]['cab_ind'] and ocr_cur_ind == matches[match_ind]['ocr_ind']:
-                ocr_address, ocr_word = ocr_text[ocr_cur_ind]
-                cab_address, cab_word = cab_text[cab_cur_ind]
+                ocr_word = ocr_text[ocr_cur_ind]
+                cab_word = cab_text[cab_cur_ind]
                 line_ocr, line_cab = print_words(
-                    f'*{ocr_word}* ({ocr_address.page}-{ocr_address.line})',
-                    f'*{cab_word}* ({cab_address.id})',
+                    f'*{ocr_word.word}* ({ocr_word.address.page}-{ocr_word.address.line})',
+                    f'*{cab_word.word}* ({cab_word.address.id})',
                     line_ocr, line_cab
                 )
                 match_ind += 1
@@ -41,14 +41,14 @@ def main():
                 cab_cur_ind += 1
                 continue
             if cab_cur_ind == matches[match_ind]['cab_ind']:
-                line_ocr, line_cab = print_words(ocr_text[ocr_cur_ind][1], '', line_ocr, line_cab)
+                line_ocr, line_cab = print_words(ocr_text[ocr_cur_ind].word, '', line_ocr, line_cab)
                 ocr_cur_ind += 1
                 continue
             if ocr_cur_ind == matches[match_ind]['ocr_ind']:
-                line_ocr, line_cab = print_words('', cab_text[cab_cur_ind][1], line_ocr, line_cab)
+                line_ocr, line_cab = print_words('', cab_text[cab_cur_ind].word, line_ocr, line_cab)
                 cab_cur_ind += 1
                 continue
-        line_ocr, line_cab = print_words(ocr_text[ocr_cur_ind][1], cab_text[cab_cur_ind][1], line_ocr, line_cab)
+        line_ocr, line_cab = print_words(ocr_text[ocr_cur_ind].word, cab_text[cab_cur_ind].word, line_ocr, line_cab)
         ocr_cur_ind += 1
         cab_cur_ind += 1
 
