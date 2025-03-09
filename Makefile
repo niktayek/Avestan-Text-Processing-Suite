@@ -13,9 +13,10 @@ compile:
 
 rec_model_dir := './models/recognition'
 #rec_prev_model := 'Sephardi_01.mlmodel'
-rec_prev_model := 'manuscript_0093/attempt_09/model_best.mlmodel'
-rec_next_model := 'manuscript_0093/attempt_10'
-rec_learning_rate := 0.00003
+#rec_prev_model := 'manuscript_4000/attempt_04/model_best.mlmodel'
+rec_prev_model := 'manuscript_0093/model_best.mlmodel'
+rec_next_model := 'manuscript_4000/attempt_05'
+rec_learning_rate := 0.00005
 # start learning rate at 0.0001 and decrease by 10% every 10 epochs
 
 train-rec:
@@ -47,14 +48,16 @@ seg_next_model := 'manuscript_0090/attempt_01'
 seg_prev_model := '0088_flip_seg2.mlmodel'
 
 train-seg:
-	poetry run ketos segtrain \
+	mkdir -p $(seg_model_dir)/$(seg_next_model)
+	poetry run ketos --verbose segtrain -cl \
 		--workers 1 \
 		--threads 1 \
 		--output $(seg_model_dir)/$(seg_next_model)/model \
-		--epochs 100 \
-		--min-epochs 20 \
-		--format-type page \
+		--format-type alto \
 		$(data_dir)/*.xml
+#		--epochs 100 \
+#		--min-epochs 20 \
+
 
 ########################################################################################
 # OCR run
