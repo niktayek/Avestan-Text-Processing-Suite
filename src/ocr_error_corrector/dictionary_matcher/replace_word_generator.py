@@ -1,5 +1,6 @@
 import json
 from itertools import combinations
+from src.ocr_error_corrector.dictionary_matcher.matcher import normalize
 
 import nltk
 
@@ -35,6 +36,9 @@ def generate_replace_word(ocr_word, manual_word, allowed_distance):
     manual_consonant_count = len([part for part in manual_list if part[1]])
     if ocr_consonant_count == manual_consonant_count:
         return exact_replace_consonants(ocr_list, manual_list)
+
+    if allowed_distance == 1000:
+        return manual_list
 
     if 0 <= ocr_consonant_count - manual_consonant_count <= allowed_distance:
         return approximate_replace_consonants(ocr_list, manual_list, allowed_distance)
@@ -74,9 +78,12 @@ def approximate_replace_consonants(editable_list, fix_list, allowed_distance):
 
         new_editable_word = ''.join([part[0] for part in new_editable_list])
         fixed_word = ''.join([part[0] for part in fix_list])
-        new_editable_edit_distance = nltk.edit_distance(new_editable_word, fixed_word)
+        new_editable_edit_distance = nltk.edit_distance(normalize(new_editable_word), normalize(fixed_word))
         if new_editable_edit_distance < allowed_distance:
             options.append([new_editable_list, new_editable_edit_distance])
+
+    if len(options) == 0:
+        return fix_list
 
     options = sorted(options, key=lambda x: x[1])
     best_option = options[0]
