@@ -25,7 +25,7 @@ def main():
             }
             for match in matches
         ]
-        matches = sorted(matches, key=lambda x: -x['distance'])
+        # matches = sorted(matches, key=lambda x: -x['distance'])
         # matches_csv = '\n'.join([
         #     f"{match['ocr_word']},{match['manual_word']},{match['distance']},{str(match['address'])}"
         #     for match in matches
