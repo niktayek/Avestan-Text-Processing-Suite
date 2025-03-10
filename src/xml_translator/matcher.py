@@ -13,7 +13,7 @@ from src.xml_translator.config import (
 )
 
 import sys
-sys.setrecursionlimit(sys.getrecursionlimit()*3)
+sys.setrecursionlimit(sys.getrecursionlimit()*30)
 
 
 def main():
@@ -44,31 +44,36 @@ def recursive_match(cab_text, ocr_text, cab_index, ocr_index, error_counter):
         return memo[(cab_index, ocr_index, error_counter)]
 
     print(cab_index, ocr_index)
-    if cab_index >= len(cab_text) or ocr_index >= len(ocr_text) or error_counter > 10:
+    if cab_index >= len(cab_text) or ocr_index >= len(ocr_text) or error_counter > 15:
         memo[(cab_index, ocr_index, error_counter)] = [cab_index, ocr_index, [], error_counter]
         return memo[(cab_index, ocr_index, error_counter)]
 
     if cab_text[cab_index].word in ['W', 'Y']:
         memo[(cab_index, ocr_index, error_counter)] = recursive_match(cab_text, ocr_text, cab_index+1, ocr_index, error_counter)
-        memo[(cab_index, ocr_index, error_counter)][3] += error_counter
+        # memo[(cab_index, ocr_index, error_counter)][3] += error_counter
+        memo[(cab_index, ocr_index, error_counter)][3] += 1
         return memo[(cab_index, ocr_index, error_counter)]
     if ocr_text[ocr_index].word in ['W', 'Y']:
         memo[(cab_index, ocr_index, error_counter)] = recursive_match(cab_text, ocr_text, cab_index, ocr_index+1, error_counter)
-        memo[(cab_index, ocr_index, error_counter)][3] += error_counter
+        # memo[(cab_index, ocr_index, error_counter)][3] += error_counter
+        memo[(cab_index, ocr_index, error_counter)][3] += 1
         return memo[(cab_index, ocr_index, error_counter)]
 
     best = (cab_index, ocr_index, [], float('inf'))
     if single_match(cab_text[cab_index].word, ocr_text[ocr_index].word):
         memo_val = recursive_match(cab_text, ocr_text, cab_index+1, ocr_index+1, 0)
-        best = [memo_val[0], memo_val[1], [(cab_index, ocr_index)] + memo_val[2], memo_val[3] + error_counter]
-    for i in range(1, 5):
+        # best = [memo_val[0], memo_val[1], [(cab_index, ocr_index)] + memo_val[2], memo_val[3] + error_counter]
+        best = [memo_val[0], memo_val[1], [(cab_index, ocr_index)] + memo_val[2], memo_val[3] + 1]
+    for i in range(1, 11):
         candidate = recursive_match(cab_text, ocr_text, cab_index, ocr_index+i, error_counter+i)
-        candidate[3] += error_counter
+        candidate[3] += 1
+        # candidate[3] += error_counter
         if (len(candidate[2]), -candidate[3]) > (len(best[2]), -best[3]):
             best = candidate
-    for i in range(1, 5):
+    for i in range(1, 11):
         candidate = recursive_match(cab_text, ocr_text, cab_index + i, ocr_index, error_counter + i)
-        candidate[3] += error_counter
+        # candidate[3] += error_counter
+        candidate[3] += 1
         if (len(candidate[2]), -candidate[3]) > (len(best[2]), -best[3]):
             best = candidate
     memo[(cab_index, ocr_index, error_counter)] = best
