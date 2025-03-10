@@ -35,7 +35,8 @@ class CABXML:
     def _list_items(self):
         items = []
         for id, text in self._abs:
-            # text = re.sub('(\\.|\s+)', ' ', text)
+            text = text.replace('.', ' ')
+            text = re.sub('\s+', ' ', text)
             words = text.split(" ")
             for ind, word in enumerate(words):
                 items.append(self.Word(self.Word.Address(id, ind), word))

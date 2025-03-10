@@ -45,6 +45,8 @@ class OCRXML:
     def _list_items(self):
         items = []
         for page, line, text in self._lines:
+            text = text.replace('.', ' ')
+            text = re.sub('\s+', ' ', text)
             words = text.split(" ")
             for ind, word in enumerate(words):
                 items.append(self.Word(self.Word.Address(page, line, ind), word))
