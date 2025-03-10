@@ -1,8 +1,8 @@
 import json
 import csv
 
-input_file = 'res/replace_dict.json'
-output_file = 'res/replace_dict.csv'
+input_file = 'res/matches.json'
+output_file = 'res/matches.csv'
 
 with open(input_file, 'r') as json_file:
     data = json.load(json_file)

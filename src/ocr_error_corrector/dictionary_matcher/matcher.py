@@ -6,14 +6,14 @@ from dataclasses import asdict
 from src.cab.cab_xml import CABXML
 from src.escriptorium.ocr_text import OCRText
 from src.ocr_error_corrector.dictionary_matcher.config import (
-    MANUAL_FILE_PATH,
+    MANUAL_FILES_PATH,
     OCR_FILE_PATH,
     DISTANCE_THRESHOLD,
 )
 
 
 def main():
-    dictionary = create_dictionary(MANUAL_FILE_PATH)
+    dictionary = create_dictionary(MANUAL_FILES_PATH)
     ocr_words = read_ocr_words(OCR_FILE_PATH)
     matches = match_ocr_words(ocr_words, dictionary)
     with open('res/matches.json', 'w', encoding='utf8') as f:
@@ -52,12 +52,12 @@ def find_match(ocr_word: str, dictionary: set[str]):
         memo[ocr_word] = (ocr_word, ocr_word, 0)
         return memo[ocr_word]
 
-    normalized_ocr_word = normalize(ocr_word)
+    # normalized_ocr_word = normalize(ocr_word)
     matched_words = []
     for word in dictionary:
-        normalized_word = normalize(word)
+        # normalized_word = normalize(word)
         # if (dist := nltk.edit_distance(normalized_word, normalized_ocr_word)) <= DISTANCE_THRESHOLD:
-        if (dist := Levenshtein.distance(normalized_word, normalized_ocr_word)) <= DISTANCE_THRESHOLD:
+        if (dist := Levenshtein.distance(word, ocr_word)) <= DISTANCE_THRESHOLD:
             matched_words.append((dist, word))
     matched_words = sorted(matched_words)
     memo[ocr_word] = (
@@ -90,9 +90,11 @@ def normalize(text):
     return text
 
 
-def create_dictionary(manual_file_path):
-    cab = CABXML(manual_file_path)
-    words = [word.word for word in cab if word.word]
+def create_dictionary(manual_files_path):
+    words = []
+    for manual_file_path in manual_files_path:
+        cab = CABXML(manual_file_path)
+        words += [word.word for word in cab if word.word]
     return set(words)
 
 
