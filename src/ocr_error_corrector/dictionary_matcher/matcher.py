@@ -1,6 +1,6 @@
 import json
 import re
-import nltk
+# import nltk
 import Levenshtein
 from dataclasses import asdict
 from src.cab.cab_xml import CABXML
@@ -26,7 +26,7 @@ def main():
             }
             for match in matches
         ]
-        matches = sorted(matches, key=lambda x: -x['distance'])
+        # matches = sorted(matches, key=lambda x: -x['distance'])
         # matches_csv = '\n'.join([
         #     f"{match['ocr_word']},{match['manual_word']},{match['distance']},{str(match['address'])}"
         #     for match in matches
@@ -56,7 +56,7 @@ def find_match(ocr_word: str, dictionary: set[str]):
     matched_words = []
     for word in dictionary:
         # normalized_word = normalize(word)
-        # if (dist := nltk.edit_distance(normalized_word, normalized_ocr_word)) <= DISTANCE_THRESHOLD:
+        # if (dist := Levenshtein.distance(normalized_word, normalized_ocr_word)) <= DISTANCE_THRESHOLD:
         if (dist := Levenshtein.distance(word, ocr_word)) <= DISTANCE_THRESHOLD:
             matched_words.append((dist, word))
     matched_words = sorted(matched_words)
@@ -67,7 +67,12 @@ def find_match(ocr_word: str, dictionary: set[str]):
     )
     return memo[ocr_word]
 
+normalizer_memo = {}
 def normalize(text):
+    if text in normalizer_memo:
+        return normalizer_memo[text]
+
+    original_text = text
     uniform_list = [
         ('a', ['ą', 'ą̇', 'å', 'ā']),
         ('ae', ['aē']),
@@ -87,6 +92,7 @@ def normalize(text):
         for char in uniform[1]:
             text = re.sub(char, uniform[0], text)
     # text = re.sub(r'[^a-z]*', '', text)
+    normalizer_memo[original_text] = text
     return text
 
 
