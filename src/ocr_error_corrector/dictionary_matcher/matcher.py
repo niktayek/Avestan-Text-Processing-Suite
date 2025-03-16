@@ -1,6 +1,6 @@
 import json
 import re
-# import nltk
+import copy
 import Levenshtein
 from dataclasses import asdict
 from src.cab.cab_xml import CABXML
@@ -9,6 +9,9 @@ from src.ocr_error_corrector.dictionary_matcher.config import (
     MANUAL_FILES_PATH,
     OCR_FILE_PATH,
     DISTANCE_THRESHOLD,
+    SORT_BY_DISTANCE,
+    MERGE_THRESHOLD,
+    ENABLE_NORMALIZER,
 )
 
 
@@ -17,29 +20,34 @@ def main():
     ocr_words = read_ocr_words(OCR_FILE_PATH)
     matches = match_ocr_words(ocr_words, dictionary)
     with open('res/matches.json', 'w', encoding='utf8') as f:
-        matches = [
-            {
-                'ocr_word': match[0][0],
-                'manual_word': match[0][1],
-                'distance': match[0][2],
-                'address': asdict(match[1])
-            }
-            for match in matches
-        ]
-        # matches = sorted(matches, key=lambda x: -x['distance'])
-        # matches_csv = '\n'.join([
-        #     f"{match['ocr_word']},{match['manual_word']},{match['distance']},{str(match['address'])}"
-        #     for match in matches
-        # ])
+        if SORT_BY_DISTANCE:
+            matches = sorted(matches, key=lambda x: -x['distance'])
+
+        for match in matches:
+            match['address'] = [asdict(address) for address in match['address']]
         f.write(json.dumps(matches, ensure_ascii=False, indent=4))
 
 def match_ocr_words(ocr_words: OCRText, dictionary: set[str]):
     matches = []
-    for i, word in enumerate(ocr_words):
-        if i % 10:
-            print(f"matching word {i}/{len(ocr_words)}: {word.word}")
+    cur_ind = 0
+    while cur_ind < len(ocr_words):
+        if cur_ind % 10:
+            print(f"matching word {cur_ind}/{len(ocr_words)}: {ocr_words[cur_ind].word}")
 
-        matches.append((find_match(word.word, dictionary), word.address))
+        possible_matches = []
+        for i in range(1, MERGE_THRESHOLD + 1):
+            max_ind = min(cur_ind + i, len(ocr_words))
+            word = ''.join([ocr_words[j].word for j in range(cur_ind, max_ind)])
+            word_address = [ocr_words[j].address for j in range(cur_ind, max_ind)]
+            match = find_match(word, dictionary)
+            match = copy.deepcopy(match)
+            match['address'] = word_address
+            possible_matches.append(match)
+
+        possible_matches = sorted(possible_matches, key=lambda match: match['distance'])
+        matches.append(possible_matches[0])
+        cur_ind += len(possible_matches[0]['address'])
+
     return matches
 
 
@@ -49,22 +57,21 @@ def find_match(ocr_word: str, dictionary: set[str]):
         return memo[ocr_word]
 
     if ocr_word in dictionary:
-        memo[ocr_word] = (ocr_word, ocr_word, 0)
+        memo[ocr_word] = {'ocr_word': ocr_word, 'manual_word': ocr_word, 'distance': 0}
         return memo[ocr_word]
 
-    # normalized_ocr_word = normalize(ocr_word)
     matched_words = []
     for word in dictionary:
-        # normalized_word = normalize(word)
-        # if (dist := Levenshtein.distance(normalized_word, normalized_ocr_word)) <= DISTANCE_THRESHOLD:
-        if (dist := Levenshtein.distance(word, ocr_word)) <= DISTANCE_THRESHOLD:
-            matched_words.append((dist, word))
-    matched_words = sorted(matched_words)
-    memo[ocr_word] = (
-        ocr_word,
-        matched_words[0][1] if matched_words else '',
-        matched_words[0][0] if matched_words else 1000,
-    )
+        edit_distance = Levenshtein.distance(ocr_word, word)\
+            if not ENABLE_NORMALIZER else Levenshtein.distance(normalize(ocr_word), normalize(word))
+        if edit_distance <= DISTANCE_THRESHOLD:
+            matched_words.append({'manual_word': word, 'distance': edit_distance})
+    matched_words = sorted(matched_words, key=lambda x: x['distance'])
+    memo[ocr_word] = {
+        'ocr_word': ocr_word,
+        'manual_word': matched_words[0]['manual_word'] if matched_words else '',
+        'distance': matched_words[0]['distance'] if matched_words else 1000,
+    }
     return memo[ocr_word]
 
 normalizer_memo = {}
