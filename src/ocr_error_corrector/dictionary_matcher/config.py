@@ -1,6 +1,5 @@
 LANGUAGE = 'avestan'
 
-# MANUAL_FILE_PATH = '../../../data/CAB/static_yasna.xml'
 MANUAL_FILES_PATH = [
     '../../../data/CAB/static_dron.xml',
     '../../../data/CAB/static_videvdad.xml',
