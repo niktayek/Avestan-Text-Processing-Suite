@@ -4,7 +4,7 @@ import copy
 import Levenshtein
 from dataclasses import asdict
 from src.cab.cab_xml import CABXML
-from src.escriptorium.ocr_text import OCRText
+from src.escriptorium.ocr_xml import OCRXML
 from src.ocr_error_corrector.dictionary_matcher.config import (
     MANUAL_FILES_PATH,
     OCR_FILE_PATH,
@@ -18,6 +18,7 @@ from src.ocr_error_corrector.dictionary_matcher.config import (
 def main():
     dictionary = create_dictionary(MANUAL_FILES_PATH)
     ocr_words = read_ocr_words(OCR_FILE_PATH)
+    # ocr_words = read_cab_words(OCR_FILE_PATH)
     matches = match_ocr_words(ocr_words, dictionary)
     with open('res/matches.json', 'w', encoding='utf8') as f:
         if SORT_BY_DISTANCE:
@@ -27,7 +28,7 @@ def main():
             match['address'] = [asdict(address) for address in match['address']]
         f.write(json.dumps(matches, ensure_ascii=False, indent=4))
 
-def match_ocr_words(ocr_words: OCRText, dictionary: set[str]):
+def match_ocr_words(ocr_words: OCRXML, dictionary: set[str]):
     matches = []
     cur_ind = 0
     while cur_ind < len(ocr_words):
@@ -44,7 +45,7 @@ def match_ocr_words(ocr_words: OCRText, dictionary: set[str]):
             match['address'] = word_address
             possible_matches.append(match)
 
-        possible_matches = sorted(possible_matches, key=lambda match: match['distance'])
+        possible_matches = sorted(possible_matches, key=lambda match: (match['distance'], -len(match["manual_word"])))
         matches.append(possible_matches[0])
         cur_ind += len(possible_matches[0]['address'])
 
@@ -84,16 +85,18 @@ def normalize(text):
         ('a', ['ą', 'ą̇', 'å', 'ā']),
         ('ae', ['aē']),
         ('o', ['ō']),
+        ('e', ["i"]),
+        ('i', ['\.']),
         ('ao', ['aō']),
-        ('z', ['ž']),
         ('uu', ['ū', 'ī', 'ii']),
         ('ŋ', ['ŋ́', 'ŋᵛ']),
         ('s', ['š', 'š́', 'ṣ', 'ṣ̌']),
         ('mh', ['m̨']),
-        ('x', ['θ', 'x́', 'x́', 'xᵛ']),
+        ('x', ['x́', 'x́', 'xᵛ']),
         ('n', ['ń', 'ṇ']),
-        ('t', ['δ', 't', 't̰']),
-        ('y', ['ẏ']),
+        ('ī', ['ū']),
+        ('ϑ', ['t']),
+        ('d', ['δ'])
     ]
     for uniform in uniform_list:
         for char in uniform[1]:
@@ -112,8 +115,12 @@ def create_dictionary(manual_files_path):
 
 
 def read_ocr_words(ocr_file_path):
-    ocr_words = OCRText(ocr_file_path)
+    ocr_words = OCRXML(ocr_file_path)
     return ocr_words
+
+# def read_cab_words(file_path):
+#     cab_words = CABXML(file_path)
+#     return cab_words
 
 
 if __name__ == '__main__':
