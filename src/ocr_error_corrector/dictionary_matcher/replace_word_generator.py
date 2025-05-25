@@ -9,7 +9,7 @@ def main():
     matches = json.load(open('res/matches.json'))
 
     for i, match in enumerate(matches):
-        if i % 10:
+        if i % 10 == 0:
             print(f"matching word {i}/{len(matches)}: {match['ocr_word']}")
 
         match['replace_word'] = generate_replace_word(match['ocr_word'], match['manual_word'], match['distance'])
@@ -20,14 +20,17 @@ def main():
 
 def generate_replace_word(ocr_word, manual_word, allowed_distance):
     potential_features = {
-        'a', 'ą', 'ą̇', 'å', 'ā', 'ae', 'aē', 'o', 'ō', 'ao', 'aō', 'z', 'ž', 'uu',
-        'ū', 'ī', 'ii', 'ŋ', 'ŋ́', 'ŋᵛ', 's', 'š', 'š́', 'ṣ', 'ṣ̌', 'mh', 'm̨',
-        'x́', 'x́', 'xᵛ', 'n', 'ń', 'ṇ', 'y', 'ẏ',
+        'a', 'ą', 'ā', 'ā̊' , 'o', 'ō', 'ə', 'ə̄', 'e' 'ē' 'u' 'ū', 'i',
+        'ī',
+        # 'ŋ', 'ŋ́', 'ŋᵛ', 's', 'š', 'š́', 'ṣ', 'ṣ̌',
+        # 'x', 'x́', 'xᵛ', 'n', 'ń', 'ṇ', 'y', 'ẏ', 'ϑ', 't', 'd', 'δ'
     }
     consonants = {
         'k', 'x', 'x́', 'xᵛ', 'g', 'ġ', 'γ', 'c', 'j', 't', 'θ', 'd', 'δ', 't',
         'p', 'č', 'ž', 'š', 'f', 'b', 'β', 'ŋ', 'ŋ́', 'ŋᵛ', 'n', 'ń', 'ṇ', 'm',
         'm̨', 'ẏ', 'y', 'v', 'uu', 'ii', 'r', 'l', 's', 'z', 'ž', 'š́', 'ṣ̌', 'h',
+        'ŋ', 'ŋ́', 'ŋᵛ', 's', 'š', 'š́', 'ṣ', 'ṣ̌',
+        'x', 'x́', 'xᵛ', 'n', 'ń', 'ṇ', 'y', 'ẏ', 'ϑ', 't', 'd', 'δ'
     } - potential_features
     ocr_list = split_by_consonants(ocr_word, consonants)
     manual_list = split_by_consonants(manual_word, consonants)
@@ -38,13 +41,13 @@ def generate_replace_word(ocr_word, manual_word, allowed_distance):
         return exact_replace_consonants(ocr_list, manual_list)
 
     if allowed_distance == 1000:
-        return manual_list
+        return ocr_list, manual_list
 
     if 0 <= ocr_consonant_count - manual_consonant_count <= allowed_distance:
         return approximate_replace_consonants(ocr_list, manual_list, allowed_distance)
     if 0 <= manual_consonant_count - ocr_consonant_count <= allowed_distance:
         return approximate_replace_consonants(manual_list, ocr_list, allowed_distance)
-    return manual_list
+    return ocr_list, manual_list
 
 
 def exact_replace_consonants(ocr_list, manual_list):
