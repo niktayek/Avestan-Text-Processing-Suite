@@ -35,6 +35,8 @@ class CABXML:
     def _list_items(self):
         items = []
         for id, text in self._abs:
+            text = re.sub(r'(\S)\.(\S)', r'\1\2', text)
+            text = text.replace('.', ' ')
             text = text.replace('.', ' ')
             text = re.sub('\s+', ' ', text)
             words = text.split(" ")

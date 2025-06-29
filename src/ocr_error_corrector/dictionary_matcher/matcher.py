@@ -17,8 +17,8 @@ from src.ocr_error_corrector.dictionary_matcher.config import (
 
 def main():
     dictionary = create_dictionary(MANUAL_FILES_PATH)
-    ocr_words = read_ocr_words(OCR_FILE_PATH)
-    # ocr_words = read_cab_words(OCR_FILE_PATH)
+    # ocr_words = read_ocr_words(OCR_FILE_PATH)
+    ocr_words = read_cab_words(OCR_FILE_PATH)
     matches = match_ocr_words(ocr_words, dictionary)
     with open('res/matches.json', 'w', encoding='utf8') as f:
         if SORT_BY_DISTANCE:
@@ -118,9 +118,9 @@ def read_ocr_words(ocr_file_path):
     ocr_words = OCRXML(ocr_file_path)
     return ocr_words
 
-# def read_cab_words(file_path):
-#     cab_words = CABXML(file_path)
-#     return cab_words
+def read_cab_words(file_path):
+    cab_words = CABXML(file_path)
+    return cab_words
 
 
 if __name__ == '__main__':

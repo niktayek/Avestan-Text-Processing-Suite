@@ -18,10 +18,10 @@ MANUAL_FILES_PATH = [
 # OCR_FILE_PATH = '../../../data/escriptorium/export_doc49_0090_text_20250315220427.txt'
 #OCR_FILE_PATH = '../../../data/escriptorium/0091_7-47.txt'
 #OCR_FILE_PATH ="../../../data/escriptorium/0091_7-22.txt"
-OCR_FILE_PATH ="../../../data/CAB/Yasna/0006.xml"
+OCR_FILE_PATH ="../../../data/CAB/Yasna/0410_cleaned.xml"
 
 
-DISTANCE_THRESHOLD = 2
+DISTANCE_THRESHOLD = 3
 MERGE_THRESHOLD = 3
 ENABLE_NORMALIZER = False
 SORT_BY_DISTANCE = False

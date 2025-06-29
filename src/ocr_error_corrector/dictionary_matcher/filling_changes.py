@@ -1,47 +1,41 @@
 import pandas as pd
 import difflib
 import re
+import unicodedata
 from pathlib import Path
 
 # === Configuration ===
-INPUT_CSV = "/home/nikta/Desktop/OCR/data/CAB/Yasna/yasna matches-0008_matched.csv"
+INPUT_CSV = "/home/nikta/Desktop/OCR/data/CAB/Yasna/yasna_matches_filled_changes-5,6,8,15,40,400,60,83,88,510,410.csv"
 RULES_CSV = "/home/nikta/Desktop/OCR/data/CAB/Yasna/substitution_rules.csv"
-OUTPUT_CSV = "/home/nikta/Desktop/OCR/data/CAB/Yasna/0008_filled_changes_hybrid.csv"
+OUTPUT_CSV = "/home/nikta/Desktop/OCR/data/CAB/Yasna/yasna_matches_filled_changes-5,6,8,15,40,400,60,83,88,510,410_filled.csv"
 NEW_RULE_LOG = "/home/nikta/Desktop/OCR/data/CAB/Yasna/new_rule_candidates.txt"
 
 ocr_col = "ocr_word"
 manual_col = "manual_word"
 change_col = "the change"
 
-# === Check file paths ===
-print("📄 Checking input file at:", Path(INPUT_CSV).resolve())
-if not Path(INPUT_CSV).exists():
-    raise FileNotFoundError(f"❌ File not found: {Path(INPUT_CSV).resolve()}")
-
-print("📄 Checking rules file at:", Path(RULES_CSV).resolve())
-if not Path(RULES_CSV).exists():
-    raise FileNotFoundError(f"❌ Rules file not found: {Path(RULES_CSV).resolve()}")
-
 # === Load input and rules ===
-df = pd.read_csv(INPUT_CSV)  # default assumes comma-separated
+df = pd.read_csv(INPUT_CSV)
 rules_df = pd.read_csv(RULES_CSV)
-
-# ⬅️ Keep rules as manual → OCR (do NOT reverse)
 change_rules = {(row["from"], row["to"]): row["description"] for _, row in rules_df.iterrows()}
 
-print("🧾 Columns in input file:", df.columns.tolist())
-
-# === Ensure the change column exists or create it ===
 if change_col not in df.columns:
-    print(f"⚠️ Column '{change_col}' does not exist. Creating it with empty strings...")
     df.insert(len(df.columns), change_col, pd.Series([""] * len(df), dtype="string"))
 else:
     df[change_col] = df[change_col].astype("string")
 
+# === Normalize function ===
+def normalize(text):
+    return unicodedata.normalize("NFC", text)
+
 # === Define graphemes ===
 SPECIAL_GRAPHEMES = [
-        'ŋ́', 'ŋᵛ', 'm̨', 'š́', 'ṣ̌', 'ṣ̌', 'ϑ̣',
-    'ā̊', 'ą̇', 'x́', 'xᵛ', 'ə̄', 't̰', 'n', 'ń', 'ą', 'γ', 'δ', 'ẏ', 'ṇ'
+    'ə̄u', 'aō', 'aē', 'āu', 'āi', 'ōi', 'ou', 'ai', 'au',
+    'ā̊', 'ą̇', 'ə̄', 't̰', 'x́', 'xᵛ', 'ŋ́', 'ŋᵛ', 'š́', 'ṣ̌', 'ṇ', 'ń', 'ɱ', 'ġ', 'γ', 'δ', 'ẏ', 'č', 'ž', 'β',
+    'ā', 'ą', 'ō', 'ē', 'ū', 'ī',
+    'a', 'o', 'ə', 'e', 'u', 'i',
+    'k', 'x', 'g', 'c', 'j', 't', 'ϑ', 'd', 'p', 'b', 'ŋ', 'n', 'm',
+    'y', 'v', 'r', 'l', 's', 'z', 'š', 'h', 'uu', 'ii'
 ]
 SPECIAL_GRAPHEMES.sort(key=len, reverse=True)
 SPECIAL_GRAPHEME_RE = re.compile('|'.join(map(re.escape, SPECIAL_GRAPHEMES)))
@@ -59,51 +53,76 @@ def tokenize_graphemes(s):
             i += 1
     return tokens
 
-# === Grapheme-aware change matcher ===
+# === Bidirectional normalization map ===
+equivalence_map = {
+    ('ii', 'ai'): 'aii for ii',
+    ('ai', 'ii'): 'aii for ii',
+    ('ii', 'aii'): 'aii for ii',
+    ('aii', 'ii'): 'aii for ii',
+    ('auu', 'uu'): 'auu(V) for uuV',
+    ('uu', 'auu'): 'auu(V) for uuV',
+    ('i', 'ə̄'): 'i for ə',
+    ('ə̄', 'i'): 'ə for i',
+    ('ī', 'ə̄'): 'ī for i',
+    ('ə̄', 'ī'): 'i for ī'
+}
+
+# === Normalization function ===
+def normalize_substitution(ocr_part, manual_part):
+    if (ocr_part, manual_part) in equivalence_map:
+        return equivalence_map[(ocr_part, manual_part)]
+    if (manual_part, ocr_part) in equivalence_map:
+        return equivalence_map[(manual_part, ocr_part)]
+    return f"{ocr_part} for {manual_part}"
+
+# === Recursive grapheme-level matcher with recursion protection ===
 new_candidates = set()
 
-def find_changes(manual, ocr):
-    manual_tokens = tokenize_graphemes(manual)
-    ocr_tokens = tokenize_graphemes(ocr)
-    sm = difflib.SequenceMatcher(None, manual_tokens, ocr_tokens)
-    ops = sm.get_opcodes()
+def align_graphemes(manual_tokens, ocr_tokens, depth=0, max_depth=10):
+    if depth > max_depth:
+        changes = []
+        changes.append(normalize_substitution(''.join(ocr_tokens), ''.join(manual_tokens)))
+        new_candidates.add((''.join(manual_tokens), ''.join(ocr_tokens)))
+        return changes
 
+    sm = difflib.SequenceMatcher(None, manual_tokens, ocr_tokens)
     changes = []
 
-    for tag, i1, i2, j1, j2 in ops:
-        wrongs = manual_tokens[i1:i2]  # from manual
-        rights = ocr_tokens[j1:j2]     # to OCR
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        manual_part = manual_tokens[i1:i2]
+        ocr_part = ocr_tokens[j1:j2]
+
+        if tag == "equal":
+            continue
+
+        if tag == "replace" and (len(manual_part) == len(ocr_part)):
+            for m_tok, o_tok in zip(manual_part, ocr_part):
+                if m_tok != o_tok:
+                    changes.append(normalize_substitution(o_tok, m_tok))
+                    new_candidates.add((m_tok, o_tok))
+            continue
 
         if tag == "replace":
-            max_len = max(len(wrongs), len(rights))
-            for i in range(max_len):
-                wrong = wrongs[i] if i < len(wrongs) else ""
-                right = rights[i] if i < len(rights) else ""
+            if len(manual_part) == 0 or len(ocr_part) == 0 or abs(len(manual_part)-len(ocr_part)) > 5:
+                changes.append(normalize_substitution(''.join(ocr_part), ''.join(manual_part)))
+                new_candidates.add((''.join(manual_part), ''.join(ocr_part)))
+                continue
 
-                if wrong == right or (wrong == "" and right == ""):
-                    continue
+            sub_changes = align_graphemes(manual_part, ocr_part, depth+1, max_depth)
+            changes.extend(sub_changes)
+            continue
 
-                if (wrong, right) in change_rules:
-                    changes.append(change_rules[(wrong, right)])
-                else:
-                    changes.append(f"{wrong} for {right}")
-                    new_candidates.add((wrong, right))
+        if tag == "delete":
+            for m_tok in manual_part:
+                changes.append(f"{m_tok} deleted")
+                new_candidates.add((m_tok, ""))
 
-        elif tag == "delete":
-            for wrong in wrongs:
-                if wrong == "":
-                    continue
-                changes.append(f"{wrong} deleted")
-                new_candidates.add((wrong, ""))
+        if tag == "insert":
+            for o_tok in ocr_part:
+                changes.append(f"{o_tok} inserted")
+                new_candidates.add(("", o_tok))
 
-        elif tag == "insert":
-            for right in rights:
-                if right == "":
-                    continue
-                changes.append(f"{right} inserted")
-                new_candidates.add(("", right))
-
-    return ", ".join(changes) if changes else ""
+    return changes
 
 # === Apply changes ===
 for idx, row in df[df[change_col].isna() | (df[change_col] == "")].iterrows():
@@ -113,8 +132,10 @@ for idx, row in df[df[change_col].isna() | (df[change_col] == "")].iterrows():
     if pd.isna(ocr) or pd.isna(manual):
         continue
 
-    # 🔁 Compare: manual (correct) → ocr (observed)
-    df.at[idx, change_col] = find_changes(str(manual), str(ocr))
+    manual_tokens = tokenize_graphemes(normalize(manual))
+    ocr_tokens = tokenize_graphemes(normalize(ocr))
+    changes = align_graphemes(manual_tokens, ocr_tokens)
+    df.at[idx, change_col] = ", ".join(changes)
 
 # === Save output CSV ===
 df.to_csv(OUTPUT_CSV, index=False)
@@ -123,13 +144,13 @@ print(f"\n✅ Updated file saved to: {Path(OUTPUT_CSV).resolve()}")
 # === Save new rule candidates ===
 if new_candidates:
     with open(NEW_RULE_LOG, "w", encoding="utf-8") as f:
-        for wrong, right in sorted(new_candidates):
-            if wrong and right:
-                f.write(f"{wrong} for {right}\n")
-            elif wrong:
-                f.write(f"{wrong} deleted\n")
-            elif right:
-                f.write(f"{right} inserted\n")
+        for manual, ocr in sorted(new_candidates):
+            if manual and ocr:
+                f.write(f"{ocr} for {manual}\n")
+            elif manual:
+                f.write(f"{manual} deleted\n")
+            elif ocr:
+                f.write(f"{ocr} inserted\n")
     print(f"📝 New rule candidates saved to: {Path(NEW_RULE_LOG).resolve()}")
 else:
     print("✅ No new rule candidates found.")
