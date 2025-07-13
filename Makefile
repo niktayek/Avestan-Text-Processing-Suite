@@ -1,4 +1,4 @@
-data_dir := './data/escriptorium/export_doc29_0093_ab5_pagexml_20250226181451'
+data_dir := './data/escriptorium/export_doc58_lb2_flip_01_alto_20250521134450'
 
 compile:
 	poetry run ketos compile \
@@ -14,9 +14,9 @@ compile:
 rec_model_dir := './models/recognition'
 #rec_prev_model := 'Sephardi_01.mlmodel'
 #rec_prev_model := 'manuscript_4000/attempt_04/model_best.mlmodel'
-rec_prev_model := 'manuscript_0093/model_best.mlmodel'
-rec_next_model := 'manuscript_4000/attempt_05'
-rec_learning_rate := 0.00005
+rec_prev_model := 'manuscript_lb2/attempt_21/model_best.mlmodel'
+rec_next_model := 'manuscript_lb2/attempt_22'
+rec_learning_rate := 0.00001
 # start learning rate at 0.0001 and decrease by 10% every 10 epochs
 
 train-rec:
@@ -96,6 +96,8 @@ stop-escriptorium:
 ########################################################################################
 
 setup:
+	asdf plugin add python
+	asdf plugin add poetry
 	asdf install
 	git submodule update --init --recursive
 	poetry install --no-root
