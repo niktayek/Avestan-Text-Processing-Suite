@@ -7,7 +7,7 @@ from scipy.cluster.hierarchy import linkage, dendrogram
 from scipy.spatial.distance import squareform
 
 # === CONFIG ===
-MATRIX_PATH = "/home/nikta/Desktop/OCR/data/CAB/Yasna/res/yasna_addition_omission_matrix.csv"
+MATRIX_PATH = "/home/nikta/Desktop/OCR/data/CAB/Yasna/res/yasna_addition_omission_matrix_semi_clean.csv"
 JACCARD_OUT_CSV = "/home/nikta/Desktop/OCR/data/CAB/Yasna/res/yasna_jaccard_similarity.csv"
 CLUSTERMAP_OUT = "/home/nikta/Desktop/OCR/data/CAB/Yasna/res/yasna_manuscript_clustermap.png"
 TREE_OUTFILE = "/home/nikta/Desktop/OCR/data/CAB/Yasna/res/yasna_manuscript_tree.png"

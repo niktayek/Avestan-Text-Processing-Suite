@@ -2,25 +2,48 @@ import json
 import re
 import copy
 import Levenshtein
+from utils import memoize
 from dataclasses import asdict
 from src.cab.cab_xml import CABXML
 from src.escriptorium.ocr_xml import OCRXML
-from src.ocr_error_corrector.dictionary_matcher.config import (
-    MANUAL_FILES_PATH,
-    OCR_FILE_PATH,
-    DISTANCE_THRESHOLD,
-    SORT_BY_DISTANCE,
-    MERGE_THRESHOLD,
-    ENABLE_NORMALIZER,
-)
+
+LANGUAGE = 'avestan'
+
+MANUAL_FILES_PATH = [
+    # '../../../data/CAB/static_dron.xml',
+    # '../../../data/CAB/static_videvdad.xml',
+    # '../../../data/CAB/static_vishtasp.xml',
+    # '../../../data/CAB/static_visperad.xml',
+    # '../../../data/CAB/static_visperad_dh.xml',
+     '../../../data/CAB/static_yasna.xml',
+    # '../../../data/CAB/static_yasnar.xml',
+    # '../../../data/CAB/Videvdad_Static.xml',
+]
+#OCR_FILE_PATH = '../../../data/escriptorium/0090_second_part_for_error_corrector.txt'
+# OCR_FILE_PATH = '../../../data/escriptorium/export_doc47_0093_flip_1_text_20250304224732.txt'
+# OCR_FILE_PATH = '../../../data/escriptorium/export_doc17_0090_ab4_text_20250312184320.txt'
+# OCR_FILE_PATH = '../../../data/escriptorium/export_doc29_0093_ab5_text_20250312201829.txt'
+#OCR_FILE_PATH = '../../../data/escriptorium/export_doc47_0093_flip_1_text_20250314231622.txt'
+# OCR_FILE_PATH = '../../../data/escriptorium/export_doc49_0090_text_20250315220427.txt'
+#OCR_FILE_PATH = '../../../data/escriptorium/0091_7-47.txt'
+#OCR_FILE_PATH ="../../../data/escriptorium/0091_7-22.txt"
+OCR_FILE_PATH ="../../../data/CAB/Yasna/0008_cleaned.xml"
+OUTPUT_FILE_PATH = 'res/matches.json'
+
+DISTANCE_THRESHOLD = 3
+MERGE_THRESHOLD = 3
+ENABLE_NORMALIZER = False
+SORT_BY_DISTANCE = False
+
 
 
 def main():
     dictionary = create_dictionary(MANUAL_FILES_PATH)
     # ocr_words = read_ocr_words(OCR_FILE_PATH)
     ocr_words = read_cab_words(OCR_FILE_PATH)
+
     matches = match_ocr_words(ocr_words, dictionary)
-    with open('res/matches.json', 'w', encoding='utf8') as f:
+    with open(OUTPUT_FILE_PATH, 'w', encoding='utf8') as f:
         if SORT_BY_DISTANCE:
             matches = sorted(matches, key=lambda x: -x['distance'])
 
@@ -52,14 +75,10 @@ def match_ocr_words(ocr_words: OCRXML, dictionary: set[str]):
     return matches
 
 
-memo = {}
+@memoize(memoize_for_args=['ocr_word'])
 def find_match(ocr_word: str, dictionary: set[str]):
-    if ocr_word in memo:
-        return memo[ocr_word]
-
     if ocr_word in dictionary:
-        memo[ocr_word] = {'ocr_word': ocr_word, 'manual_word': ocr_word, 'distance': 0}
-        return memo[ocr_word]
+        return {'ocr_word': ocr_word, 'manual_word': ocr_word, 'distance': 0}
 
     matched_words = []
     for word in dictionary:
@@ -68,18 +87,16 @@ def find_match(ocr_word: str, dictionary: set[str]):
         if edit_distance <= DISTANCE_THRESHOLD:
             matched_words.append({'manual_word': word, 'distance': edit_distance})
     matched_words = sorted(matched_words, key=lambda x: x['distance'])
-    memo[ocr_word] = {
+    if not matched_words:
+        return {'ocr_word': ocr_word, 'manual_word': '', 'distance': 1000}
+    return {
         'ocr_word': ocr_word,
-        'manual_word': matched_words[0]['manual_word'] if matched_words else '',
-        'distance': matched_words[0]['distance'] if matched_words else 1000,
+        'manual_word': matched_words[0]['manual_word'],
+        'distance': matched_words[0]['distance'],
     }
-    return memo[ocr_word]
 
-normalizer_memo = {}
+@memoize()
 def normalize(text):
-    if text in normalizer_memo:
-        return normalizer_memo[text]
-
     original_text = text
     uniform_list = [
         ('a', ['ą', 'ą̇', 'å', 'ā']),
@@ -102,7 +119,6 @@ def normalize(text):
         for char in uniform[1]:
             text = re.sub(char, uniform[0], text)
     # text = re.sub(r'[^a-z]*', '', text)
-    normalizer_memo[original_text] = text
     return text
 
 
