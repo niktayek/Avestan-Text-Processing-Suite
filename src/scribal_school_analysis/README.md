@@ -84,31 +84,29 @@ This pipeline processes a given manuscript to detect its orthographic and phonol
 
 Some tokens may not have a match, in which case the `reference` column will be empty and the distance column will be `1000`.
 
-2. **Detect Changes**: For each matched token, detects the differences between the `generated` and `reference` tokens at the grapheme level. It identifies substitutions, insertions, and deletions of graphemes. The result is saved in a CSV file with the same columns as the previous step, plus an additional `the change` column that contains a list of JSON object with the following fields:
-    - `type`: The type of change (e.g., "substitution", "insertion", "deletion").
-    - `from`: The grapheme(s) from the generated token. For insertions, this will be an empty string.
-    - `to`: The grapheme(s) in the reference token. For deletions, this will be an empty string.
-
-3. **Tag Changes**: For each detected change, adds more context by adding two additional fields to its JSON object:
-    - `is_documented`: A boolean indicating whether the change is already documented existing researches.
-    - `tag`: If the change is already documented, this field will contain a short description research, such as `ə used for i, especially in Iranian manuscripts`.
-
-This additional context comes from an existing feature catalog based on previous research.
-
-This step is mostly for manual investigation, as it allows researchers to quickly identify which changes are already known and which are not.
+2. **Detect Changes**: For each matched token, detects the changes that transform the `generated` token into the `reference` token. It does this by comparing the graphemes in the two tokens and identifying the insertions, deletions, and substitutions of graphemes. The result is saved in a CSV file with the same columns as the previous step, plus the following columns:
+   - `changes` column: Describe all the changes in order of their occurrence in the token. Each change is represented as a string like `a inserted`, `b deleted`, or `c for d`. All the changes are grouped together in a single string, separated by commas.
+   - `comment` column: Provides additional context for the changes. If the change is already documented in the feature catalog, the feature's description will be included in this field, such as `ə used for i, especially in Iranian manuscripts`. This field is mostly for manual investigation.
+   - `is_documented` column: A boolean indicating whether the change is already documented in the feature catalog.
 
 ### Scribal School Analysis Pipeline
 Once the Manuscript Analysis Pipeline has been completed for a few manuscripts, the next step is to analyze the features extracted from these manuscripts to infer their scribal schools.
 
 1. **Create the Frequency Matrix**: Given the result of the manuscript analysis pipeline for a set of manuscripts, creates a frequency matrix with rows representing manuscripts and columns representing all the detected changes (documented or not). Each cell contains the frequency of that change in that manuscript. The result is saved in a CSV file.
 
-2. **Cluster Manuscripts**: The similarity of a pair of manuscripts can be measured by comparing their frequency profiles in the frequency matrix. This similarity metric can be used to create a hierarchy of manuscripts, which can be visualized as a dendrogram. This dondrogram can reflect the scribal schools of the manuscripts, as manuscripts from the same school will be more similar to each other than to manuscripts from different schools. The output of this step is a similarity matrix in CSV format (with rows and columns representing manuscripts and cells containing the similarity score between them) and a dendrogram in SVG format.
+2. **Create Similarity Matrix**: Using the frequency matrix, calculates the similarity between each pair of manuscripts based on their feature profiles. The result is saved in a CSV file with rows and columns representing manuscripts and cells containing the similarity score between them.
 
-3. **Scribal School Assignment**: This is a manual step. In this step, the researcher examines each manuscript and judges its scribal school based on the dendrogram, the similarity matrix, and the frequency matrix. This step creates a CSV file with two columns:
+3. **Visualize Similarity Matrix**: The similarity matrix is visualized in the following ways to help researchers understand the relationships between manuscripts:
+    - Hierarchical Tree: A dendrogram is created to represent the hierarchical clustering of manuscripts based on their similarity scores. This tree shows how manuscripts are related to each other.
+   - Cluster Map: A clustermap, which is the combination of a heatmap and a hierarchical clustering dendrogram, is created to show the similarity between manuscripts.
+
+Both visualizations are saved as image files in the output directory.
+
+4. **Scribal School Assignment**: This is a manual step. In this step, the researcher judges the scribal school of each manuscript based on the dendrogram, the similarity matrix/heatmap, and the frequency matrix. This step creates a CSV file with two columns:
     - `manuscript`: the manuscript name or identifier.
     - `scribal_school`: The assigned scribal school for that manuscript.
 
-4. **Propose a new Feature Catalog**: Based on the Scribal School assignment, a feature catalog for each scribal school is created. This catalog describes the typicality of each feature across known scribal schools (e.g., Yazdi, Kermani, Bombay). It is saved in a CSV file with rows representing features and columns representing scribal schools. For ease of use, the result is saved in two formats:
+5. **Propose a new Feature Catalog**: Based on the Scribal School assignment, a feature catalog for each scribal school is created. This catalog describes the typicality of each feature across known scribal schools (e.g., Yazdi, Kermani, Bombay). It is saved in a CSV file with rows representing features and columns representing scribal schools. For ease of use, the result is saved in two formats:
     - `Quantitative`: Each cell contains the percentage of total occurrences of that feature in the manuscripts in that school over the total occurrences of all features in that school. 
     - `Qualitative`: Each cell contains a short description of the feature in that school, such as "frequent", "rare", or "absent".
 
