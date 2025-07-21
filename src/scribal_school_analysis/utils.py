@@ -1,5 +1,6 @@
 import csv
 import json
+import pandas as pd
 
 
 def memoize(memoize_for_args: list[str]=None):
@@ -33,3 +34,16 @@ def read_csv(input_file) -> list[dict]:
     with open(input_file, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         return list(reader)
+
+def calculate_similarity(feature_profile_1: pd.Series, feature_profile_2: pd.Series) -> float:
+    """
+    Calculate the Total Variation Distance (TVD) between two manuscripts based on their frequency profiles.
+    """
+
+    # Normalize frequencies to probabilities
+    prob_1 = feature_profile_1 / feature_profile_1.sum()
+    prob_2 = feature_profile_2 / feature_profile_2.sum()
+
+    # Calculate Total Variation Distance
+    tvd = (prob_1 - prob_2).abs().sum() / 2
+    return 1 - tvd
