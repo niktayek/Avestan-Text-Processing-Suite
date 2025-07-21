@@ -1,4 +1,5 @@
 import os
+from collections import defaultdict
 import pandas as pd
 from .config import OUTPUT_DIR
 
@@ -15,6 +16,7 @@ MANUSCRIPT_RESULT_CSVS = {
     "0510": os.path.join(OUTPUT_DIR, "0510_matches_with_changes.csv"),
 }
 OUTPUT_CSV = os.path.join(OUTPUT_DIR, "frequency_matrix.csv")
+DROP_DOCUMENTED_FEATURES = False
 
 def main():
     change_frequencies = {}
@@ -30,16 +32,21 @@ def main():
         {feature: [freq.get(feature, 0) for freq in change_frequencies.values()] for feature in all_features},
         index=pd.Index(change_frequencies.keys(), name="manuscript")
     )
+    if DROP_DOCUMENTED_FEATURES:
+        frequency_matrix = frequency_matrix.div(frequency_matrix.sum(axis=1), axis=0)
+        frequency_matrix = frequency_matrix.round(3)
+        frequency_matrix = frequency_matrix.transpose()
     frequency_matrix.to_csv(OUTPUT_CSV)
 
 def calculate_change_frequencies(manuscript_result_csv: str) -> dict:
     df = pd.read_csv(manuscript_result_csv)
-    changes = df["changes"].dropna().tolist()
-    frequencies = {}
-    for change in changes:
-        if change not in frequencies:
-            frequencies[change] = 0
-        frequencies[change] += 1
+    frequencies = defaultdict(int)
+    for changes in df["changes"].dropna().tolist():
+        changes = eval(changes)
+        for change in changes:
+            if DROP_DOCUMENTED_FEATURES and change['is_documented']:
+                continue
+            frequencies[change['str']] += 1
     return frequencies
 
 if __name__ == "__main__":
