@@ -110,5 +110,7 @@ Both visualizations are saved as image files in the output directory.
     - `Quantitative`: Each cell contains the percentage of total occurrences of that feature in the manuscripts in that school over the total occurrences of all features in that school. 
     - `Qualitative`: Each cell contains a short description of the feature in that school, such as "frequent", "rare", or "absent".
 
+7. **Scribal School Prediction"**: Given the feature profile of a manuscript and the proposed feature catalog, predicts the scribal school of the manuscript by evaluating the similarity of its feature profile with the feature profiles of known scribal schools. The result is saved in a CSV file with rows representing manuscripts and columns representing scribal schools. Each cell contains the similarity score between the manuscript and the corresponding scribal school.
+
 ## Project Structure
 Each step of the pipeline is implemented as a separate Python script, which can be run independently or as part of a larger workflow. The names of the scripts correspond to the steps described above, with a prefix `01_`, `02_`, etc., indicating the order of execution. Each step can be implemented in different ways (e.g., using different libraries or algorithms), but the input and output formats are standardized to ensure compatibility. The algorithm or variant name is included in the script name for clarity. For example, `01_match_tokens-dictionary.py` indicates that this script implements the token matching step using a dictionary-based approach.
