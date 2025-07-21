@@ -1,13 +1,16 @@
 import pandas as pd
 import os
 from collections import defaultdict
-
+import seaborn as sns
+import matplotlib.pyplot as plt
+from .utils import calculate_similarity
 from .config import OUTPUT_DIR
 
 FREQUENCY_MATRIX_PATH = os.path.join(OUTPUT_DIR, "frequency_matrix.csv")
 SCRIBAL_SCHOOL_ASSIGNMENT_PATH = "data/CAB/Yasna/scribal-school-assignment.csv"
 QUANTITATIVE_FEATURE_CATALOG_PATH = os.path.join(OUTPUT_DIR, "quantitative_feature_catalog.csv")
 QUALITATIVE_FEATURE_CATALOG_PATH = os.path.join(OUTPUT_DIR, "qualitative_feature_catalog.csv")
+SCRIBAL_SCHOOL_SIMILARITY_MATRIX_PATH = os.path.join(OUTPUT_DIR, "scribal_school_similarity_matrix.csv")
 
 def main():
     frequency_matrix = pd.read_csv(FREQUENCY_MATRIX_PATH, index_col='manuscript', dtype={'manuscript': str})
@@ -15,6 +18,10 @@ def main():
 
     quantitative_feature_catalog = create_quantitative_feature_catalog(scribal_school_assignment, frequency_matrix)
     quantitative_feature_catalog.to_csv(QUANTITATIVE_FEATURE_CATALOG_PATH)
+
+    scribal_school_similarity_matrix = produce_similarity_matrix(quantitative_feature_catalog)
+    scribal_school_similarity_matrix.to_csv(SCRIBAL_SCHOOL_SIMILARITY_MATRIX_PATH)
+    visualize_similarity_matrix(scribal_school_similarity_matrix)
 
     qualitative_feature_catalog = create_qualitative_feature_catalog(quantitative_feature_catalog)
     qualitative_feature_catalog.to_csv(QUALITATIVE_FEATURE_CATALOG_PATH)
@@ -36,6 +43,38 @@ def create_quantitative_feature_catalog(scribal_school_assignment: dict[str, lis
             feature_catalog.loc[school] += frequency_matrix.loc[manuscript]
     feature_catalog = feature_catalog.fillna(0)
     return feature_catalog
+
+def produce_similarity_matrix(quantitative_feature_catalog: pd.DataFrame) -> pd.DataFrame:
+    similarity_matrix = pd.DataFrame(
+        index=quantitative_feature_catalog.index,
+        columns=quantitative_feature_catalog.index,
+        dtype=float
+    )
+    for school1 in quantitative_feature_catalog.index:
+        for school2 in quantitative_feature_catalog.index:
+            if school1 == school2:
+                similarity_matrix.at[school1, school2] = 1.0
+            else:
+                similarity_matrix.at[school1, school2] = calculate_similarity(
+                    quantitative_feature_catalog.loc[school1],
+                    quantitative_feature_catalog.loc[school2]
+                )
+    return similarity_matrix
+
+def visualize_similarity_matrix(similarity_matrix: pd.DataFrame):
+    for index in similarity_matrix.index:
+        if len(index) > 20:
+            similarity_matrix.rename(index={index: f"{index[:20]} ..."}, inplace=True)
+    for column in similarity_matrix.columns:
+        if len(column) > 20:
+            similarity_matrix.rename(columns={column: f"{column[:20]} ..."}, inplace=True)
+
+    sns.heatmap(similarity_matrix, cmap="viridis", annot=True, linewidths=0.5, cbar_kws={"shrink": .8})
+    plt.title("Scribal School Similarity Matrix")
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "scribal_school_similarity_heatmap.png"), dpi=300)
+    plt.close()
 
 def create_qualitative_feature_catalog(quantitative_feature_catalog):
     feature_catalog = pd.DataFrame(
