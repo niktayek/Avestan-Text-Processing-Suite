@@ -1,4 +1,4 @@
-generated,reference,distance,changes,address
+transliterated,reference,distance,features,address
 xšnōϑra,xšnaōϑra,1.0,"[{'type': 'replace', 'from': 'ō', 'to': 'aō', 'str': 'aō for ō', 'is_documented': True, 'description': 'The monophthongization of diphthongs aē and aō is frequent'}]","[{'id': 'Y0.1Ext.a', 'index': 0}]"
 ahurahe,ahurahe,0.0,[],"[{'id': 'Y0.1Ext.a', 'index': 1}]"
 mazdā̊,mazdā̊,0.0,[],"[{'id': 'Y0.1Ext.a', 'index': 2}]"

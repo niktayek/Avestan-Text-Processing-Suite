@@ -1,4 +1,4 @@
-generated,reference,distance,changes,address
+transliterated,reference,distance,features,address
 aṣ̌əm,aṣ̌əm,0.0,[],"[{'id': 'Y0.1AV', 'index': 0}]"
 vohī,vohū,1.0,"[{'type': 'replace', 'from': 'ī', 'to': 'ū', 'str': 'ū for ī', 'is_documented': True, 'description': 'This is a prominent and widespread orthographic and phonological feature in Avestan manuscripts, particularly within the Iranian tradition'}]","[{'id': 'Y0.1AV', 'index': 1}]"
 aṣ̌əm,aṣ̌əm,0.0,[],"[{'id': 'Y0.1AV', 'index': 2}, {'id': 'Y0.2AV', 'index': 0}]"

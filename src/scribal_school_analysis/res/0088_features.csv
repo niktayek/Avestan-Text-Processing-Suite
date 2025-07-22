@@ -1,4 +1,4 @@
-generated,reference,distance,changes,address
+transliterated,reference,distance,features,address
 aṣ̌əm,aṣ̌əm,0,[],"[{'id': 'Y0.1AV', 'index': 0}]"
 vohī,vohū,1,"[{'type': 'replace', 'from': 'ī', 'to': 'ū', 'str': 'ū for ī', 'is_documented': True, 'description': 'This is a prominent and widespread orthographic and phonological feature in Avestan manuscripts, particularly within the Iranian tradition'}]","[{'id': 'Y0.1AV', 'index': 1}]"
 aṣ̌əm,aṣ̌əm,0,[],"[{'id': 'Y0.1AV', 'index': 2}, {'id': 'Y0.2AV', 'index': 0}]"
@@ -2823,7 +2823,7 @@ fratəmąn,fratəmą,1,"[{'type': 'insert', 'to': 'n', 'str': 'n inserted', 'is_
 nmānanąmca,nmānanąmca,0,[],"[{'id': 'Y8.10a', 'index': 7}]"
 vīsąmca,vīsąmca,0,[],"[{'id': 'Y8.10a', 'index': 8}]"
 zaṇtunąmca,zaṇtunąmca,0,[],"[{'id': 'Y8.10a', 'index': 9}]"
-dax́iiunąmca,dax́iiunąmca,0,[],"[{'id': 'Y8.10a', 'index': 9.5}, {'id': 'Y8.10b', 'index': 0}]"
+dax́iiunąmca,dax́iiunąmca,0,[],"[{'id': 'Y8.10b', 'index': 0}, {'id': 'Y8.10a', 'index': 9.5}]"
 aŋ́hā̊,aŋ́hā̊,0,[],"[{'id': 'Y8.10a', 'index': 10}, {'id': 'Y8.10b', 'index': 0}]"
 daēnaiiā̊,daēnaiiā̊,0,[],"[{'id': 'Y8.10b', 'index': 1}]"
 anumataiiaēca,anumataiiaēca,0,[],"[{'id': 'Y8.10b', 'index': 2}, {'id': 'Y8.10b', 'index': 3}, {'id': 'Y8.10b', 'index': 4}]"

@@ -1,4 +1,4 @@
-generated,reference,distance,changes,address
+transliterated,reference,distance,features,address
 aṣ̌əm,aṣ̌əm,0,[],"[{'id': 'Y0.2AV', 'index': 0}]"
 vōhū,vohū,1,"[{'type': 'replace', 'from': 'ō', 'to': 'o', 'str': 'o for ō', 'is_documented': True, 'description': 'Lengthened ō for o, minor orthographic variation.'}]","[{'id': 'Y0.2AV', 'index': 1}]"
 aṣ̌əm,aṣ̌əm,0,[],"[{'id': 'Y0.2AV', 'index': 2}, {'id': 'Y0.5AV', 'index': 0}, {'id': 'Y0.5AV', 'index': 1}]"
