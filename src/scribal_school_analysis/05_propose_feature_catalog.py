@@ -35,6 +35,8 @@ def create_quantitative_feature_catalog(scribal_school_assignment: dict[str, lis
     for manuscript, schools_list in scribal_school_assignment.items():
         schools.update(schools_list)
 
+    frequency_matrix = frequency_matrix.div(frequency_matrix.sum(axis=1), axis=0)
+
     feature_catalog = pd.DataFrame(
         index=pd.Index(schools, name='scribal_school', dtype=str),
         columns=frequency_matrix.columns,
@@ -46,6 +48,9 @@ def create_quantitative_feature_catalog(scribal_school_assignment: dict[str, lis
         for school in scribal_schools:
             feature_catalog.loc[school] += frequency_matrix.loc[manuscript]
     feature_catalog = feature_catalog.fillna(0)
+
+    feature_catalog = feature_catalog.div(feature_catalog.sum(axis=1), axis=0)
+
     return feature_catalog
 
 def produce_similarity_matrix(quantitative_feature_catalog: pd.DataFrame) -> pd.DataFrame:
