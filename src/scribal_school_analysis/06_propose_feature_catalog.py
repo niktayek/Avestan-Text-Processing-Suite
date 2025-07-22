@@ -6,25 +6,29 @@ import matplotlib.pyplot as plt
 from .utils import calculate_similarity
 from .config import OUTPUT_DIR
 
-FREQUENCY_MATRIX_PATH = os.path.join(OUTPUT_DIR, "frequency_matrix.csv")
-SCRIBAL_SCHOOL_ASSIGNMENT_PATH = "data/CAB/Yasna/scribal-school-assignment.csv"
-QUANTITATIVE_FEATURE_CATALOG_PATH = os.path.join(OUTPUT_DIR, "quantitative_feature_catalog.csv")
-QUALITATIVE_FEATURE_CATALOG_PATH = os.path.join(OUTPUT_DIR, "qualitative_feature_catalog.csv")
-SCRIBAL_SCHOOL_SIMILARITY_MATRIX_PATH = os.path.join(OUTPUT_DIR, "scribal_school_similarity_matrix.csv")
+# INPUT
+FREQUENCY_MATRIX_CSV = os.path.join(OUTPUT_DIR, "frequency_matrix.csv")
+SCRIBAL_SCHOOL_ASSIGNMENT_CSV = "data/CAB/Yasna/scribal-school-assignment.csv"
+
+# OUTPUT
+QUANTITATIVE_FEATURE_CATALOG_CSV = os.path.join(OUTPUT_DIR, "feature_catalog_quantitative.csv")
+QUALITATIVE_FEATURE_CATALOG_CSV = os.path.join(OUTPUT_DIR, "feature_catalog_qualitative.csv")
+SCRIBAL_SCHOOL_SIMILARITY_MATRIX_CSV = os.path.join(OUTPUT_DIR, "scribal_school_similarity_matrix.csv")
+SCRIBAL_SCHOOL_SIMILARITY_HEATMAP_PNG = os.path.join(OUTPUT_DIR, "scribal_school_similarity_heatmap.png")
 
 def main():
-    frequency_matrix = pd.read_csv(FREQUENCY_MATRIX_PATH, index_col='manuscript', dtype={'manuscript': str})
-    scribal_school_assignment = read_scribal_school_assignment(SCRIBAL_SCHOOL_ASSIGNMENT_PATH)
+    frequency_matrix = pd.read_csv(FREQUENCY_MATRIX_CSV, index_col='manuscript', dtype={'manuscript': str})
+    scribal_school_assignment = read_scribal_school_assignment(SCRIBAL_SCHOOL_ASSIGNMENT_CSV)
 
     quantitative_feature_catalog = create_quantitative_feature_catalog(scribal_school_assignment, frequency_matrix)
-    quantitative_feature_catalog.to_csv(QUANTITATIVE_FEATURE_CATALOG_PATH)
+    quantitative_feature_catalog.to_csv(QUANTITATIVE_FEATURE_CATALOG_CSV)
 
     scribal_school_similarity_matrix = produce_similarity_matrix(quantitative_feature_catalog)
-    scribal_school_similarity_matrix.to_csv(SCRIBAL_SCHOOL_SIMILARITY_MATRIX_PATH)
+    scribal_school_similarity_matrix.to_csv(SCRIBAL_SCHOOL_SIMILARITY_MATRIX_CSV)
     visualize_similarity_matrix(scribal_school_similarity_matrix)
 
     qualitative_feature_catalog = create_qualitative_feature_catalog(quantitative_feature_catalog)
-    qualitative_feature_catalog.to_csv(QUALITATIVE_FEATURE_CATALOG_PATH)
+    qualitative_feature_catalog.to_csv(QUALITATIVE_FEATURE_CATALOG_CSV)
 
 def create_quantitative_feature_catalog(scribal_school_assignment: dict[str, list[str]], frequency_matrix: pd.DataFrame) -> pd.DataFrame:
     schools = set()
@@ -73,7 +77,7 @@ def visualize_similarity_matrix(similarity_matrix: pd.DataFrame):
     plt.title("Scribal School Similarity Matrix")
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, "scribal_school_similarity_heatmap.png"), dpi=300)
+    plt.savefig(SCRIBAL_SCHOOL_SIMILARITY_HEATMAP_PNG, dpi=300)
     plt.close()
 
 def create_qualitative_feature_catalog(quantitative_feature_catalog):
@@ -97,7 +101,7 @@ def create_qualitative_feature_catalog(quantitative_feature_catalog):
     return feature_catalog
 
 def read_scribal_school_assignment(file_path) -> dict[str, list[str]]:
-    scribal_school_assignment = pd.read_csv(SCRIBAL_SCHOOL_ASSIGNMENT_PATH, dtype=str)
+    scribal_school_assignment = pd.read_csv(SCRIBAL_SCHOOL_ASSIGNMENT_CSV, dtype=str)
     assignment = defaultdict(list)
     for _, row in scribal_school_assignment.iterrows():
         manuscript = row['manuscript']

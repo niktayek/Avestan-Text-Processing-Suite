@@ -6,42 +6,49 @@ from collections import defaultdict
 from .utils import memoize
 from .config import OUTPUT_DIR
 
-FEATURE_CATALOG_CSV = os.path.join(OUTPUT_DIR, "quantitative_feature_catalog.csv")
-MANUSCRIPT_PATHS = {
-    "0005": os.path.join(OUTPUT_DIR, "0005_matches_with_changes.csv"),
-    "0006": os.path.join(OUTPUT_DIR, "0006_matches_with_changes.csv"),
-    "0040": os.path.join(OUTPUT_DIR, "0040_matches_with_changes.csv"),
-    "0015": os.path.join(OUTPUT_DIR, "0015_matches_with_changes.csv"),
-    "0060": os.path.join(OUTPUT_DIR, "0060_matches_with_changes.csv"),
-    "0083": os.path.join(OUTPUT_DIR, "0083_matches_with_changes.csv"),
-    "0088": os.path.join(OUTPUT_DIR, "0088_matches_with_changes.csv"),
-    "0400": os.path.join(OUTPUT_DIR, "0400_matches_with_changes.csv"),
-    "0410": os.path.join(OUTPUT_DIR, "0410_matches_with_changes.csv"),
-    "0510": os.path.join(OUTPUT_DIR, "0510_matches_with_changes.csv"),
+# INPUT
+FEATURE_CATALOG_CSV = os.path.join(OUTPUT_DIR, "feature_catalog_quantitative.csv")
+MANUSCRIPT_FEATURES_PATH = {
+    manuscript_id: os.path.join(OUTPUT_DIR, f"{manuscript_id}_features.csv")
+    for manuscript_id in [
+        "0005",
+        "0006",
+        "0040",
+        "0015",
+        "0060",
+        "0083",
+        "0088",
+        "0400",
+        "0410",
+        "0510",
+    ]
 }
+
+# OUTPUT
+SCRIBAL_SCHOOL_PREDICTION_MATRIX_CSV = os.path.join(OUTPUT_DIR, "scribal_school_prediction_matrix.csv")
+SCRIBAL_SCHOOL_PREDICTION_HEATMAP_PNG = os.path.join(OUTPUT_DIR, "scribal_school_prediction_heatmap.png")
 
 def main():
     feature_catalog = pd.read_csv(FEATURE_CATALOG_CSV, index_col='scribal_school', dtype={'scribal_school': str})
     prediction_matrix = create_prediction_matrix(feature_catalog)
     prediction_matrix = prediction_matrix.round(3)
-    prediction_matrix.to_csv(os.path.join(OUTPUT_DIR, "scribal_school_prediction_matrix.csv"), index_label='manuscript')
+    prediction_matrix.to_csv(SCRIBAL_SCHOOL_PREDICTION_MATRIX_CSV, index_label='manuscript')
     visualize_predictions(prediction_matrix)
 
 def create_prediction_matrix(feature_catalog: pd.DataFrame) -> pd.DataFrame:
     prediction_matrix = pd.DataFrame(
         index=feature_catalog.index,
-        columns=pd.Index(MANUSCRIPT_PATHS.keys(), name='manuscript', dtype=str),
+        columns=pd.Index(MANUSCRIPT_FEATURES_PATH.keys(), name='manuscript', dtype=str),
         dtype=float
     )
     prediction_matrix.fillna(0, inplace=True)
 
     for scribal_school, features in feature_catalog.iterrows():
-        scribal_school_feature_profile = features.to_dict()
-        for manuscript, path in MANUSCRIPT_PATHS.items():
+        for manuscript, path in MANUSCRIPT_FEATURES_PATH.items():
             manuscript_df = pd.read_csv(path)
             manuscript_feature_profile = create_feature_profile(manuscript_df)
 
-            prediction_matrix.at[scribal_school, manuscript] = calculate_similarity(manuscript_feature_profile, scribal_school_feature_profile)
+            prediction_matrix.at[scribal_school, manuscript] = calculate_similarity(manuscript_feature_profile, features)
     return prediction_matrix
 
 def visualize_predictions(prediction_matrix: pd.DataFrame):
@@ -53,17 +60,18 @@ def visualize_predictions(prediction_matrix: pd.DataFrame):
     plt.title("Scribal School Prediction Matrix")
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, "scribal_school_prediction_heatmap.png"), dpi=300)
+    plt.savefig(SCRIBAL_SCHOOL_PREDICTION_HEATMAP_PNG, dpi=300)
     plt.close()
 
-def create_feature_profile(manuscript_df: pd.DataFrame) -> dict[str, int]:
-    features = defaultdict(int)
+def create_feature_profile(manuscript_df: pd.DataFrame) -> pd.Series:
+    features_profile = defaultdict(int)
     for _, row in manuscript_df.iterrows():
-        if pd.isna(row['changes']):
+        if pd.isna(row['features']):
             continue
-        changes = eval(row['changes'])
-        for change in changes:
-            features[change['str']] += 1
+        features = eval(row['features'])
+        for feature in features:
+            features_profile[feature['str']] += 1
+    features = pd.Series(features_profile)
     return features
 
 def calculate_similarity(manuscript_feature_profile: dict[str, int], scribal_school_feature_profile: dict[str, int]) -> float:
