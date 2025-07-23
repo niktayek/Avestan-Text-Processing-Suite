@@ -1,5 +1,4 @@
 # Scribal School Prediction Project
-
 Currently, to find out the scribal schools of a new manuscript, we have to go through a lengthy process that is roughly outlined in the following steps:
 
 1. **Transliteration**: The manuscript is transliterated, which involves taking pictures of the manuscript pages and transliterating the pictures into a text format.
