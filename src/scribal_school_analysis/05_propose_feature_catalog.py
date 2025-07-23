@@ -3,6 +3,8 @@ import os
 from collections import defaultdict
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy.cluster.hierarchy import linkage, dendrogram
+from scipy.spatial.distance import squareform
 from .utils import calculate_similarity
 from .config import OUTPUT_DIR
 
@@ -14,7 +16,8 @@ SCRIBAL_SCHOOL_ASSIGNMENT_CSV = "data/CAB/Yasna/scribal-school-assignment.csv"
 QUANTITATIVE_FEATURE_CATALOG_CSV = os.path.join(OUTPUT_DIR, "feature_catalog_quantitative.csv")
 QUALITATIVE_FEATURE_CATALOG_CSV = os.path.join(OUTPUT_DIR, "feature_catalog_qualitative.csv")
 SCRIBAL_SCHOOL_SIMILARITY_MATRIX_CSV = os.path.join(OUTPUT_DIR, "scribal_school_similarity_matrix.csv")
-SCRIBAL_SCHOOL_SIMILARITY_HEATMAP_PNG = os.path.join(OUTPUT_DIR, "scribal_school_similarity_heatmap.png")
+SCRIBAL_SCHOOL_CLUSTERMAP_PNG = os.path.join(OUTPUT_DIR, "scribal_school_clustermap.png")
+SCRIBAL_SCHOOL_TREE_PNG = os.path.join(OUTPUT_DIR, "scribal_school_tree.png")
 
 def main():
     frequency_matrix = pd.read_csv(FREQUENCY_MATRIX_CSV, index_col='manuscript', dtype={'manuscript': str})
@@ -70,21 +73,6 @@ def produce_similarity_matrix(quantitative_feature_catalog: pd.DataFrame) -> pd.
                 )
     return similarity_matrix
 
-def visualize_similarity_matrix(similarity_matrix: pd.DataFrame):
-    for index in similarity_matrix.index:
-        if len(index) > 20:
-            similarity_matrix.rename(index={index: f"{index[:20]} ..."}, inplace=True)
-    for column in similarity_matrix.columns:
-        if len(column) > 20:
-            similarity_matrix.rename(columns={column: f"{column[:20]} ..."}, inplace=True)
-
-    sns.heatmap(similarity_matrix, cmap="viridis", annot=True, linewidths=0.5, cbar_kws={"shrink": .8})
-    plt.title("Scribal School Similarity Matrix")
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    plt.savefig(SCRIBAL_SCHOOL_SIMILARITY_HEATMAP_PNG, dpi=300)
-    plt.close()
-
 def create_qualitative_feature_catalog(quantitative_feature_catalog):
     feature_catalog = pd.DataFrame(
         index=quantitative_feature_catalog.index,
@@ -114,6 +102,39 @@ def read_scribal_school_assignment(file_path) -> dict[str, list[str]]:
         for school in schools:
             assignment[manuscript].append(school.strip())
     return assignment
+
+
+def visualize_similarity_matrix(similarity_matrix: pd.DataFrame):
+    for index in similarity_matrix.index:
+        if len(index) > 20:
+            similarity_matrix.rename(index={index: f"{index[:20]} ..."}, inplace=True)
+    for column in similarity_matrix.columns:
+        if len(column) > 20:
+            similarity_matrix.rename(columns={column: f"{column[:20]} ..."}, inplace=True)
+    
+    generate_clustermap(similarity_matrix)
+    generate_hierarchical_tree(similarity_matrix)
+
+def generate_clustermap(similarity_matrix: pd.DataFrame):
+    sns.clustermap(similarity_matrix, cmap="viridis", annot=True, linewidths=0.5, cbar_kws={"shrink": .8})
+    plt.title("Scribal School Similarity Matrix")
+    plt.tight_layout()
+    plt.savefig(SCRIBAL_SCHOOL_CLUSTERMAP_PNG, dpi=300)
+    plt.close()
+
+def generate_hierarchical_tree(similarity_matrix: pd.DataFrame):
+    distance_matrix = 1 - similarity_matrix.values
+    condensed_dist = squareform(distance_matrix)
+    linkage_matrix = linkage(condensed_dist, method="average")
+
+    # Plot dendrogram
+    plt.figure(figsize=(10, 6))
+    dendrogram(linkage_matrix, labels=similarity_matrix.columns, leaf_rotation=90)
+    plt.title("Scribal School Relationship Tree")
+    plt.ylabel("Distance")
+    plt.tight_layout()
+    plt.savefig(SCRIBAL_SCHOOL_TREE_PNG, dpi=300)
+    plt.close()
 
 if __name__ == "__main__":
     main()
