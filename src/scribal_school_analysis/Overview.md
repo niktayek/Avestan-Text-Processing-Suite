@@ -115,7 +115,12 @@ Using the feature profiles generated from the Manuscript Analysis Pipeline, the 
 2. **Scribal School Feature Catalog Creation**: Using the assignment of manuscripts to scribal schools (e.g., Yazdi, Kermani, Bombay) based on previous research, a feature catalog is created that describes the probability of each feature in each scribal school. This is done by aggregating the feature profiles of all manuscripts assigned to each scribal school. This result can be visualized by a heatmap of the similarity between scribal schools based on their feature profiles (using the same distance metric as above). Also, for further detailed research, the feature catalog is saved in two files in CSV format:
 
 - Quantitative: Each cell contains the probability of the occurrence of that feature in that school, such as "0.1", "0.5", or "0.0".
-- Qualitative: Each cell contains a short description of the  corresponding cell in the quantitative file, such as "frequent", "rare", or "absent".
+- Qualitative: Each cell contains a short description of the corresponding cell in the quantitative file, such as "frequent", "rare", or "absent". The qualitative description is produced by ranking the features by their probabilities and assigning a qualitative label based on the rank based on the following scale:
+
+```
+|--rare--|-------common-------|----frequent----|--very frequent--|
+0%      10%                  70%              95%              100%
+```
 
 ### New Manuscript Pipeline (Prediction Phase)
 Given a new manuscript and its transliterated text, the following steps are performed to predict its scribal school:
