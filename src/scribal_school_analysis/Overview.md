@@ -2,55 +2,73 @@
 
 ```mermaid
 graph LR
-    existing_feature_catalog["Existing Feature Catalog<br/>(from previous research)"]
+    subgraph "Preprocess: Manuscript X Analysis Pipeline"
+        existing_feature_catalog_X["Existing Feature Catalog<br/>(from previous research)"]
+        transliterated_words_X["Transliterated Text<br/>(OCR/Manual Transliteration)"]
+        reference_words_X["Reference Text<br/>(Canonical Transliteration)"]
+        matched_words_X["Matched Words"]
+        manuscript_features_X["Manuscript Features"]
+        manuscript_feature_profile_X["Manuscript Feature Profile<br/>(Frequency of Features)"]
 
-    %% Preprocess (Manuscript Analysis)
-    subgraph "Preprocess: Manuscript Analysis Pipeline"
-        generated_X["Generated Text<br/>(OCR/Manual Transliteration)"]
-        reference_X["Reference Text<br/>(Canonical Transliteration)"]
-        match_tokens_X["Token Matching<br/>(01_match_tokens-dictionary.py)"]
-        detect_features_X["Feature Extraction<br/>(02_detect_features.py)"]
-        generated_X --> match_tokens_X
-        reference_X --> match_tokens_X
-        match_tokens_X --> detect_features_X
-
-        generated_Y["Generated Text<br/>(OCR/Manual Transliteration)"]
-        reference_Y["Reference Text<br/>(Canonical Transliteration)"]
-        match_tokens_Y["Token Matching<br/>(01_match_tokens-dictionary.py)"]
-        detect_features_Y["Feature Extraction<br/>(02_detect_features.py)"]
-        generated_Y --> match_tokens_Y
-        reference_Y --> match_tokens_Y
-        match_tokens_Y --> detect_features_Y
-
-        generated_Z["Generated Text<br/>(OCR/Manual Transliteration)"]
-        reference_Z["Reference Text<br/>(Canonical Transliteration)"]
-        match_tokens_Z["Token Matching<br/>(01_match_tokens-dictionary.py)"]
-        detect_features_Z["Feature Extraction<br/>(02_detect_features.py)"]
-        generated_Z --> match_tokens_Z
-        reference_Z --> match_tokens_Z
-        match_tokens_Z --> detect_features_Z
+        transliterated_words_X -->|01_match_tokens.py| matched_words_X
+        reference_words_X -->|01_match_tokens.py| matched_words_X
+        matched_words_X -->|02_detect_features.py| manuscript_features_X
+        existing_feature_catalog_X -->|02_detect_features.py| manuscript_features_X
+        manuscript_features_X -->|03_create_frequency_matrix.py| manuscript_feature_profile_X
     end
 
-    %% Training (Scribal School Analysis)
+    subgraph "Preprocess: Manuscript Y Analysis Pipeline"
+        existing_feature_catalog_Y["Existing Feature Catalog<br/>(from previous research)"]
+        transliterated_words_Y["Transliterated Text<br/>(OCR/Manual Transliteration)"]
+        reference_words_Y["Reference Text<br/>(Canonical Transliteration)"]
+        matched_words_Y["Matched Words"]
+        manuscript_features_Y["Manuscript Features"]
+        manuscript_feature_profile_Y["Manuscript Feature Profile<br/>(Frequency of Features)"]
+
+        transliterated_words_Y -->|01_match_tokens.py| matched_words_Y
+        reference_words_Y -->|01_match_tokens.py| matched_words_Y
+        matched_words_Y -->|02_detect_features.py| manuscript_features_Y
+        existing_feature_catalog_Y -->|02_detect_features.py| manuscript_features_Y
+        manuscript_features_Y -->|03_create_frequency_matrix.py| manuscript_feature_profile_Y
+    end
+
+    subgraph "Preprocess: Manuscript Z Analysis Pipeline"
+        existing_feature_catalog_Z["Existing Feature Catalog<br/>(from previous research)"]
+        transliterated_words_Z["Transliterated Text<br/>(OCR/Manual Transliteration)"]
+        reference_words_Z["Reference Text<br/>(Canonical Transliteration)"]
+        matched_words_Z["Matched Words"]
+        manuscript_features_Z["Manuscript Features"]
+        manuscript_feature_profile_Z["Manuscript Feature Profile<br/>(Frequency of Features)"]
+
+        transliterated_words_Z -->|01_match_tokens.py| matched_words_Z
+        reference_words_Z -->|01_match_tokens.py| matched_words_Z
+        matched_words_Z -->|02_detect_features.py| manuscript_features_Z
+        existing_feature_catalog_Z -->|02_detect_features.py| manuscript_features_Z
+        manuscript_features_Z -->|03_create_frequency_matrix.py| manuscript_feature_profile_Z
+    end
+
     subgraph "Training: Scribal School Analysis Pipeline"
-        frequency_matrix["Create Frequency Matrix<br/>(03_create_frequency_matrix.py)"]
-        similarity_matrix["Create Similarity Matrix<br/>(04_create_similarity_matrix.py)"]
-        feature_catalog["Create Feature Catalog<br/>(05_propose_feature_catalog.py)"]
-        new_quantitative_feature_catalog["Quantitative Feature Catalog<br/>(CSV)"]
-        new_qualitative_feature_catalog["Qualitative Feature Catalog<br/>(CSV)"]
-        detect_features_X --> frequency_matrix
-        detect_features_Y --> frequency_matrix
-        detect_features_Z --> frequency_matrix
-        frequency_matrix --> similarity_matrix --> feature_catalog
-        feature_catalog --> new_quantitative_feature_catalog
-        feature_catalog --> new_qualitative_feature_catalog
-        existing_feature_catalog --> similarity_matrix
+        scribal_school_assignment["Scribal School Assignment<br/>(from previous research)"]
+
+        frequency_matrix["Frequency Matrix"]
+        similarity_matrix["Similarity Matrix"]
+        feature_catalog["Feature Catalog"]
+        quantitative_feature_catalog["Quantitative Feature Catalog (CSV)"]
+        qualitative_feature_catalog["Qualitative Feature Catalog (CSV)"]
+
+        manuscript_feature_profile_X -->|03_create_frequency_matrix.py| frequency_matrix
+        manuscript_feature_profile_Y -->|03_create_frequency_matrix.py| frequency_matrix
+        frequency_matrix -->|04_create_similarity_matrix.py| similarity_matrix
+        scribal_school_assignment -->|04_create_similarity_matrix.py| quantitative_feature_catalog
+        frequency_matrix -->|05_propose_feature_catalog.py| quantitative_feature_catalog
+        frequency_matrix -->|05_propose_feature_catalog.py| qualitative_feature_catalog
     end
 
-    %% Prediction (New Manuscript)
     subgraph "Prediction: New Manuscript Pipeline"
         scribal_school_prediction["Scribal School Prediction<br/>(06_scribal_school_prediction.py)"]
-        feature_catalog --> scribal_school_prediction
+
+        manuscript_feature_profile_Z -->|06_scribal_school_prediction.py| scribal_school_prediction
+        quantitative_feature_catalog -->|06_scribal_school_prediction.py| scribal_school_prediction
     end
 ```
 
