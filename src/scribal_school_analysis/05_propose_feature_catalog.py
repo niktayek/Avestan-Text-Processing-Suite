@@ -82,14 +82,33 @@ def create_qualitative_feature_catalog(quantitative_feature_catalog):
 
     quantitative_feature_catalog = quantitative_feature_catalog.div(quantitative_feature_catalog.sum(axis=1), axis=0)
 
-    feature_catalog = quantitative_feature_catalog.map(
-        lambda prob:
-            "absent" if prob == 0 else
-            "rare" if prob < 0.1 else
-            "common" if prob < 0.5 else
-            "frequent" if prob < 0.9 else
-            "very frequent"
-    )
+    def calculate_qualitative(row: pd.Series):
+        new_row = {}
+        
+        non_zeros = row[row != 0].to_dict()
+        sorted_row = sorted((prob, feature) for feature, prob in non_zeros.items())
+        sorted_row = {
+            item[1]: rank
+            for rank, item in enumerate(sorted_row)
+        }
+        non_zero_count = len(non_zeros)
+        sorted_row = pd.Series(sorted_row).map(
+            lambda rank:
+                "rare" if rank > non_zero_count * 0.9 else
+                "common" if rank > non_zero_count * 0.3 else
+                "frequent" if rank > non_zero_count * 0.05 else
+                "very frequent"
+        ).to_dict()
+        new_row.update(sorted_row)
+        
+        zeros = row[row == 0].to_dict()
+        new_row.update({
+            feature: "absent"
+            for feature in zeros.keys()
+        })
+        return pd.Series(new_row)
+
+    feature_catalog = quantitative_feature_catalog.apply(calculate_qualitative)
 
     return feature_catalog
 
