@@ -72,12 +72,12 @@ graph LR
     end
 ```
 
-Currently, to find out the scribal schools of a new manuscript, we have to go through a lengthy process that is roughly outlined in the following steps:
+Currently, to find out the scribal schools of a new manuscript, we have to go through a lengthy process that is roughly outlined in the following steps: 
 
 1. **Transliteration**: The manuscript is transliterated, which involves taking pictures of the manuscript pages and transliterating the pictures into a text format.
 2. **Token Matching**: The transliterated text is matched, token by token, against a reference text to find the canonical form of each token.
 3. **Change Detection**: For each token, given its canonical form, the orthography and phonology differences between the transliterated and the reference tokens are listed. These differences represent orthographic and phonological features of this manuscript.
-4. **Manuscript Feature Profile Creation**: Given the orthographic and phonological features of all the tokens in the manuscript, a feature profile for the manuscript is created, which represents the frequency of each feature in the manuscript.
+4. **Manuscript Feature Profile Creation**: Given the orthographic and phonological features of all the tokens in the manuscript, a feature profile for the manuscript is created, which represents the frequency of each feature in the manuscripts.
 5. **Feature Catalog Compilation**: Based on the previous researches on scribal schools, a feature catalog is compiled, which describes the relation between features and the scribal schools. More precisely, it says how frequent each feature is in each scribal school. It's mostly qualitative.
 6. **Scribal School Prediction**: Based on the feature profile of the manuscript and the feature catalog, the scribal school of the manuscript is predicted (using some heuristic analysis and rules-of-thumb).
 
