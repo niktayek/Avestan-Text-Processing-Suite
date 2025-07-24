@@ -4,65 +4,53 @@
 graph LR
     existing_feature_catalog["Existing Feature Catalog<br/>(from previous research)"]
 
-    subgraph "Manuscript X Analysis"
+    %% Preprocess (Manuscript Analysis)
+    subgraph "Preprocess: Manuscript Analysis Pipeline"
         generated_X["Generated Text<br/>(OCR/Manual Transliteration)"]
         reference_X["Reference Text<br/>(Canonical Transliteration)"]
-        
-        match_tokens_X["Match Tokens<br/>(01_match_tokens.py)"]
-        detect_changes_X["Detect Changes<br/>(02_detect_changes.py)"]
-        tag_changes_X["Tag Changes<br/>(03_tag_changes.py)"]
-
-
+        match_tokens_X["Token Matching<br/>(01_match_tokens-dictionary.py)"]
+        detect_features_X["Feature Extraction<br/>(02_detect_features.py)"]
         generated_X --> match_tokens_X
         reference_X --> match_tokens_X
-        match_tokens_X --> detect_changes_X --> tag_changes_X
-        existing_feature_catalog --> tag_changes_X
-    end
+        match_tokens_X --> detect_features_X
 
-    subgraph "Manuscript Y Analysis"
         generated_Y["Generated Text<br/>(OCR/Manual Transliteration)"]
         reference_Y["Reference Text<br/>(Canonical Transliteration)"]
-        
-        match_tokens_Y["Match Tokens<br/>(01_match_tokens.py)"]
-        detect_changes_Y["Detect Changes<br/>(02_detect_changes.py)"]
-        tag_changes_Y["Tag Changes<br/>(03_tag_changes.py)"]
-
-
+        match_tokens_Y["Token Matching<br/>(01_match_tokens-dictionary.py)"]
+        detect_features_Y["Feature Extraction<br/>(02_detect_features.py)"]
         generated_Y --> match_tokens_Y
         reference_Y --> match_tokens_Y
-        match_tokens_Y --> detect_changes_Y --> tag_changes_Y
-        existing_feature_catalog --> tag_changes_Y
-    end
+        match_tokens_Y --> detect_features_Y
 
-    subgraph "Manuscript Z Analysis"
         generated_Z["Generated Text<br/>(OCR/Manual Transliteration)"]
         reference_Z["Reference Text<br/>(Canonical Transliteration)"]
-        
-        match_tokens_Z["Match Tokens<br/>(01_match_tokens.py)"]
-        detect_changes_Z["Detect Changes<br/>(02_detect_changes.py)"]
-        tag_changes_Z["Tag Changes<br/>(03_tag_changes.py)"]
-
+        match_tokens_Z["Token Matching<br/>(01_match_tokens-dictionary.py)"]
+        detect_features_Z["Feature Extraction<br/>(02_detect_features.py)"]
         generated_Z --> match_tokens_Z
         reference_Z --> match_tokens_Z
-        match_tokens_Z --> detect_changes_Z --> tag_changes_Z
-        existing_feature_catalog --> tag_changes_Z
+        match_tokens_Z --> detect_features_Z
     end
 
-    subgraph "Scribal School Analysis"
-        frequency_matrix["Create Frequency Matrix<br/>(05_map_to_schools.py)"]
-        cluster_manuscripts["Cluster Manuscripts<br/>(07_cluster_manuscripts.py)"]
-        assign_scribal_schools["Manual Scribal School Assignment"]
-        create_feature_catalog["Create Feature Catalog<br/>(08_create_feature_catalog.py)"]
-        new_quantitative_feature_catalog["New Quantitative Feature Catalog<br/>(CSV)"]
-        new_qualitative_feature_catalog["New Qualitative Feature Catalog<br/>(CSV)"]
+    %% Training (Scribal School Analysis)
+    subgraph "Training: Scribal School Analysis Pipeline"
+        frequency_matrix["Create Frequency Matrix<br/>(03_create_frequency_matrix.py)"]
+        similarity_matrix["Create Similarity Matrix<br/>(04_create_similarity_matrix.py)"]
+        feature_catalog["Create Feature Catalog<br/>(05_propose_feature_catalog.py)"]
+        new_quantitative_feature_catalog["Quantitative Feature Catalog<br/>(CSV)"]
+        new_qualitative_feature_catalog["Qualitative Feature Catalog<br/>(CSV)"]
+        detect_features_X --> frequency_matrix
+        detect_features_Y --> frequency_matrix
+        detect_features_Z --> frequency_matrix
+        frequency_matrix --> similarity_matrix --> feature_catalog
+        feature_catalog --> new_quantitative_feature_catalog
+        feature_catalog --> new_qualitative_feature_catalog
+        existing_feature_catalog --> similarity_matrix
+    end
 
-        tag_changes_X --> frequency_matrix
-        tag_changes_Y --> frequency_matrix
-        tag_changes_Z --> frequency_matrix
-
-        frequency_matrix --> cluster_manuscripts --> assign_scribal_schools --> create_feature_catalog
-        create_feature_catalog --> new_quantitative_feature_catalog
-        create_feature_catalog --> new_qualitative_feature_catalog
+    %% Prediction (New Manuscript)
+    subgraph "Prediction: New Manuscript Pipeline"
+        scribal_school_prediction["Scribal School Prediction<br/>(06_scribal_school_prediction.py)"]
+        feature_catalog --> scribal_school_prediction
     end
 ```
 
