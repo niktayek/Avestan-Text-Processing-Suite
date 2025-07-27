@@ -44,6 +44,7 @@ def create_prediction_matrix(feature_catalog: pd.DataFrame) -> pd.DataFrame:
     prediction_matrix.fillna(0, inplace=True)
 
     for scribal_school, features in feature_catalog.iterrows():
+        print(f"Calculating predictions for scribal school: {scribal_school}")
         for manuscript, path in MANUSCRIPT_FEATURES_PATH.items():
             manuscript_df = pd.read_csv(path)
             manuscript_feature_profile = create_feature_profile(manuscript_df)

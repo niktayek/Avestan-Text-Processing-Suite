@@ -94,9 +94,9 @@ def create_qualitative_feature_catalog(quantitative_feature_catalog):
         non_zero_count = len(non_zeros)
         sorted_row = pd.Series(sorted_row).map(
             lambda rank:
-                "rare" if rank > non_zero_count * 0.9 else
-                "common" if rank > non_zero_count * 0.3 else
-                "frequent" if rank > non_zero_count * 0.05 else
+                "rare" if rank < non_zero_count * 0.1 else
+                "common" if rank < non_zero_count * 0.7 else
+                "frequent" if rank < non_zero_count * 0.95 else
                 "very frequent"
         ).to_dict()
         new_row.update(sorted_row)
@@ -108,7 +108,7 @@ def create_qualitative_feature_catalog(quantitative_feature_catalog):
         })
         return pd.Series(new_row)
 
-    feature_catalog = quantitative_feature_catalog.apply(calculate_qualitative)
+    feature_catalog = quantitative_feature_catalog.apply(calculate_qualitative, axis=1)
 
     return feature_catalog
 
