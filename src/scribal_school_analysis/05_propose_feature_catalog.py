@@ -30,15 +30,16 @@ def main():
     scribal_school_similarity_matrix.to_csv(SCRIBAL_SCHOOL_SIMILARITY_MATRIX_CSV)
     visualize_similarity_matrix(scribal_school_similarity_matrix)
 
-    qualitative_feature_catalog = create_qualitative_feature_catalog(quantitative_feature_catalog)
+    qualitative_feature_catalog = create_qualitative_feature_catalog(create_quantitative_feature_catalog(scribal_school_assignment, frequency_matrix, False))
     qualitative_feature_catalog.to_csv(QUALITATIVE_FEATURE_CATALOG_CSV)
 
-def create_quantitative_feature_catalog(scribal_school_assignment: dict[str, list[str]], frequency_matrix: pd.DataFrame) -> pd.DataFrame:
+def create_quantitative_feature_catalog(scribal_school_assignment: dict[str, list[str]], frequency_matrix: pd.DataFrame, normalized: bool = True) -> pd.DataFrame:
     schools = set()
     for manuscript, schools_list in scribal_school_assignment.items():
         schools.update(schools_list)
 
-    frequency_matrix = frequency_matrix.div(frequency_matrix.sum(axis=1), axis=0)
+    if normalized:
+        frequency_matrix = frequency_matrix.div(frequency_matrix.sum(axis=1), axis=0)
 
     feature_catalog = pd.DataFrame(
         index=pd.Index(schools, name='scribal_school', dtype=str),
@@ -52,7 +53,8 @@ def create_quantitative_feature_catalog(scribal_school_assignment: dict[str, lis
             feature_catalog.loc[school] += frequency_matrix.loc[manuscript]
     feature_catalog = feature_catalog.fillna(0)
 
-    feature_catalog = feature_catalog.div(feature_catalog.sum(axis=1), axis=0)
+    if normalized:
+        feature_catalog = feature_catalog.div(feature_catalog.sum(axis=1), axis=0)
 
     return feature_catalog
 
@@ -73,26 +75,31 @@ def produce_similarity_matrix(quantitative_feature_catalog: pd.DataFrame) -> pd.
                 )
     return similarity_matrix
 
-def create_qualitative_feature_catalog(quantitative_feature_catalog):
+def create_qualitative_feature_catalog(quantitative_feature_catalog) -> pd.DataFrame:
     feature_catalog = pd.DataFrame(
         index=quantitative_feature_catalog.index,
         columns=quantitative_feature_catalog.columns,
         dtype=str,
     )
 
-    quantitative_feature_catalog = quantitative_feature_catalog.div(quantitative_feature_catalog.sum(axis=1), axis=0)
-
     def calculate_qualitative(row: pd.Series):
         new_row = {}
+
+        non_rares = row[row > 5].to_dict()
+        sorted_row = sorted((prob, feature) for feature, prob in non_rares.items())
         
-        non_zeros = row[row != 0].to_dict()
-        sorted_row = sorted((prob, feature) for feature, prob in non_zeros.items())
-        sorted_row = {
-            item[1]: rank
-            for rank, item in enumerate(sorted_row)
-        }
-        non_zero_count = len(non_zeros)
-        sorted_row = pd.Series(sorted_row).map(
+        ranks = {}
+        current_rank = 0
+        prev_prob = None
+        
+        for i, (prob, feature) in enumerate(sorted_row):
+            if prob != prev_prob:
+                current_rank = i
+            ranks[feature] = current_rank
+            prev_prob = prob
+        
+        non_zero_count = len(non_rares)
+        sorted_row = pd.Series(ranks).map(
             lambda rank:
                 "rare" if rank < non_zero_count * 0.1 else
                 "common" if rank < non_zero_count * 0.7 else
@@ -100,12 +107,19 @@ def create_qualitative_feature_catalog(quantitative_feature_catalog):
                 "very frequent"
         ).to_dict()
         new_row.update(sorted_row)
-        
+
+        rares = row[row <= 5].to_dict()
+        new_row.update({
+            feature: "rare"
+            for feature in rares.keys()
+        })
+
         zeros = row[row == 0].to_dict()
         new_row.update({
             feature: "absent"
             for feature in zeros.keys()
         })
+
         return pd.Series(new_row)
 
     feature_catalog = quantitative_feature_catalog.apply(calculate_qualitative, axis=1)
