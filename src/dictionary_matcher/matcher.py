@@ -2,7 +2,7 @@ import json
 import re
 import copy
 import Levenshtein
-from utils import memoize
+from .utils import memoize
 from dataclasses import asdict
 from src.cab.cab_xml import CABXML
 from src.escriptorium.ocr_xml import OCRXML
