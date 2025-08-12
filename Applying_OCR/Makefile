@@ -86,10 +86,10 @@ init:
 ########################################################################################
 
 start-escriptorium:
-	cd escriptorium && sudo docker compose up
+	cd escriptorium && docker compose up
 
 stop-escriptorium:
-	cd escriptorium && sudo docker compose down
+	cd escriptorium && docker compose down
 
 ########################################################################################
 # Install repo
