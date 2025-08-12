@@ -1,0 +1,3 @@
+[submodule "Applying_OCR/escriptorium"]
+	path = Applying_OCR/escriptorium
+	url = https://gitlab.com/scripta/escriptorium.git
