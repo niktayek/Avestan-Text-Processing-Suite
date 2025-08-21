@@ -13,7 +13,7 @@ It includes modules for:
 
 ---
 
-## 📁 Directory Overview
+##  Directory Overview
 
 ### `CAB/`
 Reads canonical CAB XML format and provides stanza-level and word-level access to transliterations.
@@ -36,7 +36,7 @@ Maps ALTO OCR output into CAB XML format. Includes alignment routines (`matcher.
 Rule-based matcher for detecting and correcting substitutions in OCR output using a substitution dictionary. Includes:
 
 - `matcher.py`, `matcher_utils.py`: token-level alignment logic
-- `filling_changes/`: extraction of `"x for y"` substitutions
+- `filling_changes/`: extraction of `"x for y"` substitutions, `"x inserted"` additions, `"y deleted"` deletions
 - `replacer/`: automatic correction and transformation
 - `xml_to_csv.py`, `csv_to_json.py`: conversion utilities
 
@@ -91,7 +91,7 @@ Statistical scripts for aggregating feature counts and computing feature frequen
 
 ---
 
-## 🧩 Related Information
+##  Related Information
 
 - All modules assume manuscript data from the **CAB project** and **OCR output from Kraken/eScriptorium**
 - For training workflows and OCR model setup, refer to the parent `README.md` or `Avestan-OCR-Training` repo
@@ -99,6 +99,6 @@ Statistical scripts for aggregating feature counts and computing feature frequen
 
 ---
 
-## 🧠 Credits & Usage
+##  Credits & Usage
 
 This codebase was developed as part of a larger MA thesis and ongoing research into Avestan OCR post-processing, scribal variation analysis, and philological manuscript collation. For academic use or collaboration inquiries, please contact the repository owner.
