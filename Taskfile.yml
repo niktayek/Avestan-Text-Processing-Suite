@@ -1,0 +1,11 @@
+version: 3
+
+tasks:
+  init:
+    desc: Sets up repo, so other tasks can run
+    env:
+      FOR_DEPLOY: false
+    cmds:
+      - asdf plugin add uv
+      - asdf plugin add python
+      - uv sync --no-install-project
