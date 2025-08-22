@@ -1,6 +1,6 @@
 import json
-from src.escriptorium.ocr_text import OCRText
-from src.ocr_error_corrector.dictionary_matcher.config import OCR_FILE_PATH
+from src.interfaces.escriptorium.ocr_text import OCRText
+from src.matchers.dictionary_matcher.config import OCR_FILE_PATH
 
 
 def main():

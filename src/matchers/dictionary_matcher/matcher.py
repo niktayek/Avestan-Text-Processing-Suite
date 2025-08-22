@@ -4,8 +4,8 @@ import copy
 import Levenshtein
 from .utils import memoize
 from dataclasses import asdict
-from src.cab.cab_xml import CABXML
-from src.escriptorium.ocr_xml import OCRXML
+from src.interfaces.cab.cab_xml import CABXML
+from src.interfaces.escriptorium.ocr_xml import OCRXML
 
 LANGUAGE = 'avestan'
 

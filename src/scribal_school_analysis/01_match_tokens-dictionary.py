@@ -6,8 +6,8 @@ import Levenshtein
 from .config import OUTPUT_DIR, FOR_TEST
 from .utils import memoize, write_csv
 from dataclasses import asdict
-from src.cab.cab_xml import CABXML
-from src.escriptorium.ocr_xml import OCRXML
+from src.interfaces.cab.cab_xml import CABXML
+from src.interfaces.escriptorium.ocr_xml import OCRXML
 
 # INPUT
 REFERENCE_FILES_PATH = [
