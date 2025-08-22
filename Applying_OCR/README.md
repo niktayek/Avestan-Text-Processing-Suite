@@ -24,7 +24,12 @@ Applying_OCR/
 ## Workflow Overview
 ```mermaid
 graph LR
+
+  %% Add padding so long subgraph titles don't overlap nodes
+  classDef invisible fill:transparent,stroke:transparent,opacity:0;
+
   subgraph "Image & Transcription Preparation"
+    pad1[" "]:::invisible
     manuscript_images["Avestan Manuscript Images"]
     transcription_xml["Transcription in ALTO XML (from CAB or manually corrected OCR)"]
     segmented_data["Segmented Line/Word Regions"]
@@ -36,6 +41,7 @@ graph LR
   end
 
   subgraph "Model Training (Kraken)"
+    pad2[" "]:::invisible
     training_config["Makefile Config"]
     recognition_model["Recognition Model (.mlmodel)"]
     segmentation_model["Segmentation Model (.mlmodel)"]
@@ -47,6 +53,7 @@ graph LR
   end
 
   subgraph "Inference (OCR Application)"
+    pad3[" "]:::invisible
     new_images["New Unseen Manuscript Images"]
     segmented_data_new["Segmented Line/Word Regions (new)"]
     predicted_xml["Predicted ALTO XML (via eScriptorium or CLI)"]
@@ -56,6 +63,7 @@ graph LR
   end
 
   subgraph "Post-OCR Processing"
+    pad4[" "]:::invisible
     cab_format_output["CAB XML Format Output"]
     predicted_xml -->|"xml_translator.py"| cab_format_output
   end
