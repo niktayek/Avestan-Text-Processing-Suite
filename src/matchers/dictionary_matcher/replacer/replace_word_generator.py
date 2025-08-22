@@ -1,6 +1,6 @@
 import json
 from itertools import combinations
-from src.ocr_error_corrector.dictionary_matcher.matcher import normalize
+from src.matchers.dictionary_matcher.matcher import normalize
 
 import nltk
 

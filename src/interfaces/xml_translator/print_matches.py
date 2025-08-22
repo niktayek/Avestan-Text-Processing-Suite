@@ -1,8 +1,8 @@
 import json
 
-from src.cab.cab_xml import CABXML
-from src.escriptorium.ocr_xml import OCRXML
-from src.xml_translator.config import (
+from src.interfaces.cab.cab_xml import CABXML
+from src.interfaces.escriptorium.ocr_xml import OCRXML
+from src.interfaces.xml_translator.config import (
     CAB_XML_PATH,
     OCR_XML_DIR,
     MATCH_JSON_PATH,
