@@ -94,7 +94,7 @@ Statistical scripts for aggregating feature counts and computing feature frequen
 ##  Related Information
 
 - All modules assume manuscript data from the **CAB project** and **OCR output from Kraken/eScriptorium**
-- For training workflows and OCR model setup, refer to the parent `README.md` or `Avestan-OCR-Training` repo
+- For training workflows and OCR model setup, see the parent [README](../README.md) or the Hugging Face model card: [avestan-ocr-kraken-v1](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1).
 - Each module can be run independently on its component data (e.g., XML input, tagged token lists, alignment CSVs)
 
 ---
