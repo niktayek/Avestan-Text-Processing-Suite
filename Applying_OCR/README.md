@@ -1,5 +1,10 @@
 # Avestan OCR Training and Application – Kraken + eScriptorium
 
+# Avestan OCR Training and Application – Kraken + eScriptorium
+
+ Pretrained OCR models are available on [Hugging Face](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1).
+
+
 This folder contains the full training and application pipeline for Avestan OCR using [Kraken](https://github.com/mittagessen/kraken) and [eScriptorium](https://gitlab.com/scripta/escriptorium). It handles image segmentation, recognition model training, and output generation using ALTO XML. Outputs are later converted to CAB-compatible XML formats using tools from the `xml_translator/` module.
 
 ---
