@@ -1,116 +1,140 @@
-# Feature Analyzer
+# Feature Analyzer — Scribal School Analysis
+**Overview**
 
-This project implements a modular pipeline for computational analysis of Avestan manuscripts, focusing on orthographic and phonological variation. The workflow begins by aligning OCR-generated or manually transliterated texts with canonical references at the token level, identifying and classifying grapheme-level changes such as substitutions, insertions, and deletions. Each change is annotated with contextual information and cross-referenced against an existing feature catalog from philological research.
+This project implements a modular pipeline for computational analysis of Avestan manuscripts. It aligns OCR-generated or manually transliterated text to a canonical reference at the token level, detects grapheme-level substitutions/insertions/deletions, and annotates each change with contextual metadata and a philologically grounded feature catalog.
 
-For each manuscript, the pipeline generates a detailed profile of linguistic features, documenting both known and novel variants. These profiles are aggregated into a frequency matrix across multiple manuscripts, enabling quantitative comparison. Manuscripts are then clustered based on their feature profiles to reveal relationships and potential scribal school affiliations. Researchers can manually assign scribal schools using these analyses and subsequently generate updated feature catalogs that summarize the typicality of each variant within each school. The approach supports both statistical and traditional philological methods, providing a reproducible and extensible framework for the study of textual transmission.
+Per manuscript, the system builds a feature profile. Profiles are aggregated into a frequency (or weighted) matrix across manuscripts. From there, we compute similarities, visualize/clustermap, and support manual scribal-school assignment. Finally, we derive quantitative and qualitative feature catalogs that summarize the typicality of each variant within each school. The pipeline is reproducible, extensible, and designed to support both statistical analysis and traditional philology.
 
 
+For the latest overview, see the main [README](./README.md#overview).
+
+
+**Pipeline at a Glance**
 ```mermaid
 graph LR
-    existing_feature_catalog["Existing Feature Catalog<br/>(from previous research)"]
+  classDef invisible fill:transparent,stroke:transparent,opacity:0;
 
-    subgraph "Manuscript X Analysis"
-        generated_X["Generated Text<br/>(OCR/Manual Transliteration)"]
-        reference_X["Reference Text<br/>(Canonical Transliteration)"]
-        
-        match_tokens_X["Match Tokens<br/>(01_match_tokens.py)"]
-        detect_changes_X["Detect Changes<br/>(02_detect_changes.py)"]
-        tag_changes_X["Tag Changes<br/>(03_tag_changes.py)"]
+  existing_feature_catalog["Existing Feature Catalog<br/>(previous research)"]
 
+  %% -------- Manuscript X --------
+  subgraph "Manuscript X Analysis"
+    padX[" "]:::invisible
+    generated_X["Generated Text<br/>(OCR / Manual Transliteration)"]
+    reference_X["Reference Text<br/>(Canonical Transliteration)"]
+    match_tokens_X["Match Tokens<br/>(01_match_tokens-dictionary.py)"]
+    detect_features_X["Detect Features<br/>(02_detect_features.py)"]
+    tagged_X["Tag / Normalize Changes<br/>(02_detect_features.py)"]
 
-        generated_X --> match_tokens_X
-        reference_X --> match_tokens_X
-        match_tokens_X --> detect_changes_X --> tag_changes_X
-        existing_feature_catalog --> tag_changes_X
-    end
+    generated_X --> match_tokens_X
+    reference_X --> match_tokens_X
+    match_tokens_X --> detect_features_X --> tagged_X
+    existing_feature_catalog --> tagged_X
+  end
 
-    subgraph "Manuscript Y Analysis"
-        generated_Y["Generated Text<br/>(OCR/Manual Transliteration)"]
-        reference_Y["Reference Text<br/>(Canonical Transliteration)"]
-        
-        match_tokens_Y["Match Tokens<br/>(01_match_tokens.py)"]
-        detect_changes_Y["Detect Changes<br/>(02_detect_changes.py)"]
-        tag_changes_Y["Tag Changes<br/>(03_tag_changes.py)"]
+  %% -------- Manuscript Y --------
+  subgraph "Manuscript Y Analysis"
+    padY[" "]:::invisible
+    generated_Y["Generated Text<br/>(OCR / Manual Transliteration)"]
+    reference_Y["Reference Text<br/>(Canonical Transliteration)"]
+    match_tokens_Y["Match Tokens<br/>(01_match_tokens-dictionary.py)"]
+    detect_features_Y["Detect Features<br/>(02_detect_features.py)"]
+    tagged_Y["Tag / Normalize Changes<br/>(02_detect_features.py)"]
 
+    generated_Y --> match_tokens_Y
+    reference_Y --> match_tokens_Y
+    match_tokens_Y --> detect_features_Y --> tagged_Y
+    existing_feature_catalog --> tagged_Y
+  end
 
-        generated_Y --> match_tokens_Y
-        reference_Y --> match_tokens_Y
-        match_tokens_Y --> detect_changes_Y --> tag_changes_Y
-        existing_feature_catalog --> tag_changes_Y
-    end
+  %% -------- Manuscript Z --------
+  subgraph "Manuscript Z Analysis"
+    padZ[" "]:::invisible
+    generated_Z["Generated Text<br/>(OCR / Manual Transliteration)"]
+    reference_Z["Reference Text<br/>(Canonical Transliteration)"]
+    match_tokens_Z["Match Tokens<br/>(01_match_tokens-dictionary.py)"]
+    detect_features_Z["Detect Features<br/>(02_detect_features.py)"]
+    tagged_Z["Tag / Normalize Changes<br/>(02_detect_features.py)"]
 
-    subgraph "Manuscript Z Analysis"
-        generated_Z["Generated Text<br/>(OCR/Manual Transliteration)"]
-        reference_Z["Reference Text<br/>(Canonical Transliteration)"]
-        
-        match_tokens_Z["Match Tokens<br/>(01_match_tokens.py)"]
-        detect_changes_Z["Detect Changes<br/>(02_detect_changes.py)"]
-        tag_changes_Z["Tag Changes<br/>(03_tag_changes.py)"]
+    generated_Z --> match_tokens_Z
+    reference_Z --> match_tokens_Z
+    match_tokens_Z --> detect_features_Z --> tagged_Z
+    existing_feature_catalog --> tagged_Z
+  end
 
-        generated_Z --> match_tokens_Z
-        reference_Z --> match_tokens_Z
-        match_tokens_Z --> detect_changes_Z --> tag_changes_Z
-        existing_feature_catalog --> tag_changes_Z
-    end
+  %% -------- Scribal School Analysis --------
+  subgraph "Scribal School Analysis"
+    padS[" "]:::invisible
+    freq_matrix["Create Frequency Matrix<br/>(03_create_frequency_matrix.py)"]
+    sim_matrix["Create Similarity Matrix + Viz<br/>(04_create_similarity_matrix.py)"]
+    assign_schools["Manual Scribal School Assignment"]
+    propose_catalog["Propose Feature Catalog<br/>(05_propose_feature_catalog.py)"]
+    predict_school["School Prediction (optional)<br/>(06_scribal_school_prediction.py)"]
+    quant_catalog["Quantitative Feature Catalog<br/>(CSV)"]
+    qual_catalog["Qualitative Feature Catalog<br/>(CSV)"]
 
-    subgraph "Scribal School Analysis"
-        frequency_matrix["Create Frequency Matrix<br/>(05_map_to_schools.py)"]
-        cluster_manuscripts["Cluster Manuscripts<br/>(07_cluster_manuscripts.py)"]
-        assign_scribal_schools["Manual Scribal School Assignment"]
-        create_feature_catalog["Create Feature Catalog<br/>(08_create_feature_catalog.py)"]
-        new_quantitative_feature_catalog["New Quantitative Feature Catalog<br/>(CSV)"]
-        new_qualitative_feature_catalog["New Qualitative Feature Catalog<br/>(CSV)"]
+    tagged_X --> freq_matrix
+    tagged_Y --> freq_matrix
+    tagged_Z --> freq_matrix
 
-        tag_changes_X --> frequency_matrix
-        tag_changes_Y --> frequency_matrix
-        tag_changes_Z --> frequency_matrix
+    freq_matrix --> sim_matrix --> assign_schools --> propose_catalog
+    propose_catalog --> quant_catalog
+    propose_catalog --> qual_catalog
+    freq_matrix --> predict_school
+  end
 
-        frequency_matrix --> cluster_manuscripts --> assign_scribal_schools --> create_feature_catalog
-        create_feature_catalog --> new_quantitative_feature_catalog
-        create_feature_catalog --> new_qualitative_feature_catalog
-    end
-```
+  ```
 
-## Steps
+**Steps**
+1) Match Tokens — 01_match_tokens-dictionary.py
 
-### Manuscript Analysis Pipeline
-This pipeline processes a given manuscript to detect its orthographic and phonological features, which later can be compared with other manuscripts to infer its scribal school.
+Align generated (OCR/manual) vs. reference (canonical) tokens.
+Output CSV: generated, reference, distance (Levenshtein), address (JSON).
+Unmatched: reference="", distance=1000.
 
-1. **Match Tokens**: Given a `generated text` (e.g., by OCR or manual transliteration) and a `reference text` (e.g., a manual transliteration or a canonical transliteration of a manuscript), for each token in the generated text, finds the best matching corresponding token in the reference text. It saves the result in a CSV file with the following columns:
-    - `generated`: The token from the generated text.
-    - `reference`: The best matching token from the reference text.
-    - `distance`: The Levenshtein distance between the generated and reference tokens.
-    - `address`: The address of the token in the generated text, which is a JSON object with information like the page number, line number, and token index.
+2) Detect & Tag Features — 02_detect_features.py
 
-Some tokens may not have a match, in which case the `reference` column will be empty and the distance column will be `1000`.
+From matched pairs, derive grapheme insertions / deletions / substitutions, normalize labels, and map to catalog entries.
+Adds: changes, comment, is_documented, normalized feature_label.
 
-2. **Detect Changes**: For each matched token, detects the changes that transform the `generated` token into the `reference` token. It does this by comparing the graphemes in the two tokens and identifying the insertions, deletions, and substitutions of graphemes. The result is saved in a CSV file with the same columns as the previous step, plus the following columns:
-   - `changes` column: Describe all the changes in order of their occurrence in the token. Each change is represented as a string like `a inserted`, `b deleted`, or `c for d`. All the changes are grouped together in a single string, separated by commas.
-   - `comment` column: Provides additional context for the changes. If the change is already documented in the feature catalog, the feature's description will be included in this field, such as `ə used for i, especially in Iranian manuscripts`. This field is mostly for manual investigation.
-   - `is_documented` column: A boolean indicating whether the change is already documented in the feature catalog.
+3) Create Frequency Matrix — 03_create_frequency_matrix.py
 
-### Scribal School Analysis Pipeline
-Once the Manuscript Analysis Pipeline has been completed for a few manuscripts, the next step is to analyze the features extracted from these manuscripts to infer their scribal schools.
+Aggregate per manuscript: rows = manuscripts, cols = features, values = counts/weights.
 
-1. **Create the Frequency Matrix**: Given the result of the manuscript analysis pipeline for a set of manuscripts, creates a frequency matrix with rows representing manuscripts and columns representing all the detected changes (documented or not). Each cell contains the frequency of that change in that manuscript. The result is saved in a CSV file.
+4) Create Similarity Matrix (+ visualization) — 04_create_similarity_matrix.py
 
-2. **Create Similarity Matrix**: Using the frequency matrix, calculates the similarity between each pair of manuscripts based on their feature profiles. The result is saved in a CSV file with rows and columns representing manuscripts and cells containing the similarity score between them.
+Compute pairwise similarity/distance; emit clustermap/dendrogram images.
 
-3. **Visualize Similarity Matrix**: The similarity matrix is visualized in the following ways to help researchers understand the relationships between manuscripts:
-    - Hierarchical Tree: A dendrogram is created to represent the hierarchical clustering of manuscripts based on their similarity scores. This tree shows how manuscripts are related to each other.
-   - Cluster Map: A clustermap, which is the combination of a heatmap and a hierarchical clustering dendrogram, is created to show the similarity between manuscripts.
+5) Manual Scribal School Assignment → Catalog — 05_propose_feature_catalog.py
 
-Both visualizations are saved as image files in the output directory.
+Use matrices + visuals to assign schools (manual). Produce quantitative and qualitative catalogs.
 
-4. **Scribal School Assignment**: This is a manual step. In this step, the researcher judges the scribal school of each manuscript based on the dendrogram, the similarity matrix/heatmap, and the frequency matrix. This step creates a CSV file with two columns:
-    - `manuscript`: the manuscript name or identifier.
-    - `scribal_school`: The assigned scribal school for that manuscript.
+6) (Optional) Scribal School Prediction — 06_scribal_school_prediction.py
 
-5. **Propose a new Feature Catalog**: Based on the Scribal School assignment, a feature catalog for each scribal school is created. This catalog describes the typicality of each feature across known scribal schools (e.g., Yazdi, Kermani, Bombay). It is saved in a CSV file with rows representing features and columns representing scribal schools. For ease of use, the result is saved in two formats:
-    - `Quantitative`: Each cell contains the percentage of total occurrences of that feature in the manuscripts in that school over the total occurrences of all features in that school. 
-    - `Qualitative`: Each cell contains a short description of the feature in that school, such as "frequent", "rare", or "absent".
+Score a new manuscript profile against school catalogs.
 
-7. **Scribal School Prediction"**: Given the feature profile of a manuscript and the proposed feature catalog, predicts the scribal school of the manuscript by evaluating the similarity of its feature profile with the feature profiles of known scribal schools. The result is saved in a CSV file with rows representing manuscripts and columns representing scribal schools. Each cell contains the similarity score between the manuscript and the corresponding scribal school.
+| Stage            | Input                            | Output                                   |
+| ---------------- | -------------------------------- | ---------------------------------------- |
+| Match Tokens     | Generated text, Reference text   | Matched CSV (pairs + distance + address) |
+| Detect & Tag     | Matched CSV, Feature catalog     | Tagged CSV (normalized features)         |
+| Frequency Matrix | Tagged CSVs                      | Matrix CSV                               |
+| Similarity       | Matrix CSV                       | Similarity CSV + dendrogram/clustermap   |
+| Catalog          | Tagged CSVs + school assignments | Quant & Qual catalogs (CSV)              |
+| Prediction       | Matrix/Catalogs                  | Scores per school (CSV)                  |
 
-## Project Structure
-Each step of the pipeline is implemented as a separate Python script, which can be run independently or as part of a larger workflow. The names of the scripts correspond to the steps described above, with a prefix `01_`, `02_`, etc., indicating the order of execution. Each step can be implemented in different ways (e.g., using different libraries or algorithms), but the input and output formats are standardized to ensure compatibility. The algorithm or variant name is included in the script name for clarity. For example, `01_match_tokens-dictionary.py` indicates that this script implements the token matching step using a dictionary-based approach.
+**Practical Notes**
+
+Per-tradition configs: feature stoplists / merge rules / normalization.
+
+Unicode normalization (NFC/NFD) to keep edit distance honest.
+
+Inspect block/stanza outliers before downstream steps.
+
+**Limitations**
+
+Alignment errors propagate; review diffs at block/stanza scope.
+
+Catalog coverage is incomplete; expect unmapped/novel features.
+
+Clustering guides; final school assignment is manual.
+
+Use separate rule profiles for variant traditions (Iranian vs. Indian, etc.).
