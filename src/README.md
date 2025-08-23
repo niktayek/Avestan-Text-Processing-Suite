@@ -1,104 +1,81 @@
-# src – Avestan OCR and Scribal Analysis Codebase
+# src — Avestan OCR & Analysis Toolkit
 
-This directory contains all source code for the end-to-end analysis of Avestan manuscripts, from raw OCR output through error correction, normalization, and philological analysis.
+Python modules for the end-to-end Avestan OCR workflow: image/OCR helpers, token matching, feature/Leitfehler analysis, and scribal-school exploration. Each module can run on its own; together they form the research pipeline.
 
-It includes modules for:
-
-- Preparing training data and processing OCR outputs (Kraken + eScriptorium)
-- Translating ALTO XML to CAB-compatible format
-- Detecting OCR errors and substitutions using rule-based and DP matchers
-- Modeling orthographic and phonological variation across manuscripts
-- Performing Leitfehler-based collation and clustering
-- Analyzing scribal school distributions based on feature frequencies
+> For model training & OCR setup, see `../applying_ocr/README.md`
+> or the Hugging Face card: **avestan-ocr-kraken-v1** — [https://huggingface.co/Nikyek/avestan-ocr-kraken-v1](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1)
 
 ---
 
-##  Directory Overview
+## Directory map (what lives here)
 
-### `CAB/`
-Reads canonical CAB XML format and provides stanza-level and word-level access to transliterations.
-
-### `eScriptorium/`
-Parses ALTO XML produced by eScriptorium (both training and OCR output). `ocr_xml.py` reads layout and token info; `ocr_text.py` extracts and cleans the recognized text.
-
-### `preparing_for_OCR/`
-Includes image processing scripts (e.g., `mirror.py`) to enhance OCR quality by correcting input image orientation and other visual preprocessing tasks.
-
-### `XML_cleaning/`
-Handles common structural issues in XML files. `fix_broken_XMLs.py` repairs malformed XML, `text_to_clean_text.py` strips metadata for plain-text comparison, and `XML_id_normalizer.py` harmonizes stanza/block IDs across datasets.
-
-### `xml_translator/`
-Maps ALTO OCR output into CAB XML format. Includes alignment routines (`matcher.py`) and `generate_new_xml.py` to reconstruct normalized XML using CAB-compatible tags.
-
----
-
-### `dictionary_matcher/`
-Rule-based matcher for detecting and correcting substitutions in OCR output using a substitution dictionary. Includes:
-
-- `matcher.py`, `matcher_utils.py`: token-level alignment logic
-- `filling_changes/`: extraction of `"x for y"` substitutions, `"x inserted"` additions, `"y deleted"` deletions
-- `replacer/`: automatic correction and transformation
-- `xml_to_csv.py`, `csv_to_json.py`: conversion utilities
-
-### `sequence_matcher/`
-Improved grapheme-level matcher using dynamic programming. Aligns OCR tokens to canonical forms, handles merged or split tokens, and computes edit distances while applying substitution rules.
-
-- `matcher.py`: core DP alignment
-- `print_matches.py`: outputs detailed match results
-- `res/`: sample results or intermediate match data
-
-### `spellchecker_test/`
-Experimental module for spell-checking and OCR noise simulation.
-
-- `noise.py`: injects realistic OCR-like variation
-- `normalizer.py`: canonical form prediction
-- `evaluate_spellcheck.py`: accuracy metrics
-- `model.py`: custom lightweight spell checker architecture
+```
+src/
+├─ image_processing/            # pre/post OCR image helpers (tiling/cropping, cleanup)
+│  └─ mirror.py                 # simple image mirroring/augmentation utility
+├─ interfaces/                  # shared types & I/O schemas
+│  ├─ cab/                      # CAB XML adapters / helpers
+│  ├─ escriptorium/             # eScriptorium/ALTO interfaces
+│  └─ xml_translator/           # converters / serialization helpers
+├─ leitfehler/                  # additions/omissions/permutations/substitutions pipelines
+├─ matchers/                    # token alignment strategies
+│  ├─ dictionary_matcher/       # rule/lexicon-aware matcher (precise “x for y” tags)
+│  ├─ sequence_matcher/         # DP alignment across lines/blocks (merges/splits)
+│  └─ spellchecker_test/        # experimental noise/normalization + simple checker
+├─ scribal_school_analysis/     # feature aggregation, similarity, clustering, catalogs
+│  ├─ example_results/          # sample outputs
+│  ├─ res/                      # resources (feature lists, etc.)
+│  ├─ 01_match_tokens-dictionary.py
+│  ├─ 02_detect_features.py
+│  ├─ 03_create_frequency_matrix.py
+│  ├─ 04_create_similarity_matrix.py
+│  ├─ 05_propose_feature_catalog.py
+│  ├─ 06_scribal_school_prediction.py
+│  ├─ config.py  ·  utils.py  ·  README.md  ·  Overview.md
+├─ utils/                       # shared helpers (Unicode, I/O, logging, parsing)
+├─ calculating_distributions.py   # quick stats helpers  (consider renaming)
+└─ calculating_percentages.py     # quick stats helpers  (consider renaming)
+```
 
 ---
 
-### `Leitfehler/`
-Scripts for detecting systematic additions, omissions, and substitutions across manuscripts. Includes tools for generating:
+## How the pieces fit
 
-- Omission matrices (`build_leitfehler_matrix.py`)
-- Tree-based clustering (`Leitfehler_tree_builder.py`)
-- Weighted tagging (`weighted_tagging_Leitfehler.py`)
-- Permutation and substitution statistics
-
-Also contains comparative analysis tools like `compare_ids.py`, `compare_tokens.py`, and multiple shared scripts for reuse across comparison levels.
+* **OCR → Tokens:** `../applying_ocr/` produces ALTO/CAB; adapters in `interfaces/` read them.
+* **Alignment:** `matchers/sequence_matcher` for robust block/line alignment; optionally pass pairs to `matchers/dictionary_matcher` for precise substitution/insert/delete tags and candidate corrections.
+* **Features / Leitfehler:** outputs flow into `leitfehler/` to build omission/weighted matrices.
+* **Scribal schools:** matrices → `scribal_school_analysis/` (similarity, dendrogram/cluster map, **manual** school assignment, catalogs).
+* **(Optional) Spell checking:** `matchers/spellchecker_test/` is an experimental baseline for candidate suggestions (manual review required).
 
 ---
 
-### `scribal_school_analysis/`
-Core logic for identifying scribal schools based on orthographic/phonological features.
+## Quick start
 
-- `01_match_tokens-dictionary.py`: matches OCR to canonical forms
-- `02_detect_features.py`: applies feature rules (e.g., `ō for u`, `š́ for š`)
-- `03_create_frequency_matrix.py`: computes token-level feature distributions
-- `04_create_similarity_matrix.py`: builds Jaccard/feature similarity matrices
-- `05_propose_feature_catalog.py`: supports normalization of feature labels
-- `06_scribal_school_prediction.py`: attempts classification or clustering
+```bash
+# from repo root
+poetry install                 # or: pip install -e .
+poetry run python -m pip --version
 
-Also includes `example_results/`, `utils.py`, and `Overview.md` to document workflow.
+# examples
+poetry run python src/matchers/sequence_matcher/matcher.py --help
+poetry run python src/matchers/dictionary_matcher/matcher.py --help
+poetry run python src/scribal_school_analysis/03_create_frequency_matrix.py --help
+```
 
----
-
-### `Calculating_distributions_percentages/`
-Statistical scripts for aggregating feature counts and computing feature frequency distributions across manuscripts.
-
-- `calculationg_distributions.py`: raw counts
-- `calculationg_percentages.py`: relative percentages for normalized comparison
+Python ≥ 3.10 recommended.
 
 ---
 
-##  Related Information
+## Module notes & docs
 
-- All modules assume manuscript data from the **CAB project** and **OCR output from Kraken/eScriptorium**
-- For training workflows and OCR model setup, see the parent [README](../README.md) or the Hugging Face model card: [avestan-ocr-kraken-v1](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1).
-- Each module can be run independently on its component data (e.g., XML input, tagged token lists, alignment CSVs)
+* **`matchers/`** — see `matchers/README.md` for when to use dictionary vs. sequence matching.
+* **`scribal_school_analysis/`** — overview & diagrams: `scribal_school_analysis/README.md#overview`.
+* **`spellchecker_test/`** — experimental; accuracy not tuned; treat as candidate generator with manual review.
 
 ---
 
-##  Credits & Usage
+## Conventions
 
-This codebase was developed as part of a larger MA thesis and ongoing research into Avestan OCR post-processing, scribal variation analysis, and philological manuscript collation. For academic use or collaboration inquiries, please contact the repository owner.
+* Normalize Unicode (NFC/NFD) before matching; combining marks affect edit distance.
+* Use per-tradition configs (normalization & substitution rules) to avoid labeling legitimate variants as errors.
+* Clustering guides analysis; **scribal-school assignment remains a human, philologically guided decision**.
