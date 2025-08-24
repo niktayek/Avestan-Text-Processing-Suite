@@ -22,6 +22,8 @@ src/
 │  ├─ dictionary_matcher/       # rule/lexicon-aware matcher (precise “x for y” tags)
 │  ├─ sequence_matcher/         # DP alignment across lines/blocks (merges/splits)
 │  └─ spellchecker_test/        # experimental noise/normalization + simple checker
+├─ calculating_distributions.py   # quick stats helpers  (consider renaming)
+└─ calculating_percentages.py     # quick stats helpers  (consider renaming)
 ├─ scribal_school_analysis/     # feature aggregation, similarity, clustering, catalogs
 │  ├─ example_results/          # sample outputs
 │  ├─ res/                      # resources (feature lists, etc.)
@@ -33,8 +35,7 @@ src/
 │  ├─ 06_scribal_school_prediction.py
 │  ├─ config.py  ·  utils.py  ·  README.md  ·  Overview.md
 ├─ utils/                       # shared helpers (Unicode, I/O, logging, parsing)
-├─ calculating_distributions.py   # quick stats helpers  (consider renaming)
-└─ calculating_percentages.py     # quick stats helpers  (consider renaming)
+
 ```
 
 ---
