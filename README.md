@@ -3,7 +3,7 @@
 
 > Tools for **Avestan manuscript processing**: OCR (Kraken + eScriptorium), token matching, feature/Leitfehler analysis, and **scribal-school** exploration.
 > Model card: **[avestan-ocr-kraken-v1](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1)**
-
+CAB website: https://cab.geschkult.fu-berlin.de/
 ---
 
 ## Overview
@@ -16,34 +16,36 @@ This repository is a modular toolkit that:
 4. Aggregates features across manuscripts to support similarity, clustering, and **manual** scribal-school assignment.
 5. Produces quantitative & qualitative feature catalogs.
 
-### End-to-End at a Glance (GitHub renders Mermaid)
+### End-to-End at a Glance
 
 ```mermaid
 graph LR
-  classDef invisible fill:transparent,stroke:transparent,opacity:0;
+  classDef invisible fill:transparent,stroke:transparent;
 
   subgraph "Applying OCR"
     pad1[" "]:::invisible
-    A[Images] --> B[eScriptorium / Kraken]
-    B --> C[ALTO XML / CAB XML]
+    A["Images"] --> B["eScriptorium / Kraken"]
+    B --> C["ALTO XML / CAB XML"]
   end
 
   subgraph "Matching & Features"
     pad2[" "]:::invisible
-    D[Sequence / Dictionary Matchers]
-    E[Feature Detection (incl. Leitfehler)]
+    D["Sequence / Dictionary Matchers"]
+    E["Feature Detection (incl. Leitfehler)"]
     C --> D --> E
   end
 
   subgraph "Scribal School Analysis"
     pad3[" "]:::invisible
-    F[Frequency / Similarity Matrices]
-    G[Tree / Clustermap]
-    H[Manual School Assignment]
-    I[Feature Catalogs (quant/qual)]
+    F["Frequency / Similarity Matrices"]
+    G["Tree / Clustermap"]
+    H["Manual School Assignment"]
+    I["Feature Catalogs (quant/qual)"]
     E --> F --> G --> H --> I
   end
+
 ```
+
 
 > On Hugging Face, Mermaid doesn’t render—embed a PNG/SVG or link back here.
 
