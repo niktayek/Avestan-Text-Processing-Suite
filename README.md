@@ -1,4 +1,4 @@
-# src — Avestan OCR & Analysis Toolkit
+# Avestan OCR & Analysis Toolkit
 
 Python modules for the Avestan OCR + analysis pipeline: image/OCR helpers, token
 matching, feature/Leitfehler analysis, and scribal-school exploration. Each
