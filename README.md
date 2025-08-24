@@ -2,8 +2,8 @@
 # Avestan OCR & Scribal Analysis
 
 > Tools for **Avestan manuscript processing**: OCR (Kraken + eScriptorium), token matching, feature/Leitfehler analysis, and **scribal-school** exploration.
-> Model card: **[avestan-ocr-kraken-v1](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1)**
-CAB website: https://cab.geschkult.fu-berlin.de/
+> Model card: **[avestan-ocr-kraken-v1](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1)**, 
+**CAB website: https://cab.geschkult.fu-berlin.de/**
 ---
 
 ## Overview
