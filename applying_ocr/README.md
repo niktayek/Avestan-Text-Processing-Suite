@@ -1,7 +1,5 @@
 # Avestan OCR Training and Application – Kraken + eScriptorium
 
-# Avestan OCR Training and Application – Kraken + eScriptorium
-
  Pretrained OCR models are available on [Hugging Face](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1).
 
 
@@ -9,7 +7,7 @@ This folder contains the full training and application pipeline for Avestan OCR 
 
 ---
 
-##  Folder Structure
+##  Folder Structure in Huggingface
 
 ```
 Applying_OCR/
