@@ -35,7 +35,7 @@ def read_csv(input_file) -> list[dict]:
         reader = csv.DictReader(f)
         return list(reader)
 
-def calculate_similarity(feature_profile_1: pd.Series, feature_profile_2: pd.Series) -> float:
+def calculate_similarity_tvd(feature_profile_1: pd.Series, feature_profile_2: pd.Series) -> float:
     """
     Calculate the Total Variation Distance (TVD) between two manuscripts based on their frequency profiles.
     """
@@ -47,3 +47,17 @@ def calculate_similarity(feature_profile_1: pd.Series, feature_profile_2: pd.Ser
     # Calculate Total Variation Distance
     tvd = (prob_1 - prob_2).abs().sum() / 2
     return 1 - tvd
+
+
+def calculate_similarity_binary_hamming(feature_profile_1: pd.Series, feature_profile_2: pd.Series) -> float:
+    """
+    Calculate the Hamming distance between two binary feature profiles.
+    """
+
+    # Binarize the feature profiles
+    binary_1 = (feature_profile_1 > 0).astype(int)
+    binary_2 = (feature_profile_2 > 0).astype(int)
+
+    # Calculate Hamming distance
+    hamming_distance = (binary_1 != binary_2).mean()
+    return 1 - hamming_distance
