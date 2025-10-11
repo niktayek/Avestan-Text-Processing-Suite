@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import linkage, dendrogram
 from scipy.spatial.distance import squareform
 from .config import OUTPUT_DIR
-from .utils import calculate_similarity
+from .utils import calculate_similarity_tvd
 
 # INPUT
 FREQUENCY_MATRIX_CSV = os.path.join(OUTPUT_DIR, "frequency_matrix.csv")
@@ -36,7 +36,7 @@ def calculate_similarity_matrix(frequency_matrix: pd.DataFrame) -> pd.DataFrame:
         for manuscript_2 in manuscripts:
             similarity_matrix.at[manuscript_1, manuscript_2] = (
                 1.0 if manuscript_1 == manuscript_2 else
-                calculate_similarity(frequency_matrix.loc[manuscript_1], frequency_matrix.loc[manuscript_2])
+                calculate_similarity_tvd(frequency_matrix.loc[manuscript_1], frequency_matrix.loc[manuscript_2])
             )
     return similarity_matrix
 
