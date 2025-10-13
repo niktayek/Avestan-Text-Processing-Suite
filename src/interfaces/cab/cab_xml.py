@@ -28,17 +28,20 @@ class CABXML:
         return [
             (
                 ab.get('{http://www.w3.org/XML/1998/namespace}id'),
-                re.sub(r'\n', '', re.sub(' +', ' ', inner_text)).strip(),
-            ) for ab in all_abs if len(inner_text := ''.join(ab.itertext()).strip()) > 0
+                inner_text,
+            ) for ab in all_abs if len(inner_text := '. '.join(text.strip() for text in ab.itertext()).strip()) > 0
         ]
 
     def _list_items(self):
         items = []
         for id, text in self._abs:
+            text = re.sub(r'([^\.\. ])\n\s*', r'\1', text)
+            text = re.sub(r'\s+', ' ', text)
             text = re.sub(r'(\S)\.(\S)', r'\1\2', text)
             text = text.replace('.', ' ')
             text = text.replace('.', ' ')
             text = re.sub('\s+', ' ', text)
+            text = text.strip()
             words = text.split(" ")
             for ind, word in enumerate(words):
                 items.append(self.Word(self.Word.Address(id, ind), word))
