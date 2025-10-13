@@ -35,7 +35,7 @@ class OCRXML:
                 (
                     file_name.replace(".xml", ""),
                     line_ind,
-                    re.sub(' +', ' ', string.get("CONTENT").replace("&#x27;", "")).strip(),
+                    string.get("CONTENT").strip(),
                 ) for line_ind, string in enumerate(all_strings) if len(string.get("CONTENT").strip()) > 0
             ]
 
@@ -45,6 +45,8 @@ class OCRXML:
     def _list_items(self):
         items = []
         for page, line, text in self._lines:
+            text = text.replace("&#x27;", "")
+            text = re.sub(r' +', ' ', text)
             text = text.replace('.', ' ')
             text = re.sub('\s+', ' ', text)
             words = text.split(" ")
