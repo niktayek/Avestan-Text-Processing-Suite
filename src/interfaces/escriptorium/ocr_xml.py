@@ -49,7 +49,7 @@ class OCRXML:
             text = re.sub(r' +', ' ', text)
             text = text.replace('.', ' ')
             text = re.sub('\s+', ' ', text)
-            words = text.split(" ")
+            words = text.strip().split(" ")
             for ind, word in enumerate(words):
                 items.append(self.Word(self.Word.Address(page, line, ind), word))
         return items
