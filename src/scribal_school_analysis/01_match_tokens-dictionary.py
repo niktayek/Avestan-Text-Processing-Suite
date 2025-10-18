@@ -16,10 +16,10 @@ REFERENCE_FILES_PATH = [
     # 'data/CAB/static_vishtasp.xml',
     # 'data/CAB/static_visperad.xml',
     # 'data/CAB/static_visperad_dh.xml',
-    # 'data/CAB/static_yasna.xml',
+     'data/Yasna_Static.xml',
     # 'data/CAB/static_yasnar.xml',
     # 'data/CAB/Videvdad_Static.xml',
-    'data/Canonical_Yasna.txt', # TODO: fix the code to read from txt, not xml
+   # 'data/Canonical_Yasna.txt', # TODO: fix the code to read from txt, not xml
 ]
 # TODO: get the matches csv from the following google sheet, the `5,6,15,40,400,60,83,88,510,410_filled` tab
 # https://docs.google.com/spreadsheets/d/1H1EpOKWHuZjCDcr1KdAIpPSTRrSqEt6_sq72NhtGTV8/edit?gid=820015655#gid=820015655
