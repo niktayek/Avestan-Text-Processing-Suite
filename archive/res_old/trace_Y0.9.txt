@@ -1,0 +1,6 @@
+Stanza Y0.9
+
+canon_words: ['aṣ̌əm.', 'vohū.', 'vahištəm.', 'astī.', 'uštā.', 'astī.', 'uštā.', 'aɱāi.', 'hiiat̰.', 'aṣ̌āi.', 'vahištāi.', 'aṣ̌əm.']
+our_words: ['aṣ̌əm.', 'vohī.']
+
+Trace output saved to this file.
