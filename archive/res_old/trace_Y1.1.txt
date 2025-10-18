@@ -1,0 +1,6 @@
+Stanza Y1.1
+
+canon_words: ['niuuaēδaiiemi', 'hād', 'būn', 'zōt', 'ud', 'rāspīg', 'ńiuuaēδaiiemi.', 'haṇkāraiiemi.', 'daϑušō.', 'ahurahe.', 'mazdā̊.', 'raēuuatō.', 'xᵛarənaŋᵛhatō.', 'mazištaheca.', 'vahištaheca.', 'sraēštaheca.', 'xraōždištaheca.', 'xraϑβištaheca.', 'hukərəptəmaheca.', 'aṣ̌āt̰.', 'apanō.təmaheca.', 'huδāmanō.', 'vouru.rafnaŋhō.', 'yō.', 'nō.', 'daδa.', 'yō.', 'tataša.', 'yō.', 'tuϑruiiē.', 'yō.', 'maińiiuš.', 'spəṇtō.təmō.']
+our_words: ['ńiuuaēaiiemi.', 'haṇkāraiiemi.', 'daϑušō.', 'ahurahe.', 'mazdā̊.', 'raēuuatō.', 'xᵛarənaŋᵛhatō.', 'mazištaheca', 'vahištaheca.', 'sraēštaheca.', 'xraōždištaheca.', 'xraϑβištaheca.', 'hukərəftəmaheca.', 'aṣ̌āt̰.', 'apnōtəmaheca.', 'huδā̊.', 'manō.', 'vaōuru.rafnaŋhō.', 'yō.', 'nō.', 'daδa.', 'yō.', 'tataša.', 'yō.', 'tuϑruiiē.', 'yō.', 'maińiiu.', 'spəṇtōtəmō.']
+
+Trace output saved to this file.

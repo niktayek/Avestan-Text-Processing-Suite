@@ -1,0 +1,6 @@
+Stanza Y0.6
+
+canon_words: ['yašt', 'būn', 'fərastuiiē.', 'humatōibiiascā.', 'hūxtōibiiascā.', 'huuarštōibiiascā.', 'mąϑβōibiiascā.', 'vaxəδβōibiiascā.', 'varštuuōibiiascā.', 'aibī.gairiiā.', 'daiϑē.', 'vīspā.', 'humatācā.', 'hūxtācā.', 'huuarštācā.', 'paitī.riciiā.', 'daiϑē.', 'vīspā.', 'dušmatācā.', 'dužūxtācā.', 'dužuuarštācā.']
+our_words: ['frastuiiē.', 'humatōibiiascā.', 'hīxtōibiiascā.', 'huuarəštōibiiscā.', 'mąϑβōibiiascā.', 'vaxəδβōibiiascā.', 'varəštuuōibiiascā.', 'aibī.gairiiā.', 'daiϑī.', 'vīspā.', 'humatācā.', 'hīxtācā.', 'huuarštācā.', 'paitirəciiā.', 'diiϑə̄.', 'vīspā.', 'dušmatācā.', 'dužīxtācā.', 'dužuuarəštācā.']
+
+Trace output saved to this file.
