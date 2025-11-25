@@ -1,0 +1,6 @@
+Stanza Y0.8
+
+canon_words: ['staōmī.', 'aṣ̌əm.']
+our_words: ['staōmī.']
+
+Trace output saved to this file.

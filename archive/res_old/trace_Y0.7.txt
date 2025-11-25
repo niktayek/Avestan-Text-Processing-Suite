@@ -1,0 +1,6 @@
+Stanza Y0.7
+
+canon_words: ['fərā.', 'və̄.', 'rāhī.', 'aməṣ̌ā.', 'spəṇtā.', 'yasnəmcā.', 'vaɱəmcā.', 'fərā.', 'manaŋhā.', 'fərā.', 'vacaŋhā.', 'fərā.', 'š́iiaōϑanā.', 'fərā.', 'aŋhuiiā.', 'fərā.', 'tanuuascīt̰.', 'xᵛax́iiā̊.', 'uštanəm.']
+our_words: ['frā.', 'vīrāhə̄.', 'aməṣ̌ā.', 'spəṇtā.', 'yasnəmcā.', 'vahməmcā.', 'pərā.', 'manaŋhā.', 'frā.', 'vacaŋhā.', 'frā.', 'š́iiōϑanā.', 'frā.', 'aŋhā̊.', 'fərātanuuascīt̰.', 'xᵛax́iiā̊.', 'uštanəm.']
+
+Trace output saved to this file.

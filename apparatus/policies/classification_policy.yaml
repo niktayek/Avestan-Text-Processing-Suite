@@ -1,0 +1,399 @@
+# Classification policy (scaffold)
+# Define explicit labels for atomic ops with optional direction.
+# Use this for philologically motivated rules from your PDF.
+#
+# rules:
+#   - match: "i→e"            # exact atomic op string
+#     label: "trivial"         # trivial|meaningful
+#     direction: "either"      # either|forward|reverse (for A→B)
+#     notes: "word-final alternation"
+#   - match_regex: "[ūu]→[īi]" # regex matching op text
+#     label: "trivial"
+#
+# Limitations (current implementation):
+# - Env (initial/final/medial) not yet enforced by code; add as notes for now.
+# - Direction is respected for A→B vs B→A.
+
+rules:
+  # ═══════════════════════════════════════════════════════════════════════════
+  # I. SHORT VOWEL CHANGES (ə, e, i, u)
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  # A. Short Palatal Vowels (ə, e, i) — Opening/Closing Tendencies
+  # ───────────────────────────────────────────────────────────────────────────
+  
+  # Iranian tradition: Opening tendency i→ə or i→e (Behdini influence)
+  - match_regex: "i→ə|i→e"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Iranian"]
+    notes: "Iranian opening tendency: i→ə (middle-word) or i→e (final)"
+
+  # Iranian: i→ə before nasals (systematic context)
+  - match_regex: "i→ə"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Iranian"]
+    notes: "Iranian i→ə before nasal (e.g., drujəm for drujim)"
+
+  # Iranian: Syncope (loss of short vowels) — Yazdi/allegro recitation
+  - match_regex: "[əei] deleted"
+    label: "trivial"
+    direction: "either"
+    groups: ["Yazdi", "OrallyInfluenced"]
+    notes: "Iranian syncope: allegro recitation style (Yazd)"
+
+  # Iranian: Inverse spellings (rare ə→i)
+  - match_regex: "ə→i|ə→e"
+    label: "trivial"
+    direction: "either"
+    groups: ["Iranian"]
+    notes: "Iranian inverse spelling: closing ə due to undefined pronunciation"
+
+  # Indian tradition: Closing/Rising tendency ə→i, e→i (Gujarati influence)
+  - match_regex: "ə→i|e→i"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Indian"]
+    notes: "Indian closing tendency: ə→i, e→i (Gujarati final vowel closing)"
+
+  # Indian: Final e→i especially frequent
+  - match_regex: "e→i"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Indian"]
+    notes: "Indian final e→i: most common confusion in final position"
+
+  # Indian: Anaptyxis (vowel insertion) — Gujarati cluster avoidance
+  - match_regex: "[əai] inserted"
+    label: "trivial"
+    direction: "either"
+    groups: ["Indian"]
+    notes: "Indian anaptyxis: glide insertion (usually a) to break clusters"
+
+  # General short palatal confusion (when not group-specific)
+  - match_regex: "[əei]→[əei]"
+    label: "trivial"
+    direction: "either"
+    notes: "Short palatal vowel confusion ə/e/i (undefined pronunciation)"
+
+  # B. u vs ō Confusion (Allophonic in Behdini)
+  # ───────────────────────────────────────────────────────────────────────────
+  
+  # Iranian: ō for u in final position (allophonic variants)
+  - match_regex: "u→ō"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Iranian"]
+    notes: "Iranian final position: u and ō were allophonic in Behdini"
+
+  # Reverse u for ō is scarce but trivial
+  - match_regex: "ō→u"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Iranian"]
+    notes: "Iranian reverse: ō→u (scarce)"
+
+  # Group-aware ī↔ū confusion:
+  # ═══════════════════════════════════════════════════════════════════════════
+  # II. LONG VOWEL CHANGES (ē, ī, ə̄, ū)
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  # A. ī and ū Confusion (Best-known orthographic change)
+  # ───────────────────────────────────────────────────────────────────────────
+
+  # - Trivial in Iranian (especially late), but should not be trivialized in Indian (where ī/ū are not confused)
+  - match_regex: "(ī→ū|ū→ī)"
+    label: "trivial"
+    direction: "either"
+    groups: ["Iranian"]
+    exclude_groups: ["Indian"]
+    notes: "ī/ū confusion: trivial in Iranian tradition (phonetic evolution ū→ī in Behdini, universal after 1650 CE)"
+  - match_regex: "(ī→ū|ū→ī)"
+    label: "meaningful"
+    direction: "either"
+    groups: ["Indian"]
+    exclude_groups: ["Iranian"]
+    notes: "ī/ū confusion: flag as meaningful in Indian tradition (NO confusion, major separating feature)"
+
+  # Chronological awareness: older Iranian mss may preserve distinction
+  - match_regex: "(ī→ū|ū→ī)"
+    label: "trivial"
+    direction: "either"
+    groups: ["OldIranian"]
+    notes: "Old Iranian mss: ī/ū preserved in older copies but still trivial when confused (Kermanian extends ū, Yazdi extends ī)"
+
+  # Indian: ū for uu and ī for ii (orthographic conventions influenced by Gujarati)
+  - match_regex: "uu→ū|ū→uu|ii→ī|ī→ii"
+    label: "trivial"
+    direction: "either"
+    groups: ["Indian"]
+    notes: "Indian Gujarati orthography: ū/ī represent uu/ii (inverse spellings common)"
+
+  # B. Long Palatal Vowel Confusion (ē, ī, ə̄)
+  # ───────────────────────────────────────────────────────────────────────────
+
+  # Iranian: Closing tendency ē→ī and ə̄→ī (ī is main long palatal allophone)
+  - match_regex: "ē→ī|ə̄→ī"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Iranian"]
+    notes: "Iranian closing: ē,ə̄→ī (Behdini pronunciation where ī is main long palatal)"
+
+  # Iranian: Decline of ə̄ (ē for ə̄ and ī for ə̄)
+  - match_regex: "ə̄→ē|ə̄→ī"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Iranian"]
+    notes: "Iranian: ə̄ in decline, confusion with ē and ī frequent (especially final position)"
+
+  # Indian: Shortening of final ē (e for ē)
+  - match_regex: "ē→e"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Indian"]
+    notes: "Indian shortening: final ē tends to short e (recitation influence)"
+
+  # General long palatal confusion
+  - match_regex: "[ēīə̄]→[ēīə̄]"
+    label: "trivial"
+    direction: "either"
+    notes: "Long palatal vowel confusion ē/ī/ə̄"
+
+  # General vowel length/quality alternations
+  - match_regex: "(i|ī)→(i|ī)|(u|ū)→(u|ū)|(o|ō)→(o|ō)|(e|ē)→(e|ē)|(a|ā)→(a|ā)"
+    label: "trivial"
+    direction: "either"
+    notes: "Length alternations (monophthongization/shortening)"
+
+  # Semivowels and nasals
+  - match: "y→ẏ"
+    label: "trivial"
+    direction: "either"
+    notes: "Semivowel y/ẏ confusion"
+  - match: "ń→n"
+    label: "trivial"
+    direction: "either"
+    notes: "Nasal palatal ń vs n"
+
+  # Fricativization / occlusion and 'seseo'
+  - match_regex: "(t|ϑ)→(t|ϑ)"
+    label: "trivial"
+    direction: "either"
+    notes: "Occlusion/fricativization t↔ϑ"
+  - match: "s→ϑ"
+    label: "trivial"
+    direction: "forward"
+    notes: "Seseo: ϑr→sr captured as s→ϑ at grapheme level"
+  - match: "ϑ→s"
+    label: "trivial"
+    direction: "forward"
+    notes: "Inverse spelling (occlusion)"
+
+  # Palatal series and gamma/g
+  - match_regex: "(j|ž|z)→(j|ž|z)"
+    label: "trivial"
+    direction: "either"
+    notes: "Palatal sibilant confusion"
+  - match_regex: "(γ|g)→(γ|g)"
+    label: "trivial"
+    direction: "either"
+    notes: "Initial fricatives for occlusives"
+
+  # Anaptyxis / syncope and spacing-only
+  # ═══════════════════════════════════════════════════════════════════════════
+  # III. DIPHTHONG EVOLUTIONS (āē, āō, ōi)
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  # A. Diphthong Quantity and General Monophthongization
+  # ───────────────────────────────────────────────────────────────────────────
+
+  # Iranian tradition: āō and āē ALWAYS have long second element (rising diphthongs)
+  # (This is implicit in the families; rules handle monophthongization)
+
+  # Iranian: āō → ō (most common monophthongization, index increases in late copies)
+  - match_regex: "āō→ō"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Iranian"]
+    notes: "Iranian monophthongization: āō→ō (most common, increases in late mss like 71% in ms.20)"
+
+  # Iranian: ō → āō (inverse spelling, also frequent)
+  - match_regex: "ō→āō"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Iranian"]
+    notes: "Iranian inverse spelling: ō→āō (frequent)"
+
+  # Iranian: āē → ī (most common monophthongization for āē)
+  - match_regex: "āē→ī"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Iranian"]
+    notes: "Iranian monophthongization: āē→ī (into long vowel, characteristic)"
+
+  # Indian tradition: Second element frequently SHORT (ae, ao — falling diphthongs)
+  # (Handled by families; rules handle monophthongization)
+
+  # Indian: āō → u (majority monophthongization for āō)
+  - match_regex: "āō→u"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Indian"]
+    notes: "Indian monophthongization: āō→u (into short vowel, characteristic)"
+
+  # Indian: āē → ai (majority monophthongization for āē)
+  - match_regex: "āē→ai"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Indian"]
+    notes: "Indian monophthongization: āē→ai (characteristic)"
+
+  # Indian: ai → āē (inverse spelling, frequent)
+  - match_regex: "ai→āē"
+    label: "trivial"
+    direction: "forward"
+    groups: ["Indian"]
+    notes: "Indian inverse spelling: ai→āē (frequent)"
+
+  # Old Exegetical (Indian): Asymmetry — āē has long, āō has short element
+  - match_regex: "āō→ao|ao→āō"
+    label: "trivial"
+    direction: "either"
+    groups: ["MihrabanKayxosro"]
+    notes: "Old Exegetical (Mihrābān Kayxōsrō): scriptural convention āō with short element (ao or aō) to avoid confusion with iiō"
+
+  # B. Confusion āō/ōi/ō (Shared Feature — all confused via monophthongization)
+  # ───────────────────────────────────────────────────────────────────────────
+
+  # General confusion (both traditions): āō, ōi, ō were likely all → ō in recitation
+  - match_regex: "āō→ō|ō→āō|ōi→ō|ō→ōi|āō→ōi|ōi→āō"
+    label: "trivial"
+    direction: "either"
+    notes: "Shared feature: āō/ōi/ō confusion (all monophthongized to ō in early recitation)"
+
+  # Indian: ō for ōi MORE frequent than in Iranian
+  - match_regex: "ōi→ō|ō→ōi"
+    label: "trivial"
+    direction: "either"
+    groups: ["Indian"]
+    notes: "Indian: ō↔ōi confusion MORE frequent (ō for āō more usual in Iran, ō for ōi in India)"
+
+  # āōi triphthong confusion (part of the same orbit)
+  - match_regex: "āōi→ō|ō→āōi|āōi→āō|āō→āōi|āōi→ōi|ōi→āōi"
+    label: "trivial"
+    direction: "either"
+    notes: "Triphthong āōi participates in āō/ōi/ō confusion"
+
+  # C. Analogical Change: Genitive Singular u-stems
+  # ───────────────────────────────────────────────────────────────────────────
+
+  # Genitive sg. u-stems: -āōš → -ōiš (analogy with i-stem genitive)
+  - match_regex: "āōš→ōiš|ōiš→āōš"
+    label: "trivial"
+    direction: "either"
+    notes: "Analogical change: gen.sg. u-stems -āōš frequently appear as -ōiš (analogy with i-stems)"
+
+  # Keeping existing generic diphthong rules (now supplemented by specific rules above)
+  - match: "a deleted"
+    label: "trivial"
+    direction: "either"
+    notes: "Syncope in diphthongs (e.g., āō→ō, āē→ī)"
+  - match: "ā deleted"
+    label: "trivial"
+    direction: "either"
+    notes: "Syncope/length interactions (diphthong reduction)"
+  - match: "ə inserted"
+    label: "trivial"
+    direction: "either"
+    notes: "Glide/anaptyxis in consonant clusters (Indian cluster avoidance)"
+  - match: "ə deleted"
+    label: "trivial"
+    direction: "either"
+    notes: "Syncope of schwa-like vowel"
+  - match: "ai deleted"
+    label: "trivial"
+    direction: "either"
+    notes: "Diphthong ai syncope (recitation effects)"
+  - match: "ii inserted"
+    label: "trivial"
+    direction: "either"
+    notes: "Quantity marking (ii for ī, Indian orthography)"
+  - match: "a inserted"
+    label: "trivial"
+    direction: "either"
+    notes: "Anaptyxis (often glide a, Indian cluster breaking)"
+  - match: "space inserted"
+    label: "trivial"
+    notes: "Spacing-only variation"
+  - match: "space deleted"
+    label: "trivial"
+    notes: "Spacing-only variation"
+  - match: "space moved"
+    label: "trivial"
+    notes: "Spacing-only variation"
+
+  # A-vowel orbit confusions (Behdini/recitation influence)
+  - match_regex: "(ā|a)→(u|ū|o|ō)|(u|ū|o|ō)→(ā|a)"
+    label: "trivial"
+    direction: "either"
+    notes: "Labialization/monophthongization tendencies"
+
+  # ā̊ vs ā (circled long a) — trivial
+  - match_regex: "(ā̊|ā)→(ā̊|ā)"
+    label: "trivial"
+    direction: "either"
+    notes: "ā̊ vs ā alternation (orthographic)"
+
+  # Labial fricatives and semivowel confusion: β, v, uu — trivial
+  - match_regex: "(β|v|uu)→(β|v|uu)"
+    label: "trivial"
+    direction: "either"
+    notes: "Labial series neutralization β/v/uu"
+
+  # Initial h- loss
+  - match: "h deleted"
+    label: "trivial"
+    notes: "Loss of #h- at beginning of word"
+
+  # Counterpart to h-deletion: spurious h insertion should be treated as meaningful
+  - match: "h inserted"
+    label: "meaningful"
+    notes: "Spurious h insertion (not normalized away)"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# V. MEANINGFUL VARIANTS (M) IN VOCALISM
+# ═══════════════════════════════════════════════════════════════════════════
+# Most vowel variations are trivial (T), but rare instances are meaningful (M).
+# These override the general trivial classification rules.
+# ───────────────────────────────────────────────────────────────────────────
+
+# NOTE: The following are NOT automatically detected by atomic operations alone.
+# They require context-aware detection (word identity, morphological position, etc.)
+# and may need to be flagged manually or via enhanced detection logic.
+
+# A. Addition of puθra (Y1.4)
+# Indian manuscripts add puθra (vocative) after āθrasca ahurahe mazdā̊ (genitive)
+# This changes textual composition and is influenced by ritual formulas.
+# Detection: Look for puθra insertion at specific locus Y1.4 after āθrasca phrase.
+# Classification: MEANINGFUL (compositional change)
+
+# B. Accusative Singular Endings (Grammatical Debate)
+# Forms like raēm, vaēm, daēm (acc.sg. from IIr. *aĩṷam) vs raēum, vaēum, daēum
+# Represents a grammatical choice, potentially from assimilation to majority ending.
+# Detection: Context-aware morphological analysis of accusative singular forms.
+# Classification: MEANINGFUL (grammatical variant)
+
+# C. Final Lengthenings (-mahī, vohū)
+# Lengthening of final short vowels: -mahi → -mahī, vohu → vohū
+# Characteristic of Indian tradition, influenced by exegetical/scholarly reform.
+# While based on recitation, the editorial decision makes it highly relevant.
+# Detection: Final vowel lengthening in specific morphological contexts (1pl verbal, adjectives)
+# Classification: MEANINGFUL or SCHOLARLY (editorial/exegetical choice, not pure recitation)
+
+# Note: These meaningful variants are documented here for reference but may require
+# enhancement to the annotator's detection logic to flag them automatically based on
+# morphological/lexical context rather than atomic grapheme operations alone.
+
+# Default fallback: label any non-trivial and unlisted atomic operations as meaningful variants
+default_nontrivial_label: ""

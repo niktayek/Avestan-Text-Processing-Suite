@@ -1,0 +1,38 @@
+# Witness groups/schools mapping
+# Fill in manuscript-to-group assignments here. Groups are arbitrary strings like 'Iranian', 'Indian',
+# or finer schools (e.g., 'Kermanian', 'Yazdi', 'Bharaoch'). A witness can belong to multiple groups.
+#
+# Usage: the annotator will pass the reading's witness groups into the policy so rules can be
+# applied conditionally (e.g., trivial in Iranian, meaningful in Indian).
+#
+# Example:
+# groups:
+#   Iranian: [ms0005, ms0006, ms0008, ms0015, ms0088]
+#   Indian: [ms0677, ms0231, ms0235]
+#   Kermanian: [ms0400]
+#   Yazdi: [ms0410]
+
+groups:
+  # Coarse traditions
+  Iranian: [ms0005, ms0006, ms0008, ms0015, ms0060, ms0083, ms0088]
+  Indian: [ms0040, ms0100, ms0110, ms0231, ms0234, ms0235, ms0400, ms0410, ms0500, ms0510, ms0672, ms0677]
+
+  # Chronology within Iranian
+  OldIranian: [ms0005, ms0006, ms0008, ms0083, ms0088]
+  LateIranian: [ms0015, ms0060]
+
+  # Iranian families/schools
+  Kermanian: [ms0005]
+  Yazdi: [ms0006, ms0008, ms0083, ms0088]
+  RostamGustasp: [ms0008, ms0088, ms0083]
+  IsfandyarNoshirwan: [ms0015]
+  Zand: [ms0060]
+  OrallyInfluenced: [ms0060]
+
+  # Indian schools
+  Bharaoch: [ms0100, ms0672, ms0677]
+  Surat: [ms0110, ms0234]
+  Navsari: [ms0400, ms0410]
+  Isolated: [ms0231, ms0235]
+  MihrabanKayxosro: [ms0500, ms0510]
+  IndianCopyOfRostam: [ms0040]

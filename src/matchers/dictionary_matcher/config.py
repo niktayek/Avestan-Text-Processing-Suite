@@ -6,7 +6,7 @@ MANUAL_FILES_PATH = [
     # '../../../data/CAB/static_vishtasp.xml',
     # '../../../data/CAB/static_visperad.xml',
     # '../../../data/CAB/static_visperad_dh.xml',
-     '../../../data/CAB/static_yasna.xml',
+     '../../../data/Canonical_Yasna.txt',
     # '../../../data/CAB/static_yasnar.xml',
     # '../../../data/CAB/Videvdad_Static.xml',
 ]

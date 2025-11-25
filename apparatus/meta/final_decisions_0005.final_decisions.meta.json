@@ -1,0 +1,14 @@
+{
+  "input_decisions": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/res/Yasna/reviewed_decisions_manual.csv",
+  "input_sha256": "5c65780ca1b53105f247eea69f5255d509bb33271ec499e3af937aa6c0e40ee8",
+  "db": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/res/Yasna/0005.db",
+  "row_count": 3,
+  "applied": {
+    "greedy": 0,
+    "dp": 0,
+    "custom": 0,
+    "both": 1
+  },
+  "script": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/scripts/apply_decisions.py",
+  "timestamp": "2025-10-20T15:18:21.637156Z"
+}

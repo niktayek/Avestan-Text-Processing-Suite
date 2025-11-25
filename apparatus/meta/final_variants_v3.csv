@@ -1,0 +1,619 @@
+feature,total_freq,doc_freq,variant_likelihood,label
+  deleted,2.0,1,0.0,reading
+  inserted,5.0,1,0.0,reading
+", inserted",1.0,1,0.0,reading
+. deleted,1.0,1,0.0,reading
+a deleted,256.0,9,0.0432563608560067,reading
+a for ai,50.0,9,0.138384771864192,reading
+a for au,2.0,1,0.0,reading
+a for aē,13.0,7,0.2169967168748962,reading
+a for aō,11.0,4,0.464820600047849,reading
+a for c,2.0,1,0.0,reading
+a for e,39.0,10,0.0534979135275633,reading
+a for h,3.0,3,0.7562146819045672,variant
+a for i,49.0,9,0.1164627861752498,reading
+a for ii,1.0,1,0.0,reading
+a for m,5.0,4,0.6295016904612775,reading
+a for n,4.0,4,0.4263551722963961,reading
+a for o,2.0,2,0.0,reading
+a for t,3.0,2,0.947766263707773,variant
+a for u,3.0,2,0.663436384595441,reading
+a for ā,45.0,8,0.0902868935541284,reading
+a for āi,1.0,1,0.0,reading
+a for ā̊,5.0,3,0.3161221888615521,reading
+a for ą,6.0,2,0.3791065054831092,reading
+a for ē,4.0,2,0.6711355927434217,reading
+a for ī,5.0,3,0.553213830507716,reading
+a for ō,11.0,7,0.2029872457257515,reading
+a for ōi,1.0,1,0.0,reading
+a for ū,1.0,1,0.0,reading
+a for ə,139.0,10,0.0339776365696667,reading
+a for ə̄,5.0,4,0.4406511833228942,reading
+a for ϑ,2.0,1,0.0,reading
+a for ṇ,1.0,1,0.0,reading
+a for ạ,1.0,1,0.0,reading
+a inserted,294.0,10,0.034547401328715,reading
+ai deleted,16.0,5,0.5236143511097389,reading
+ai for a,207.0,10,0.0355453957956068,reading
+ai for au,2.0,1,0.0,reading
+ai for aē,27.0,7,0.2454821123970919,reading
+ai for i,12.0,6,0.2728472694216465,reading
+ai for ii,275.0,10,0.0417562062544467,reading
+ai for m,7.0,2,0.9386522159315634,variant
+ai for r,1.0,1,0.0,reading
+ai for u,4.0,3,0.5421331587983224,reading
+ai for ā,1.0,1,0.0,reading
+ai for āi,4.0,3,0.3097903764561842,reading
+ai for ā̊,4.0,2,0.934027841500776,variant
+ai for ē,1.0,1,0.0,reading
+ai for ī,1.0,1,0.0,reading
+ai for ə,22.0,7,0.2158297229063492,reading
+ai for ϑ,1.0,1,0.0,reading
+ai inserted,22.0,7,0.3656144386785062,reading
+au deleted,9.0,4,0.4516362234951799,reading
+au for a,36.0,6,0.3359661598544859,reading
+au for aō,60.0,7,0.2102232958595304,reading
+au for h,2.0,1,0.0,reading
+au for i,1.0,1,0.0,reading
+au for u,7.0,5,0.3556224917418618,reading
+au for uu,49.0,9,0.1168231191541098,reading
+au for v,1.0,1,0.0,reading
+au for āu,1.0,1,0.0,reading
+au for ō,2.0,2,0.0,reading
+au inserted,3.0,3,0.5293502773331971,reading
+aē deleted,10.0,4,0.4512059808654386,reading
+aē for a,98.0,9,0.2048480966935867,reading
+aē for ai,27.0,8,0.1864290348535322,reading
+aē for au,4.0,3,0.5421331587983224,reading
+aē for e,13.0,4,0.4754703436835111,reading
+aē for i,8.0,4,0.4599548378114305,reading
+aē for ā,1.0,1,0.0,reading
+aē for ē,10.0,4,0.4654951736661273,reading
+aē for ī,71.0,6,0.2741598611155473,reading
+aē for ū,4.0,1,0.0,reading
+aē for ə,12.0,2,0.6538194890505433,reading
+aē for ə̄,7.0,5,0.3556224917418618,reading
+aē inserted,9.0,4,0.467513104384834,reading
+aō deleted,8.0,4,0.4732808837305499,reading
+aō for a,1232.0,7,0.3078626226140151,reading
+aō for ai,1.0,1,0.0,reading
+aō for au,7.0,3,0.5456652328629368,reading
+aō for d,1.0,1,0.0,reading
+aō for m,1.0,1,0.0,reading
+aō for o,17.0,3,0.537343446836418,reading
+aō for u,5.0,4,0.4406511833228942,reading
+aō for ā,3.0,2,0.663436384595441,reading
+aō for āi,3.0,2,0.663436384595441,reading
+aō for āu,3.0,2,0.663436384595441,reading
+aō for ą,1.0,1,0.0,reading
+aō for ō,85.0,8,0.1772343698520055,reading
+aō for ōi,62.0,8,0.1382675430434504,reading
+aō for ū,3.0,2,0.663436384595441,reading
+aō inserted,1.0,1,0.0,reading
+b deleted,2.0,1,0.0,reading
+b for d,2.0,1,0.0,reading
+b for e,2.0,2,0.0,reading
+b for z,1.0,1,0.0,reading
+b for β,4.0,3,0.7744759411404606,variant
+c deleted,12.0,5,0.2076000896616073,reading
+c for h,2.0,2,0.0,reading
+c for j,5.0,3,0.7903054721538801,variant
+c for m,1.0,1,0.0,reading
+c for s,1.0,1,0.0,reading
+c for t,5.0,3,0.7705156393620193,variant
+c for ą,1.0,1,0.0,reading
+c for ŋ,1.0,1,0.0,reading
+c inserted,19.0,9,0.0600850487852212,reading
+d deleted,9.0,4,0.2671503453627624,reading
+d for aē,1.0,1,0.0,reading
+d for g,1.0,1,0.0,reading
+d for h,4.0,3,0.7744759411404606,variant
+d for i,1.0,1,0.0,reading
+d for m,6.0,2,0.9731492083156194,variant
+d for p,1.0,1,0.0,reading
+d for s,1.0,1,0.0,reading
+d for u,3.0,1,0.0,reading
+d for δ,51.0,8,0.2518811593851716,reading
+d for ϑ,1.0,1,0.0,reading
+d for ẏ,1.0,1,0.0,reading
+d inserted,16.0,6,0.1709515130600673,reading
+e deleted,41.0,8,0.111818508255895,reading
+e for a,68.0,9,0.1156172943230971,reading
+e for ai,11.0,6,0.4150387831438769,reading
+e for aē,1.0,1,0.0,reading
+e for i,230.0,9,0.1005601469329555,reading
+e for o,1.0,1,0.0,reading
+e for ē,63.0,9,0.0628062210011365,reading
+e for ī,13.0,3,0.5587326939566332,reading
+e for ō,1.0,1,0.0,reading
+e for ū,1.0,1,0.0,reading
+e for ə,16.0,8,0.1275045717785142,reading
+e for ə̄,1.0,1,0.0,reading
+e inserted,125.0,9,0.1051870580458835,reading
+f deleted,1.0,1,0.0,reading
+f for h,1.0,1,0.0,reading
+f for p,12.0,4,0.6527865981028818,reading
+f for ẏ,1.0,1,0.0,reading
+f inserted,2.0,1,0.0,reading
+g deleted,4.0,4,0.243631527026512,reading
+g for a,1.0,1,0.0,reading
+g for d,2.0,2,0.0,reading
+g for o,1.0,1,0.0,reading
+g for p,2.0,1,0.0,reading
+g for γ,2.0,2,0.0,reading
+g inserted,11.0,5,0.2074657774786516,reading
+h deleted,144.0,9,0.0386517977341229,reading
+h for a,1.0,1,0.0,reading
+h for ai,1.0,1,0.0,reading
+h for au,1.0,1,0.0,reading
+h for g,1.0,1,0.0,reading
+h for i,2.0,2,0.0,reading
+h for m,1.0,1,0.0,reading
+h for v,2.0,1,0.0,reading
+h for δ,1.0,1,0.0,reading
+h inserted,53.0,9,0.0688991427093894,reading
+i deleted,431.0,10,0.0130871281998568,reading
+i for a,208.0,9,0.1072716594824758,reading
+i for ai,7.0,5,0.5221677259111317,reading
+i for au,35.0,7,0.2258712177692959,reading
+i for aē,11.0,4,0.4321406408199179,reading
+i for c,1.0,1,0.0,reading
+i for e,281.0,10,0.0494391569934288,reading
+i for h,2.0,1,0.0,reading
+i for ii,55.0,9,0.0928974145386104,reading
+i for m,3.0,2,0.947766263707773,variant
+i for n,4.0,2,0.6538194890505433,reading
+i for o,4.0,2,0.9587651324906024,variant
+i for r,3.0,2,0.947766263707773,variant
+i for u,6.0,3,0.5469416065707711,reading
+i for y,9.0,1,0.0,reading
+i for ā,1.0,1,0.0,reading
+i for ą,1.0,1,0.0,reading
+i for ą̇,1.0,1,0.0,reading
+i for ē,14.0,6,0.2950888209164279,reading
+i for ī,13.0,7,0.0824346394859776,reading
+i for ń,1.0,1,0.0,reading
+i for ŋ,2.0,2,0.0,reading
+i for ō,2.0,2,0.0,reading
+i for ū,1.0,1,0.0,reading
+i for ə,511.0,10,0.062642755975217,reading
+i for ə̄,7.0,5,0.3655174081377921,reading
+i for ̊,2.0,2,0.0,reading
+i for ϑ,1.0,1,0.0,reading
+i for ạ,1.0,1,0.0,reading
+i for ị,1.0,1,0.0,reading
+i inserted,437.0,10,0.0229223601964532,reading
+ii deleted,22.0,8,0.1418904213382981,reading
+ii for a,3.0,2,0.663436384595441,reading
+ii for ai,206.0,10,0.0648500062140375,reading
+ii for e,1.0,1,0.0,reading
+ii for i,31.0,9,0.0969554029505011,reading
+ii for m,3.0,2,0.663436384595441,reading
+ii for n,2.0,2,0.0,reading
+ii for uu,2.0,1,0.0,reading
+ii for y,1.0,1,0.0,reading
+ii for āi,3.0,2,0.663436384595441,reading
+ii for ōi,1.0,1,0.0,reading
+ii for š,1.0,1,0.0,reading
+ii inserted,23.0,8,0.1561542070059763,reading
+j for a,1.0,1,0.0,reading
+j for c,10.0,6,0.3889258528433991,reading
+j for z,3.0,2,0.663436384595441,reading
+j inserted,1.0,1,0.0,reading
+k deleted,1.0,1,0.0,reading
+k for b,3.0,1,0.0,reading
+k for β,1.0,1,0.0,reading
+m deleted,35.0,7,0.1232993377840127,reading
+m for a,1.0,1,0.0,reading
+m for ai,2.0,1,0.0,reading
+m for e,1.0,1,0.0,reading
+m for i,1.0,1,0.0,reading
+m for n,2.0,1,0.0,reading
+m for s,2.0,1,0.0,reading
+m for u,4.0,2,0.6711355927434217,reading
+m for ī,1.0,1,0.0,reading
+m for ɱ,4.0,1,0.0,reading
+m for ϑ,1.0,1,0.0,reading
+m inserted,557.0,9,0.049687595400062,reading
+n deleted,29.0,8,0.1045018137296189,reading
+n for c,3.0,2,0.947766263707773,variant
+n for d,1.0,1,0.0,reading
+n for m,1.0,1,0.0,reading
+n for o,2.0,1,0.0,reading
+n for r,4.0,3,0.7744759411404606,variant
+n for t,5.0,3,0.7705156393620193,variant
+n for v,1.0,1,0.0,reading
+n for āi,1.0,1,0.0,reading
+n for ē,1.0,1,0.0,reading
+n for ī,1.0,1,0.0,reading
+n for ń,16.0,6,0.178025025784081,reading
+n for š,1.0,1,0.0,reading
+n for ṇ,7.0,4,0.1745221775855593,reading
+n inserted,55.0,9,0.0622398689449726,reading
+o for a,2.0,1,0.0,reading
+o for u,3.0,2,0.663436384595441,reading
+o for ō,43.0,6,0.1361965538673362,reading
+o for ū,1.0,1,0.0,reading
+o inserted,1216.0,6,0.2033660342859497,reading
+ou for au,5.0,2,0.676853452162103,reading
+ou for aō,35.0,7,0.2258389727925644,reading
+ou for u,5.0,2,0.676853452162103,reading
+ou for ō,40.0,8,0.2198587178252571,reading
+ou for ōi,1.0,1,0.0,reading
+ou inserted,6.0,2,0.6812044458209334,reading
+p deleted,6.0,3,0.3125380608975835,reading
+p for f,16.0,4,0.6390674579929475,reading
+p for n,1.0,1,0.0,reading
+p for v,2.0,1,0.0,reading
+p for š,1.0,1,0.0,reading
+p for β,3.0,2,0.947766263707773,variant
+p for ϑ,1.0,1,0.0,reading
+p inserted,14.0,5,0.214834218304993,reading
+r deleted,16.0,6,0.1598999422301363,reading
+r for c,2.0,2,0.0,reading
+r for h,4.0,3,0.7744759411404606,variant
+r for n,1.0,1,0.0,reading
+r for o,1.0,1,0.0,reading
+r for v,2.0,2,0.0,reading
+r for z,3.0,2,0.947766263707773,variant
+r for āi,1.0,1,0.0,reading
+r for ń,1.0,1,0.0,reading
+r for š,1.0,1,0.0,reading
+r for š́,1.0,1,0.0,reading
+r for ž,1.0,1,0.0,reading
+r inserted,36.0,7,0.1535554916391373,reading
+s deleted,18.0,7,0.1300151456414885,reading
+s for h,1.0,1,0.0,reading
+s for i,1.0,1,0.0,reading
+s for ii,1.0,1,0.0,reading
+s for m,3.0,2,0.947766263707773,variant
+s for n,1.0,1,0.0,reading
+s for p,1.0,1,0.0,reading
+s for u,2.0,2,0.0,reading
+s for ŋ,2.0,1,0.0,reading
+s for š,16.0,5,0.1600667477658797,reading
+s for ž,1.0,1,0.0,reading
+s for ϑ,7.0,4,0.6448338945250478,reading
+s inserted,18.0,6,0.1777422365636417,reading
+t deleted,25.0,8,0.093430970253852,reading
+t for a,1.0,1,0.0,reading
+t for d,1.0,1,0.0,reading
+t for i,1.0,1,0.0,reading
+t for j,2.0,2,0.0,reading
+t for p,1.0,1,0.0,reading
+t for r,2.0,1,0.0,reading
+t for t̰,1.0,1,0.0,reading
+t for u,2.0,1,0.0,reading
+t for v,3.0,2,0.947766263707773,variant
+t for ə,1.0,1,0.0,reading
+t for δ,5.0,3,0.7903054721538801,variant
+t for ϑ,58.0,8,0.2895994428452599,reading
+t for ṇ,2.0,1,0.0,reading
+t inserted,28.0,8,0.0803131185551166,reading
+t̰ deleted,6.0,5,0.5021155174779021,reading
+t̰ for d,5.0,1,0.0,reading
+t̰ for e,2.0,1,0.0,reading
+t̰ for t,3.0,2,0.3791065054831092,reading
+t̰ for š,2.0,1,0.0,reading
+t̰ for δ,4.0,3,0.7744759411404606,variant
+t̰ inserted,6.0,3,0.7813451522439587,variant
+u deleted,109.0,9,0.0503547306854404,reading
+u for a,14.0,5,0.5665488706256817,reading
+u for au,3.0,2,0.663436384595441,reading
+u for aō,3.0,2,0.663436384595441,reading
+u for e,2.0,2,0.0,reading
+u for i,7.0,3,0.5357703164670065,reading
+u for ii,1.0,1,0.0,reading
+u for o,24.0,3,0.8011234729680438,variant
+u for ou,14.0,3,0.5357703164670065,reading
+u for p,5.0,2,0.9669335030887188,variant
+u for uu,36.0,9,0.1045249306990013,reading
+u for v,3.0,3,0.7562146819045672,variant
+u for ā,15.0,4,0.6700199056748397,reading
+u for āi,2.0,2,0.0,reading
+u for āu,3.0,2,0.947766263707773,variant
+u for ā̊,2.0,1,0.0,reading
+u for ą,4.0,4,0.6090788175662801,reading
+u for ī,14.0,3,0.5539082861871348,reading
+u for ō,27.0,7,0.2413539612242424,reading
+u for ū,13.0,4,0.1808353022626053,reading
+u for β,3.0,1,0.0,reading
+u inserted,188.0,9,0.0457963500353428,reading
+uu deleted,7.0,4,0.4513837261675333,reading
+uu for a,1.0,1,0.0,reading
+uu for au,66.0,9,0.0904744170556801,reading
+uu for u,54.0,9,0.111771741061403,reading
+uu for v,5.0,3,0.553213830507716,reading
+uu for y,2.0,1,0.0,reading
+uu inserted,6.0,4,0.4420193279502823,reading
+v deleted,9.0,5,0.2068135043831174,reading
+v for b,2.0,2,0.0,reading
+v for i,1.0,1,0.0,reading
+v for j,1.0,1,0.0,reading
+v for m,1.0,1,0.0,reading
+v for t,1.0,1,0.0,reading
+v for u,8.0,7,0.1960230741250092,reading
+v for uu,9.0,6,0.2884196832273007,reading
+v for β,1.0,1,0.0,reading
+v inserted,2.0,1,0.0,reading
+x deleted,1.0,1,0.0,reading
+x for h,3.0,2,0.947766263707773,variant
+x for r,1.0,1,0.0,reading
+x for t,1.0,1,0.0,reading
+x for x́,2.0,1,0.0,reading
+x for xᵛ,7.0,3,0.7912975516959069,variant
+x for ϑ,1.0,1,0.0,reading
+x inserted,4.0,3,0.3097903764561842,reading
+x́ deleted,1.0,1,0.0,reading
+x́ for xᵛ,8.0,2,0.9587651324906024,variant
+x́ inserted,2.0,1,0.0,reading
+xᵛ for a,2.0,1,0.0,reading
+xᵛ for x,5.0,2,0.9669335030887188,variant
+xᵛ for x́,107.0,2,1.0,variant
+xᵛ inserted,1.0,1,0.0,reading
+y deleted,1.0,1,0.0,reading
+y for g,1.0,1,0.0,reading
+y for h,1.0,1,0.0,reading
+y for i,7.0,5,0.3556224917418618,reading
+y for ϑ,1.0,1,0.0,reading
+y for ẏ,1019.0,4,0.276729789553459,reading
+y inserted,13.0,3,0.3316618282039246,reading
+z deleted,4.0,1,0.0,reading
+z for c,1.0,1,0.0,reading
+z for h,1.0,1,0.0,reading
+z for m,2.0,2,0.0,reading
+z for r,2.0,2,0.0,reading
+z for δ,1.0,1,0.0,reading
+z for ϑ,1.0,1,0.0,reading
+z inserted,7.0,3,0.3061544665525751,reading
+ā deleted,31.0,8,0.1125275644518139,reading
+ā for a,102.0,9,0.0401736892816711,reading
+ā for e,9.0,6,0.2984954862702971,reading
+ā for i,5.0,3,0.5393609475534135,reading
+ā for t,3.0,1,0.0,reading
+ā for u,22.0,3,0.5639959727482567,reading
+ā for āi,89.0,9,0.0881248705417803,reading
+ā for āu,7.0,6,0.3867223517756993,reading
+ā for ā̊,51.0,8,0.1015603210016419,reading
+ā for ą,2.0,1,0.0,reading
+ā for ą̇,1.0,1,0.0,reading
+ā for ē,5.0,3,0.553213830507716,reading
+ā for ī,5.0,3,0.5393609475534135,reading
+ā for ō,5.0,4,0.4406511833228942,reading
+ā for ə,4.0,3,0.5421331587983224,reading
+ā inserted,17.0,7,0.1361394511752263,reading
+āi deleted,2.0,2,0.0,reading
+āi for a,4.0,2,0.934027841500776,variant
+āi for ai,14.0,8,0.0939429786126228,reading
+āi for aē,1.0,1,0.0,reading
+āi for aō,1.0,1,0.0,reading
+āi for h,2.0,2,0.0,reading
+āi for i,4.0,2,0.6711355927434217,reading
+āi for m,7.0,3,0.8130543613597753,variant
+āi for t,3.0,2,0.947766263707773,variant
+āi for u,2.0,2,0.0,reading
+āi for ā,24.0,7,0.3478601108228221,reading
+āi for ā̊,4.0,1,0.0,reading
+āi inserted,6.0,4,0.6314561827861177,reading
+āu deleted,5.0,2,0.941024295263871,variant
+āu for a,18.0,5,0.5085673681315199,reading
+āu for au,17.0,7,0.098430722645358,reading
+āu for aō,14.0,4,0.4615902924537395,reading
+āu for uu,4.0,4,0.4263551722963961,reading
+āu for ā,1.0,1,0.0,reading
+āu for ā̊,6.0,4,0.6314561827861177,reading
+āu for ū,2.0,1,0.0,reading
+āu for ə,2.0,1,0.0,reading
+āu inserted,1.0,1,0.0,reading
+ā̊ deleted,6.0,4,0.6314561827861177,reading
+ā̊ for a,5.0,3,0.3082062557448077,reading
+ā̊ for aō,2.0,2,0.0,reading
+ā̊ for i,3.0,2,0.663436384595441,reading
+ā̊ for u,2.0,2,0.0,reading
+ā̊ for v,1.0,1,0.0,reading
+ā̊ for å,1.0,1,0.0,reading
+ā̊ for ā,96.0,10,0.0320675440218941,reading
+ā̊ for āi,4.0,2,0.934027841500776,variant
+ā̊ for ō,2.0,2,0.0,reading
+ā̊ for ạ,1.0,1,0.0,reading
+ā̊ inserted,2.0,1,0.0,reading
+ą deleted,10.0,3,0.3049090344151285,reading
+ą for a,17.0,8,0.0848457474297409,reading
+ą for i,2.0,1,0.0,reading
+ą for m,6.0,2,0.934027841500776,variant
+ą for u,1.0,1,0.0,reading
+ą for ā,6.0,3,0.3125380608975835,reading
+ą for āi,1.0,1,0.0,reading
+ą for ā̊,4.0,3,0.3097903764561842,reading
+ą for ą̇,1299.0,3,0.3256088718466946,reading
+ą for ī,1.0,1,0.0,reading
+ą for ō,1.0,1,0.0,reading
+ą for ū,2.0,1,0.0,reading
+ą for ə,9.0,5,0.3696196787561791,reading
+ą inserted,5.0,2,0.3867734012354875,reading
+ą̇ inserted,6.0,2,0.934027841500776,variant
+ē deleted,3.0,2,0.3791065054831092,reading
+ē for a,4.0,3,0.7744759411404606,variant
+ē for aē,5.0,4,0.4406511833228942,reading
+ē for e,46.0,9,0.0427148309929405,reading
+ē for i,11.0,6,0.2647395961862817,reading
+ē for ī,15.0,5,0.353684131326243,reading
+ē for ō,1.0,1,0.0,reading
+ē for ə̄,32.0,6,0.2789877238341839,reading
+ē inserted,14.0,7,0.1284523693545104,reading
+ī deleted,6.0,5,0.1405923448938125,reading
+ī for a,8.0,4,0.4440841143063181,reading
+ī for ai,2.0,2,0.0,reading
+ī for au,1.0,1,0.0,reading
+ī for aē,17.0,7,0.2416382379842569,reading
+ī for e,30.0,8,0.2012040607189562,reading
+ī for i,55.0,10,0.0332912192868432,reading
+ī for u,3.0,3,0.5293502773331971,reading
+ī for x,2.0,2,0.0,reading
+ī for ą,5.0,2,0.676853452162103,reading
+ī for ē,4.0,4,0.4263551722963961,reading
+ī for ō,4.0,1,0.0,reading
+ī for ū,33.0,2,0.7059922988552547,reading
+ī for ə,40.0,7,0.2480731825070995,reading
+ī for ə̄,21.0,6,0.307829568631898,reading
+ī inserted,12.0,3,0.2212918315181533,reading
+ń deleted,3.0,2,0.3791065054831092,reading
+ń for ai,1.0,1,0.0,reading
+ń for n,379.0,10,0.03367700884437,reading
+ń for o,3.0,3,0.7562146819045672,variant
+ń for δ,1.0,1,0.0,reading
+ń for ṇ,1.0,1,0.0,reading
+ŋ deleted,5.0,2,0.3867734012354875,reading
+ŋ for a,4.0,3,0.7744759411404606,variant
+ŋ for g,1.0,1,0.0,reading
+ŋ for n,2.0,2,0.0,reading
+ŋ for ŋ́,10.0,7,0.123410358642138,reading
+ŋ for ŋᵛ,14.0,5,0.5366403316335171,reading
+ŋ for ṇ,6.0,5,0.3514808622345314,reading
+ŋ inserted,5.0,3,0.3161221888615521,reading
+ŋ́ for ŋ,62.0,9,0.060489686329931,reading
+ŋᵛ for ŋ,402.0,10,0.0316479106963171,reading
+ŋᵛ for ŋ́,3.0,2,0.947766263707773,variant
+ŋᵛ inserted,1.0,1,0.0,reading
+ō deleted,16.0,7,0.1440386633248143,reading
+ō for a,13.0,5,0.5159899286209382,reading
+ō for aō,79.0,7,0.365536678204936,reading
+ō for i,1.0,1,0.0,reading
+ō for j,1.0,1,0.0,reading
+ō for o,6.0,3,0.321174463505866,reading
+ō for u,3.0,2,0.663436384595441,reading
+ō for v,2.0,1,0.0,reading
+ō for ā,5.0,2,0.9669335030887188,variant
+ō for ā̊,5.0,3,0.7903054721538801,variant
+ō for ą,1.0,1,0.0,reading
+ō for ē,1.0,1,0.0,reading
+ō for ōi,6.0,4,0.6314561827861178,reading
+ō for ū,2.0,1,0.0,reading
+ō for ə,1.0,1,0.0,reading
+ō for δ,1.0,1,0.0,reading
+ō inserted,25.0,6,0.1713606148996265,reading
+ōi deleted,1.0,1,0.0,reading
+ōi for a,4.0,1,0.0,reading
+ōi for aō,79.0,7,0.2790887780512703,reading
+ōi for ii,3.0,3,0.5293502773331971,reading
+ōi for n,1.0,1,0.0,reading
+ōi for o,7.0,2,0.9386522159315634,variant
+ōi for ō,64.0,9,0.1292061451058984,reading
+ōi for ə̄,1.0,1,0.0,reading
+ōi inserted,3.0,3,0.7562146819045672,variant
+š deleted,24.0,9,0.0345878791173688,reading
+š for e,1.0,1,0.0,reading
+š for i,1.0,1,0.0,reading
+š for m,3.0,2,0.663436384595441,reading
+š for o,16.0,2,0.6873673844219694,reading
+š for s,24.0,8,0.0851107232383725,reading
+š for t,1.0,1,0.0,reading
+š for ā,4.0,1,0.0,reading
+š for ē,3.0,2,0.663436384595441,reading
+š for ō,1.0,1,0.0,reading
+š for š́,36.0,8,0.074372371850381,reading
+š for ū,1.0,1,0.0,reading
+š for ə,3.0,2,0.663436384595441,reading
+š for ṣ̌,239.0,9,0.0623646098043922,reading
+š inserted,25.0,8,0.0690520898177361,reading
+š́ for e,1.0,1,0.0,reading
+š́ for š,33.0,9,0.0356046555665177,reading
+š́ for ṣ̌,6.0,4,0.1768077311801129,reading
+ū deleted,10.0,5,0.1538962544237782,reading
+ū for a,4.0,3,0.5421331587983224,reading
+ū for au,1.0,1,0.0,reading
+ū for aē,6.0,4,0.4420193279502823,reading
+ū for aō,1.0,1,0.0,reading
+ū for i,6.0,4,0.4535633970788678,reading
+ū for o,1.0,1,0.0,reading
+ū for u,12.0,4,0.1863338597139054,reading
+ū for ā,1.0,1,0.0,reading
+ū for ą,2.0,2,0.0,reading
+ū for ē,5.0,4,0.4406511833228942,reading
+ū for ī,1239.0,8,0.1692478126058114,reading
+ū for ō,1.0,1,0.0,reading
+ū for ə̄,24.0,2,0.7032219172671613,reading
+ū inserted,6.0,2,0.2724817783283734,reading
+ž for c,1.0,1,0.0,reading
+ž for k,1.0,1,0.0,reading
+ž for β,1.0,1,0.0,reading
+ə deleted,64.0,10,0.0228104464827499,reading
+ə for a,102.0,10,0.0718706590479322,reading
+ə for aē,1.0,1,0.0,reading
+ə for e,10.0,5,0.3541265083892739,reading
+ə for i,69.0,8,0.152047725542017,reading
+ə for m,1.0,1,0.0,reading
+ə for o,1.0,1,0.0,reading
+ə for s,1.0,1,0.0,reading
+ə for t,1.0,1,0.0,reading
+ə for u,1.0,1,0.0,reading
+ə for w,1.0,1,0.0,reading
+ə for ā,4.0,3,0.7744759411404606,variant
+ə for ā̊,2.0,1,0.0,reading
+ə for ą,14.0,5,0.5366403316335171,reading
+ə for ą̇,6.0,2,0.947766263707773,variant
+ə for ē,1.0,1,0.0,reading
+ə for ī,6.0,4,0.4420193279502824,reading
+ə for ō,2.0,2,0.0,reading
+ə for š,1.0,1,0.0,reading
+ə for ə̄,19.0,7,0.0857249431346303,reading
+ə for ə̄u,8.0,8,0.1095692106100701,reading
+ə inserted,326.0,9,0.0586812413070699,reading
+ə̄ for aē,6.0,4,0.4535633970788678,reading
+ə̄ for e,1.0,1,0.0,reading
+ə̄ for i,1.0,1,0.0,reading
+ə̄ for ē,2.0,2,0.0,reading
+ə̄ for ī,4.0,4,0.4263551722963961,reading
+ə̄ for ə,30.0,10,0.0140691814112134,reading
+ə̄ inserted,8.0,4,0.657078339730615,reading
+ə̄u for ī,1.0,1,0.0,reading
+ə̄u for ə,6.0,3,0.5469416065707711,reading
+ə̄u for ə̄,3.0,2,0.663436384595441,reading
+ə̄u inserted,1.0,1,0.0,reading
+ɱ for h,519.0,9,0.1327363945112201,reading
+ɱ for m,20.0,3,0.8636837923738167,variant
+ɱ for r,1.0,1,0.0,reading
+β deleted,1.0,1,0.0,reading
+β for ii,1.0,1,0.0,reading
+β for r,1.0,1,0.0,reading
+β for uu,1.0,1,0.0,reading
+β for v,4.0,1,0.0,reading
+β for ß,2.0,1,0.0,reading
+β inserted,2.0,1,0.0,reading
+γ for k,1.0,1,0.0,reading
+γ for ɤ,2.0,1,0.0,reading
+γ inserted,1.0,1,0.0,reading
+δ deleted,8.0,5,0.2017507743969401,reading
+δ for d,20.0,6,0.437506264528706,reading
+δ for ii,3.0,2,0.663436384595441,reading
+δ for m,2.0,1,0.0,reading
+δ for o,5.0,1,0.0,reading
+δ for r,1.0,1,0.0,reading
+δ for t,14.0,5,0.524129853105248,reading
+δ for t̰,4.0,1,0.0,reading
+δ for š,1.0,1,0.0,reading
+δ for γ,1.0,1,0.0,reading
+δ for ϑ,8.0,6,0.3954778375256926,reading
+δ inserted,6.0,5,0.2008462069911608,reading
+ϑ deleted,19.0,7,0.1353268683683063,reading
+ϑ for d,2.0,1,0.0,reading
+ϑ for i,4.0,3,0.5421331587983224,reading
+ϑ for m,1.0,1,0.0,reading
+ϑ for o,1.0,1,0.0,reading
+ϑ for s,23.0,2,0.6938741096613908,reading
+ϑ for t,51.0,8,0.2918320401198316,reading
+ϑ for z,1.0,1,0.0,reading
+ϑ for δ,7.0,5,0.5080321310598026,reading
+ϑ inserted,13.0,3,0.3222896640410275,reading
+ṇ deleted,4.0,3,0.2168532635193289,reading
+ṇ for i,1.0,1,0.0,reading
+ṇ for n,20.0,5,0.149565865598933,reading
+ṇ for ŋ,2.0,2,0.0,reading
+ṇ for ̄,1.0,1,0.0,reading
+ṇ inserted,48.0,9,0.045325608800209,reading
+ṣ̌ deleted,1.0,1,0.0,reading
+ṣ̌ for r,2.0,1,0.0,reading
+ṣ̌ for š,667.0,9,0.0845071556852037,reading
+ṣ̌ for š́,57.0,8,0.0632743060991369,reading
+ṣ̌ inserted,21.0,4,0.7327030426918826,variant
+⸳ inserted,1.0,1,0.0,reading

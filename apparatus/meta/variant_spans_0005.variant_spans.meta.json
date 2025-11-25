@@ -1,0 +1,8 @@
+{
+  "input": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/res/Yasna/0005.jsonl",
+  "input_sha256": "f6d33c6727e90ab47e034c0ab519b01adb1af9d5975f017ca6e92db34b47810c",
+  "output": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/res/Yasna/variant_spans_0005.jsonl",
+  "span_count": 3579,
+  "script": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/scripts/build_variant_spans.py",
+  "timestamp": "2025-10-20T20:57:41.322735Z"
+}

@@ -1,0 +1,16 @@
+app_id,wit_list,rdg_text,lem_text,feature,variant_likelihood,reason,inference_rule
+app-Y9.1a-5-6,#ms0008,ratīm,ratūm,ratīm→ratūm,0.5,borderline/unstable or unmapped,none
+app-Y9.2a-6-7,#ms0008,dīraōšō,dūraōšō,dīraōšō→dūraōšō,0.5,borderline/unstable or unmapped,none
+app-Y9.2d-7-9,#ms0008,saōš́iiaṇtō stauuąn⁛,saōš́iiaṇtō stauuąn,subst,0.5,borderline/unstable or unmapped,none
+app-Y9.4a-6-7,#ms0008,dīraōšō,dūraōšō,dīraōšō→dūraōšō,0.5,borderline/unstable or unmapped,none
+app-Y9.7a-6-7,#ms0008,dīraōšō,dūraōšō,dīraōšō→dūraōšō,0.5,borderline/unstable or unmapped,none
+app-Y9.10a-6-7,#ms0008,dīraōšō,dūraōšō,dīraōšō→dūraōšō,0.5,borderline/unstable or unmapped,none
+app-Y9.13c-1-3,#ms0008,hə̄ tə̄m,hē tūm,subst,0.5,borderline/unstable or unmapped,none
+app-Y9.13c-5-6,#ms0008,tīm,tūm,tīm→tūm,0.5,borderline/unstable or unmapped,none
+app-Y9.16c-0-1,#ms0008,vaŋhə̄uš,vaŋhuš,subst,0.5,borderline/unstable or unmapped,none
+app-Y9.17e-3-4,#ms0008,tanīm,tanūm,tanīm→tanūm,0.5,borderline/unstable or unmapped,none
+app-Y9.19b-6-7,#ms0008,dīraōša,dūraōša,dīraōša→dūraōša,0.5,borderline/unstable or unmapped,none
+app-Y9.19c-5-7,#ms0008,jaiδiiemi⁛ dīraōša,jaiδiiemi dūraōša,subst,0.5,borderline/unstable or unmapped,none
+app-Y9.20a-6-7,#ms0008,dīraōša,dūraōša,dīraōša→dūraōša,0.5,borderline/unstable or unmapped,none
+app-Y9.20b-14-15,#ms0008,t̰baēšā̊,t̰baēšō,t̰baēšā̊→t̰baēšō,0.5,borderline/unstable or unmapped,none
+app-Y9.25a-1-2,#ms0008,tə̄,tē,tə̄→tē,0.5,borderline/unstable or unmapped,none
