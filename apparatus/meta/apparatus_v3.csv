@@ -1,0 +1,619 @@
+locus,feature,variant_flag,ms_list,total_count
+corpus,  deleted,0,5,2
+corpus,  inserted,0,410,5
+corpus,", inserted",0,88,1
+corpus,. deleted,0,40,1
+corpus,a deleted,0,"15,400,410,5,510,6,60,83,88",256
+corpus,a for ai,0,"15,400,410,5,510,6,60,83,88",50
+corpus,a for au,0,5,2
+corpus,a for aē,0,"400,410,5,6,60,83,88",13
+corpus,a for aō,0,"410,5,60,88",11
+corpus,a for c,0,400,2
+corpus,a for e,0,"15,40,400,410,5,510,6,60,83,88",39
+corpus,a for h,1,"5,60,83",3
+corpus,a for i,0,"15,400,410,5,510,6,60,83,88",49
+corpus,a for ii,0,410,1
+corpus,a for m,0,"5,60,83,88",5
+corpus,a for n,0,"400,60,83,88",4
+corpus,a for o,0,"15,410",2
+corpus,a for t,1,"6,88",3
+corpus,a for u,0,"410,88",3
+corpus,a for ā,0,"15,400,410,5,510,60,83,88",45
+corpus,a for āi,0,88,1
+corpus,a for ā̊,0,"15,5,60",5
+corpus,a for ą,0,"60,83",6
+corpus,a for ē,0,"410,88",4
+corpus,a for ī,0,"15,6,83",5
+corpus,a for ō,0,"15,400,410,5,60,83,88",11
+corpus,a for ōi,0,15,1
+corpus,a for ū,0,60,1
+corpus,a for ə,0,"15,40,400,410,5,510,6,60,83,88",139
+corpus,a for ə̄,0,"400,410,5,60",5
+corpus,a for ϑ,0,83,2
+corpus,a for ṇ,0,5,1
+corpus,a for ạ,0,15,1
+corpus,a inserted,0,"15,40,400,410,5,510,6,60,83,88",294
+corpus,ai deleted,0,"15,410,510,6,60",16
+corpus,ai for a,0,"15,40,400,410,5,510,6,60,83,88",207
+corpus,ai for au,0,15,2
+corpus,ai for aē,0,"15,400,410,510,6,83,88",27
+corpus,ai for i,0,"400,410,5,6,83,88",12
+corpus,ai for ii,0,"15,40,400,410,5,510,6,60,83,88",275
+corpus,ai for m,1,"6,60",7
+corpus,ai for r,0,410,1
+corpus,ai for u,0,"15,400,510",4
+corpus,ai for ā,0,60,1
+corpus,ai for āi,0,"410,60,83",4
+corpus,ai for ā̊,1,"400,410",4
+corpus,ai for ē,0,83,1
+corpus,ai for ī,0,15,1
+corpus,ai for ə,0,"15,410,5,6,60,83,88",22
+corpus,ai for ϑ,0,6,1
+corpus,ai inserted,0,"15,400,410,5,6,83,88",22
+corpus,au deleted,0,"400,5,510,83",9
+corpus,au for a,0,"15,400,410,5,6,60",36
+corpus,au for aō,0,"15,5,510,6,60,83,88",60
+corpus,au for h,0,5,2
+corpus,au for i,0,410,1
+corpus,au for u,0,"15,410,510,6,88",7
+corpus,au for uu,0,"15,400,410,5,510,6,60,83,88",49
+corpus,au for v,0,60,1
+corpus,au for āu,0,510,1
+corpus,au for ō,0,"410,60",2
+corpus,au inserted,0,"15,6,88",3
+corpus,aē deleted,0,"400,410,60,83",10
+corpus,aē for a,0,"15,40,400,410,510,6,60,83,88",98
+corpus,aē for ai,0,"400,410,5,510,6,60,83,88",27
+corpus,aē for au,0,"410,60,83",4
+corpus,aē for e,0,"400,410,60,83",13
+corpus,aē for i,0,"400,410,60,83",8
+corpus,aē for ā,0,400,1
+corpus,aē for ē,0,"400,410,60,88",10
+corpus,aē for ī,0,"15,5,6,60,83,88",71
+corpus,aē for ū,0,60,4
+corpus,aē for ə,0,"400,410",12
+corpus,aē for ə̄,0,"5,6,60,83,88",7
+corpus,aē inserted,0,"400,410,510,6",9
+corpus,aō deleted,0,"15,5,6,83",8
+corpus,aō for a,0,"40,400,410,510,60,83,88",1232
+corpus,aō for ai,0,510,1
+corpus,aō for au,0,"400,510,88",7
+corpus,aō for d,0,410,1
+corpus,aō for m,0,83,1
+corpus,aō for o,0,"400,410,60",17
+corpus,aō for u,0,"15,410,6,60",5
+corpus,aō for ā,0,"83,88",3
+corpus,aō for āi,0,"510,83",3
+corpus,aō for āu,0,"5,510",3
+corpus,aō for ą,0,60,1
+corpus,aō for ō,0,"40,400,410,5,6,60,83,88",85
+corpus,aō for ōi,0,"15,400,410,5,6,60,83,88",62
+corpus,aō for ū,0,"400,410",3
+corpus,aō inserted,0,15,1
+corpus,b deleted,0,6,2
+corpus,b for d,0,83,2
+corpus,b for e,0,"60,88",2
+corpus,b for z,0,83,1
+corpus,b for β,1,"400,410,60",4
+corpus,c deleted,0,"5,6,60,83,88",12
+corpus,c for h,0,"83,88",2
+corpus,c for j,1,"15,60,83",5
+corpus,c for m,0,60,1
+corpus,c for s,0,15,1
+corpus,c for t,1,"400,6,88",5
+corpus,c for ą,0,60,1
+corpus,c for ŋ,0,60,1
+corpus,c inserted,0,"15,400,410,5,510,6,60,83,88",19
+corpus,d deleted,0,"400,510,6,88",9
+corpus,d for aē,0,410,1
+corpus,d for g,0,83,1
+corpus,d for h,1,"410,60,83",4
+corpus,d for i,0,5,1
+corpus,d for m,1,"83,88",6
+corpus,d for p,0,83,1
+corpus,d for s,0,83,1
+corpus,d for u,0,83,3
+corpus,d for δ,0,"15,400,410,510,6,60,83,88",51
+corpus,d for ϑ,0,88,1
+corpus,d for ẏ,0,410,1
+corpus,d inserted,0,"400,410,510,60,83,88",16
+corpus,e deleted,0,"400,410,5,510,6,60,83,88",41
+corpus,e for a,0,"15,400,410,5,510,6,60,83,88",68
+corpus,e for ai,0,"15,5,510,6,60,83",11
+corpus,e for aē,0,400,1
+corpus,e for i,0,"15,400,410,5,510,6,60,83,88",230
+corpus,e for o,0,410,1
+corpus,e for ē,0,"15,400,410,5,510,6,60,83,88",63
+corpus,e for ī,0,"15,5,6",13
+corpus,e for ō,0,6,1
+corpus,e for ū,0,60,1
+corpus,e for ə,0,"15,400,410,5,510,6,83,88",16
+corpus,e for ə̄,0,6,1
+corpus,e inserted,0,"40,400,410,5,510,6,60,83,88",125
+corpus,f deleted,0,6,1
+corpus,f for h,0,6,1
+corpus,f for p,0,"15,6,60,88",12
+corpus,f for ẏ,0,510,1
+corpus,f inserted,0,88,2
+corpus,g deleted,0,"5,510,60,88",4
+corpus,g for a,0,410,1
+corpus,g for d,0,"410,60",2
+corpus,g for o,0,410,1
+corpus,g for p,0,88,2
+corpus,g for γ,0,"400,410",2
+corpus,g inserted,0,"400,410,5,510,6",11
+corpus,h deleted,0,"15,400,410,5,510,6,60,83,88",144
+corpus,h for a,0,15,1
+corpus,h for ai,0,5,1
+corpus,h for au,0,5,1
+corpus,h for g,0,60,1
+corpus,h for i,0,"6,88",2
+corpus,h for m,0,410,1
+corpus,h for v,0,88,2
+corpus,h for δ,0,88,1
+corpus,h inserted,0,"15,400,410,5,510,6,60,83,88",53
+corpus,i deleted,0,"15,40,400,410,5,510,6,60,83,88",431
+corpus,i for a,0,"15,400,410,5,510,6,60,83,88",208
+corpus,i for ai,0,"410,5,60,83,88",7
+corpus,i for au,0,"15,400,410,5,6,60,88",35
+corpus,i for aē,0,"15,400,410,6",11
+corpus,i for c,0,83,1
+corpus,i for e,0,"15,40,400,410,5,510,6,60,83,88",281
+corpus,i for h,0,400,2
+corpus,i for ii,0,"15,400,410,5,510,6,60,83,88",55
+corpus,i for m,1,"410,83",3
+corpus,i for n,0,"60,83",4
+corpus,i for o,1,"400,410",4
+corpus,i for r,1,"400,5",3
+corpus,i for u,0,"15,5,6",6
+corpus,i for y,0,60,9
+corpus,i for ā,0,5,1
+corpus,i for ą,0,83,1
+corpus,i for ą̇,0,410,1
+corpus,i for ē,0,"15,410,5,6,60,88",14
+corpus,i for ī,0,"15,410,5,510,6,60,83",13
+corpus,i for ń,0,510,1
+corpus,i for ŋ,0,"410,88",2
+corpus,i for ō,0,"410,6",2
+corpus,i for ū,0,510,1
+corpus,i for ə,0,"15,40,400,410,5,510,6,60,83,88",511
+corpus,i for ə̄,0,"15,400,5,6,60",7
+corpus,i for ̊,0,"400,410",2
+corpus,i for ϑ,0,83,1
+corpus,i for ạ,0,88,1
+corpus,i for ị,0,60,1
+corpus,i inserted,0,"15,40,400,410,5,510,6,60,83,88",437
+corpus,ii deleted,0,"15,400,410,5,6,60,83,88",22
+corpus,ii for a,0,"400,510",3
+corpus,ii for ai,0,"15,40,400,410,5,510,6,60,83,88",206
+corpus,ii for e,0,15,1
+corpus,ii for i,0,"15,400,410,5,510,6,60,83,88",31
+corpus,ii for m,0,"400,410",3
+corpus,ii for n,0,"400,410",2
+corpus,ii for uu,0,5,2
+corpus,ii for y,0,60,1
+corpus,ii for āi,0,"410,510",3
+corpus,ii for ōi,0,88,1
+corpus,ii for š,0,410,1
+corpus,ii inserted,0,"15,400,410,5,510,6,60,88",23
+corpus,j for a,0,83,1
+corpus,j for c,0,"400,410,5,510,6,88",10
+corpus,j for z,0,"400,410",3
+corpus,j inserted,0,5,1
+corpus,k deleted,0,6,1
+corpus,k for b,0,410,3
+corpus,k for β,0,60,1
+corpus,m deleted,0,"400,410,510,6,60,83,88",35
+corpus,m for a,0,6,1
+corpus,m for ai,0,88,2
+corpus,m for e,0,6,1
+corpus,m for i,0,88,1
+corpus,m for n,0,83,2
+corpus,m for s,0,510,2
+corpus,m for u,0,"400,510",4
+corpus,m for ī,0,83,1
+corpus,m for ɱ,0,510,4
+corpus,m for ϑ,0,410,1
+corpus,m inserted,0,"15,400,410,5,510,6,60,83,88",557
+corpus,n deleted,0,"15,400,410,510,6,60,83,88",29
+corpus,n for c,1,"6,60",3
+corpus,n for d,0,510,1
+corpus,n for m,0,60,1
+corpus,n for o,0,510,2
+corpus,n for r,1,"410,510,60",4
+corpus,n for t,1,"410,6,88",5
+corpus,n for v,0,60,1
+corpus,n for āi,0,15,1
+corpus,n for ē,0,83,1
+corpus,n for ī,0,6,1
+corpus,n for ń,0,"5,510,6,60,83,88",16
+corpus,n for š,0,410,1
+corpus,n for ṇ,0,"410,510,83,88",7
+corpus,n inserted,0,"15,400,410,5,510,6,60,83,88",55
+corpus,o for a,0,6,2
+corpus,o for u,0,"400,6",3
+corpus,o for ō,0,"15,40,400,410,6,83",43
+corpus,o for ū,0,410,1
+corpus,o inserted,0,"40,400,410,510,60,83",1216
+corpus,ou for au,0,"5,6",5
+corpus,ou for aō,0,"15,410,5,6,60,83,88",35
+corpus,ou for u,0,"6,83",5
+corpus,ou for ō,0,"400,410,5,510,6,60,83,88",40
+corpus,ou for ōi,0,60,1
+corpus,ou inserted,0,"400,510",6
+corpus,p deleted,0,"410,83,88",6
+corpus,p for f,0,"15,5,60,88",16
+corpus,p for n,0,88,1
+corpus,p for v,0,410,2
+corpus,p for š,0,510,1
+corpus,p for β,1,"410,60",3
+corpus,p for ϑ,0,60,1
+corpus,p inserted,0,"400,410,510,60,88",14
+corpus,r deleted,0,"400,410,510,6,60,83",16
+corpus,r for c,0,"510,60",2
+corpus,r for h,1,"60,83,88",4
+corpus,r for n,0,410,1
+corpus,r for o,0,410,1
+corpus,r for v,0,"60,88",2
+corpus,r for z,1,"400,83",3
+corpus,r for āi,0,6,1
+corpus,r for ń,0,83,1
+corpus,r for š,0,88,1
+corpus,r for š́,0,510,1
+corpus,r for ž,0,83,1
+corpus,r inserted,0,"400,410,5,6,60,83,88",36
+corpus,s deleted,0,"410,5,510,6,60,83,88",18
+corpus,s for h,0,83,1
+corpus,s for i,0,60,1
+corpus,s for ii,0,15,1
+corpus,s for m,1,"510,60",3
+corpus,s for n,0,510,1
+corpus,s for p,0,510,1
+corpus,s for u,0,"83,88",2
+corpus,s for ŋ,0,60,2
+corpus,s for š,0,"400,410,510,6,60",16
+corpus,s for ž,0,88,1
+corpus,s for ϑ,0,"400,5,60,88",7
+corpus,s inserted,0,"15,400,5,510,83,88",18
+corpus,t deleted,0,"15,400,410,5,510,6,60,83",25
+corpus,t for a,0,83,1
+corpus,t for d,0,88,1
+corpus,t for i,0,83,1
+corpus,t for j,0,"83,88",2
+corpus,t for p,0,510,1
+corpus,t for r,0,83,2
+corpus,t for t̰,0,60,1
+corpus,t for u,0,5,2
+corpus,t for v,1,"410,88",3
+corpus,t for ə,0,83,1
+corpus,t for δ,1,"15,510,83",5
+corpus,t for ϑ,0,"15,40,5,510,6,60,83,88",58
+corpus,t for ṇ,0,83,2
+corpus,t inserted,0,"15,400,410,510,6,60,83,88",28
+corpus,t̰ deleted,0,"15,400,410,60,83",6
+corpus,t̰ for d,0,60,5
+corpus,t̰ for e,0,88,2
+corpus,t̰ for t,0,"60,83",3
+corpus,t̰ for š,0,60,2
+corpus,t̰ for δ,1,"15,400,410",4
+corpus,t̰ inserted,1,"15,6,60",6
+corpus,u deleted,0,"15,400,410,5,510,6,60,83,88",109
+corpus,u for a,0,"15,400,410,83,88",14
+corpus,u for au,0,"15,410",3
+corpus,u for aō,0,"15,6",3
+corpus,u for e,0,"410,60",2
+corpus,u for i,0,"510,6,83",7
+corpus,u for ii,0,60,1
+corpus,u for o,1,"400,410,60",24
+corpus,u for ou,0,"400,410,510",14
+corpus,u for p,1,"510,83",5
+corpus,u for uu,0,"15,400,410,5,510,6,60,83,88",36
+corpus,u for v,1,"5,6,60",3
+corpus,u for ā,0,"6,60,83,88",15
+corpus,u for āi,0,"15,88",2
+corpus,u for āu,1,"400,60",3
+corpus,u for ā̊,0,60,2
+corpus,u for ą,0,"15,5,6,88",4
+corpus,u for ī,0,"5,83,88",14
+corpus,u for ō,0,"15,400,410,5,510,6,60",27
+corpus,u for ū,0,"400,410,510,60",13
+corpus,u for β,0,15,3
+corpus,u inserted,0,"15,400,410,5,510,6,60,83,88",188
+corpus,uu deleted,0,"15,410,5,60",7
+corpus,uu for a,0,60,1
+corpus,uu for au,0,"15,400,410,5,510,6,60,83,88",66
+corpus,uu for u,0,"15,400,410,5,510,6,60,83,88",54
+corpus,uu for v,0,"400,410,5",5
+corpus,uu for y,0,60,2
+corpus,uu inserted,0,"410,510,6,88",6
+corpus,v deleted,0,"15,5,510,60,83",9
+corpus,v for b,0,"15,510",2
+corpus,v for i,0,60,1
+corpus,v for j,0,510,1
+corpus,v for m,0,83,1
+corpus,v for t,0,88,1
+corpus,v for u,0,"15,400,410,5,510,6,60",8
+corpus,v for uu,0,"15,510,6,60,83,88",9
+corpus,v for β,0,510,1
+corpus,v inserted,0,88,2
+corpus,x deleted,0,6,1
+corpus,x for h,1,"410,6",3
+corpus,x for r,0,60,1
+corpus,x for t,0,60,1
+corpus,x for x́,0,410,2
+corpus,x for xᵛ,1,"15,6,83",7
+corpus,x for ϑ,0,88,1
+corpus,x inserted,0,"5,6,60",4
+corpus,x́ deleted,0,88,1
+corpus,x́ for xᵛ,1,"400,88",8
+corpus,x́ inserted,0,410,2
+corpus,xᵛ for a,0,410,2
+corpus,xᵛ for x,1,"410,6",5
+corpus,xᵛ for x́,1,"40,410",107
+corpus,xᵛ inserted,0,83,1
+corpus,y deleted,0,83,1
+corpus,y for g,0,83,1
+corpus,y for h,0,83,1
+corpus,y for i,0,"15,5,6,60,83",7
+corpus,y for ϑ,0,88,1
+corpus,y for ẏ,0,"400,410,510,83",1019
+corpus,y inserted,0,"5,60,88",13
+corpus,z deleted,0,6,4
+corpus,z for c,0,83,1
+corpus,z for h,0,88,1
+corpus,z for m,0,"6,83",2
+corpus,z for r,0,"410,510",2
+corpus,z for δ,0,83,1
+corpus,z for ϑ,0,410,1
+corpus,z inserted,0,"400,410,510",7
+corpus,ā deleted,0,"15,400,410,5,6,60,83,88",31
+corpus,ā for a,0,"15,400,410,5,510,6,60,83,88",102
+corpus,ā for e,0,"400,410,5,6,83,88",9
+corpus,ā for i,0,"510,6,83",5
+corpus,ā for t,0,88,3
+corpus,ā for u,0,"6,60,88",22
+corpus,ā for āi,0,"15,400,410,5,510,6,60,83,88",89
+corpus,ā for āu,0,"15,400,410,5,510,60",7
+corpus,ā for ā̊,0,"15,400,410,5,6,60,83,88",51
+corpus,ā for ą,0,510,2
+corpus,ā for ą̇,0,400,1
+corpus,ā for ē,0,"400,6,88",5
+corpus,ā for ī,0,"60,83,88",5
+corpus,ā for ō,0,"15,410,6,88",5
+corpus,ā for ə,0,"5,83,88",4
+corpus,ā inserted,0,"40,410,5,6,60,83,88",17
+corpus,āi deleted,0,"5,83",2
+corpus,āi for a,1,"5,88",4
+corpus,āi for ai,0,"15,400,410,5,510,6,60,83",14
+corpus,āi for aē,0,5,1
+corpus,āi for aō,0,88,1
+corpus,āi for h,0,"410,88",2
+corpus,āi for i,0,"83,88",4
+corpus,āi for m,1,"400,83,88",7
+corpus,āi for t,1,"400,60",3
+corpus,āi for u,0,"6,88",2
+corpus,āi for ā,0,"400,410,5,510,60,83,88",24
+corpus,āi for ā̊,0,6,4
+corpus,āi inserted,0,"510,6,60,83",6
+corpus,āu deleted,1,"510,83",5
+corpus,āu for a,0,"400,410,510,60,83",18
+corpus,āu for au,0,"15,400,410,510,6,83,88",17
+corpus,āu for aō,0,"410,5,6,83",14
+corpus,āu for uu,0,"400,410,510,83",4
+corpus,āu for ā,0,5,1
+corpus,āu for ā̊,0,"410,5,6,60",6
+corpus,āu for ū,0,60,2
+corpus,āu for ə,0,410,2
+corpus,āu inserted,0,83,1
+corpus,ā̊ deleted,0,"400,410,6,83",6
+corpus,ā̊ for a,0,"400,510,83",5
+corpus,ā̊ for aō,0,"5,60",2
+corpus,ā̊ for i,0,"410,6",3
+corpus,ā̊ for u,0,"6,88",2
+corpus,ā̊ for v,0,60,1
+corpus,ā̊ for å,0,15,1
+corpus,ā̊ for ā,0,"15,40,400,410,5,510,6,60,83,88",96
+corpus,ā̊ for āi,1,"60,83",4
+corpus,ā̊ for ō,0,"60,83",2
+corpus,ā̊ for ạ,0,60,1
+corpus,ā̊ inserted,0,510,2
+corpus,ą deleted,0,"410,5,83",10
+corpus,ą for a,0,"15,400,410,5,510,60,83,88",17
+corpus,ą for i,0,83,2
+corpus,ą for m,1,"400,410",6
+corpus,ą for u,0,5,1
+corpus,ą for ā,0,"400,410,60",6
+corpus,ą for āi,0,88,1
+corpus,ą for ā̊,0,"15,83,88",4
+corpus,ą for ą̇,0,"40,400,410",1299
+corpus,ą for ī,0,60,1
+corpus,ą for ō,0,5,1
+corpus,ą for ū,0,60,2
+corpus,ą for ə,0,"410,5,60,83,88",9
+corpus,ą inserted,0,"5,83",5
+corpus,ą̇ inserted,1,"400,410",6
+corpus,ē deleted,0,"510,83",3
+corpus,ē for a,1,"400,410,6",4
+corpus,ē for aē,0,"5,60,83,88",5
+corpus,ē for e,0,"15,40,400,410,5,510,60,83,88",46
+corpus,ē for i,0,"5,510,6,60,83,88",11
+corpus,ē for ī,0,"15,5,6,60,88",15
+corpus,ē for ō,0,400,1
+corpus,ē for ə̄,0,"15,5,6,60,83,88",32
+corpus,ē inserted,0,"400,410,510,6,60,83,88",14
+corpus,ī deleted,0,"15,410,510,6,83",6
+corpus,ī for a,0,"410,6,83,88",8
+corpus,ī for ai,0,"5,83",2
+corpus,ī for au,0,15,1
+corpus,ī for aē,0,"15,400,5,6,60,83,88",17
+corpus,ī for e,0,"15,400,410,5,510,60,83,88",30
+corpus,ī for i,0,"15,40,400,410,5,510,6,60,83,88",55
+corpus,ī for u,0,"410,5,83",3
+corpus,ī for x,0,"83,88",2
+corpus,ī for ą,0,"510,60",5
+corpus,ī for ē,0,"15,410,6,60",4
+corpus,ī for ō,0,83,4
+corpus,ī for ū,0,"400,60",33
+corpus,ī for ə,0,"15,410,5,6,60,83,88",40
+corpus,ī for ə̄,0,"15,400,5,6,60,88",21
+corpus,ī inserted,0,"410,60,88",12
+corpus,ń deleted,0,"5,88",3
+corpus,ń for ai,0,60,1
+corpus,ń for n,0,"15,40,400,410,5,510,6,60,83,88",379
+corpus,ń for o,1,"400,410,510",3
+corpus,ń for δ,0,410,1
+corpus,ń for ṇ,0,15,1
+corpus,ŋ deleted,0,"5,60",5
+corpus,ŋ for a,1,"400,83,88",4
+corpus,ŋ for g,0,83,1
+corpus,ŋ for n,0,"60,88",2
+corpus,ŋ for ŋ́,0,"15,400,410,5,6,83,88",10
+corpus,ŋ for ŋᵛ,0,"15,5,6,60,83",14
+corpus,ŋ for ṇ,0,"400,410,5,510,6",6
+corpus,ŋ inserted,0,"400,6,60",5
+corpus,ŋ́ for ŋ,0,"15,400,410,5,510,6,60,83,88",62
+corpus,ŋᵛ for ŋ,0,"15,40,400,410,5,510,6,60,83,88",402
+corpus,ŋᵛ for ŋ́,1,"15,88",3
+corpus,ŋᵛ inserted,0,83,1
+corpus,ō deleted,0,"15,400,410,6,60,83,88",16
+corpus,ō for a,0,"400,410,510,6,60",13
+corpus,ō for aō,0,"15,410,5,6,60,83,88",79
+corpus,ō for i,0,6,1
+corpus,ō for j,0,88,1
+corpus,ō for o,0,"15,410,60",6
+corpus,ō for u,0,"5,60",3
+corpus,ō for v,0,60,2
+corpus,ō for ā,1,"410,60",5
+corpus,ō for ā̊,1,"5,6,60",5
+corpus,ō for ą,0,60,1
+corpus,ō for ē,0,15,1
+corpus,ō for ōi,0,"410,5,6,83",6
+corpus,ō for ū,0,410,2
+corpus,ō for ə,0,88,1
+corpus,ō for δ,0,60,1
+corpus,ō inserted,0,"400,410,5,60,83,88",25
+corpus,ōi deleted,0,410,1
+corpus,ōi for a,0,400,4
+corpus,ōi for aō,0,"15,410,5,6,60,83,88",79
+corpus,ōi for ii,0,"400,510,88",3
+corpus,ōi for n,0,15,1
+corpus,ōi for o,1,"400,410",7
+corpus,ōi for ō,0,"40,400,410,5,510,6,60,83,88",64
+corpus,ōi for ə̄,0,88,1
+corpus,ōi inserted,1,"5,60,88",3
+corpus,š deleted,0,"15,400,410,5,510,6,60,83,88",24
+corpus,š for e,0,88,1
+corpus,š for i,0,510,1
+corpus,š for m,0,"400,60",3
+corpus,š for o,0,"400,510",16
+corpus,š for s,0,"40,400,410,5,510,60,83,88",24
+corpus,š for t,0,60,1
+corpus,š for ā,0,83,4
+corpus,š for ē,0,"83,88",3
+corpus,š for ō,0,88,1
+corpus,š for š́,0,"15,400,410,5,510,60,83,88",36
+corpus,š for ū,0,60,1
+corpus,š for ə,0,"5,83",3
+corpus,š for ṣ̌,0,"15,400,410,5,510,6,60,83,88",239
+corpus,š inserted,0,"15,410,5,510,6,60,83,88",25
+corpus,š́ for e,0,410,1
+corpus,š́ for š,0,"15,400,410,5,510,6,60,83,88",33
+corpus,š́ for ṣ̌,0,"510,60,83,88",6
+corpus,ū deleted,0,"15,5,6,60,83",10
+corpus,ū for a,0,"400,410,83",4
+corpus,ū for au,0,410,1
+corpus,ū for aē,0,"5,6,60,88",6
+corpus,ū for aō,0,40,1
+corpus,ū for i,0,"400,5,60,88",6
+corpus,ū for o,0,83,1
+corpus,ū for u,0,"15,400,410,6",12
+corpus,ū for ā,0,88,1
+corpus,ū for ą,0,"510,6",2
+corpus,ū for ē,0,"15,40,5,60",5
+corpus,ū for ī,0,"15,400,410,5,6,60,83,88",1239
+corpus,ū for ō,0,83,1
+corpus,ū for ə̄,0,"6,60",24
+corpus,ū inserted,0,"510,60",6
+corpus,ž for c,0,83,1
+corpus,ž for k,0,88,1
+corpus,ž for β,0,5,1
+corpus,ə deleted,0,"15,40,400,410,5,510,6,60,83,88",64
+corpus,ə for a,0,"15,40,400,410,5,510,6,60,83,88",102
+corpus,ə for aē,0,410,1
+corpus,ə for e,0,"400,5,6,60,88",10
+corpus,ə for i,0,"15,400,410,5,510,6,60,88",69
+corpus,ə for m,0,88,1
+corpus,ə for o,0,83,1
+corpus,ə for s,0,60,1
+corpus,ə for t,0,83,1
+corpus,ə for u,0,510,1
+corpus,ə for w,0,60,1
+corpus,ə for ā,1,"6,83,88",4
+corpus,ə for ā̊,0,510,2
+corpus,ə for ą,0,"510,6,60,83,88",14
+corpus,ə for ą̇,1,"400,410",6
+corpus,ə for ē,0,88,1
+corpus,ə for ī,0,"5,6,60,83",6
+corpus,ə for ō,0,"510,6",2
+corpus,ə for š,0,15,1
+corpus,ə for ə̄,0,"400,410,5,6,60,83,88",19
+corpus,ə for ə̄u,0,"15,400,410,5,6,60,83,88",8
+corpus,ə inserted,0,"15,400,410,5,510,6,60,83,88",326
+corpus,ə̄ for aē,0,"6,60,83,88",6
+corpus,ə̄ for e,0,60,1
+corpus,ə̄ for i,0,410,1
+corpus,ə̄ for ē,0,"400,60",2
+corpus,ə̄ for ī,0,"15,5,60,88",4
+corpus,ə̄ for ə,0,"15,40,400,410,5,510,6,60,83,88",30
+corpus,ə̄ inserted,0,"400,410,5,83",8
+corpus,ə̄u for ī,0,6,1
+corpus,ə̄u for ə,0,"410,510,88",6
+corpus,ə̄u for ə̄,0,"6,60",3
+corpus,ə̄u inserted,0,60,1
+corpus,ɱ for h,0,"15,400,410,5,510,6,60,83,88",519
+corpus,ɱ for m,1,"410,5,83",20
+corpus,ɱ for r,0,83,1
+corpus,β deleted,0,83,1
+corpus,β for ii,0,88,1
+corpus,β for r,0,60,1
+corpus,β for uu,0,60,1
+corpus,β for v,0,60,4
+corpus,β for ß,0,88,2
+corpus,β inserted,0,410,2
+corpus,γ for k,0,410,1
+corpus,γ for ɤ,0,88,2
+corpus,γ inserted,0,410,1
+corpus,δ deleted,0,"15,410,5,6,60",8
+corpus,δ for d,0,"15,400,410,5,60,88",20
+corpus,δ for ii,0,"410,6",3
+corpus,δ for m,0,400,2
+corpus,δ for o,0,400,5
+corpus,δ for r,0,410,1
+corpus,δ for t,0,"15,410,6,60,88",14
+corpus,δ for t̰,0,6,4
+corpus,δ for š,0,60,1
+corpus,δ for γ,0,88,1
+corpus,δ for ϑ,0,"400,410,5,510,83,88",8
+corpus,δ inserted,0,"400,410,5,60,88",6
+corpus,ϑ deleted,0,"400,410,5,510,6,83,88",19
+corpus,ϑ for d,0,60,2
+corpus,ϑ for i,0,"15,400,60",4
+corpus,ϑ for m,0,60,1
+corpus,ϑ for o,0,410,1
+corpus,ϑ for s,0,"60,88",23
+corpus,ϑ for t,0,"15,400,410,5,6,60,83,88",51
+corpus,ϑ for z,0,5,1
+corpus,ϑ for δ,0,"410,5,510,6,88",7
+corpus,ϑ inserted,0,"410,510,60",13
+corpus,ṇ deleted,0,"400,5,60",4
+corpus,ṇ for i,0,400,1
+corpus,ṇ for n,0,"400,410,510,6,83",20
+corpus,ṇ for ŋ,0,"5,60",2
+corpus,ṇ for ̄,0,60,1
+corpus,ṇ inserted,0,"15,400,410,5,510,6,60,83,88",48
+corpus,ṣ̌ deleted,0,15,1
+corpus,ṣ̌ for r,0,410,2
+corpus,ṣ̌ for š,0,"15,400,410,5,510,6,60,83,88",667
+corpus,ṣ̌ for š́,0,"15,400,410,5,6,60,83,88",57
+corpus,ṣ̌ inserted,1,"15,400,5,510",21
+corpus,⸳ inserted,0,40,1

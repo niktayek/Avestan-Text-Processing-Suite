@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Yasna Y9 — apparatus (selected witnesses)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Generated automatically from selected witnesses</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Lemma: Yasna_Static.xml; Witnesses: user-provided TEI files</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <taxonomy xml:id="varClass">
+        <category xml:id="meaningful">Meaningful</category>
+        <category xml:id="trivial">Trivial</category>
+        <category xml:id="unknown">Unknown</category>
+      </taxonomy>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="apparatus_Y9"/>
+    </body>
+  </text>
+</TEI>
