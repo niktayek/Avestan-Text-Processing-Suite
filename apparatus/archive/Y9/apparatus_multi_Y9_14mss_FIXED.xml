@@ -1,0 +1,1899 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Yasna Y9 — apparatus (selected witnesses)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Generated automatically from selected witnesses</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Lemma: Yasna_Static.xml; Witnesses: user-provided TEI files</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <taxonomy xml:id="varClass">
+        <category xml:id="meaningful">Meaningful</category>
+        <category xml:id="trivial">Trivial</category>
+        <category xml:id="unknown">Unknown</category>
+      </taxonomy>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="apparatus_Y9">
+        <app xml:id="app-Y9.1a-0-1">
+          <lem>zōt</lem>
+          <rdg wit="#ms0005"></rdg>
+          <rdg wit="#ms0006"></rdg>
+          <rdg wit="#ms0008"></rdg>
+          <rdg wit="#ms0015"></rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060"></rdg>
+          <rdg wit="#ms0083"></rdg>
+          <rdg wit="#ms0088"></rdg>
+          <rdg wit="#ms0100"></rdg>
+          <rdg wit="#ms0110"></rdg>
+          <rdg wit="#ms0234"></rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410"></rdg>
+        </app>
+        <app xml:id="app-Y9.1a-1-2">
+          <lem>ud</lem>
+          <rdg wit="#ms0005"></rdg>
+          <rdg wit="#ms0006"></rdg>
+          <rdg wit="#ms0008"></rdg>
+          <rdg wit="#ms0015"></rdg>
+          <rdg wit="#ms0040">OD</rdg>
+          <rdg wit="#ms0060"></rdg>
+          <rdg wit="#ms0083"></rdg>
+          <rdg wit="#ms0088"></rdg>
+          <rdg wit="#ms0100"></rdg>
+          <rdg wit="#ms0110"></rdg>
+          <rdg wit="#ms0234"></rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410"></rdg>
+        </app>
+        <app xml:id="app-Y9.1a-2-3">
+          <lem>rāspīg</lem>
+          <rdg wit="#ms0005"></rdg>
+          <rdg wit="#ms0006"></rdg>
+          <rdg wit="#ms0008"></rdg>
+          <rdg wit="#ms0015"></rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060"></rdg>
+          <rdg wit="#ms0083"></rdg>
+          <rdg wit="#ms0088"></rdg>
+          <rdg wit="#ms0100"></rdg>
+          <rdg wit="#ms0110"></rdg>
+          <rdg wit="#ms0234"></rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410"></rdg>
+        </app>
+        <app xml:id="app-Y9.1a-3-4">
+          <lem>hāuuanīm.ā.ratūm.ā.haōmō.upāit̰.zaraϑuštrəm.</lem>
+          <rdg wit="#ms0005">hāuuanīm.ā.ratīm.ā.haōmō.upāit̰.zaraϑ</rdg>
+          <rdg wit="#ms0006">hā̊uuanīm.ā.ratīm.ā.haōmō.upāit̰.zaraϑ</rdg>
+          <rdg wit="#ms0008">hāuuanīm.ā.ratīm.ā.haōmō.upāit̰.zaraϑ</rdg>
+          <rdg wit="#ms0015">hāuuanīm.ā.ratīm.ā.haōmō.upāat̰.zaraϑ</rdg>
+          <rdg wit="#ms0040">hāuuanīm.ā.rat</rdg>
+          <rdg wit="#ms0060">hāuuanūm.ā.ratīm.ā.haōmō.upāit̰.zaraϑ</rdg>
+          <rdg wit="#ms0083">hāuuanīm.ā.ratīm.ā.haōmō.upāit̰.zaraϑ</rdg>
+          <rdg wit="#ms0088">hāuuanīm.ā.ratīm.ā.haōmō.upāit̰.zaraϑ</rdg>
+          <rdg wit="#ms0100">hāuuanīm.ā.ratūm.ā.haomō.upāit̰.zaraϑ</rdg>
+          <rdg wit="#ms0110">hāuuanīm.āratūm.āhaomō.upāiiat̰.zaraϑuš</rdg>
+          <rdg wit="#ms0234">hāuuanīm.āratūm.āhaōmō.upāiiat̰.zaraϑuš</rdg>
+          <rdg wit="#ms0235">hāuuanīm.āratūm.ā.haomō.upāiiat̰.zaraϑušta</rdg>
+          <rdg wit="#ms0400">hāuuanīm.ā.ratūm.ā.haomō.upāit̰.zaraϑ</rdg>
+          <rdg wit="#ms0410">hāuuanīm.ā.ratūm.ā.haomō.upāit̰.zaraϑ</rdg>
+        </app>
+        <app xml:id="app-Y9.1b-0-1">
+          <lem>ātrəm.pairi.yaōždaϑəṇtəm.gāϑā̊sca.srāuuaiiaṇtəm.</lem>
+          <rdg wit="#ms0005">ātərəm.pairi.yaōždaϑəṇtəm.gāϑā̊sca.srāuuaiia</rdg>
+          <rdg wit="#ms0006">ātərəm.pairi.yaōždaϑəṇtəm.gāϑā̊sca.srāuuaiia</rdg>
+          <rdg wit="#ms0008">ātərəm.pairi.yaōždaϑəṇtəm.gāϑā̊sca.srāuuaiia</rdg>
+          <rdg wit="#ms0015">āϑrəm.pairi.yaōždaϑəṇtəm.gāϑā̊sca.srāuuaiia</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">ātrəm.pairi.yaōždaϑəṇtəm.gāϑā̊sca.srāuuaiiaṇtəm.</rdg>
+          <rdg wit="#ms0083">ātərəm.pairi.yaōždaϑəṇtəm.gāϑā̊sca.srāuuaiia</rdg>
+          <rdg wit="#ms0088">ātrəm.pairi.yaōždaϑəṇtəm.gāϑā̊sca.srāuuaiiaṇtəm.</rdg>
+          <rdg wit="#ms0100">āϑrəm.pairi.ẏaoždaϑəṇ.təm.gāϑā̊.šca.srāuua</rdg>
+          <rdg wit="#ms0110">ātrəm.pairiieō.žda.ϑəm.təm.gāϑā̊sca.srāuuaiia</rdg>
+          <rdg wit="#ms0234">ātrəm .pairi.ẏaōždaϑəm.təm.gϑā̊sca.srāuuaiia</rdg>
+          <rdg wit="#ms0235">ātarəm.pairi.ẏaozdaϑəm.təm.gāϑā̊sca.srāuuaiia</rdg>
+          <rdg wit="#ms0400">ātrəm.pairi.ẏaoždaϑəṇtəm.gāϑā̊sca.srāuuaiia</rdg>
+          <rdg wit="#ms0410">ātrəm.pairi. ẏaōždaϑəṇtəm.gāϑā̊sca.srāuuaiia</rdg>
+        </app>
+        <app xml:id="app-Y9.1c-0-1">
+          <lem>ā.dim.pərəsat̰.zaraϑuštrō.kō.narə.ahi.</lem>
+          <rdg wit="#ms0005">pərəsat̰.zaraϑuštrō.kō.narə.</rdg>
+          <rdg wit="#ms0006">ādəm.pərəsat̰.zaraϑuštrō.kō.narə.</rdg>
+          <rdg wit="#ms0008">ādəm.pərəsat̰.zaraϑuštrō.kō.narə.</rdg>
+          <rdg wit="#ms0015">ādəm.pərəsat̰.zaraϑuštrō.kō.narə.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">ādəm.pərəsat̰.zaraϑuštraō.kō.na</rdg>
+          <rdg wit="#ms0083">ā.dəm.pərəsat̰.zaraϑuštrō.kō.na</rdg>
+          <rdg wit="#ms0088">ādəm.pərəsat̰.zaraϑuštrō.kō.narə.</rdg>
+          <rdg wit="#ms0100">āδəm.pərəsat̰.zaraϑuštrō.kō.narə.</rdg>
+          <rdg wit="#ms0110">ādim.pərəsat̰.zaraϑuštrō.kō.nare.</rdg>
+          <rdg wit="#ms0234">ā dim.pərəsat̰.zaraϑuštrō.knare.</rdg>
+          <rdg wit="#ms0235">ādəm.pərəsat̰.zaraϑuštarō.kōnarə.</rdg>
+          <rdg wit="#ms0400">ādim.pərəsat̰.zaraϑuštrō.kō.narə.</rdg>
+          <rdg wit="#ms0410">ā.dim.pərəsat̰.zaraϑuštrō.kō⁛na</rdg>
+        </app>
+        <app xml:id="app-Y9.1d-0-1">
+          <lem>yim.azəm.vīspahe.aŋhə̄uš.astuuatō.sraēštəm.dādarəsa.xᵛahe.gaiiehe.xᵛanuuatō.aməṣ̌ahe.</lem>
+          <rdg wit="#ms0005">yim.azəm.vīspahe.aŋhə̄uš.astuuatō.sraēštəm.dādarəsa.xᵛahe.gaiiahe.xᵛanauuatō.</rdg>
+          <rdg wit="#ms0006">yim.azəm.vīspahe.aŋhə̄uš.astuuatō.sraēštəm.dādarəsa.xᵛahe.gaiiehe.xᵛanauuatō.</rdg>
+          <rdg wit="#ms0008">yim.azəm.vīspahe.aŋhə̄uš.astuuatō.sraēštəm.dādarəsa.xᵛahe.gaiiahe.xᵛanauuatō.</rdg>
+          <rdg wit="#ms0015">yim.azəm.vīspahe.aŋhə̄uš astuuatō.sraēštəm.dādarəsa.xᵛahe.gaiiehe.xᵛanuuatō.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yəm.azəm.vīspahe.aŋhə̄uš.astuuatō.sraēštəm.dādarəsa.xᵛahe.gaiiehe.xᵛanuuatō.</rdg>
+          <rdg wit="#ms0083">yəm.azəm.vīspahe.aŋhə̄uš.astuuatō.sraēštəm.dādarəsa.xᵛahe.gaiiehe.xᵛanauuatō.</rdg>
+          <rdg wit="#ms0088">əm.azəm.vīspahe.aŋhə̄uš.astuuatō.sraēštəm.dādarəsa.xᵛahe.gaiiehe.xᵛanauuatō.</rdg>
+          <rdg wit="#ms0100">im.azəm.viispahe.aŋhə̄uš.aštauuatō.sraēštəm.dādirašca.xᵛahe.gaiiehe.xᵛanauuatō.</rdg>
+          <rdg wit="#ms0110">ẏim.azəm.vīspahe.aŋhə̄uš.astauuatō.sreštəm.dādarəš. ※x́ahe.gaiiehe.x́anuuatō.</rdg>
+          <rdg wit="#ms0234">yim.azəm.vīspahe.aŋhə̄uš.astuuatō.sraeštəm.dādarəš.xᵛahe.gaiiahe.xᵛanuuatō.</rdg>
+          <rdg wit="#ms0235">ẏim.azəm.vīspai.aŋhə̄uš.astauuatō.saraištəm.dādarəš.x́ahi.gaiiahe.x́anauuatō.</rdg>
+          <rdg wit="#ms0400">ẏim.azəm.vīspahe.aŋhə̄uš.astuuatō.sraēštəm.dādarəsa.xᵛahe.gahiiehe.xᵛanuuatō.</rdg>
+          <rdg wit="#ms0410">ẏim.azəm.vīspahe.aŋhə̄uš.astuuatō.sraēštəm.dādarəša.x́ahe.gaiiehe.x́anuuatō.</rdg>
+        </app>
+        <app xml:id="app-Y9.2a-0-1">
+          <lem>āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dūraōšō.</lem>
+          <rdg wit="#ms0005">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0006">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0008">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0015">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āat̰.mē.aēm.paiti.aōxtō.xta.haōmō.aṣ̌auua.</rdg>
+          <rdg wit="#ms0083">āat̰.aē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0088">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0100">āat̰.mē.aēm.paiti.aoxta.haomō.aṣ̌auua.d</rdg>
+          <rdg wit="#ms0110">āat̰.mē.aem.paiti.aoxta.ahaomō.aṣ̌auua.</rdg>
+          <rdg wit="#ms0234">āat̰.mē.aēm.paiti.aōxta.haōmō.aṣ̌auua.</rdg>
+          <rdg wit="#ms0235">āat̰.mē.aim.paiti.aoxta.haomō.ašauua.d</rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410">āat̰.mē.aēm.paitiiaoxta.haomō.aṣ̌auua.d</rdg>
+        </app>
+        <app xml:id="app-Y9.2b-0-1">
+          <lem>azəm.aɱi.zaraϑuštra.haōmō.aṣ̌auua.dūraōšō.</lem>
+          <rdg wit="#ms0005">azəm.ahmi.zaraϑuštra.haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0006">azəm.ahmi.zara ϑuštrō haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0008">azəm.ahmi.zaraϑuštra.haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0015">azəm.ahma.zaraϑuštra.haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">azəm.ahmi.zaraϑuštra.haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0083">azəm.ahmi.zaraϑuštra.haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0088">azəm.ahmi.zaraϑuštra.haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0100">azəm.aɱi.zaraϑuštra.haomō.aṣ̌auua dūrao</rdg>
+          <rdg wit="#ms0110">azəm.ahmi.zaraϑušta.haomō.aṣ̌auua.dūrao</rdg>
+          <rdg wit="#ms0234">.saŋhahmi.zaraϑuštra.haōmō.aṣ̌auua.d</rdg>
+          <rdg wit="#ms0235">azim.ahmi.zaraϑuštara.haomō.ašauua.duurao</rdg>
+          <rdg wit="#ms0400">̰.mē.aēm.paitiiaoxta.haomō.aṣ̌auua.d</rdg>
+          <rdg wit="#ms0410">azəm.ahmi.zara ϑuštra.haomō.aṣ̌auua.dūrao</rdg>
+        </app>
+        <app xml:id="app-Y9.2c-0-1">
+          <lem>ā.mąm.yāsaŋᵛha.spitama.frā.mąm.hunuuaŋᵛha.xᵛarətə̄e.</lem>
+          <rdg wit="#ms0005">ā.mąm.yāsaŋha.spətama.frā.mąm.hunuuaŋha.xᵛa</rdg>
+          <rdg wit="#ms0006">ā.mąm.yāsaŋha.spətama.frā.mąm.hunauuaŋha.xᵛa</rdg>
+          <rdg wit="#ms0008">ā.mąm.yāsaŋha.spətama.frāmąm.hunauuaŋha.xᵛa</rdg>
+          <rdg wit="#ms0015">ā.mąm.yāsaŋha spətama.frā.mąm.hanauuaŋhe.xᵛa</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">ā.mąm.yāsaŋha.spətama.frā.mąm.hunuuaŋha.xᵛa</rdg>
+          <rdg wit="#ms0083">ā.mąm.yāsaŋhī.spitama.frā.mąm.hunauuaŋha.xᵛa</rdg>
+          <rdg wit="#ms0088">ā.mąm.yāsaŋha.spətama.frāmąm.hunauuaŋha.xᵛa</rdg>
+          <rdg wit="#ms0100">āmąm.yā̊saŋuha.spətama.frāmāąm.hunuuaŋuha.xᵛar</rdg>
+          <rdg wit="#ms0110">āmą̇m. ẏā.saŋuha.spitama.frāmą̇m.hunuuaŋha.x́a</rdg>
+          <rdg wit="#ms0234">ā.mą̇m. ẏā.saŋha.spitama.frā.mą̇m.hunuuaŋuha.</rdg>
+          <rdg wit="#ms0235">āmą̇m. ẏā.saŋhe.spətama.frāmą̇m.hiunuuaŋha.</rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410">āmą̇m.yāsaŋha.spəṇtama.frā.mą̇m.hunuuaŋha.x́a</rdg>
+        </app>
+        <app xml:id="app-Y9.2d-0-1">
+          <lem>auui.mąm.staōmaine.stūiδi.yaϑa.mā.aparacit̰.saōš́iiaṇtō.stauuąn.</lem>
+          <rdg wit="#ms0005">aōui.mąm.staōmaini.stīiδi.yaϑa.mā.aparacit̰.saōšiiaṇtō.</rdg>
+          <rdg wit="#ms0006">aōui.mąm.staōmaińi.stīit̰e.yaϑa.mā.aparacit̰.saōš́iiaṇtō.</rdg>
+          <rdg wit="#ms0008">aōui.mąm.staōmaine stīiδe.yaϑa.mā.aparacit̰ saōš́iiaṇtō.sta</rdg>
+          <rdg wit="#ms0015">aōui.mąm.staōimaine.stīiδe.yaϑa.aparacit̰.saōš́iiaṇtō.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">aōi.mąm.staōmaine.stūiδi.yaϑa.mā.aparacit̰.saōš́iiaṇtō.</rdg>
+          <rdg wit="#ms0083">aōi.mąm.stōmaine.stīiδa.yaϑa.mā .aparacit̰.saōš́iiaṇtō.</rdg>
+          <rdg wit="#ms0088">aōui.mąm.staōmaińi.stīiδe.yaϑa.mā.afracit̰.saōš́iiaṇtō.</rdg>
+          <rdg wit="#ms0100">aoimąm.štaomaini.štūiδe. ẏaϑa.mā.aparacit̰.saoṣ̌aiia</rdg>
+          <rdg wit="#ms0110">auue.mą̇m.staomaine.stuuiδi. ẏaϑmā.paracit̰.saoš́iiaṇtō.sta</rdg>
+          <rdg wit="#ms0234">auue.mą̇m.staōmaine.stūiδi. ẏaϑa.mā.paracit̰.saōšiiaṇtō.</rdg>
+          <rdg wit="#ms0235">auue.mą̇m.stomaine.stūiδi.yaϑamā.para.cit̰.saoš́iiaṇtō.</rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410">aoi.mą̇m.staomaine.stauuiδi.yaϑa.mā.aparacit̰.saoš́iiaṇtō.</rdg>
+        </app>
+        <app xml:id="app-Y9.3a-0-1">
+          <lem>zōt</lem>
+          <rdg wit="#ms0005"></rdg>
+          <rdg wit="#ms0006"></rdg>
+          <rdg wit="#ms0008"></rdg>
+          <rdg wit="#ms0015"></rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060"></rdg>
+          <rdg wit="#ms0083"></rdg>
+          <rdg wit="#ms0088"></rdg>
+          <rdg wit="#ms0100"></rdg>
+          <rdg wit="#ms0110"></rdg>
+          <rdg wit="#ms0234"></rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410"></rdg>
+        </app>
+        <app xml:id="app-Y9.3a-1-2">
+          <lem>āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</lem>
+          <rdg wit="#ms0005">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0006">āat̰.aōxta.zaraϑuštrō.nəmō.haōmā̊</rdg>
+          <rdg wit="#ms0008">āat̰ aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0015">āat̰.aōxtō.zaraϑuštrō.nəmō.haō</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āat̰.aōxta.zaraϑuštraō.nəmō.haō</rdg>
+          <rdg wit="#ms0083">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0088">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0100"></rdg>
+          <rdg wit="#ms0110">āat̰.aoxta.zaraϑuštrō.nəmō.hao</rdg>
+          <rdg wit="#ms0234">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0235">āat̰.aoxta.zaraϑuštarō.nəmō.ha</rdg>
+          <rdg wit="#ms0400">āat̰.aoxta.zaraϑuštrō.nəmō.hao</rdg>
+          <rdg wit="#ms0410">āat̰.aoxta.zaraϑuštrō.nəmō.hao</rdg>
+        </app>
+        <app xml:id="app-Y9.3b-0-1">
+          <lem>kasə.ϑβąm.paōiriiō.haōma.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.kā.aɱāi.aṣ̌iš.ərənāuui.cit̰.aɱāi.jasat̰.āiiaptəm.</lem>
+          <rdg wit="#ms0005">kasəϑβąm.paōiriiō.haōma.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0006">kasəϑβąm.paōiriiō.haōma.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.aɱāi.aṣ̌əm.ərənāuui.cit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0008">kasa.ϑβąm.paōiriiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.kā.aɱāi.aṣ̌əš.ərənāuue.cit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0015">kasə.ϑβąm paōiriiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">kasə.ϑβąm.paōiriiō.haōma.maš́iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja.</rdg>
+          <rdg wit="#ms0083">kasəϑβąm.paōiriiō.haōma.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuui.cit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0088">kasə.ϑβąm.paōiriiō.haōma.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuui.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0100">kasə.ϑβąm.paoiriiō.haoma.maṣ̌īō.aštuuaēϑiiāe.hunūta.gaēϑīāi.kā.aɱāi.aṣ̌iš.əranāuue.cit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0110">kase.ϑβą̇m.paoiriiō.haoma.mašiiō.astauuaiϑiiāi.hunūta.gaeϑaiiāi.kāahāi.ašiš.ərənāuui.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0234">kasəϑβą̇m.paōiriiō.haōma.mašiiō.astauuaiϑiiāi.hunuuata.gaeϑaiiāi.kā.ahmāi.ašiš.ərənāuui.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0235">kaseϑβą̇m.paoiriiō.haoma.maš́iiō.astauuaiϑiiāi.haonūata.gaiϑiiāi.kā.ahmāi.ašəš.ərə.nāuuaicit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0400">kasə.ϑβą̇m.paoiriiō.haoma.maš́iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.kā.ahmāi.aṣ̌iš.ərənāuui.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0410">kasə.ϑβą̇m.paoi riiō.haoma.maš́iiō.astuuaiϑiiāi.hunūta.gaēϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuui.cit̰.ahmāi.ja</rdg>
+        </app>
+        <app xml:id="app-Y9.4a-0-1">
+          <lem>āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dūraōšō.</lem>
+          <rdg wit="#ms0005">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0006">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0008">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0015">āat̰.mē.aēm paitiiaōxta.haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āat̰.mē.aēm.paiti.iaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0083">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī.</rdg>
+          <rdg wit="#ms0088">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0100">āat̰.mē.aēm.paiti.aoxta.haomō.aṣ̌auua.du.</rdg>
+          <rdg wit="#ms0110">āat̰.mē.aēm.pati.aoxta.haomō.aṣ̌auua.d</rdg>
+          <rdg wit="#ms0234">āat̰.mē.aem.paiti.aōxta.haōmō.aṣ̌auua.</rdg>
+          <rdg wit="#ms0235">āat̰.mē.aem.paiti.aoxta.haomō.ašauua.d</rdg>
+          <rdg wit="#ms0400">āat̰.mē.aēm.paitiiaoxta.haomō.aṣ̌auua.d</rdg>
+          <rdg wit="#ms0410">āat̰.mē.aēm.paitii.aoxta.haomō.aṣ̌auua.</rdg>
+        </app>
+        <app xml:id="app-Y9.4b-0-1">
+          <lem>vīuuaŋᵛhā̊.mąm.paōiriiō.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.hā.aɱāi.aṣ̌iš.ərənāuui.tat̰.aɱāi.jasat̰.āiiaptəm.</lem>
+          <rdg wit="#ms0005">vīuuaŋhā.mąm.paōiriiō.maš́iiō.astuuaiϑiiāi.hunīta.gə̄ϑaiiāi.hā.ahāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0006">vīuuaŋhā̊.mąm.paōiriiō.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.hā.ahmāi.aṣ̌əm.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0008">vīuuaŋhā̊.mąm.paōiriiō.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā.ahāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0015">vīuuaŋhā̊.mąm.paōiriiō.maṣ̌iiō.astuuaiϑiiāi.hunīta gaēϑiiāi.hā.ahmāi.aṣ̌iš.ərənāuue.tat̰.ahmāi.jasa</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">və̄uuaŋhā.mąm.paōiriiaō.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0083">vīuuaŋhā̊.mąm.paōiriiō.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.hā.ahmāi.aṣ̌əš.ərənāuui. .tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0088">vīuuaŋhā̊.mąm.paōiriiō.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0100">vīuuaŋhā̊.mąm.paoiriiō.maṣ̌iiō.aštūaēϑiiāe.hunūta.gaēϑiiāi.hā.aɱāi.aṣ̌iš.əranāuui.tat̰.aɱāi.jasa</rdg>
+          <rdg wit="#ms0110">uuaŋā̊.mą̇m.paoiriiō.mašiiō.astauuaiϑiiāi.hunūtagaeϑiiāi ⁛ hā.ahmāi.aṣ̌iš.ərənāuuitat̰.ahmāi.jasat̰.</rdg>
+          <rdg wit="#ms0234">vīuuaŋhā̊.mą̇m.paōiriiō.mašiiō.astuuaiϑiiāi.hunūta.gaeϑaiiāi.hā.ahmāi.aṣ̌iš.ərənāuuitat̰.ahmāi.jasa</rdg>
+          <rdg wit="#ms0235">vīuuaŋhā̊mą̇m.paoiriiō.maš́iiō.astauuaiϑiiāi.haonūta.gaeϑaiiāi.hā.aɱāi.ašəš.ərə.nāuuitat̰.aɱāi.jasa</rdg>
+          <rdg wit="#ms0400">vīuuaŋhā̊.mą̇m.paoiriiō.mašiiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.hā.ahmāi.aṣ̌iš.ərənāuui.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0410">vīuuaŋhā̊.mą̇m.paoiriiō.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑiiāi.⁛hā.ahmāi.ašiš.ərənāuua.tat̰.ahmāi.ja</rdg>
+        </app>
+        <app xml:id="app-Y9.4c-0-1">
+          <lem>yat̰.hē.puϑrō.us.zaiiata.yō.yimō.xšaētō.huuąϑβō.</lem>
+          <rdg wit="#ms0005">yat̰.hē.puϑrō.us.zaiiata.yō.yəmō.xšaētō.</rdg>
+          <rdg wit="#ms0006">yat̰.hē.puϑrō.us.zaiiata.yō.yəmō.xšaētō.</rdg>
+          <rdg wit="#ms0008">yat̰.hē.puϑrō.us.zaiiata.yō.yimō.xšaētō.</rdg>
+          <rdg wit="#ms0015">yat̰.hē.puϑrō.us.zaiiata.yō.yəmō.xšaētō.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yat̰.hē.puϑraō.us.zaiiata.yō.yəmō.xšaētō.</rdg>
+          <rdg wit="#ms0083">yat̰.hē.puϑrō.us.zaiiata.yō.yəmō.xšaētō.</rdg>
+          <rdg wit="#ms0088">yat̰.hē.puϑrō.us.zaiiata.yō.yimō.xšaētō.huuąϑβō.</rdg>
+          <rdg wit="#ms0100">at̰.hē.puϑrō.usa.zaiiata. ẏō. ẏimō.xšaētō.</rdg>
+          <rdg wit="#ms0110">hē.puϑrō.uszaiiata. ẏō. ẏimō.xšaētō.hu</rdg>
+          <rdg wit="#ms0234">at̰.hē.puϑrō.us.zaiiata. ẏō. ẏimō.xšaetō.</rdg>
+          <rdg wit="#ms0235">yat̰.hē.puϑrō.us.zaiiata. ẏō. ẏimō.xšatō.</rdg>
+          <rdg wit="#ms0400">at̰.hē.puϑra.us.zaiiata.yō. ẏimō.xšaētō.</rdg>
+          <rdg wit="#ms0410">ẏat̰.hē.puϑrō.us.zaiiata.yō. ẏimō.xšaētō.</rdg>
+        </app>
+        <app xml:id="app-Y9.4d-0-1">
+          <lem>xᵛarənaŋᵛhastəmō.zātanąm.huuarə.darəsō.maṣ̌iiānąm.</lem>
+          <rdg wit="#ms0005">xᵛarənaŋhastə̄mō.zātanąm.huuarə.darəsō.maš́iiā</rdg>
+          <rdg wit="#ms0006">xᵛarənaŋhastəmō.zātanąm.huuarə.darəsō.maṣ̌iiā</rdg>
+          <rdg wit="#ms0008">xᵛarənaŋhastəmō.zātanąm.huuarə.darəsō.maš́iiā</rdg>
+          <rdg wit="#ms0015">xᵛarənaŋhastəmō.zātanąm.huuarə.darəsō.maš́iiā</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">xᵛarənaŋhastəmō.zātanąmcit̰.huuarə.darəsō.maš́iiā</rdg>
+          <rdg wit="#ms0083">xᵛarənaŋhastəmō.zātanąm.huuarə.darəsō.maš́iiā</rdg>
+          <rdg wit="#ms0088">xᵛarənaŋhastəmō.zātanąm.huuarə.darəsō.maš́iiā</rdg>
+          <rdg wit="#ms0100">xᵛarənaŋhaštəmō.zātanąm.huuarət̰arəšō.maṣ̌ii</rdg>
+          <rdg wit="#ms0110">x́arənaŋuhastəmō.zātaną̇m.huuarə.darəsō.mašiiā</rdg>
+          <rdg wit="#ms0234">xᵛarənaŋuhastəmō.zātanąm.huuarə.darəsō.mašiiā</rdg>
+          <rdg wit="#ms0235">x́hustəmō.zātaną̇m.huuarə.darəsō.mašiiā</rdg>
+          <rdg wit="#ms0400">xᵛarənaŋhastəmō.zātaną̇m.huuarə.darəsō.maṣ̌iiā</rdg>
+          <rdg wit="#ms0410">x́arənaŋhastəmō.zātaną̇m.huuarə.darəsō.maṣ̌iiā</rdg>
+        </app>
+        <app xml:id="app-Y9.4e-0-1">
+          <lem>yat̰.kərənaōt̰.aiŋ́he.xšaϑrāδa.amaršaṇta.pasu.vīra.aŋhaōšəmne.āpa.uruuaire.</lem>
+          <rdg wit="#ms0005">yat̰.kərənaōit̰.aiŋ́he.xšaϑrāδa.amərəṣ̌aṇta.pasō.vīra.aŋhaōšəmne.āpe.</rdg>
+          <rdg wit="#ms0006">yat̰.kərənaōt̰.aŋ́he xšaϑrāδa.amərəšaṇta.pasu.vīra.aŋhaōšəmne.āpa.</rdg>
+          <rdg wit="#ms0008">yat̰.kərənaōit̰.aŋ́hē.xšaϑrāδa.amərəšaṇta.pasā βīra.aŋhaōšəmne.āpa.</rdg>
+          <rdg wit="#ms0015">yat̰.kərənaōt̰.aŋhē.xšaϑrāδa.amərəšaṇta.pasuuīra.aŋhaōšəmne.āpe.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yat̰.kərənaōt̰.aiŋ́he.xšaϑrāδa.amərəšaṇta.pasō.vīra.aŋhōšəmne.āpw.</rdg>
+          <rdg wit="#ms0083">yat̰.kərənaōt̰.aŋ́he.xšaϑrā.amaršaṇta. .pasu.vīra.aŋhaōšmne.āpa.</rdg>
+          <rdg wit="#ms0088">yat̰.kərənaōt̰.aŋ́he.xšaϑrāδa.amarṣ̌aṇta.pasu.vīra.aŋhaōšəmne.āpa.</rdg>
+          <rdg wit="#ms0100">at̰.krənōit̰.aŋ́he.xṣ̌aϑrāt̰.amərəṣ̌əṇta.pasu.viira.aŋ́hā̊.ṣ̌əmne.āpa.</rdg>
+          <rdg wit="#ms0110">ẏat̰.kərənōit̰.aiŋ́he.xšaϑrāt̰.amərəṣəṇti.pasu.vīra.aŋhaōšə</rdg>
+          <rdg wit="#ms0234">at̰.kərənōit̰.aŋ́he.xšaϑrāt̰.amarərəšəṇti.pasu.vīra.aŋhaōšəmne.āpa.</rdg>
+          <rdg wit="#ms0235">ẏat̰.kərənōit̰.aiŋ́he xšaϑrāt̰.amərəšəṇta.pasu vīra.aŋhə̄uš.manē.āpa.</rdg>
+          <rdg wit="#ms0400">ẏat̰.kərənaot̰.aŋ́he.xšaϑrāδa.amaršaṇta.pasu.vīra.aŋhaošəmne.āpa.</rdg>
+          <rdg wit="#ms0410">ẏat̰.kərənaot̰.aŋ́he.xšaϑrāt̰a.amaršaṇta.pasu.vīra.aŋhaošəmne.āpa.</rdg>
+        </app>
+        <app xml:id="app-Y9.4f-0-1">
+          <lem>xᵛairiiąn.xᵛarəϑəm.ajiiamnəm.</lem>
+          <rdg wit="#ms0005">xᵛairiiąn.xᵛarəϑəm.ajaiiamn</rdg>
+          <rdg wit="#ms0006">xᵛairiiąn.xᵛarəϑəm.ajaiiamn</rdg>
+          <rdg wit="#ms0008">xᵛairiiąn.xᵛarəϑəm.ajiiamnəm.</rdg>
+          <rdg wit="#ms0015">xᵛairiiąn.xᵛarətəm.ajaiiamn</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">xᵛairiiąn.xᵛarəϑəm.ajaiiamn</rdg>
+          <rdg wit="#ms0083">xᵛairiiąn.xᵛarəϑəm.ajiiamnəm.</rdg>
+          <rdg wit="#ms0088">xᵛairiiąn.xᵛarəϑəm.ajaiiamn</rdg>
+          <rdg wit="#ms0100">xᵛairiiąn.xᵛarəϑəm.ajiiamnəm.</rdg>
+          <rdg wit="#ms0110">x́ariią̇n.x́arəϑəm.aziiamn</rdg>
+          <rdg wit="#ms0234">xᵛairiią̇n.xᵛarəϑəm.aziiaman</rdg>
+          <rdg wit="#ms0235">x́airiią̇n.x́arəϑəm.azaiiaman</rdg>
+          <rdg wit="#ms0400">xᵛairiią̇n.xᵛarəϑəm.ajaiiamn</rdg>
+          <rdg wit="#ms0410">x́airiią̇n.x́arəϑəm.ajaiiamn</rdg>
+        </app>
+        <app xml:id="app-Y9.5a-0-1">
+          <lem>yimahe.xšaϑre.auruuahe.nōit̰.aōtəm.ā̊ŋha.nōit̰.garəməm.</lem>
+          <rdg wit="#ms0005">yəmahe.xšaϑrahe.auruuahe.nōit̰.aōxtəm.ā̊ŋha.nōit̰.ga</rdg>
+          <rdg wit="#ms0006">yəmahe.xšaϑre.auruuahe.nōit̰.aōtəm.ā̊ŋha.nōit̰.</rdg>
+          <rdg wit="#ms0008">yimahe.xšaϑrəm.auruuahe.nōit̰.aōxtəm.ā̊ŋha.nōit̰.ga</rdg>
+          <rdg wit="#ms0015">yəmahe.xšaϑre.auruuahe.nōit̰.aōxtəm.ā̊ŋha.nōit̰.ga</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yimahe.xšaϑrahe.auruuahe.nōit̰.aōxtəm.ā̊ŋha.nōit̰.ga</rdg>
+          <rdg wit="#ms0083">yəmahe.xšaϑra.auruuahe.nōit̰.aōϑəm.ā̊ŋha.nōit̰.ga</rdg>
+          <rdg wit="#ms0088">yəmahe.xšaϑre.auruuahe.nōit̰.aō</rdg>
+          <rdg wit="#ms0100">.mahe.xṣ̌aϑrahe.auruuahe.nōit̰.aoxtəm.ā̊ŋha.nōit̰.</rdg>
+          <rdg wit="#ms0110">imahe.xšaϑrahe.uruuahe.nōit̰.aōtəm.ā̊ŋha.nōit̰.ga</rdg>
+          <rdg wit="#ms0234">imahe.xšaϑrahe.uruuahe.nōit̰.aōtəm.ā̊ŋha.nōit̰.ga</rdg>
+          <rdg wit="#ms0235">.uruuahe.nōit̰.auruuahe.nōit̰.aotəm.ā̊ŋha.nōit̰.</rdg>
+          <rdg wit="#ms0400">ẏimahe.xšaϑra.auruuahe.nōit̰.aotəm.ā̊ŋha.nōit̰.ga</rdg>
+          <rdg wit="#ms0410">imahe.xšaϑra.auuruuahe.nōit̰.aotəm.ā̊ŋha.nōit̰.ga</rdg>
+        </app>
+        <app xml:id="app-Y9.5b-0-1">
+          <lem>nōit̰.zauruua.ā̊ŋha.nōit̰.mərəϑiiuš.nōit̰.araskō.daēuuō.dātō.</lem>
+          <rdg wit="#ms0005">nōit̰.zauruua.ā̊ŋha.nōit̰.mərəϑiiuš.nōit̰.araskō.daēuuō.dātō.</rdg>
+          <rdg wit="#ms0006">nōit̰.zauruuā̊ŋha.nōit̰marəϑiiāuš.nōit̰.araskō.daēuuō.</rdg>
+          <rdg wit="#ms0008">nōit̰.zauruuā̊ŋha.nōit̰.marəϑiiāiš.nōit̰.araskō.daēuuō.</rdg>
+          <rdg wit="#ms0015">nōit̰ zauruuåŋha.nōit̰.marəϑiiāuš.nōit̰ araskō.daēuuō.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">nōit̰.zauruua.ā̊ŋha.nōit̰.marəϑiiuš.nōit̰.araskō.daē</rdg>
+          <rdg wit="#ms0083">nōit̰.zauruua.ā̊ŋha.nōit̰.marəϑiiuš.nōit̰.araskō.daē</rdg>
+          <rdg wit="#ms0088">ā̊ŋha.nōit̰.mərəϑiiuš.nōit̰.araskō.daēuuō.</rdg>
+          <rdg wit="#ms0100">nōit̰.zauruua.ā̊ŋha.nōit̰.marəϑiiuš.nōit̰.araskō.daē</rdg>
+          <rdg wit="#ms0110">nōit̰.zaouruuā̊ŋha.nōit̰.mərəϑiiuš.nōit̰.araskō.daēuuō.</rdg>
+          <rdg wit="#ms0234">nōit̰.zaouruuaā̊ŋha.nōit̰.mərəϑiiuš.nōit̰.arškō.daeuuō.</rdg>
+          <rdg wit="#ms0235">nōit̰.zaouruuā̊ŋhe.nōit̰.mərəϑiiōiš.nōit̰.araskō.dauuō.</rdg>
+          <rdg wit="#ms0400">nōit̰.zauruua.ā̊ŋha.nōit̰.mərəϑiiuš.nōit̰.araskō.daē</rdg>
+          <rdg wit="#ms0410">nōit̰.zauruua.ā̊ŋhā.nōit̰.marəϑiiuš.nōit̰.ariškō.dae</rdg>
+        </app>
+        <app xml:id="app-Y9.5c-0-1">
+          <lem>paṇca.dasa.fracarōiϑe.pita.puϑrasca.raōδaēšuua.katarascit̰.</lem>
+          <rdg wit="#ms0005">paṇca.dasa.fraca.raōiϑe.piϑa.puϑrasca.raōδaēšuue.katara</rdg>
+          <rdg wit="#ms0006">paṇca.dasa.fracaraōiϑe.pita.puϑrasca.raōδaēšuua.kata</rdg>
+          <rdg wit="#ms0008">paṇca.dasa.fracaraōite.paiti.puϑrasca.raōδaēšuua.katara</rdg>
+          <rdg wit="#ms0015">paṇca.dasa.fracaraōite.paiti.puϑrasca.raōδaēšauua.kata</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">paṇca.dasa.fracaraōiϑi.pita.puϑrasca.raōδaēšuua.katara</rdg>
+          <rdg wit="#ms0083">paṇca.dasa.fracaraōiϑe.pita.puϑrasca.raōδaēšuua.katara.</rdg>
+          <rdg wit="#ms0088">paṇca.dasa.fracaraōiϑe.pita.puϑrasca.raōdīšuua.katara</rdg>
+          <rdg wit="#ms0100">paṇca.daša.fracrōiϑe.paeta.puϑrašca.raoδaēṣ̌uua.katara</rdg>
+          <rdg wit="#ms0110">paṇca.dasa.fracarōiϑe.paita.puϑrasca.raoδaešauua.katira</rdg>
+          <rdg wit="#ms0234">paṇca.dasa.fraca.rōiϑe.paiti.puϑrasca.raōδaešauua.katira</rdg>
+          <rdg wit="#ms0235">paṇca.daš.fraca.rōiϑe.paiti.puϑrasca.raoδe.šauua.kata</rdg>
+          <rdg wit="#ms0400">paṇca.dasa.fracarōiϑe.paiti.puϑrasca.rao δaešuua.katara</rdg>
+          <rdg wit="#ms0410">pāṇca.dasa.fracarōiϑe.paiti.puϑrasca.raōδaēšuua.katara</rdg>
+        </app>
+        <app xml:id="app-Y9.5d-0-1">
+          <lem>yauuata.xšaiiōit̰.huuąϑβō.yimō.vīuuaŋᵛhatō.puϑrō.</lem>
+          <rdg wit="#ms0005">yauuaϑa.xšaiiōit̰.huuąϑβō.yimō.vīuuaŋhatō.</rdg>
+          <rdg wit="#ms0006">yauuata.xšaiiōit̰.huuąϑβō.yəmō.vīuuaŋhatō.</rdg>
+          <rdg wit="#ms0008">yauuata.xšaiiōit̰.huuąϑβō.yəmō.vīuuaŋhatō.</rdg>
+          <rdg wit="#ms0015">yauuata.xšaiiōit̰.huuąϑβō.yəmō.vauuaŋhatō.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yauuata.xšaiiaōit̰.huuąϑβō.yimō.vīuuaŋhatō.p</rdg>
+          <rdg wit="#ms0083">yauuata.xšaiiaōit̰.huuąϑβō.yəmō.vīuuaŋhatō.</rdg>
+          <rdg wit="#ms0088">yauuata.xšaiiōit̰.huuąϑβō.yimō.vīuuaŋhatō.</rdg>
+          <rdg wit="#ms0100">ẏauuata.xšaiiōit̰.huuąm.ϑō. ẏemō.viiuuaŋhatō.</rdg>
+          <rdg wit="#ms0110">auuata.xšaiioit̰.huuą̇ϑβō. ẏimō.vīuuaŋuhatō.</rdg>
+          <rdg wit="#ms0234">auuata.xšaiiōit̰.huuą̇ϑβō. ẏimō.vīuuaŋuhatō.</rdg>
+          <rdg wit="#ms0235">ẏauuata.xšaiiōit̰.huuą̇ϑβō. ẏemō.vīuuaŋhatō.</rdg>
+          <rdg wit="#ms0400">ẏauuata.xšaiiōit̰.huuą̇ϑβō. ẏimō.vīvaŋhatō.p</rdg>
+          <rdg wit="#ms0410">ẏauuata.xšaiiōit̰.huuą̇ϑβō. ẏimō.vaŋhatō.p</rdg>
+        </app>
+        <app xml:id="app-Y9.6a-0-1">
+          <lem>kasə.ϑβąm.bitiiō.haōma.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.kā.aɱāi.aṣ̌iš.ərənāuui.cit̰.aɱāi.jasat̰.āiiaptəm.</lem>
+          <rdg wit="#ms0005">kasəϑβąm.bitiiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.kāahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.jasa</rdg>
+          <rdg wit="#ms0006">kasiϑβąm.bitiiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.jasa</rdg>
+          <rdg wit="#ms0008">kasiϑβąm.bitiiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuue cit̰.aɱāi.jasa</rdg>
+          <rdg wit="#ms0015">kasə.ϑβąm.bitiiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">kasə.ϑβąm.bitiiō.haōma.maš́iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0083">kasə.ϑβąm.bitiiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0088">kasi.ϑβąm.bitiiō.haōma.maṣ̌iiō.astuuaitiiāi.hunīta.gaēϑaiiāi.kā.ahmāi.aṣ̌əš.ərənāuui.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0100">kase.ϑβąm.bitīō.haoma.maṣ̌īō.aštuuaiϑiiāi.hunuuta.gaēϑiiāe.kā.aɱāi.aṣ̌iš.ərənāuui.cit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0110">kase.ϑβą̇m.bitiiō.haoma.mašiiō.astauuiϑiiāi.hunūta.gaeϑiiāi.⁛ kā.ahmāi.aṣ̌iš.ərənāuuaicit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0234">kase.ϑβą ̇m.bitiiō.haōma.mašiiō.astauuaiϑiiāi.hunūta.gaeϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuui.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0235">kaseϑβą̇m.bitiiō.haoma.maš́iiō.astauuaiϑiiāi.unuuata.gaiϑiiāi.kā.aɱāi ašiš.ərə.nāuuaicit̰.aɱāi.jasa</rdg>
+          <rdg wit="#ms0400">kasə.ϑβą̇m.bitiiō.haoma.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.kā.ahmāi.ašiš.ərənāuua.cit̰.ahmāi.</rdg>
+          <rdg wit="#ms0410">kasə.ϑβą̇m.bitiiō.haoma.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuui.cit̰.ahmāi.ja</rdg>
+        </app>
+        <app xml:id="app-Y9.7a-0-1">
+          <lem>āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dūraōšō.</lem>
+          <rdg wit="#ms0005">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0006">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0008">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0015">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āat̰.mē.aēm.paiti.aōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0083">āat̰.mē.aēm.paiϑiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0088">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0100">āat̰.mə̄.aēm.paeti.aoxta.haomō.aṣ̌auua.d</rdg>
+          <rdg wit="#ms0110">āat̰.mē.aem.paiti.aoxta.haomō.ašauua.</rdg>
+          <rdg wit="#ms0234">āat̰.mē.aem.paiti.aōxta.haōmō.aṣ̌auua.</rdg>
+          <rdg wit="#ms0235">āat̰.mē.aim.paiti.uxta.haomō.ašauua.d</rdg>
+          <rdg wit="#ms0400">āat̰.mē.aēm.paitiiaoxta.haomō.aṣ̌auua.d</rdg>
+          <rdg wit="#ms0410">āat̰.mē.aēm.paitiiaoxta.haomō.aṣ̌auua.d</rdg>
+        </app>
+        <app xml:id="app-Y9.7b-0-1">
+          <lem>āϑβiiō.mąm.bitiiō.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.hā.aɱāi.aṣ̌iš.ərənāuui.tat̰.aɱāi.jasat̰.āiiaptəm.</lem>
+          <rdg wit="#ms0005">āϑβiiō.mąm.bitiiō.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0006">āϑβiiō.mąm.bitiiō.maṣ̌iiō.astuuaiϑiiāi.huīta.gaēϑiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0008">āϑβiiō.mąm.bitiiō.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā.aɱāi.aṣ̌əš.ərənāuue.tat̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0015">āϑβiiō.mąm.bitiiō.maš́iiaō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā ahmāi.š.ərənāuue.tat̰.ahmāi jasa</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āϑβiiō.mąm.bitiiō.mašiiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0083">āϑβiiō.mąm.bitiiō.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0088">āϑβiiō.mąm.bitiiō.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.hā.ahmāi.y.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0100">āϑβiiō.mąm.bitiiō.maṣ̌iiō.aštuuaiϑiiāi.hunuuta.gaēϑiiāi.hā.aɱāi.aṣ̌iš.ərənāuuai.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0110">āϑβiiō.mą̇m.bitiiō.mašiiō.astauuaeϑiiāi.hunūta.gaeϑiiāi.hā.ahmāi.aṣ̌iš.ərənāuui.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0234">āϑβiiō.mą̇m.bitiiō.mašiiō.astauuaeϑiiāi.hunūta.gaeϑiiāi.hā.ahmāi.aṣ̌iš.ərənāuuai.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0235">āϑβiiō.mą̇m.bitiiō.mašiiō.astauuaiϑiiāi.hunūata.gaiϑiiāi.hā.aɱāi.ašiš.ərənāuuaitat̰.aɱāi.jasa</rdg>
+          <rdg wit="#ms0400">āϑβiiō.mą̇m.bitiiō.maš́iiō.astauuaiϑiiāi.hunūta.gaēϑiiāi.hā.ahmāi.ašiš.ərənāuua.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0410">āϑβiiō.mą̇m.bitiiō.maṣ̌aiiō.astuuaiϑiiāi.hunūta.gaēϑiiāi.hā.ahmāi.aṣ̌iš.ərənāuui.tat̰.ahmāi.ja</rdg>
+        </app>
+        <app xml:id="app-Y9.7c-0-1">
+          <lem>yat̰.hē.puϑrō.us.zaiiata.vīsō.sūraiiā̊.ϑraētaōnō.</lem>
+          <rdg wit="#ms0005">yat̰.hē.puϑrō.us.zaiiata.vīsō.sīraiiā̊.ϑraē</rdg>
+          <rdg wit="#ms0006">yat̰.hē.puϑrō.us.zaiiata.vīsō.sīraiiā̊.ϑraē</rdg>
+          <rdg wit="#ms0008">yat̰.hē.puϑrō.us.zaiiata.vīsō.sīraiiā̊.ϑraē</rdg>
+          <rdg wit="#ms0015">yat̰.hē.puϑrō us.zaiiata.vīsō.sīraiiā̊.ϑraē</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yat̰.hē.puϑrō.us.zaiiata.vūsō.sūraiiā̊.ϑraē</rdg>
+          <rdg wit="#ms0083">yat̰.hē.puϑrō.us.zaiiata.vīsō.sīraiiā̊.ϑraē</rdg>
+          <rdg wit="#ms0088">yat̰.hē.puϑrō.us.zaiiata.vīsō.sīraiiā̊.ϑraē</rdg>
+          <rdg wit="#ms0100">ẏat̰.ē.puϑrō.uša.zaiiata.vīsō.sūraiiā̊.ϑraē</rdg>
+          <rdg wit="#ms0110">ẏat̰.hē.puϑrō.us.zaiiata.vīsō.sūraiiaə.ϑrae</rdg>
+          <rdg wit="#ms0234">ẏat̰.hē.puϑrō.us.zaiiata.vīsō.sūraiiā̊.ϑrae.</rdg>
+          <rdg wit="#ms0235">at̰.hē.puϑrō.usazaiiaita.vīsō.sūraiiā̊.ϑri</rdg>
+          <rdg wit="#ms0400">ẏat̰.hē.puϑrō.us.zaiiata.vīsō.sūraiiā̊.ϑraē</rdg>
+          <rdg wit="#ms0410">yat̰.hē.puϑrō.us.zaiiata.vīsō.sūraiiā̊.ϑraē</rdg>
+        </app>
+        <app xml:id="app-Y9.8a-0-1">
+          <lem>yō.janat̰.ažīm.dahākəm.ϑri.zafanəm.ϑri.kamərəδəm.xšuuaš.ašīm.hazaŋhrā.yaōxštīm.</lem>
+          <rdg wit="#ms0005">yō.janat̰.ažīm.dahākəm.ϑrizafanəm.ϑri.kamərəδəm.xšauuaš.aṣ̌īm.hazaŋrā.</rdg>
+          <rdg wit="#ms0006">yō.janat̰.ažīm.dahākəm.ϑrə.zafanəm.ϑrə.kamrəδəm.xšauuaš.aṣ̌īm.haza</rdg>
+          <rdg wit="#ms0008">yō.janat̰.ažīm.dahākəm.ϑrə.zafanəm.ϑrə.kamrəδəm.xšauuaš.aṣ̌īm.haza</rdg>
+          <rdg wit="#ms0015">yō.janat̰.ažīm.dahākəm ϑrizafanəm.ϑri.kamərəδəm.xšauuaš.aṣ̌īm.hazaŋrā.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yō.janat̰.ažūm.dahākəm.ϑrəzafanəm.ϑri.kamərəδəm.xšauuaš.aṣ̌īm.hazaŋhra.</rdg>
+          <rdg wit="#ms0083">yō.janat̰.ažīm.dahākəm.ϑrə.zafnəm.ϑrəkamərəδəm.xš uuaš.aṣ̌īm.hazaŋra.</rdg>
+          <rdg wit="#ms0088">yō.janat̰.ažīm.dahākəm.ϑrəzafanəm.ϑrə.kamərəδəm.xšauuaš.aṣ̣̌īm.hazaŋrā.</rdg>
+          <rdg wit="#ms0100">ō.janat̰.ažīm.dāhākəm.ϑrəzafanəm.ϑrəkamrət̰əm.xṣ̌uuaš.aṣ̌īm.hazaŋhrā.</rdg>
+          <rdg wit="#ms0110">ẏō.janat̰.ažīm.dahākəm.ϑrizafanəm.ϑrikamrəδəm.xšauuaš.aṣ̌īm.hazaŋrā.</rdg>
+          <rdg wit="#ms0234">ẏō.janat̰.ažīm.dāhākəm ϑrižafanəm.ϑri.kamərəδəm.xšuuaš.aṣ̌īm.hazaŋrā.</rdg>
+          <rdg wit="#ms0235">ẏō.janat̰.azīm.dahākəm.ϑrəzafnəm.ϑrə.kamərədəm.xšuuaš.aṣ̌īm.hazaŋhrā.</rdg>
+          <rdg wit="#ms0400">ẏō.janat̰.ažīm.dahākəm.ϑrizafanəm.ϑrikamərəδəm.xšuuaš.aṣ̌īm.hazaŋrā.</rdg>
+          <rdg wit="#ms0410">ẏō.janat̰.ažīm.dahākəm.ϑrizafanəm.ϑrikamərəδəm.xšuuaš.aṣ̌īm.hazaŋrā.</rdg>
+        </app>
+        <app xml:id="app-Y9.8b-0-1">
+          <lem>ašaōjaŋhəm.daēuuīm.drujim.aγəm.gaēϑāuuiiō.druuaṇtəm.</lem>
+          <rdg wit="#ms0005">ašaōjaŋhəm.daēuuəm.drujəm.aγəm.gaiϑāuuaiiō.druua</rdg>
+          <rdg wit="#ms0006">aṣ̌aōjaŋhəm.daēuuəm.drujəm.aγəm.gaēϑāiiō.druua</rdg>
+          <rdg wit="#ms0008">aṣ̌aōjaŋhəm.daēuuəm.drujəm.aγəm.gaēϑāuuaiiō.druua</rdg>
+          <rdg wit="#ms0015">aṣ̌aōjaŋhəm.daēuuəm.drujəm.aγəm.gaēϑāuuaiiō.druua</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">aṣ̌aōjaŋhəm.daēuuəm.drujəm.aγəm.gaēϑāuuaiiō.druua</rdg>
+          <rdg wit="#ms0083">aš.aōjaŋhəm.daēuuəm.drujəm.aγəm.gaēϑāuuaiiō.druua</rdg>
+          <rdg wit="#ms0088">aōjaŋhəm.daēīuuim.drujim.aγəm.gaēϑāuuaiiō.druua</rdg>
+          <rdg wit="#ms0100">aṣ̌aojaŋhəm.daēuuīm.drujəm.agəm.gaeϑāuuaiiō.druua</rdg>
+          <rdg wit="#ms0110">ašaojaŋhəm.daeuuīm.drujəm.aγəm.gae.ϑāuuiiō.druua</rdg>
+          <rdg wit="#ms0234">aṣ̌aojaŋhəm.daeuuīm.drūjim.aγəm.gaeϑāuuiiō.druua</rdg>
+          <rdg wit="#ms0235">ašaojaŋhəm.daiuuīm.darūjəm.aγəm.gaeϑāuuiiō.daruua</rdg>
+          <rdg wit="#ms0400">ašaojaŋhəm.daēuuīm.drujəm.aγəm.gaēϑāuuaiiō.drauua</rdg>
+          <rdg wit="#ms0410">aṣ̌aojaŋhəm.daēuuīm.drujim.aγəm.gaēϑāuuiiō.druua</rdg>
+        </app>
+        <app xml:id="app-Y9.8c-0-1">
+          <lem>yąm.ašaōjastəmąm.drujim.fraca.kərəṇtat̰.aŋhrō.maińiiuš.auui.yąm.astuuaitīm.gaēϑąm.mahrkāi.aṣ̌ahe.gaēϑanąm.</lem>
+          <rdg wit="#ms0005">yąm.ašaōjastəmąm.drujəm.fraca.kərətat̰.aŋrō.maińiiuš.aōui.yąm.astuaitīm.gaēϑąm.mahrkāi.aṣ̌a</rdg>
+          <rdg wit="#ms0006">yąm.aṣ̌aōjastəmąm.drujəm.fraca.kərəṇtat̰.aŋrō.maińiiə̄uš.aōui.yąm.astuuaitīm.gaēϑąm.mahrkāi.aṣ̌a</rdg>
+          <rdg wit="#ms0008">yąm.aṣ̌aōjastamąm.drujəm.fraca.kərəṇtat̰.aŋrō.maińiiə̄uš.aōui.yąm.astuuaitīm.gaēϑąm.mahrkāi.aṣ̌a</rdg>
+          <rdg wit="#ms0015">yąm.aṣ̌aōjastəmąm.drujəm.paraca.kərəṇtat̰.aŋrō.maińiiə̄uš.aōui.yąm.astuuaitīm.gaēϑąm mahrkāi.a</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yąm.aṣ̌aōjastəmąm drujəm.fraca.kərəṇtat̰.aŋraō.maińiiuš.aōui.yąm.astuuaitīm.gaēϑąm.mahrkāi.aṣ̌a</rdg>
+          <rdg wit="#ms0083">yąm.ašaōjastəmąm.drujəm.fraca.kərəṇtat̰.aŋrō.maińiiuš.aōui.yąm.astuuaitīm.gaēϑąm.mahrkāi.aṣ̌a</rdg>
+          <rdg wit="#ms0088">yąm.aṣ̌.aōjastəmąm.drujəm.fraca.kərəṇtat̰.aŋrō.maińiiuš.aōi.yąm.astuuaitīm.gaēϑąm.mahrkāi.a</rdg>
+          <rdg wit="#ms0100">yąm.aṣ̌aojastimąm.drujəm.fraca.kərəm.tat̰.aŋhrō.mainiiuš.aoi. ẏąm.aštuuaētīm.gaϑąm.mahrkāi.a</rdg>
+          <rdg wit="#ms0110">m.ašaojaštəmą̇m.drujəm.fraca.kərəm.̣tat̰.aŋhrō.maińiiuš.aouui.yą̇m.astauuaitīm.gaϑą̇m.mahrkāi.a</rdg>
+          <rdg wit="#ms0234">̌aōjaštəmą̇məmą̇m.drujəm.frica.kərəm.tat̰.aŋrō.mainiiuš.aōuui.yą̇m.astuuaitīm.gāϑą̇m.mahrkāi.aṣ̌a</rdg>
+          <rdg wit="#ms0235">ą̇m.ašao.jastəmą̇m.drujəm.fraca.kərəm.tat̰.aŋhara.mainiiə̄uš.aoi. ẏą̇m.astauuaitīm.gāϑą̇m.mahrkāi.</rdg>
+          <rdg wit="#ms0400">ą̇m.aṣ̌aojastəmą̇m.drujim.fraca.kərəṇtat̰.aŋrō.mainiiuš.aoi. ẏą̇m.astauuaiṇtīm.gaēϑą̇m.mahrkāi.a</rdg>
+          <rdg wit="#ms0410">ą̇m.ašaojastəmą̇m.drujəm.fraca.kərəṇtat̰.aŋrō.mainiiuš.aoi. ẏą̇m.astuuaiṇtīm.gaēϑą̇m.mahrkāi.aṣ̌a</rdg>
+        </app>
+        <app xml:id="app-Y9.9a-0-1">
+          <lem>kasə.ϑβąm.ϑritiiō.haōma.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.kā.aɱāi.aṣ̌iš.ərənāuui.cit̰.aɱāi.jasat̰.āiiaptəm.</lem>
+          <rdg wit="#ms0005">ϑβąm.ϑritiiō.haōma.maš́iiō.astuuaiϑiiā hunīta.gaēϑaiiāi.kā.ahmāi.aṣ̌əš.ərənāuui.cit̰.ahmāi.jasa</rdg>
+          <rdg wit="#ms0006">kasi.ϑβąm.ϑrətiiō.hama.maṣ̌iiō.stuuaitiiāi.hunīta.gaēϑiiāi.kā.aɱāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0008">kasi.ϑβąm.ϑrətiiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.aɱāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0015">kasə.ϑβąm.ϑritiiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">kasə.ϑβąm.ϑritiiō.haōma.mašiiō.astuuaiϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuue.cit̰.ahmāi.jasa</rdg>
+          <rdg wit="#ms0083">kasə.ϑβąm.ϑrətiiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.kā.aɱāi.ašəš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0088">kasə.ϑβąm.ϑrətiiō.haōma.maṣ̌iiō.astuuaitiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0100">kasə.ϑβąm.ϑritiiō.haōma.maṣ̌iiō.aštuuaēϑiiāi.hunuuta.gaēϑiiāe.kā.aɱāi.aṣ̌iš.ərənāuui.cit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0110">kase.ϑβą̇m.ϑritiiō.haoma.mašiiō.astauuaeϑiiāi.hunūta.gaeϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuui.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0234">̇m.kasə.ϑβą̇m.ϑritiiō.haōma.mašiiō.astauuaiϑiiāi.hunūta.gaeϑaiiāi.kā.aɱāi.aṣ̌iš.ərənāuui.cit̰.ahmāi.</rdg>
+          <rdg wit="#ms0235">kaseϑβą̇m.ϑritiiō.homa.maš́iiō.astauuaiϑiiāi.hunuuta.gaiϑiiāi.kā.aɱāi.ašiš.ərə.nāuuicit̰.aɱāi.jasa</rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410">kasə.ϑβą̇m.ϑritiiō.haoma.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuui.cit̰.ahmāi.ja</rdg>
+        </app>
+        <app xml:id="app-Y9.10a-0-1">
+          <lem>āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dūraōšō.</lem>
+          <rdg wit="#ms0005">āat̰mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0006">āat̰.mē.aēm.paiti.aōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0008">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0015">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.a</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āat̰.mē aēm.paiϑiiaōxta.haōmō.aṣ̌auua.dīraō</rdg>
+          <rdg wit="#ms0083">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0088">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0100">āat̰.mē.aēm.paiti.aoxta.haomō.aṣ̌auua.du</rdg>
+          <rdg wit="#ms0110">āat̰.mē.aēm.paiti.aoxta.haomō.aṣ̌auua.</rdg>
+          <rdg wit="#ms0234">āat̰.mē.aem.paiti.aōxta.haōmō.aṣ̌auua.</rdg>
+          <rdg wit="#ms0235">āat̰.mē.aim.pati.aoxta.haomō.ašauua.</rdg>
+          <rdg wit="#ms0400">āat̰.mē.aēm.paitiiaoxta.haomō.aṣ̌auua.d</rdg>
+          <rdg wit="#ms0410">āat̰.mē.aēm.paitiiaōxta.haomō.aṣ̌auua.d</rdg>
+        </app>
+        <app xml:id="app-Y9.10b-0-1">
+          <lem>ϑritō.sāmanąm.səuuištō.ϑritiiō.mąm.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.hā.aɱāi.aṣ̌iš.ərənāuui.tat̰.aɱāi.jasat̰.āiiaptəm.</lem>
+          <rdg wit="#ms0005">ϑritō.sāmanąm.siuuištō.ϑritiiō.mąm.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.</rdg>
+          <rdg wit="#ms0006">ϑrətō.sāmanąm.səuuištō.ϑritiiō.mąm.maš́iiō.astuuaitiiāi.hunīta.gaēϑiiāi.hā.aɱāi.aṣ̌əš.ərənāuue.tat̰.aɱāi.</rdg>
+          <rdg wit="#ms0008">ϑrətō.sāmanąm.səuuištō.ϑritiiō.mąm.maš́iiō.astuuaitiiāi.hunīta.gaēϑiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.</rdg>
+          <rdg wit="#ms0015">ϑritō.sāmanąm.səuuištō.ϑritiiō.mąm.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā.ahmāi.aṣ̌iš.ərənāuue.tat̰.ahmāi.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">ϑritō.sāmanąm.səuuištō.ϑritiiō.mąm.maš́iiō.astuuaiϑiiāi.hunūta.gaēϑiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.</rdg>
+          <rdg wit="#ms0083">ϑrətō.sāmanąm.səuuištō.ϑrətiiō.mąm.maš́iiō.astuuaitiiāi.hunīta.gaēϑiiā i.hā.aɱāi.ašəš.ərənāuue.tat̰.ahmāi.</rdg>
+          <rdg wit="#ms0088">ϑrətō.sāmanąm.səuuištō.ϑrətiiō.mąm.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.</rdg>
+          <rdg wit="#ms0100">ϑrətō.šāmanąm.sə̄.uuaštō.ϑratīō.mąm.maṣ̌iiō.aštuuaē.ϑiiāi.hunūta.gaēϑiiāi.hā.aɱāi.aṣ̌iš.ər nāuuaiiai.tat̰.aɱāi.</rdg>
+          <rdg wit="#ms0110">iō.sāmaną̇m.sə̄uuistō.ϑritiiō.mą̇m.mašiiō.astauuaiϑiiāi.hunūta.gaeϑaiiāi.⁛ hā.ahmāi.aṣ̌iš.ərənāuuitat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0234">ϑritō.sāmanąm.sə̄uuištō.ϑritiiō.mą̇m.mašaiiō.astuuaiϑaiiāi.hunūta.gaeϑaiiāi.hā.ahmāi.aṣ̌iš.ərənāuui.tat̰.ahmāi.</rdg>
+          <rdg wit="#ms0235">iō.sāmaną̇m.səuuaištō.ϑrətiiō.mą̇m.mašiiō.astauuaiϑiiāi.hunuuta.gaiϑiiāi.hā.ahmāi.ašiš.ərənāuuatat̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0400">ϑritō.sāmaną̇m.səuuištō.ϑritiiō.mą̇m.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑiiāi.hā.ahmāi.ašiš.ərənāuua.tat̰.ahmāi.</rdg>
+          <rdg wit="#ms0410">iō. ⁛sāmaną̇m.səuuištō.ϑritiiō.mą̇m.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑiiāi.hā.ahmāi.ašiš.ərənāuui.tat̰.ahmāi.</rdg>
+        </app>
+        <app xml:id="app-Y9.10c-0-1">
+          <lem>yat̰.hē.puϑra.us.zaiiōiϑe.uruuāxšaiiō.kərəsāspasca.</lem>
+          <rdg wit="#ms0005">yat̰.hē.puϑrō.us.zaiiaōiϑe.uruuāxšaiiō.kərəsā</rdg>
+          <rdg wit="#ms0006">yat̰.hē.puϑra.us.zaiiōiϑe.uruuāxšaiiō.kərəsāspasca.</rdg>
+          <rdg wit="#ms0008">yat̰.hē.puϑra.us.zaiiaōiϑi.uruuāxšaiiō.kərəsā</rdg>
+          <rdg wit="#ms0015">yat̰.hē.puϑra.us.zaiiōiϑe.uruuāxšaiiō.kərəsāspasca.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yat̰.hē.puϑra.us.zaiiōāiϑe.uruuāxšaiiō.kərəsā</rdg>
+          <rdg wit="#ms0083">yat̰.hē.puϑra.us.zaiiōiϑe.ur uuāxšaiiō.kərəsā</rdg>
+          <rdg wit="#ms0088">yat̰.hē.puϑra.us.zaiiōiϑe.uruuāxšaiiō.kərəsāspasca.</rdg>
+          <rdg wit="#ms0100">at̰.hē.puϑrō.usa.jaiiaoiϑe.uruuā.xṣ̌iiō.kərəṣ̌ā</rdg>
+          <rdg wit="#ms0110">ẏat̰.hē.puϑrō.uš.zaiiōiϑe uruuāxšaiiō.kərəsāspa</rdg>
+          <rdg wit="#ms0234">ẏat̰.hē.puϑrō.uš.zaiiōiϑe.uruuāxšaiiō.kərəsā</rdg>
+          <rdg wit="#ms0235">ẏat̰.hē.puϑra.uš.zaiiōiϑe.uruuāxšaiiō.k</rdg>
+          <rdg wit="#ms0400">ẏat̰.hē.puϑra.us.zaiiōiϑe.uruuāxšaiiō.kərəsā</rdg>
+          <rdg wit="#ms0410">ẏat̰.hē.puϑrō.us.zaiiaiti.uruuāxšaiiō.kərəšā</rdg>
+        </app>
+        <app xml:id="app-Y9.10d-0-1">
+          <lem>t̰kaēšō.ańiiō.dātō.rāzō.</lem>
+          <rdg wit="#ms0005">t̰kaēšō.ańiiō.dātō.rāzō.</rdg>
+          <rdg wit="#ms0006">t̰kaēšō.ańiiō.dātō.rāzō.</rdg>
+          <rdg wit="#ms0008">t̰kaēšō.ańiiō.dātō.rāzō.</rdg>
+          <rdg wit="#ms0015">t̰kaēšō.ańiō.dātō.rā</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">t̰kaēšō.ańiiaō.dātō.rā</rdg>
+          <rdg wit="#ms0083">t̰kaēšō.ańiiō.dātō.rāzō.</rdg>
+          <rdg wit="#ms0088">t̰kaēšō.ańiiō.dātō.rāzō.</rdg>
+          <rdg wit="#ms0100">a̰kaēšō.aniiō.dātō.rā</rdg>
+          <rdg wit="#ms0110">t̰kaešō.aniiō.dātō.rā</rdg>
+          <rdg wit="#ms0234">t̰kaešō.aniiō.dātō.rā</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">t̰kaēšō.aniiō.dātō.rā</rdg>
+          <rdg wit="#ms0410">t̰kaēšō.aniiō.dātō.rā</rdg>
+        </app>
+        <app xml:id="app-Y9.10e-0-1">
+          <lem>āat̰.ańiiō.uparō.kairiiō.yuua.gaēsuš.gaδauuarō.</lem>
+          <rdg wit="#ms0005">āat̰.ańiiō.uparō.kairiiō.yauua.aēsuš.ga</rdg>
+          <rdg wit="#ms0006">āat̰.ańiiō.uparō.kairiiō.yauuat̰.gaēsuš.gaδa</rdg>
+          <rdg wit="#ms0008">āat̰.ańiiō.uparō.kairiiō.yauua.gaēsuš.gaδa</rdg>
+          <rdg wit="#ms0015">āat̰.ańiiō.uparō.kairiiō.yauuat̰ gaēsuš.gaδa</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āat̰.ańiiō.uparaō.kairiiō.yauua.gaēsuš.gaδa</rdg>
+          <rdg wit="#ms0083">āat̰.ańiiō.uparō.kairiiō.yauua.gaēsuš.gaδa</rdg>
+          <rdg wit="#ms0088">āat̰.ańiiō.uparō.kairiiō.yauua.gaēsuš.gaδa</rdg>
+          <rdg wit="#ms0100">āat̰.aniiō.uparō.kaeriiō. ẏauuat̰.gaēuš.gada</rdg>
+          <rdg wit="#ms0110">āat̰.aniiō.uparō.kairiiō. ẏauuagaesuš.gaδa</rdg>
+          <rdg wit="#ms0234">āat̰.aniiō.uparō.kairiiō. ẏauua.gə̄ušaš.gaδa</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">āat̰.aniiō.uparō.kairiiō. ẏauua.gaēsuš.gaδa</rdg>
+          <rdg wit="#ms0410">āat̰.aniiō.uparō.kairiiō. ẏauua.gaēsuš gaδa</rdg>
+        </app>
+        <app xml:id="app-Y9.11a-0-1">
+          <lem>yō.janat̰.ažīm.sruuarəm.yim.aspō.garəm.nərə.garəm.yim.vīšauuaṇtəm.zairitəm.</lem>
+          <rdg wit="#ms0005">yō.janat̰.ažīm.suruuarəm.yim.aspō.garəm.nəre.garəm.yəm.vīšauuaṇt</rdg>
+          <rdg wit="#ms0006">yō.janat̰.ažə̄m.sruuarəm.yim.aspō.garəm.nəri.garəm.yim.vīšauuaṇt</rdg>
+          <rdg wit="#ms0008">yō.janat̰.ažīm.sruuarəm.yim.aspō.garəm.nairi.garəm.yim.vīšauuaṇt</rdg>
+          <rdg wit="#ms0015">yō.janat̰.ažīm.saruuarəm.yim.aspō.garəm.nərə.garəm.yim.vaēšauuaṇt</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yaō.janat̰.ažūm.sruuarəm.yəm.aspō.garəm.narw.garəm.yim.vūšauuaṇt</rdg>
+          <rdg wit="#ms0083">yō.janat̰.ažə̄m.sruuarəm.yə̄m.aspō.garəm.nrə.garəm.yəm.vīšauuaṇt</rdg>
+          <rdg wit="#ms0088">yō.janat̰.ažīm.sruuarəm.yim.aspō.garəm.nəri.garəm.yim.vīṣ̌auuaṇt</rdg>
+          <rdg wit="#ms0100">ẏō.janat̰.ajīm.sruuarəm. ẏəm.aspō.garəm.narəgarəm ẏəm.vīṣ̌ō.vaṇtəm.</rdg>
+          <rdg wit="#ms0110">ẏō.janat̰.ažīm.sruuarəm. ẏim.aspō.garəm.nare.garəm. ẏim.vīsauuaṇt</rdg>
+          <rdg wit="#ms0234">ō.janat̰.ažīm.sarəmuuarəm. ẏim.aspō.garəm.narš.garəm. ẏim.vīsauuaṇt</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">ẏō.janat̰.ažīm.sruuarəm. ẏim.aspō.garəm.nərə.garəm. ẏim.vīšauuaṇt</rdg>
+          <rdg wit="#ms0410">ẏō.janat̰.ažīm.sruuarəm. ẏim.aspō.garəm.nərə.garəm. ẏim.vīšauuaṇt</rdg>
+        </app>
+        <app xml:id="app-Y9.11b-0-1">
+          <lem>yim.upairi.vīš.</lem>
+          <rdg wit="#ms0005"></rdg>
+          <rdg wit="#ms0006"></rdg>
+          <rdg wit="#ms0008"></rdg>
+          <rdg wit="#ms0015"></rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060"></rdg>
+          <rdg wit="#ms0083"></rdg>
+          <rdg wit="#ms0088"></rdg>
+          <rdg wit="#ms0100"></rdg>
+          <rdg wit="#ms0110"></rdg>
+          <rdg wit="#ms0234"></rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410"></rdg>
+        </app>
+        <app xml:id="app-Y9.11b-1-2">
+          <lem>⁺araōδat̰.ārštiiō.barəza.zairitəm.</lem>
+          <rdg wit="#ms0005">.vīš.raōδat̰.ārəštaiiō.barəza.za</rdg>
+          <rdg wit="#ms0006">əšaraōδat̰.ārəštaiiō.barəza.zairi</rdg>
+          <rdg wit="#ms0008">əšaraōδat̰.ārəštaiiō.barəza.zairi</rdg>
+          <rdg wit="#ms0015">īšaraōδat̰.ārəštaiiō.bərəza.zairi</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">.vīš.raōδat̰.urəštiiō.bərəza.za</rdg>
+          <rdg wit="#ms0083">.vīš.raōat̰.ārəštiiō.barəza.zai</rdg>
+          <rdg wit="#ms0088">.vīš.raōδat̰.ārəštiiō.barəza.zai</rdg>
+          <rdg wit="#ms0100">iš.raorat̰.āirištiiō.barəzajai</rdg>
+          <rdg wit="#ms0110">.vīš.raoδat̰.ārəštiiō.barəza.za</rdg>
+          <rdg wit="#ms0234">.viš.raoδat̰.ārəštiiō.bərəza.zai</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">.viš.raodat̰.ārištiiō.barəza.zai</rdg>
+          <rdg wit="#ms0410">īš.raodrat̰.ārəštiiō.barəza.zai</rdg>
+        </app>
+        <app xml:id="app-Y9.11c-0-1">
+          <lem>yim.upairi.kərəsāspō.aiiaŋha.pitūm.pacata.</lem>
+          <rdg wit="#ms0005">yim.upairi.kərəsāspō.aiiaŋha.paitīm.pa</rdg>
+          <rdg wit="#ms0006">yim.upairi.kərəsāspō.aiiaŋha.paitīm.pa</rdg>
+          <rdg wit="#ms0008">yim.upairi.kərəsāspō.aiiaŋha.paitīm.pa</rdg>
+          <rdg wit="#ms0015">yim.upairi.kərəsāspō.aiiaŋha.pitīm.pa</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yəm.upairi.kərəsāspō.aiiaŋha.patūm.pa</rdg>
+          <rdg wit="#ms0083">yəm.upairi.kərəsāspō.aiiaŋha.pitīm.pa</rdg>
+          <rdg wit="#ms0088">yəm.upairi.kərəsāspō.aiiaŋha.pitīm.pa</rdg>
+          <rdg wit="#ms0100">ẏəm.upairi.kərəsāspō.aiiaŋha.patūm.pa</rdg>
+          <rdg wit="#ms0110">im.upairi.kərəsāspō aiiaŋha.pitūm.pasca</rdg>
+          <rdg wit="#ms0234">im.upairi.kərəsā.spō.aiiaŋha.paitūm.pa</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">im.upairi.kərəsāspō.aiiaŋha.paitīm.pa</rdg>
+          <rdg wit="#ms0410">im.upairi.kərəšāspō.aiiaŋha.paitīm.pa</rdg>
+        </app>
+        <app xml:id="app-Y9.11d-0-1">
+          <lem>ā.rapiϑβinəm.zruuānəm.tafsat̰ca.hō.mairiiō.xᵛīsat̰ca.</lem>
+          <rdg wit="#ms0005">ā.rapβanəm.zruuānəm.tafsat̰ca.haōmairiiō.xᵛīsa</rdg>
+          <rdg wit="#ms0006">ā.rapiϑβanəm.zauruuānəm.tafsat̰ca.hō.mairiiō.xᵛīsa</rdg>
+          <rdg wit="#ms0008">ā.rapiϑβanəm.zauruuānəm.tafsat̰ca hō.mairiiō xᵛīsa</rdg>
+          <rdg wit="#ms0015">ā.rapiϑβənəm.zauruuānəm.tafsat̰ca.hō.mairiiō.xᵛīsa</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">ā.rapiϑβanəm.zruuānəm.tafsat̰ca.haō.mairiiō.xᵛūsa</rdg>
+          <rdg wit="#ms0083">ā.rapiϑβanəm.zaruuānəm.tafsat̰ca.hō.mairiiō.xᵛīsa</rdg>
+          <rdg wit="#ms0088">ā.rapiϑβainəm.zauruuānəm.tafsat̰ca.hō.mairiiō.xᵛīsa</rdg>
+          <rdg wit="#ms0100">āra ´pəϑβənəm.zruuānəm.tavsat̰aca.haomairīō.xᵛīṣ̌a</rdg>
+          <rdg wit="#ms0110">ārapiϑβinəm.zruuānəm.tavasaϑaca.haomairiiō.x́iisaϑa</rdg>
+          <rdg wit="#ms0234">ā.rapiϑβinəm.zruuānəm.tavasaδaca.hō.mairiiō.xᵛiisa</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">ā.rapiϑβinəm.zruuānəm.tafsaδca.hō.mairiiō.xᵛīsa</rdg>
+          <rdg wit="#ms0410">ā.rapiϑβinəm.zaruuānəm.tafsaδca.hō.mairiiō.x́īsa</rdg>
+        </app>
+        <app xml:id="app-Y9.11e-0-1">
+          <lem>frąš.aiiaŋhō.frasparat̰.yaēš́iiaṇtīm.āpəm.parā̊ŋ́hāt̰.</lem>
+          <rdg wit="#ms0005">fraąš.aiiaŋhō.frasparat̰.yīšaiiaṇtīm.āpəm.frā̊</rdg>
+          <rdg wit="#ms0006">frąšaiiaŋhō.frasparat̰.yaeš́iiaṇtīm.āpəm.parā̊ŋhā</rdg>
+          <rdg wit="#ms0008">frąšaiiaŋhō.frasparat̰.yaeš́iiaṇtīm.āpəm.parā̊ŋhā</rdg>
+          <rdg wit="#ms0015">frąšaiiaŋhō.fraspərat̰.yaēšaiiaṇtəm.āpəm.frā̊ŋhā</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">fraąš.aiiaŋhō.frasparat̰.yūšiiaṇtīm.āpəm.frā̊</rdg>
+          <rdg wit="#ms0083">frąš.aiiaŋhō.frasparat̰.yš́iiaṇtīm. .āpəm.parā̊</rdg>
+          <rdg wit="#ms0088">frąš.aiiaŋhō.frasparat̰.yaēš́iiaṇtīm.āpəm.parā̊</rdg>
+          <rdg wit="#ms0100">frąm.saiiaŋhō.fra.sparat̰. ẏaēš.ẏəm.tīm.āpəm.parā̊</rdg>
+          <rdg wit="#ms0110">frą̇saiiaŋhō.frasparat̰. ẏešaiṇtīm.āpəm.parā̊ŋhā</rdg>
+          <rdg wit="#ms0234">frąsaiiaŋhō.frasparat̰. ẏaešaiṇtəm.āpəm.farā̊ŋhā</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">frą̇š.aiiaŋhō.frasparat̰. ẏaēšiiaṇtīm.āpəm.parā̊ŋ</rdg>
+          <rdg wit="#ms0410">frą̇š.aiiaŋhō.frasparat̰. ẏaešaiiaṇtīm.āpəm.parā̊ŋ</rdg>
+        </app>
+        <app xml:id="app-Y9.11f-0-1">
+          <lem>parąš.tarštō.apatacat̰.naire.manā̊.kərəsāspō.</lem>
+          <rdg wit="#ms0005">parąštarštō.apatacat̰.nairi.manā̊.kərəsā</rdg>
+          <rdg wit="#ms0006">prąštaršta.apatacit̰.nairəmanā̊.kərəsā.</rdg>
+          <rdg wit="#ms0008">prąštarštō.apatacit̰.nairimanā̊.kərəsā</rdg>
+          <rdg wit="#ms0015">frąštarštō.apatacit̰.nairimanā̊ kərəsāspō.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">parąštarštō.apatacit̰.nairi.manā̊.kərəsā</rdg>
+          <rdg wit="#ms0083">parąš.tarštō.apatacit̰.nairəmanā̊.kərəsā</rdg>
+          <rdg wit="#ms0088">parąš.tarštō.apatacat̰.nairəmanā̊.kərəsā</rdg>
+          <rdg wit="#ms0100">parąm.š.taraštō.apatacit̰.nairimanā̊.kərəsā</rdg>
+          <rdg wit="#ms0110">parą̇s.tarəštō.apata.cat̰.nare.manā̊.kə</rdg>
+          <rdg wit="#ms0234">parąs.tarəstō.apata.cit̰.naerąi.manā̊.kər</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410">parą̇š.tarštō.apatacit̰.nairi.manā̊.kərəšā</rdg>
+        </app>
+        <app xml:id="app-Y9.12a-0-1">
+          <lem>kasə.ϑβąm.tūiriiō.haōma.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.kā.aɱāi.aṣ̌iš.ərənāuui.cit̰.aɱāi.jasat̰.āiiaptəm.</lem>
+          <rdg wit="#ms0005">ksi.ϑβąm.tīiriiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0006">kasi.ϑβąm.tīiriiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑaiiāi.kā.aɱāi.aṣ̌əš.ərənāuui.cit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0008">kasi.ϑβąm.tīiriiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0015">kasə.ϑβąm.tīiriiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌iš ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">kasə.ϑβąm.tūiriiō.haōma.mašiiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0083">kasə.ϑβąm.tīiriiō.haōma.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.ašəš.ərənāuue.cit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0088">kasə.ϑβąm.tīiriiō.haōma.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.kā.ahmāi.aṣ̌əš.ərənāuue.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0100">kasə.ϑβąm.tuuiriiō.haoma.maṣ̌iiō.aštuuaē.niiāi.hunūta.aeϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuui.cit̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0110">kase.ϑβą̇m.tuuiriiō.haoma.mašiiō.astuuaiϑiiāi.hunūta.gaeϑiiāi.⁛ kā.ahmāi.aṣ̌iš.ərənāuuicit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0234">kase.ϑβą̇m.tūiriiō.haoma.mašiiō.astuuaiϑiiāi.hunūta.gaeϑaiiāi.kā.aɱāi.aṣ̌iš.ərənāuui.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">kase.ϑβą̇m.tūiriiō.haoma.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaeϑaiiāi.kā.ahmāi.ašiš.ərənāuua.cit̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0410">kasə.ϑβą̇m.tūiriiō.haoma.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑiiāi.kā.ahmāi.aṣ̌iš.ərənāuui.cit̰.ahmāi.</rdg>
+        </app>
+        <app xml:id="app-Y9.13a-0-1">
+          <lem>āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dūraōšō.</lem>
+          <rdg wit="#ms0005">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0006">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0008">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0015">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dūraōšō.</rdg>
+          <rdg wit="#ms0083">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0088">āat̰.mē.aēm.paitiiaōxta.haōmō.aṣ̌auua.dī</rdg>
+          <rdg wit="#ms0100">āat̰.mē.aēm.paeti.aoxta.haomō aṣ̌auua.du</rdg>
+          <rdg wit="#ms0110">āat̰.mē.aēm.paiti.aoxta.haomō.aṣ̌auua.</rdg>
+          <rdg wit="#ms0234">āat̰.mē.aem.paiti.aōxta.haomō.aṣ̌auua.</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">āat̰.mē.aēm.paitiiaoxta.haomō.ašauu dūrao</rdg>
+          <rdg wit="#ms0410">āat̰.mē.aēm.paiti.aoxta.haomō.aṣ̌auua.</rdg>
+        </app>
+        <app xml:id="app-Y9.13b-0-1">
+          <lem>pourušaspō.mąm.tūiriiō.maṣ̌iiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.hā.aɱāi.aṣ̌iš.ərənāuui.tat̰.aɱāi.jasat̰.āiiaptəm.</lem>
+          <rdg wit="#ms0005">pōuru.šaspō.mąm.tīiriiō.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā.ahmāi.aṣ̌əš.ərənāuuə.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0006">paōurušaspō.mąm.tīiriiō.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā.aɱāi.aṣ̌əš.ərənāuue.tat̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0008">paōurušaspō.mąm.tīiriiō.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0015">paōurušaspō.mąm.tīiriiō.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">paōurušaspō.mąm.tūiriiō.mašiiō.astuuaiϑiiāi.hunūta.gaēϑaiiāi.hā.ahmāi.aṣ̌iš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0083">paōurušaspō.mąm.tīiriiō.maš́iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hi.ahmāi.ašəš.ərənāuue.tat̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0088">paōurušaspō.mąm.tīiriiō.maṣ̌iiō.astuuaiϑiiāi.hunīta.gaēϑiiāi.hā.ahmāi.aṣ̌əš.ərənāuue.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0100">paourasaspō.mąm.tūiriiō.maṣ̌iiō.aštū.aēϑiiai.hunūta.gaēϑiiāi.hā ɱāi.aṣ̌iš.ərənāuui.tat̰.aɱāi.ja</rdg>
+          <rdg wit="#ms0110">paourušaspō.mą̇m.tūriiō.mašiiō.astauuaϑiiāi.hunūta.gaēϑaiiāi.hā.ahmāi.aṣ̌iš.ərənāuui.tat̰.ahmāi.jasa</rdg>
+          <rdg wit="#ms0234">uruš.aspō.mą̇m.tūiriiō.mašiiō.astauuaiϑiiāi.hunūta.gaeϑaiiāi.hā.ahmāi.aṣ̌iš.ərənāuui.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">ouruṣ̌aspō.mą̇m.tūiriiō.maṣ̌aiiō.astauuaiϑiiāi.hunūta.gaēϑaiiāi.hā.ahmāi.ašiš.ərənāuua.tat̰.ahmāi.ja</rdg>
+          <rdg wit="#ms0410">urušaspō.mą̇m.tūiriiō.maṣ̌iiō.hunuuaē.astuuaiϑiiāi.hunūta.gaēϑiiāi.hā.ahmāi.aṣ̌iš.ərənāuui.tat̰.ahmāi.</rdg>
+        </app>
+        <app xml:id="app-Y9.13c-0-1">
+          <lem>yat̰.hē.tūm.us.zaiiaŋha.tūm.ərəzuuō.zaraϑuštra.nmānahe.pourušaspahe.vīdaēuuō.ahura.t̰kaēšō.</lem>
+          <rdg wit="#ms0005">yat̰.hē.tīm.us.zaiiaŋha.tīm.ərəzuuō.zaraϑuštra.nmānahe.pourušaspahe.vīdaēuuō.a</rdg>
+          <rdg wit="#ms0006">yat̰.hē.tə̄m.us.zaiiaŋha.tīm.ərəzuuō.zaraϑuštra.nmānahe.paōuru.šaspahe.vīdaēuuō.</rdg>
+          <rdg wit="#ms0008">yat̰.hə̄.tə̄m.us.zaiiaŋha.tīm.ərəzuuō.zaraϑuštra.nmānahe.paōuru.šaspahe.vīdaēuuō.a</rdg>
+          <rdg wit="#ms0015">yat̰.hē.tīm.uszaiiaŋha.tīm.ərəzuuō.zaraϑuštra.nmānahe.paōurušaspahe.vīdaēuuo.ah</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yat̰.hē.tūm.us.zaiiaŋha.tūm.ərəzuuō.zaraϑuštra.nmānahe.pourušaspahe.vūdaēuuō.</rdg>
+          <rdg wit="#ms0083">yat̰.hē.tə̄m.us.zaiiaŋha.tīm.ərəzauuō.zaraϑuštra.nəmānahe.paōurušaspahe.vīdaēuuō.a</rdg>
+          <rdg wit="#ms0088">yat̰.hē.tīm.us.zaiiaŋha.tīm.ərəzauuō.zaraϑuštra.nəmānahe.paourušaspahe.vīdaēuuō.a</rdg>
+          <rdg wit="#ms0100">at̰.hē.tūm.us.zaiiaŋha.tūm.ərəzuuō.zaraϑuštra.nəmānahe.pōuruṣ̌aspahe.vīdaēuuō.a</rdg>
+          <rdg wit="#ms0110">ẏat̰.hē.tūm.uszaiiaŋha.tūm.ərəzuuō.zaraϑuštra.nmānahe.pōurusaspahe.vīdaeuuō.ah</rdg>
+          <rdg wit="#ms0234">at̰.hē.tūm.us.zaiiaŋuha.tūm.ərəzauuō.zaraϑuštra.namānahe.paōurušaspahe.vīdaeuuō.a</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">at̰.hē.tūm.us.zaiiaŋha.tūm.ərəzuuō.zaraϑuštra.nmānahe.paourušaspahe.vīdaeuuō.a</rdg>
+          <rdg wit="#ms0410">at̰.hē.puϑrō.tūm.us.zaiiaŋha.tūm.ərəzuuō.zaraϑuštra.nmānahe.pourušaspahe.vīdaēuuō.</rdg>
+        </app>
+        <app xml:id="app-Y9.14a-0-1">
+          <lem>srūtō.airiiene.vaējahi.tūm.paōiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.vībərəϑβaṇtəm.āxtūirīm.</lem>
+          <rdg wit="#ms0005">srītō.airiiane.vījahe.tīm.paōiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.vībərəϑβəṇtəm.</rdg>
+          <rdg wit="#ms0006">srītō.airiieni.vījahe.tīm.paōiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.və̄.bərəϑβaṇt</rdg>
+          <rdg wit="#ms0008">srītō.airiieni.vaējahe.tīm.paōiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.və̄.bərəϑβəṇt</rdg>
+          <rdg wit="#ms0015">srītō.airiiəne.vījahe.tīm.paōiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.vī.bərəϑβaṇt</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">srūtō.airiiane.vūjahe.tūm.paōiriiō.zaraϑuštra.ahunəm.vairūm.frasrāuuaiiō.vū.bərəϑβəṇt</rdg>
+          <rdg wit="#ms0083">srītō.airiiene.vījahe.tīm.paōiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.vī.bərəϑβaṇt</rdg>
+          <rdg wit="#ms0088">srītō.airiiane.vījahe.tīm.paōiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.vī.bərəϑβaṇt</rdg>
+          <rdg wit="#ms0100">sruutō.airiiene.vaējahe.tūm.paoiriiō.zaraϑuštra.ahunəm.vairiim.frasrāuuaiiō.vī.bərəϑβəm.t</rdg>
+          <rdg wit="#ms0110">srūtō.airiiane.vajahe.tūm.paoiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.vī.bərəϑβəṇt</rdg>
+          <rdg wit="#ms0234">srūtō.airiiane.vaejahe.tūm.paōiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.vībərəϑβəṇtəm.</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">srūtō.airiiene.vaejahe.tūm.paoiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.vībərəϑβəṇtəm.</rdg>
+          <rdg wit="#ms0410">srūtō.airiiene.vaējahe.tūm.paoiriiō.zaraϑuštra.ahunəm.vairīm.frasrāuuaiiō.vī.bərəϑβəṇt</rdg>
+        </app>
+        <app xml:id="app-Y9.14b-0-1">
+          <lem>aparəm.xraōždiiehiia.frasrūiti.</lem>
+          <rdg wit="#ms0005">aparəm.xraōždiieiia.frasrīiti.</rdg>
+          <rdg wit="#ms0006">aparəm.xraōždaiiehiia.frasrīi</rdg>
+          <rdg wit="#ms0008">aparəm.xraōždaiiehiiā.frasrīiti.</rdg>
+          <rdg wit="#ms0015">aparəm.xraōždaiiehe.frasrīite.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">aparəm.xraōždaiiehiia.frasrūiti.</rdg>
+          <rdg wit="#ms0083">aparəm.xraōždaiiehiia.frasrīitie.</rdg>
+          <rdg wit="#ms0088">aparəm.xraōždaiiehiia.frasrīi</rdg>
+          <rdg wit="#ms0100">aparəm.xraožadiiehe.frasruuiti.</rdg>
+          <rdg wit="#ms0110">aparəm.xraoždaiiehiia.frasrūiti.</rdg>
+          <rdg wit="#ms0234">aparəm.xraōždiiehiia.frasrūiti.</rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400">aparəm.xraoždaiiehiiā.frasrūiti.</rdg>
+          <rdg wit="#ms0410">aparəm.xraoždiiehiiā.frasrūiti.</rdg>
+        </app>
+        <app xml:id="app-Y9.15a-0-1">
+          <lem>tūm.zəmargūzō.ākərənauuō.vīspe.daēuua.zaraϑuštra.yōi.para.aɱāt̰.vīrō.raōδa.apataiiən.paiti.āiia.zəmā.</lem>
+          <rdg wit="#ms0005">tīm.zəmargīzō.ākərənuuō.vīspa.daēuua.zaraϑuštra.yōi.para.ahmāt̰.vīrō.raōδa.apataiiən.pai</rdg>
+          <rdg wit="#ms0006">tīm.zəmarəgīzō.ākərənauuō.vīspe.daēuua.zaraϑuštra.yōi.para.aɱāt̰.vīrō.raōδa.apataiiən.pai</rdg>
+          <rdg wit="#ms0008">tīm.zəmarəgīzō.ākərənuuō.vīspe.daēuua.zaraϑuštra.yōi.para.ahmāt̰.vīrō.raōδa.apataiiən.pai</rdg>
+          <rdg wit="#ms0015">tīm.zəmarəgīzō.ākərənauuō.vīspe.daēuua zaraϑuštra.yōi.para.ahmāt̰.vīrō.raōδa.apataiiən.pai</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">tūm.zəmar.gūzaō.ā.kərənuuō.vūspe.daēuua.zaraϑuštra.yōi.para.ahmāt̰.vūraō.raōδa.apataiiən.</rdg>
+          <rdg wit="#ms0083">tīm.zəmarəgīzō.ākərənauuō.vīspe.daēuua.zaraϑuštra.yōi.para.ahmāt̰.vīraō.raōδa.apataiiən.pai</rdg>
+          <rdg wit="#ms0088">tīm.zəmarəgīzō.ākərənauuō.vīspe.daēuua.zaraϑuštra.yōi.para.ahmāt̰.vīrō.raōδa.apataiiən.pai</rdg>
+          <rdg wit="#ms0100">tūm.zəmar.gūzō.ākəruuō.īspa.daēuua.zaraϑuštra. ẏō.para aɱāt̰.vīraorat̰.apataiiena.pai</rdg>
+          <rdg wit="#ms0110">tūm.zəmargūzō.ākərənuuō.vīspe.daeuua.zaraϑuštra. ẏōi.para.ahmāt̰.vīrō.raot̰.apataiiən.pai</rdg>
+          <rdg wit="#ms0234">tūm.zəmargūzō.ākərənuuō.vīspe.daeuua.zaraϑuštra. ẏōi.para.ahmāt̰.vīrō.raōt̰.apataiiən.pai</rdg>
+          <rdg wit="#ms0235">tūm.zimarə.gūzō.ākərə.nuuō.vīspe.daeuua.zaraϑuštra. ẏōi.para.ahmāt̰.vīrō.raot̰.apataiiən.</rdg>
+          <rdg wit="#ms0400">tūm.zəmargūzō.ākərənuuō.vīspe.daēuua.zaraϑuštra. ẏō.para.ahmāt̰.vīrō.raoδa.apataiiən.pai</rdg>
+          <rdg wit="#ms0410">tūm.zəmargūzō.ākərənuuō.vīspe.daēuua.zaraϑuštra. ẏō.para.ahmāt̰.vīrō.raōδa.apataiiən.pai</rdg>
+        </app>
+        <app xml:id="app-Y9.15b-0-1">
+          <lem>yō.aōjištō.yō.taṇcištō.yō.ϑβaxšištō.yō.āsištō.yō.</lem>
+          <rdg wit="#ms0005">yō.aōjištō.yō.taṇcištō.yō.ϑβaxšištō.yō.āsi</rdg>
+          <rdg wit="#ms0006">yō.aōjəštō.yō.taṇcištō.yō.ϑβaxšištō.yō.āsi</rdg>
+          <rdg wit="#ms0008">yō.aōjištō.yō.taṇcištō.yō.ϑβaxšištō.yō.āsi</rdg>
+          <rdg wit="#ms0015">yō.aōjištō.yō.taṇjištō.yō.ϑβaxšəštō.yō.āsi</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yō.aōjištō.yō.taṇjištō.yō.</rdg>
+          <rdg wit="#ms0083">yō.aōjištō.yō.taṇcištō.yō.ϑβax</rdg>
+          <rdg wit="#ms0088">yō.aōjištō.yō.taṇcištō.yō.ϑβaxšəštō.yō.ā</rdg>
+          <rdg wit="#ms0100">ẏō.aojištō. ẏō.taṇcištō. ẏō.ϑβaxṣ̌i.štō. ẏō.</rdg>
+          <rdg wit="#ms0110">ẏō.aozistō. ẏō.taṇcištō. ẏō.ϑβaxšistō. ẏō.</rdg>
+          <rdg wit="#ms0234">ẏō.aōjištō. ẏō.taṇcištō. ẏō.ϑβaxšištō. ẏō.</rdg>
+          <rdg wit="#ms0235">ẏō.aojistō. ẏō.taṇcistō. ẏō.ϑβaxšištō. ẏō.</rdg>
+          <rdg wit="#ms0400">ẏō.aojištō. ẏō.taṇcištō. ẏō.ϑβaxšištō. ẏō.</rdg>
+          <rdg wit="#ms0410">ẏō.aojištō. ẏō.taṇcištō. ẏō.ϑβaxšištō. ẏō.</rdg>
+        </app>
+        <app xml:id="app-Y9.15b-1-2">
+          <lem>⁺aš.vərəϑrająstəmō.abauuat̰.mańiuuā̊.dāmąn.</lem>
+          <rdg wit="#ms0005">ō.āsištō.yōasa.vərəϑrająstəmō.abaat̰.mai</rdg>
+          <rdg wit="#ms0006">sištō.yō.as.vərəϑrająstəmō.abauuat̰.mai</rdg>
+          <rdg wit="#ms0008">sištō.yō.as.vərəϑrająstəmō.abauuat̰.maińia</rdg>
+          <rdg wit="#ms0015">sištō.yō.as.vərəϑrająstəmō.abauuat̰.mai</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">.yō.as.vərəϑrająstəmō.abauuat̰.maińiuuā̊.</rdg>
+          <rdg wit="#ms0083">.yō.as.vərəϑrająstəmō.abauuat̰.mańiuuā̊.</rdg>
+          <rdg wit="#ms0088">.āsəštō.yō.as.vərəϑrająstəmō.abauuat̰.ma</rdg>
+          <rdg wit="#ms0100">.ašahe.vərəϑrəjąm.štimō.abauuat̰.manauuā̊.</rdg>
+          <rdg wit="#ms0110">.as.vərəϑrają̇stəmō.abauuat̰.mainiuuā̊.dā</rdg>
+          <rdg wit="#ms0234">.as.vərəϑrająstəmō.abauuat̰.mainiuuā̊.dā</rdg>
+          <rdg wit="#ms0235">.as.vərəϑrai.zą̇štəmō.abauuat̰.miniuuā̊.dā</rdg>
+          <rdg wit="#ms0400">.as.vərəϑrają̇stəmō.abauuat̰.mainiuuā̊.dā</rdg>
+          <rdg wit="#ms0410">.as.vərəϑrają̇stəmō.abauuat̰.mainiuuā̊.dā</rdg>
+        </app>
+        <app xml:id="app-Y9.16a-0-1">
+          <lem>āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</lem>
+          <rdg wit="#ms0005">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0006">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0008">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0015">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āat̰.aōxta.zaraϑuštraō.nəmō.hō</rdg>
+          <rdg wit="#ms0083">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0088">āat̰.aōxta.zaraϑuštrō.nəmō.haōmāi.</rdg>
+          <rdg wit="#ms0100">āat̰.aoxta.zaraϑuštrō.nəmō.hao</rdg>
+          <rdg wit="#ms0110">āat̰.aōxta.zaraϑuštrō.nəmō.hao</rdg>
+          <rdg wit="#ms0234">āat̰.aoxta.zaraϑuštrō.nəmō.haō</rdg>
+          <rdg wit="#ms0235">āat̰.aoxta.zaraϑuštarō.nəmō.hao</rdg>
+          <rdg wit="#ms0400">āat̰.aoxta.zaraϑuštrō.nəmō.hao</rdg>
+          <rdg wit="#ms0410">āat̰.aoxta.zaraϑuštrō.nəmō.hao</rdg>
+        </app>
+        <app xml:id="app-Y9.16b-0-1">
+          <lem>vaŋhuš.haōmō.huδātō.haōmō.arš.dātō.</lem>
+          <rdg wit="#ms0005">vaŋhuš.haōmō.huδātō.haōmō.arəš.</rdg>
+          <rdg wit="#ms0006">vaŋhuš.haōmō.huδātō.haōmō.arəš.</rdg>
+          <rdg wit="#ms0008">vaŋhuš.haōmō.huδātō.haōmō.arəš.</rdg>
+          <rdg wit="#ms0015">vaŋhuš.haōmō.huδātō.haōmō.arš.dātō.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">vaŋhuš.haōmō.huδātō.haōmō.arəš.</rdg>
+          <rdg wit="#ms0083">vaŋhuš.haōmō.huδātō.haōmō.arš.dātō.</rdg>
+          <rdg wit="#ms0088">vaŋhuš.haōmō.huδātō.haōmō.arš.dātō.</rdg>
+          <rdg wit="#ms0100">vaŋhuš.haomō.huδātō.haomō.arṣ̌a.</rdg>
+          <rdg wit="#ms0110">vaŋhə̄uš.haomō.huδātō.haomō.arš.</rdg>
+          <rdg wit="#ms0234">vaŋhuš.haōmō.huδātō.haōmō.aršdā</rdg>
+          <rdg wit="#ms0235">vaŋhuš.haomō.hudātō.haomō.arš.</rdg>
+          <rdg wit="#ms0400">vaŋhuš.haomō.huδātō.haomō.aršdā</rdg>
+          <rdg wit="#ms0410">vaŋhuš.haomō.huδātō.haomō.aršdā</rdg>
+        </app>
+        <app xml:id="app-Y9.16c-0-1">
+          <lem>vaŋhuš.dātō.baēšaziiō.</lem>
+          <rdg wit="#ms0005">vaŋhuš.dātō.baēšaziiō.</rdg>
+          <rdg wit="#ms0006">vaŋhuš.dātō.baēšaziiō.</rdg>
+          <rdg wit="#ms0008">vaŋhə̄uš.dātō.baēšaziiō.</rdg>
+          <rdg wit="#ms0015">vaŋhuš.dātō.baēšaziiō.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">vaŋhuš.dātō.baēšaziiō.</rdg>
+          <rdg wit="#ms0083">vaŋhuš.dātō.baēšaziiō.</rdg>
+          <rdg wit="#ms0088">vaŋhuš.dātō.baēšaziiō.</rdg>
+          <rdg wit="#ms0100">vaŋhuš.dātō.baēṣ̌aziiō.</rdg>
+          <rdg wit="#ms0110">vaŋhuš.dātō.baešaziiō.</rdg>
+          <rdg wit="#ms0234">vaŋhuš.dātō.baešaziiō.</rdg>
+          <rdg wit="#ms0235">vaŋhuš.dātō.baišaziiō.</rdg>
+          <rdg wit="#ms0400">vaŋhuš.dātō.baešaziiō.</rdg>
+          <rdg wit="#ms0410">vaŋhuš.dātō.baēšaziiō.</rdg>
+        </app>
+        <app xml:id="app-Y9.16d-0-1">
+          <lem>hukərəfš.huuarəš.</lem>
+          <rdg wit="#ms0005">hukərəfš.</rdg>
+          <rdg wit="#ms0006">hukərəfš.huuarəš.</rdg>
+          <rdg wit="#ms0008">hukərəfš.huuarəš.</rdg>
+          <rdg wit="#ms0015">hukərəfš.huuarəš.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">hukərəfš.huuarəš.</rdg>
+          <rdg wit="#ms0083">hukərəfš.huuarəš.</rdg>
+          <rdg wit="#ms0088">hukərəfš.huuarəš.</rdg>
+          <rdg wit="#ms0100">hukərəfsa.huvrəfš.</rdg>
+          <rdg wit="#ms0110">hukərəfš.huuarə</rdg>
+          <rdg wit="#ms0234">hukərəfš.huuarəš.</rdg>
+          <rdg wit="#ms0235">hukərə.fš.huuar</rdg>
+          <rdg wit="#ms0400">hukərəfš.huuərəš.</rdg>
+          <rdg wit="#ms0410">hukərəfš.huuərəš.</rdg>
+        </app>
+        <app xml:id="app-Y9.16e-0-1">
+          <lem>vərəϑrajā̊.zairi.gaōnō.nąmiiąsuš.</lem>
+          <rdg wit="#ms0005">vərəϑrajā̊.zairi.gaōnō.nąmiiąsuš.</rdg>
+          <rdg wit="#ms0006">vərəϑrajā̊.zairi.gaōnō.nąmiiąsuš.</rdg>
+          <rdg wit="#ms0008">vərəϑrajā̊.zairi.gaōnō.nąmiiąsuš.</rdg>
+          <rdg wit="#ms0015">vərəϑrajā̊.zairi.gaōnō.nąmiiąsuš.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">vərəϑrajā̊.zairi.gaōnō.nąmiiąsuš.</rdg>
+          <rdg wit="#ms0083">vərəϑrajā̊.zairi.gaōnō.nąmiiąsuš.</rdg>
+          <rdg wit="#ms0088">vərəϑrajā̊.zairi.gaōnō.nąmiiąsuš.</rdg>
+          <rdg wit="#ms0100">vərəϑrajā̊.zāirə.gaonō.nąma.ẏąm.</rdg>
+          <rdg wit="#ms0110">zari.gaōnō.ną̇miią̇s</rdg>
+          <rdg wit="#ms0234">vərəϑrajā̊.zairi.gaōnō.nąmiią̇</rdg>
+          <rdg wit="#ms0235">vərəϑrajā̊.zairi.gaonō.ną̇miią̇</rdg>
+          <rdg wit="#ms0400">vərəϑrajā̊.zairi.gaonō.ną̇miią̇</rdg>
+          <rdg wit="#ms0410">vərəϑrajā̊.zairigaonō.ną̇miią̇s</rdg>
+        </app>
+        <app xml:id="app-Y9.16f-0-1">
+          <lem>yaϑa.xᵛarəṇte.vahištō.urunaēca.pāϑmaińiiō.təmō.</lem>
+          <rdg wit="#ms0005">yaϑa.xᵛarəṇtī.vahištō.urunaēca.pāϑmaińiiō</rdg>
+          <rdg wit="#ms0006">yaϑa.xᵛarəṇtī.vahištō.urunaēca.pāϑmaēniiō</rdg>
+          <rdg wit="#ms0008">yaϑa.xᵛarəṇtī.vahištō.urunaēca.pāϑmaēńiiō</rdg>
+          <rdg wit="#ms0015">yaϑa.xᵛarəṇtī.vahištō.urunaēca.pāϑmaēniiō</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yaϑa.xᵛarəṇte.vahištō.urunaēca.puϑmaińiiaō</rdg>
+          <rdg wit="#ms0083">yaϑa.xᵛarəṇte.vahištō.urunaēca.pāϑmaińiiō</rdg>
+          <rdg wit="#ms0088">yaϑa.xᵛarəṇte.vahištō.urunaēca.pāϑmaińiiō</rdg>
+          <rdg wit="#ms0100">aϑa.xᵛarəṇti.vaheštō.urunaēca.pāiϑamainīō.</rdg>
+          <rdg wit="#ms0110">ẏaϑa.x́arəṇte.vahištō.urunaeca.pāϑa.maniiō.</rdg>
+          <rdg wit="#ms0234">ẏaϑa xᵛarəṇtē.vahištō.urunaeca.pāϑmainiiō.</rdg>
+          <rdg wit="#ms0235">aϑa.x́arəṇti.vahištō.urunaica.pāϑamainiiō.</rdg>
+          <rdg wit="#ms0400">aϑa.xᵛarəṇte.vahištō.urunaēca.pāϑmainiiao</rdg>
+          <rdg wit="#ms0410">aϑa.x́arəṇte.vahištō.urunaēca.pāϑmainiiaō</rdg>
+        </app>
+        <app xml:id="app-Y9.17a-0-1">
+          <lem>nī.tē.zāire.maδəm.mruiiē.</lem>
+          <rdg wit="#ms0005">nī.tē.zāiri.maδəm.mruii</rdg>
+          <rdg wit="#ms0006">nī.tī.zāiri.maδəm.mruii</rdg>
+          <rdg wit="#ms0008">nī.tī.zāiri.maδəm.mruii</rdg>
+          <rdg wit="#ms0015">nə̄.tē.zāiri.maδəm.mruii</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">nū.tē.zāiri.maδəm.mruii</rdg>
+          <rdg wit="#ms0083">nī.tē.zāre.mδəm.mruii</rdg>
+          <rdg wit="#ms0088">nī.tē.zāiri.maδəm.mruii</rdg>
+          <rdg wit="#ms0100">nī.tī.zāeri.məδəm.mruii</rdg>
+          <rdg wit="#ms0110">nītē.zāire.maδəm.mraoi</rdg>
+          <rdg wit="#ms0234">nī.tē.zāire.maδəm.mruii</rdg>
+          <rdg wit="#ms0235">nītē.zāire.maδəm.mruii</rdg>
+          <rdg wit="#ms0400">nī.tē.zāire.maδəm.mruii</rdg>
+          <rdg wit="#ms0410">nī.tē.zāiri.maδəm.mruii</rdg>
+        </app>
+        <app xml:id="app-Y9.17b-0-1">
+          <lem>nī.aməm.nī.vərəϑraγnəm.</lem>
+          <rdg wit="#ms0005">nī.aməm.nī.vərəϑraγnəm.</rdg>
+          <rdg wit="#ms0006">nī.aməm.nī.vərəϑraγnəm.</rdg>
+          <rdg wit="#ms0008">nī.aməm.nī.vərəϑraγnəm.</rdg>
+          <rdg wit="#ms0015">nə̄.aməm.nī.vərəϑraγ</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">nū.aməm.nū.vərəϑraγ</rdg>
+          <rdg wit="#ms0083">nī.aməm.nī.vərəϑraγnəm.</rdg>
+          <rdg wit="#ms0088">nī.aməm.nī.vərəϑraγnəm.</rdg>
+          <rdg wit="#ms0100">nī.aməm.nī.vərəϑraγnəm.</rdg>
+          <rdg wit="#ms0110">nī.aməm.nī.vərəϑraγnəm.</rdg>
+          <rdg wit="#ms0234">nī.aməm.nī.vərəϑraγnəm.</rdg>
+          <rdg wit="#ms0235">nī.aməm.nī.vərəϑra.γa</rdg>
+          <rdg wit="#ms0400">nī.aməm.nī.vərəϑraγ</rdg>
+          <rdg wit="#ms0410">nī.aməm.nī.vərəϑraγ</rdg>
+        </app>
+        <app xml:id="app-Y9.17c-0-1">
+          <lem>nī.dasuuarə.nī.baēšazəm.</lem>
+          <rdg wit="#ms0005">nī.dasuuarəm.nī.baēša</rdg>
+          <rdg wit="#ms0006">nī.dasuuarəm.nī.baēša</rdg>
+          <rdg wit="#ms0008">nī.dasuuarəm.nī.baēša</rdg>
+          <rdg wit="#ms0015">nī.dasuuarə.nī.baēšazəm.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">nū.dasuuarə.nū.baēša</rdg>
+          <rdg wit="#ms0083">nī.dasuuarə.nī.baēšazəm.</rdg>
+          <rdg wit="#ms0088">nī.dasuuarəm.nī.baēša</rdg>
+          <rdg wit="#ms0100">nī.dasauuarə.nī.baēṣ̌a</rdg>
+          <rdg wit="#ms0110">nī.dasuuarə.nī.baēšazəm.</rdg>
+          <rdg wit="#ms0234">nī.dasuuarə.nī.baeša</rdg>
+          <rdg wit="#ms0235">nī.dasūarə.nī.baiša</rdg>
+          <rdg wit="#ms0400">nī.dasuuarə.nī.baeša</rdg>
+          <rdg wit="#ms0410">nī.dasuuarə.nī.baēša</rdg>
+        </app>
+        <app xml:id="app-Y9.17d-0-1">
+          <lem>nī.fradaϑəm.nī.varədaϑəm.</lem>
+          <rdg wit="#ms0005">fradaϑəm.nī.varədaϑ</rdg>
+          <rdg wit="#ms0006">nī.fradaϑəm.nī.varədaϑəm.</rdg>
+          <rdg wit="#ms0008">nī.fradaϑəm.nī.varədaϑəm.</rdg>
+          <rdg wit="#ms0015">nī.fradaϑəm.nī.varədaϑəm.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">nū.fradaϑəm.nū.varəda</rdg>
+          <rdg wit="#ms0083">nī.fradaϑəm.nī.varədaϑəm.</rdg>
+          <rdg wit="#ms0088">nī.fradaϑəm.nī.varədaϑəm.</rdg>
+          <rdg wit="#ms0100">nī.frada</rdg>
+          <rdg wit="#ms0110">nī.fradaϑəm.nī.varədaϑəm.</rdg>
+          <rdg wit="#ms0234">nī.fradaϑəm.nī.varədaϑəm.</rdg>
+          <rdg wit="#ms0235">nī.fradaϑəm.nī.vaəda</rdg>
+          <rdg wit="#ms0400">nī.fradaϑəm.nī.varəda</rdg>
+          <rdg wit="#ms0410">nī.fradaϑəm.nī.varəda</rdg>
+        </app>
+        <app xml:id="app-Y9.17e-0-1">
+          <lem>nī.aōjō.vīspō.tanūm.nī.mastīm.vīspō.paēsaŋhəm.</lem>
+          <rdg wit="#ms0005">nī.aōjō.vīspō.tanīm.nī.mastīm.vīspō.paēsa</rdg>
+          <rdg wit="#ms0006">nī.aōjō.vīspō.tanīm.nī.mastīm.vīspō.paē</rdg>
+          <rdg wit="#ms0008">nō.aōjō.vīspō.tanīm.nī.mastīm.vīspō.paē</rdg>
+          <rdg wit="#ms0015">nī.aōjō.vīspō.tanīm.nī.mastīm.vīspō.paē</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">nū.aōjō.vūspō.tanūm.nū.mastūm.vūspō.paē</rdg>
+          <rdg wit="#ms0083">nī.aōjō.vīspō.tanīm.nī.mastīm.vīspō.paē</rdg>
+          <rdg wit="#ms0088">nī.aōjō.vīspō.tanīm.nī.mastīm.vīspō.paē</rdg>
+          <rdg wit="#ms0100">nūm.nī.mastīm.viispō.paēṣ̌a</rdg>
+          <rdg wit="#ms0110">nī.aojō.vīspō.tanūm.nī.mastīm.vīspō paisa</rdg>
+          <rdg wit="#ms0234">nī.aōjō.vīspō.tanūm.nī.štīm.vīspō.pae</rdg>
+          <rdg wit="#ms0235">nī.aojō.vīspō.tanūm.nī.mastīm.vīspō.pai</rdg>
+          <rdg wit="#ms0400">nī.aojō.vīspō.tanūm.nī.mastīm.vīspō.paē</rdg>
+          <rdg wit="#ms0410">nī.aojō.vīspō.tanūm.nī.mastīm.vīspō.paē</rdg>
+        </app>
+        <app xml:id="app-Y9.17f-0-1">
+          <lem>nī.tat̰.yaϑa.gaēϑāhuua.vasō.xšaϑrō.fracarāne.t̰baēšō.tauruuā̊.drujim.vanō.</lem>
+          <rdg wit="#ms0005">nī.tat̰.yaϑa.gaēϑāhuua.vasō.xšaϑrō.fracarāne.t̰baēšō.tauruuā̊.d</rdg>
+          <rdg wit="#ms0006">nī.tat̰.yaϑa gaēϑā̊huua.vasō.xšaϑrō.fracaranē.t̰baēšō.tauruuā̊.dr</rdg>
+          <rdg wit="#ms0008">nī.tat̰.yaϑa.gaēϑā̊.huua.vasō.xšaϑrō.fracarānē.t̰baēšō.tauruuā̊.</rdg>
+          <rdg wit="#ms0015">nī.tat̰.yaϑa.gaēϑāhuua vasō.xšaϑrō.fracarānē.t̰baēšō.tauruuā̊.dr</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">nū.tat̰.yaϑa.gaēϑā.huua.vasō.xšϑraō.fracarāne.t̰baēšō.tauruuā̊.</rdg>
+          <rdg wit="#ms0083">nī.tat̰.yaϑ.gaēϑāhuua.vasō.xšaϑrō.fracarāne.t̰baēšō.tauruuā̊.d</rdg>
+          <rdg wit="#ms0088">nī.tat̰.yaϑa.gaēϑāhuua.vasō.xšaϑrō.fracarāne.t̰baēšō.tauruuā̊.drujim.vanō.</rdg>
+          <rdg wit="#ms0100">nī.tat̰. ẏaϑa.gaēϑāuua.vasō.xšaϑrō.fracarāni.t̰baēṣ̌ō.tauruuā̊.d</rdg>
+          <rdg wit="#ms0110">nī.tat̰. ẏaϑa.gaēϑāhuua.vasō.xšaϑrō.fraca.rāie.t̰baešō.tauruuā̊.</rdg>
+          <rdg wit="#ms0234">nī.tat̰.yaϑa.gaeϑāhuua.vasō.xšaϑrō.fracarāne.t̰baešō.tauruuā̊.d</rdg>
+          <rdg wit="#ms0235">nītat̰. ẏaϑa.gaiϑā.huua.vasō.xaϑrō.fraca.rāini.dabaešō.tauruuā̊.</rdg>
+          <rdg wit="#ms0400">nī.tat̰. ẏaϑa.gaeϑāhuua.vasō.xšaϑrō.fracarāne.t̰baešō.tauruuā̊.d</rdg>
+          <rdg wit="#ms0410">nī.tat̰. ẏaϑa.gaēϑāhuua.vasō.xšaϑrō.fracarāne.dt̰baēšō.tauruuā̊.d</rdg>
+        </app>
+        <app xml:id="app-Y9.18a-0-1">
+          <lem>nī.tat̰.yaϑa.tauruuaiieni.vīspanąm.t̰bišuuatąm.t̰baēšā̊.daēuuanąm.maṣ̌iiānąmca.</lem>
+          <rdg wit="#ms0005">nī.tat̰.yaϑa.tauruuaiieni.vīspanąm.t̰bišuuatąm.t̰baēšā̊.daēuuanąm.maš́ii</rdg>
+          <rdg wit="#ms0006">nī.tat̰.yaϑa.tauruuaiieni.vīspanąm.t̰baēšuuatąm.t̰baēšā̊.daēuuanąm.maṣ̌iiā</rdg>
+          <rdg wit="#ms0008">ī.tat̰.yaϑa.tauruuaiieni.vīspanąm.t̰baēšuuatąm.t̰baēšā̊.daēuuanąm.maš́ii</rdg>
+          <rdg wit="#ms0015">nī.tat̰.yaϑa tauruuaiiəne.vīspanąm.t̰baēšauuatąm.t̰baēšā̊.daēuuanąm.maš́iiā</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">nū.tat̰.yaϑa.tauruuaiieni.vīspanąm.t̰bišuuatąm.t̰baēšā̊.daēuuanąm.maš́ii</rdg>
+          <rdg wit="#ms0083">nī.tat̰.yaϑa.tauruuaiieni.vīspanąm.t̰bišuuatąm.t̰baēšā̊.daēuuanąm.maš́ii</rdg>
+          <rdg wit="#ms0088">nī.tat̰.yaϑa.tauruuaiieni.vīspanąm.t̰bišuuatąm.t̰baēšā̊.daēuuanąm.maṣ̌iiānąmca.</rdg>
+          <rdg wit="#ms0100">nī.tat̰. ẏaϑa.turuuaiiene.viispanąm.dabaēšauuatąm.dabaēšā̊.daēuuanąm.maṣ̌ii</rdg>
+          <rdg wit="#ms0110">nītat̰. ẏaϑa.tauruuaiieni.※ vīspaną̇m.t̰baešuuaṇtą̇m.t̰baešāə.daeuuaną̇m.ma</rdg>
+          <rdg wit="#ms0234">nī.tat̰. ẏaϑa.tauruuaiieni.vīspanąm.t̰baešuuaṇtąm.t̰baešā̊.daeuuanąm.mašii</rdg>
+          <rdg wit="#ms0235">nītat̰. ẏaϑa.tauruuiiene.vīspaną̇m.t̰.baešuuaṇtą̇m.t̰baišā̊.daiuuaną̇m.mašii</rdg>
+          <rdg wit="#ms0400">aϑa.gaeϑā tauruuaiieni.vīspaną̇m.t̰baešuuatą̇m.t̰baešā̊.daēuuaną̇m.maṣ̌iiā</rdg>
+          <rdg wit="#ms0410">nī.tat̰. ẏaϑa.tauruuaiieni.vīspaną̇m.t̰baēšuuatą̇m.t̰baēšā̊.daēuuaną̇m.ma š́ii</rdg>
+        </app>
+        <app xml:id="app-Y9.18b-0-1">
+          <lem>yāϑβąm.pairikanąmca.sāϑrąm.kaōiiąm.karafnąmca.</lem>
+          <rdg wit="#ms0005">yāϑβąm.pairikanąmca.sāϑrąm.kaōiium.karafn</rdg>
+          <rdg wit="#ms0006">yāϑβąm.pairikanąmca.sāϑrąm.kōiiąm.karapan</rdg>
+          <rdg wit="#ms0008">yāϑβąm.pairikanąmca.sāϑrąm.kōiiąm.karafan</rdg>
+          <rdg wit="#ms0015">yāϑβąm.pairikanąmca.sāϑrąm.kaōiiąm.karapan</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yāϑβąm.pairi.kanąmca.sāϑrąm.kaōiiąm.karafa</rdg>
+          <rdg wit="#ms0083">yāϑβąm.pairəkanąmca.sāϑrąm.kōiiąm.karafn</rdg>
+          <rdg wit="#ms0088">yāϑβąm.pairəkanąmca.sāϑrąm.kaōiiąm.karafn</rdg>
+          <rdg wit="#ms0100">ẏāϑβąm.pairikanąm.ca.sāϑrąm.kaoiiąm.karaf</rdg>
+          <rdg wit="#ms0110">āϑβą̇m.pairikaną̇mca.sāϑrą̇m.kaoiią̇m.karafn</rdg>
+          <rdg wit="#ms0234">āϑβą̇m.pairikaną̇mca.sāϑrąm.kōiiąm.karafn</rdg>
+          <rdg wit="#ms0235">āϑβą̇m.pairikaną̇mca.sāϑrą̇m.kōiią̇m.karafną</rdg>
+          <rdg wit="#ms0400">āϑβą̇m.pairikaną̇mca.sāϑrą̇m.kōiią̇m.karafną</rdg>
+          <rdg wit="#ms0410">āϑβą̇m pairikaną̇mca.sāϑrą̇m.kaoiią̇m.karafną</rdg>
+        </app>
+        <app xml:id="app-Y9.18c-0-1">
+          <lem>mairiianąmca.bizaṇgranąm.aṣ̌əmaōγanąmca.bizaṇgranąm.vəhrkanąmca.caϑβarə.zaṇgranąm.</lem>
+          <rdg wit="#ms0005">mairiianąm.bəzaṇgranąm.aṣ̌əmaōγanąmca.bəzaṇgarənąm.vəhrkanąmca.caϑβarəzaŋra</rdg>
+          <rdg wit="#ms0006">mairiianąmca.bəzaṇgaranąm.aṣ̌əmaōγanąmca.bəzaṇgaranąm.vəhrəkanąmca.ciϑβarə.zaṇga</rdg>
+          <rdg wit="#ms0008">mairiianąmca.bəzaṇgaranąm.aṣ̌əmōγanąmca.bəzaṇgaranąm.vəhrkanąmca.ciϑβarə.zaṇga</rdg>
+          <rdg wit="#ms0015">mairiianąmca.bizaṇgranąm.aṣ̌əmaōγanąmca.bizaṇgranąm.vəhrkanąmca.ciϑβarəzaṇgra</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">mairiianąmca.bəzəṇgranąm.aṣ̌əmōγanąmca.biziṇgranąm.vəhrkanąmca.ciϑβarə.za</rdg>
+          <rdg wit="#ms0083">mairiianąmca.bnzaṇgaranąm.ašəmaōγanąmca.bnzaṇgaranąm. .vəhrkanąmca.ciϑβarə.zaṇga.</rdg>
+          <rdg wit="#ms0088">mairiianąmca.bəzaṇgaranąm.aṣ̌əmaōγanąmca.bəzaṇgaranąm.vihrkanąmca.caϑβarə.zaṇga</rdg>
+          <rdg wit="#ms0100">mairiianąm.ca.bəzənŋhranąm.asmaoγanąm.ca.bəzənŋhranąm.vəharəkanąm.ca.caϑβarə.za</rdg>
+          <rdg wit="#ms0110">mairiianą̇mca.bizəŋraną̇m.aṣ̌mōγaną̇mca.bizaŋraną̇m.vəhrkaną̇mca.caϑβarəzəŋra</rdg>
+          <rdg wit="#ms0234">mairiianąmca.bizaŋranąm.aṣ̌əmaoγanąmca.bizaŋranąm.vəhrkanąmca.caϑβarə.za</rdg>
+          <rdg wit="#ms0235">mairiianą̇mca.bazaŋharaną̇m.ašəmaoγną̇mca.bizaŋhraną̇m.vəhrkną̇mca.caϑβarə.zaŋra</rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410">mairiianą̇mca.biziṇgaraną̇m.va aṣ̌əmaōγaną̇mca.biziṇgraną̇m.vəhərkaną̇mca.ciϑβa</rdg>
+        </app>
+        <app xml:id="app-Y9.18d-0-1">
+          <lem>haēnaiiā̊sca.pərəϑu.ainikaiiā̊.dauuąiϑiiā̊.patąiϑiiā̊.</lem>
+          <rdg wit="#ms0005">haēniiā̊sca.pərəϑu.aińikaiiā̊.dauuąiϑiiā̊.paϑąiϑii</rdg>
+          <rdg wit="#ms0006">hə̄niiā̊sca.pərəϑō.aińi.kaiiā̊.dauuąniϑiiā̊.patąiϑii.</rdg>
+          <rdg wit="#ms0008">hə̄niiā̊sca.pərəϑō.ainikaiiā̊.dauuąniϑiiā patąniϑii</rdg>
+          <rdg wit="#ms0015">aēnaiiā̊sca.pərəϑu.ainikaiiā̊.dauuąiϑaiiā̊.patąniϑaii</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">haēnaiiā̊sca.pərəϑu.aińikaiiā̊.dauuąiϑiiā̊.paϑąiϑii</rdg>
+          <rdg wit="#ms0083">haēnaiiā̊sca.pərəϑu.aińikaiiā̊.dauuąniϑiiā̊.patąniϑii</rdg>
+          <rdg wit="#ms0088">haēnaiiā̊sca.pərəϑu.aińikaiiā̊.dauuąniϑiiā̊.patąiϑii</rdg>
+          <rdg wit="#ms0100">haēniiā̊šca.pe.re.ϑuaēnikaiiā̊.dauuąm.iϑaiiā̊.patąm.</rdg>
+          <rdg wit="#ms0110">haenaiiā̊sca.pərəϑu.ainikaiiā̊.dauuą̇.iϑiiā̊.paṇtą̇.i</rdg>
+          <rdg wit="#ms0234">haenaiiā̊sca.pərəϑuainikaiiā̊.dauuą.iϑiiā̊.patą.iϑii</rdg>
+          <rdg wit="#ms0235">hainaiiā̊sca.pərəϑu.ainakaiiā̊.duuą̇iϑiiā̊.paṇtą̇.aiϑii.</rdg>
+          <rdg wit="#ms0400">haēnaiiā̊sca.pərəϑu.ainikaiiā̊.dauuą̇iϑiiā̊.patą̇iϑii</rdg>
+          <rdg wit="#ms0410">hēniiā̊sca.pərəϑu.anikaiiā̊.dauuą̇iϑiiā̊.patą̇iϑii</rdg>
+        </app>
+        <app xml:id="app-Y9.19a-0-1">
+          <lem>iməm.ϑβąm.paōirīm.yānəm.haōma.jaiδiiemi.dūraōša.vahištəm.ahūm.aṣ̌aōnąm.raōcaŋhəm.vīspō.xᵛāϑrəm.</lem>
+          <rdg wit="#ms0005">iməm.ϑβąm.paōirīm.yānəm.haōma.jaiδiiemi.dīraōša.vahištəm.ahīm.aṣ̌aōnąm.raōcaŋhəm.vī</rdg>
+          <rdg wit="#ms0006">əməm.ϑβąm.pōirīm.yānəm.haōma.jaiδiiemi.dīraōša.vahištəm.ahīm.aṣ̌aōnąm.raōcaŋhəm.vī</rdg>
+          <rdg wit="#ms0008">əməm.ϑβąm.paōirīm.yānəm.haōma.jaiδiiama.dīraōša.vahištəm.ahīm.aṣ̌aōnąm.raōcaŋhəm.vī</rdg>
+          <rdg wit="#ms0015">iməm.ϑβąm.paōirīm.yānəm haōma.jaiδiiemi.dīraōša.vahištəm.ahīm.aṣ̌aōnąm.raōcaŋhəm.vī</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">iməm.ϑβąm.paōirūm.yānəm.haōma.jaiδiiemi.dīraōša.vahištəm.ahūm.aṣ̌aōnąm.raōcaŋhəm.vī</rdg>
+          <rdg wit="#ms0083">məm.ϑβąm.pōirīm.yānəm.haōməm.jaiδiiemi.dīraōša.vahištəm.ahīm.aṣ̌aō nąm.raōcaŋhəm.vī</rdg>
+          <rdg wit="#ms0088">iməm.ϑβąm.paōirīm.yānəm.haōma.jaiδiiemi.dīraōša.vahištəm.ahīm.aṣ̌aunąm.raōcaŋhəm.vī</rdg>
+          <rdg wit="#ms0100">iməm.ϑβąm.paoirəm. ẏānəm.haoma.jaediie.me.dūraoša.vahe.stəm.ahūm.aṣ̌aonąm.raocaŋhəm.</rdg>
+          <rdg wit="#ms0110">iməm.ϑβą̇m.paoirīm. ẏānəm.haoma.jaiδiiemi.dūraoša.vahištəm.ahūm.ašaoną̇m.raocaŋhəm.vī</rdg>
+          <rdg wit="#ms0234">iməm.ϑβąm.paōirīm.yānəm.haōma.jaiδiiemi.dūraōša.vahištəm.ahūm.aṣ̌aōnąm.raocaŋhəm.vī</rdg>
+          <rdg wit="#ms0235">iməm.ϑβą̇m.paoiriim. ẏānəm.haoma.jaiδiiaemi.duroš.vahištəm.ahum.ašaoną̇m.raocaŋhəm.vī</rdg>
+          <rdg wit="#ms0400">iməm.ϑβą̇m.paoirīm. ẏānəm.haoma.jaiδiiemi.dūraoša.vahištəm.ahūm.aṣ̌aoną̇m.raocaŋhəm.vī</rdg>
+          <rdg wit="#ms0410">iməm.ϑβą̇m.paoirīm. ẏānəm.haoma.jaiδiiemi.dūraoša.vahištəm.ahūm.aṣ̌āuną̇m.raocaŋhəm.vī</rdg>
+        </app>
+        <app xml:id="app-Y9.19b-0-1">
+          <lem>iməm.ϑβąm.bitīm.yānəm.haōma.jaiδiiemi.dūraōša.druuatātəm.aiŋ́hā̊sə.tanuuō.</lem>
+          <rdg wit="#ms0005">iməm.ϑβąm.bitīm.yānəm.haōma.jaiϑiiemi.dīraōša.druuatātəm.aŋ́hā̊</rdg>
+          <rdg wit="#ms0006">iməm.ϑβąm.bitīm.yānəm.haōma.jaiδiiemi.dīraōša.druuatātəm.aŋ́hā̊̊sa.</rdg>
+          <rdg wit="#ms0008">iməm.ϑβąm.bitīm.yānəm.haōma.jaiδiiemi.dīraōša.druuatātəm.aŋ́hā̊sa.</rdg>
+          <rdg wit="#ms0015">iməm.ϑβąm.bitīm.yānəm.haōma.jaiδiiemi.dīraōša.druuatātəm.aŋ́hā̊</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">iməm.ϑβąm.bitīm.yānəm.haōma.jaiδiiemi.dīraōša.druuatātəm.aŋ́hā̊se.</rdg>
+          <rdg wit="#ms0083">əməm.ϑβąm.bitīm.yānəm.haōma.jaiδiiemi.dīraōša.druuatātəm.aŋ́hā̊se.</rdg>
+          <rdg wit="#ms0088">iməm.ϑβąm.bitīm.yānəm.haōma.jaiϑiiemi.dīraōša.druuatātəm.aŋ́hā̊se.</rdg>
+          <rdg wit="#ms0100">iməm.ϑβąm.bitīm. ẏānəm.haoma.jaediiemi.duuraoš.druua.tātəm.aŋ́hā̊</rdg>
+          <rdg wit="#ms0110">iməm.ϑβą̇m.bitīm.yānəm.haoma.jaiϑiiemi.dūraoša.druuatātəm.aiŋ́hā̂sca.</rdg>
+          <rdg wit="#ms0234">iməm.ϑβą̇m.bitīm. ẏānəm.haōma.jaiϑiiemi.dūraōša.druuatātəm.aiŋ́hā̊sca.</rdg>
+          <rdg wit="#ms0235">iməm.ϑβą̇m.bitīm. ẏānəm.haoma.jaiδaiiemi.dūraoš.a.druuatātəm.aiŋ́hā̊</rdg>
+          <rdg wit="#ms0400">iməm.ϑβą̇m.bitīm. ẏānəm.haoma.jaiδiiemi.dūraoša.druuatātəm.aŋ́hā̊.</rdg>
+          <rdg wit="#ms0410">iməm.ϑβą̇m.bitīm. ẏānəm.haoma.jaiδiiemi.dūraoša.druuatātəm.aŋ́h aŋ́hā̊</rdg>
+        </app>
+        <app xml:id="app-Y9.19c-0-1">
+          <lem>iməm.ϑβąm.ϑritīm.yānəm.haōma.jaiδiiemi.dūraōša.darəγō.jītīm.uštānahe.</lem>
+          <rdg wit="#ms0005">iməm.ϑβąm.ϑritīm.yānəm.haōma.jaiδiiemi.dīraōša.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0006">iməm.ϑβąm.ϑrətīm.yānəm.haōma.jaiδiiemi.dīraōša.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0008">iməm.ϑβąm.ϑrətīm.yānəm.haōma.jaiδiiemi⁛ dīraōša.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0015">iməm ϑβąm.ϑritīm.yānəm.haōma.jaiδiiemi.dīraōša.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">iməm.ϑβąm.ϑritīm.yānəm.haōma.jaiδiiemi.dīraōša.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0083">iməm.ϑβąm.ϑritīm.yānəm.haōma.jaiδiiemi.dīraōša.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0088">iməm.ϑβąm.ϑrətīm.yānəm.haōma.jaiδiiemi.dīraōša.darə̄γō.jītīm.</rdg>
+          <rdg wit="#ms0100">.iməm.ϑβąm.ϑrətīm. ẏānəm.huma.jaediieme.duuraoša.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0110">iməm.ϑβą̇m.ϑritīm. ẏānəm.haoma.jaiδiiemi.dūraoša.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0234">iməm.ϑβąm.ϑritīm. ẏānəm.haōma.jaiδiiemi.dūraōš.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0235">iməm.ϑβą̇m.ϑrətīm. ẏānəm.haoma.jaiδaiiemi.duuraoš.a.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0400">iməm.ϑβą̇m.ϑritīm. ẏānəm.haoma.jaiδiiemi.dūraoša.darəγō.jītīm.</rdg>
+          <rdg wit="#ms0410">iməm.ϑβ ą̇m.ϑritīm.yānəm.haoma.jaiδiiemi.dūraoš.darəγō.jītīm.</rdg>
+        </app>
+        <app xml:id="app-Y9.20a-0-1">
+          <lem>iməm.ϑβąm.tūirīm.yānəm.haōma.jaiδiiemi.dūraōša.yaϑa.aēšō.amauuā̊.ϑrąfəδō.fraxštāne.zəmā.paiti.t̰baēšō.tauruuā̊.drujim.vanō.</lem>
+          <rdg wit="#ms0005">məm.ϑβąm.tīirīm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.aēšā̊.amauuā̊.ϑrąfəδō.fraxštāne.zəmā.paiti.t̰baēšā̊.tau</rdg>
+          <rdg wit="#ms0006">iməm.ϑβąm.tīirīm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.aēšō.amauuā̊.ϑrąmfəδō.fraxštāne.zəmā̊.paiti.t̰baēšō.ta</rdg>
+          <rdg wit="#ms0008">iməm.ϑβąm.tīirīm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.aēšō.amauuā̊.ϑrąfəδō.fraxštāne.zəmā̊.paiti.t̰baēšō.tau</rdg>
+          <rdg wit="#ms0015">iməm.ϑβąm.tīirīm.yānəm.haōma.jaiδiiemi.dīraōša yaϑa.aēšō.amauuā̊.ϑrąfəδō.fraxštāne.zəmā̊.paiti.t̰baēšō.taur</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">iməm.ϑβąm.tīirīm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.aēšā̊.amauuā̊.ϑrąfδō.fraxštāne.zəmā̊.paiti.t̰baēšā̊.tau</rdg>
+          <rdg wit="#ms0083">əməm.ϑβąm.tīirīm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.aēšō.amauuā̊.ϑrąfəδō.fraxštāne.zəmō.paiti.t̰baēšō.tau</rdg>
+          <rdg wit="#ms0088">iməm.ϑβąm.tīirīm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.aēšō.amauuā̊.ϑrąfəδō.fraxštāne.zəmā.paiti.t̰baēšō.tau</rdg>
+          <rdg wit="#ms0100">iməm.ϑβąm.tūirəm. ẏānəm.haoma.ca.iδiieme.duuraoš. ẏaϑa.aēṣ̌ō.amauuā̊.ϑrąm.frəδō.fraxštānahe.zə.mā.paiti.t̰baēšō.</rdg>
+          <rdg wit="#ms0110">iməm.ϑβą̇m.tūirīm. ẏānəm.haoma.jaiδiiemi.dūraoša. ẏaϑa.aēšō.amauuā̊.ϑrą̇fəδō.fraxštānahe.zəmā.paiti.t̰baēšō.ta</rdg>
+          <rdg wit="#ms0234">iməm.ϑβą̇m.tūirīm. ẏānəm.haōma.jaiδiiemi.dūraōš.yaϑa.aešō.amauuā̊.ϑrąfəδō.fraxštānahe.zəmā.paiti.t̰baešō.tau</rdg>
+          <rdg wit="#ms0235">iməm.ϑβą̇m.tūirīm. ẏānəm.haoma.jaidaiiemi.dūraoša. ẏaϑa.aēšō.amauuā̊.ϑrą̇.fədō.fraxštānahe.zəmāpaiti.t̰.bišō.tao</rdg>
+          <rdg wit="#ms0400">iməm.ϑβą̇m.tūirīm. ẏānəm.haoma.jaiδiiemi.dūraoša.yaϑa.aēšō.amauuā̊.ϑrą̇fiδō.fraxštāne.zəmā̊.paiti.t̰baešō.tau</rdg>
+          <rdg wit="#ms0410">iməm.ϑβą̇m.tūirīm. ẏānəm.haomha.jaiδiiemi.dūraoš. ẏaϑa.aēšo.amauuā̊.ϑrą̇fδō.fraxštāne.zəmā̊.paiti.t̰baēšō.tau</rdg>
+        </app>
+        <app xml:id="app-Y9.20b-0-1">
+          <lem>iməm.ϑβąm.puxδəm.yānəm.haōma.jaiδiiemi.dūraōša.yaϑa.vərəϑrajā̊.vanat̰.pəṣ̌anō.fraxštāne.zəmā.paiti.t̰baēšō.tauruuā̊.drujim.vanō.</lem>
+          <rdg wit="#ms0005">iməm.ϑβąm.puxδəm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.vərəϑrajā.vanat̰.pišanu.fraxštāne.zəmā.paiti.t̰baēšā̊.tau</rdg>
+          <rdg wit="#ms0006">iməm.ϑβąm.puxδəm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.vərəϑrajā̊.vanat̰.pəšanō.fraxštānə̄.zəmā̊.paiti.t̰baēšō.tau</rdg>
+          <rdg wit="#ms0008">iməm.ϑβąm.puxδəm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.vərəϑrajā̊.vanat̰.pəšanō.fraxštā nē.zəmā̊.paiti.t̰baēšā̊.tau</rdg>
+          <rdg wit="#ms0015">iməm.ϑβąm.puxδəm.yānəm.haōma.jaδaiiemi.dīraōša.yaϑa.vərəϑrajā̊.vanat̰.fšanō.frāxštāne.zəmā.paiti.t̰baēšō.tau</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">iməm.ϑβąm.puxδəm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑā.vərəϑrajā̊.vanat̰.pišnu.fraxštāne.zəmā̊.paiti.t̰baēšā̊.tau</rdg>
+          <rdg wit="#ms0083">əməm.ϑβąm.puxδəm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.vərəϑrajā̊.vanat̰.pəšanō.fraxštāne.zəmā.paiti.t̰baēšō.tau</rdg>
+          <rdg wit="#ms0088">iməm.ϑβąm.puxδəm.yānəm.haōma.jaiδiiemi.dīraōša.yaϑa.vərəϑrajā̊.vanat̰.pəṣ̌anō.fraxštāne.zəmā.paiti.t̰baēšō.tau</rdg>
+          <rdg wit="#ms0100">iməm.ϑβąm.puxδəm. ẏānəm.haoma.zaēdaiieme.duuraoša. ẏaϑa.vərəϑrajā̊.vanat̰.pəṣ̌nō.fra.xštāne.jimā.paiti.t̰baešō.ta</rdg>
+          <rdg wit="#ms0110">iməm.ϑβą̇m.puxδəm.yānəm.haoma.jaiδiiemi.dūraoša. ẏaϑa.vərəϑrajā̊.vanat̰.pašnō.fraxštānahe.zəmā.paiti.t̰baēšō.tau</rdg>
+          <rdg wit="#ms0234">iməm.ϑβą̇m.puxδəm. ẏānəm.haōma.jaiδaiiemi.dūraōš. ẏaϑa.vərəϑrajā̊.vanat̰.pašnō.fraxštānahe.zəmā.paiti.t̰baēšō.tau</rdg>
+          <rdg wit="#ms0235">iməm.ϑβą̇m.puxδəm. ẏānəm.haoma.jaiδaiiaimi.duuraoš. ẏaϑa.vərəϑrajā̊.vanat̰.pašinō.fraxštānahe.zəmā.paiti.t̰baišō.tao</rdg>
+          <rdg wit="#ms0400">iməm.ϑβą̇m.puxδəm.yānəm.haoma.jaiδiiemi.dūraoša.yaϑa.vərəϑrajā̊.vanat̰.pəṣ̌anō.fraxštāne.zəmā.paiti.t̰baešō.tau</rdg>
+          <rdg wit="#ms0410">iməm.ϑβą̇m.puxδəm. ẏānəm.haom.jaiδiiaemi.dūraoš. ẏaϑa.vərəϑrajā̊.vanat̰.pəṣ̌anō.fraxštāne.zəmā.paiti.t̰baēšō.tau</rdg>
+        </app>
+        <app xml:id="app-Y9.21a-0-1">
+          <lem>iməm.ϑβąm.xštūm.yānəm.haōma.jaiδiiemi.dūraōša.pauruua.tāiiūm.pauruua.gaδəm.pauruua.vəhrkəm.būiδiiōimaiδe.</lem>
+          <rdg wit="#ms0005">iməm.ϑβąm.xštīm.yānəm.haōma.jaiδiiemi.dīraōša.pauruua.tāiiīm.pauruua.gaδəm.pauruua.vəhrkəm.</rdg>
+          <rdg wit="#ms0006">iməm.ϑβąm.xštīm.yānəm.haōma.jaiδiiemi.dīraōša.pauruuatāiium.paruua.gaδəm.pauruua.vhrkəm.bīi</rdg>
+          <rdg wit="#ms0008">iməm.ϑβąm.xštīm.yānəm.haōma.jaiδiiemi.dīraōša.pauruuatāiium.pauruua.gaδəm.pauruua.vəhrkəm.bīi</rdg>
+          <rdg wit="#ms0015">iməm.ϑβąm.xštīm.yānəm.yānəm.haōma.jaiδiiemi.dīraōša.pauruuatāiium.pauruua.gaδəm.pauruua.vəhrkəm.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">iməm.ϑβąm.xštīm.yānəm.haōma.jaiδiiemi.dīraōša.pauruua.tāiium.pauruua.gaδəm.pauruua.vəhrkəm.bīi</rdg>
+          <rdg wit="#ms0083">iəməm.ϑβąm.xštīm.yānəm.haōma.jaiδiiemi.dīraōša.pauruuatāiiīm.pauruua.gəδəm.pauruua.vəhrkəm.bīi</rdg>
+          <rdg wit="#ms0088">iməm.ϑβąm.xštīm.yānəm.haōma.jaiδiiemi.dīraōša.pauruuatāiium.pauruua.gaδəm.pauruua.vəhrkəm.bīi</rdg>
+          <rdg wit="#ms0100">iməm.ϑβąm.xštūm. ẏānəm.haoma.jaeδīeme.duuraoša.pauruua.tāīuum.pauruua.gaδəm.paoruua.vəhrkəm.bōi.</rdg>
+          <rdg wit="#ms0110">iməm.ϑβą̇m.xštūm. ẏānəm.haoma.jaiδiiemi.dūraōša.paouruuatāiiūm.paouruua.gaδəm.paouruua.vərəhrkəm.</rdg>
+          <rdg wit="#ms0234">iməm.ϑβą̇m.xštūm. ẏānəm.haōma.jaiδiiemi.dūraōš.paōuruua.tāiiūm.paōuruua.gadəm.paōuruua.vəhrkəm.</rdg>
+          <rdg wit="#ms0235">iməm.ϑβą̇m.xštūm. ẏānəm.haoma.jaiδaiiaimi.duuraoša.pauruuatāiiūm.pauruua.gadəm.pauruua.vaherkəm.</rdg>
+          <rdg wit="#ms0400">iməm.ϑβą̇m.xštūm.yānəm.haoma.jaiδiiemi.dūraoša.paouruuatāiiūm.paouruua.gaδəm.paouruua.vəhrkəm.</rdg>
+          <rdg wit="#ms0410">iməm.ϑβą̇m.xštūm. ẏānəm.haoma.jaiδiiemi.dūraoš.pauruua.tāiium.pauruua.gaδəm.pauruua.vəhrkəm.</rdg>
+        </app>
+        <app xml:id="app-Y9.21b-0-1">
+          <lem>mā.ciš.pauruuō.būiδiiaēta.nō.vīspə̄.pauruua.būiδiiōimaiδe.</lem>
+          <rdg wit="#ms0005">māciš.pauruuō.baēδiiaēta.nō.vīspe.pauruua.bīiδiiōi.</rdg>
+          <rdg wit="#ms0006">māciš.paōuruuō.baēδiiaēta.nō.vīspə̄.paōuruua.bīiδiiōi.</rdg>
+          <rdg wit="#ms0008">māciš.paōuruuō.baēδiiaēta.nō.vīspə̄.paōuruua.baēiδiiōi.</rdg>
+          <rdg wit="#ms0015">māciš.pouru.bīδiiaēta.nō.vīspə̄.paōuruua bīiδiiōi.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">māciš.pauruuō.baēδiiaēta.nō.vīspe.pauruua.biδiiōi.</rdg>
+          <rdg wit="#ms0083">māciš.paōuruuō.bīiδiiaēta.nō.vīspe.pauruua.bīiδiiōi.</rdg>
+          <rdg wit="#ms0088">māciš.paōuruuō.baēiδiiaēta.nō.vīspē.pauruua.bīiδiiōi</rdg>
+          <rdg wit="#ms0100">māciš.pōuruua.būit̰iiaēta.nō.viispi.pōuruua.buuiδiiōi.</rdg>
+          <rdg wit="#ms0110">māciš.paouruuō.buuiδiiaeta.nō.vīspe.paouruuoa.būidiiōi.</rdg>
+          <rdg wit="#ms0234">māciš.paōuruuō.būiδiiaeta.nō.vīspe.paōuruuō.būiδiiōi</rdg>
+          <rdg wit="#ms0235">māciš.paouruuō.būiδiiō.maiti.nō.vīspe.paouruuō.būiδiiō</rdg>
+          <rdg wit="#ms0400">mā.ciš.paouruuō.būiδiieta.nō.vīspē.pauruua.būiδiiōi.</rdg>
+          <rdg wit="#ms0410">māciš.pōuruuō.būiδiiaēta.nō.vīspē.pauruua.būiδiiōi.</rdg>
+        </app>
+        <app xml:id="app-Y9.22a-0-1">
+          <lem>haōmō.aēibiš.yōi.auruuaṇtō.hita.taxšəṇti.arənāum.zāuuarə.aōjā̊sca.baxšaiti.</lem>
+          <rdg wit="#ms0005">haōmō.aēbiš.yōi.auruuaṇtō.hita.taxšəṇte.arənāum.zāuuarə.aōjāsca.</rdg>
+          <rdg wit="#ms0006">haōma.aēibiš.yōi.uruuaṇtō.hita.taxšəṇti.arənāum.zāuuarə.aōjā̊sca.</rdg>
+          <rdg wit="#ms0008">haōma.aēibiš.yōi.uruuaṇtō.hita.taxšəṇte.arənāum.zāuuarə.aōjāsca.</rdg>
+          <rdg wit="#ms0015">haōmō.aēibiš.yōi.uruuaṇtō.hita.taxšəṇti.arənāum.zāuuarə.aōjasca.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">haōmō.aēibiš.yōi.auruuaṇtō.hiϑa.taxšəṇti.arənāum.zāuuarə.aōjāsca.</rdg>
+          <rdg wit="#ms0083">haōmō.aēibiš.yōi.auruuaṇtō.hitā.taxšəṇti.arənāum.zāuuarə.aōjā̊sca.</rdg>
+          <rdg wit="#ms0088">haōmō.aēibiš.yōi.auruuaṇtō.hita.taxšəṇti.arənāum.zāuuarə.aōjā̊sca.baxšaiti.</rdg>
+          <rdg wit="#ms0100">haōmō.aēibiš. ẏōi.auruuaṇtō.hita.taxṣ̌əm.te.ərənāum.zāuuarə.aojā̊šca.</rdg>
+          <rdg wit="#ms0110">haomō.aeibiš. ẏōi.auruuaṇtō.hita.tixšəṇti.ərəną̇m.zāuuarə.aojā̊sca.</rdg>
+          <rdg wit="#ms0234">haōmō.aeibiš. ẏōi.uruuaṇtō.hita.taxšəṇti.ərənąm.zāuuarə.aōjā̊sca.</rdg>
+          <rdg wit="#ms0235">haomō.aeibiš. ẏōi.aouruuaṇtō.hita.tixšəṇti.ərə.nāum.zāuuarə.aojā̊sca.</rdg>
+          <rdg wit="#ms0400">haomō.aēibiš.yōi.auruuaṇtō.hita.taxšəṇti.arənāum.zāuuarə.aojā̊sca.</rdg>
+          <rdg wit="#ms0410">haomō.aēibiš. ẏōi.auruuaṇtō.hita.taxšəṇte.arənāum.zāuuarə.aōjā̊sca.</rdg>
+        </app>
+        <app xml:id="app-Y9.22b-0-1">
+          <lem>haōmō.āzīzanāitibiš.daδāiti.xšaētō.puϑrīm.uta.aṣ̌auua.frazaiṇtīm.</lem>
+          <rdg wit="#ms0005">haōmō.āzīzanāiti.biš.daδāiti.xšaaētō.puϑrə̄m.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0006">haōmō.āzīzanāite.bišdaδāiti.xšaētō.puϑrīm.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0008">haōmō.āzīzanāiti.bišdaδāiti.xšaētō.puϑrīm.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0015">haōmō.āzīzināiti.bišdaδāiti.xšaētō.puϑrīm.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">haōmō.āzīzanāiti.biš.daδāitw.xšaētō.puϑrīm.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0083">haōmō.āzīzanāite.biš.daδāiti.xšaētō.puϑrīm.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0088">haōmō.āzīzanāite.biš daδāiti.xšaētō.puϑrīm.uta.aṣ̌auua.frazai</rdg>
+          <rdg wit="#ms0100">haomō.āziizanāiti.biš.daδāiti.xšaētō.puϑrīm.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0110">haomō.āzī.zānāiti.biš.daδāiti.xšaētō.puϑrīm.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0234">haomō.āzī.zanāiti.baeš.daδāiti.xšaetō.puϑrīm.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0235">haomō.āzī.zanāiti.biš.daδāiti.xšaitō.puϑrīm.uta.ašauua.fra.</rdg>
+          <rdg wit="#ms0400">haomō.āzīzanāiti.biš.daδāiti.xšaētō.puϑrīm.uta.aṣ̌auua.fra</rdg>
+          <rdg wit="#ms0410">haomō.āzīzanāiti.biš.daδāiti.xšaētō.piuϑrīm.uta.aṣ̌auua.fra</rdg>
+        </app>
+        <app xml:id="app-Y9.22c-0-1">
+          <lem>haōmō.taēcit̰.yōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhəṇte.spānō.mastīmca.baxšaiti.</lem>
+          <rdg wit="#ms0005">haōmō.taēcit̰.yōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhəṇti.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0006">haōmō.taēcit̰.yōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhaṇtī.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0008">haōmō.taēcit̰.yōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhaṇtī.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0015">haōmō.taēcit̰.yōi.katiiō.naskō.frasā̊ŋhō.ā̊ŋhəṇti.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">haōmō.taēcit̰.yōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhəṇti.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0083">haōmō.taēcit̰.yōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhəṇte.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0088">haōmō.taēcit̰.yōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhiṇte.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0100">haomō.taēcit̰. ẏōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhəmti.spānō.maštīm.ca.</rdg>
+          <rdg wit="#ms0110">haomō.taēcit̰. ẏōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhəṇti.spānō.mastīm.ca.</rdg>
+          <rdg wit="#ms0234">haōmō.taecit̰. ẏōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhəṇti.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0235">haomō.taicit̰. ẏō.kataiiō.naskō.frisā̊ŋhō.ā̊ŋhəṇti.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0400">haomō.taēcit̰. ẏōi.kataiiō.naskō.frasā̊ŋhō.ā̊ŋhiṇti.spānō.mastīmca.</rdg>
+          <rdg wit="#ms0410">haomō.taēcit̰. ẏō.kataiiō.naskō.fra sā̊ŋhō.ā̊ŋhiṇti.spānō.mastīmca.ba</rdg>
+        </app>
+        <app xml:id="app-Y9.23a-0-1">
+          <lem>haōmō.tā̊scit̰.yā̊.kainīnō.ā̊ŋhaire.darəγəm.aγruuō.haiϑīm.rāδəmca.baxšaiti.mošu.jaiδiiamnō.huxratuš.</lem>
+          <rdg wit="#ms0005">haōmō.tā̊scit̰.yā̊.kainīnō.ā̊ŋhaire.darəγəm.aγruuō.haiϑīm.rāδəmca.baxšaite.mōṣ̌ō.jaiδiia</rdg>
+          <rdg wit="#ms0006">haōmō.tā̊scit̰.yā.kainīnō.ā̊ŋhairi.darəγəm.aγrauuō.haiϑīm.rāδəmca.baxšai mōšō.jaiδiiamnō.</rdg>
+          <rdg wit="#ms0008">haōmō.tā̊scit̰.yā.kainīnō.ā̊ŋhairi.darəγəm.aγrauuō.haiϑīm.rādəmca baxšaiti.mušō.jaiδiiamnō.</rdg>
+          <rdg wit="#ms0015">haōmō.tā̊scit̰.yā̊.kainīnō ā̊ŋhaire.darəγəm.aγrauuō.haiϑīm.rāδəm.baxšaite.mušō.jaiδiiamnō</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">haōmō.tā̊scit̰.yā̊.kainīnō.ā̊ŋhaire.darəγəm.aγruuō.haiϑīm.rāδəmca.baxšaiti.mošō.jaiδiia</rdg>
+          <rdg wit="#ms0083">haōmō.tā̊scit̰.yā̊.kainīnō.ā̊ŋhaire.darəγəm.aγrauuō.haiϑəm.rāδəmca.baxšēiti.m jaiδiiamnō.</rdg>
+          <rdg wit="#ms0088">haōmō.tā̊scit̰.yā.kainīnō.ā̊ŋhairi.darəγəm.aγrauuō.haiϑəm.rāδəmca.baxšaēti.mušō.jaiδiia</rdg>
+          <rdg wit="#ms0100">haomō.tā̊šcit̰. ẏā̊.kaēnīnō.ā̊ŋhāire.darə.γəm.aγrauuō.haiϑīm.rāδəm.ca.baxṣ̌əmta.muša.zaitiia</rdg>
+          <rdg wit="#ms0110">haomō.tāəscit̰. ẏā̊.kainīnō.āəŋhairi.dardarəγəm.aγruuō.※ haiϑīm.rāδəm.c baxšaiti.mošu.jaiδiiama</rdg>
+          <rdg wit="#ms0234">haōmō.tā̊scit̰. ẏā̊.kainīnō.ā̊ŋhairi.darəγəm.aγruuō.haiϑīm.rāδəmca.baxšaiti.mošu.jaiδiiama</rdg>
+          <rdg wit="#ms0235">haomō.tā̊scit̰. ẏā̊.kainiinō.ā̊ŋhari.darəγəm.aγruuō.hiīm.rādīmca.baxšaiti.mōšu.jaiδaiia.ma</rdg>
+          <rdg wit="#ms0400">haomō.tā̊scit̰.yā̊.kainīnō.ā̊ŋhaire.darəγəm.aγruuō.haiϑīm.rādəmca.baxšaiti.mušu.jaiδiiama</rdg>
+          <rdg wit="#ms0410">haomō.tā̊scit̰. ẏā̊.kainīnō.ā̊ŋhaire.darəγəm.aγruuō.haiϑīm.rāδəmca.baxšaiti.mūšu.jaiδiiama</rdg>
+        </app>
+        <app xml:id="app-Y9.24a-0-1">
+          <lem>haōmō.təmcit̰.yim.kərəsānīm.apa.xšaϑrəm.nišāδaiiat̰.yō.raōsta.xšaϑrō.kāmiia.</lem>
+          <rdg wit="#ms0005">haōmō.təmcit̰.yəm.kərəsānīm.apa.xšaϑrəm.nišāδaiiat̰.yō.raōsta.xšaϑrō.</rdg>
+          <rdg wit="#ms0006">haōmō.təmcit̰.yəm.kərəsānīm.apa.xšaϑrəm.nišāδaiiat̰.yō.raōsta.xš ϑrō.</rdg>
+          <rdg wit="#ms0008">haōmō.təmcit̰.yim.kərəsānīm.apa.xšaϑrəm.nišāδaiiat̰.yō.raōsta.xšaϑrō.</rdg>
+          <rdg wit="#ms0015">haōmō.təmcit̰.yim.kərəsānīm.apa.xšaϑrəm.nišāδaiiāt̰.yō.raōsta.xša</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">haōmō.təmcit̰.yim.kərəsānīm.apa.xšaϑrəm.nišāδaiiat̰.yō.raōsta.xšaϑraō.</rdg>
+          <rdg wit="#ms0083">haōmō.təmcit̰.yəm.kərəsānōm.apa.xšaϑrəm.nišāδaiiat̰.yō.raōsta.xšaϑrō.</rdg>
+          <rdg wit="#ms0088">haōmō.təmcit̰.yəm.kərəsānīm.apa.xšaϑrəm.nišāδaiiat̰.yō.raōsta.xšaϑrō.</rdg>
+          <rdg wit="#ms0100">hamō.təmcit̰. ẏim.kərəsānīm.axšaϑrəm.nišādaiit̰. ẏō.raōa.xšaϑrō.</rdg>
+          <rdg wit="#ms0110">haomō.təm.cit̰. ẏim.kərəšānīm.apa.xšaϑrəm.nišāt̰.aiiat̰. ẏō.raosta.xša</rdg>
+          <rdg wit="#ms0234">haōmō.təm.cit̰. ẏim.kərəšānīm.apa.xšaϑrəm.nišāt̰.aiiat̰. ẏō.raōsta.xša</rdg>
+          <rdg wit="#ms0235">haomō.təmcit̰. ẏim.kərəšānīm.apaxšaϑrəm.nišāt̰.aiiat̰. ẏō.raoxšta.xša</rdg>
+          <rdg wit="#ms0400">haomō.timcit̰. ẏim.kərəsānīm.apaxšaϑrəm.nišāδaiiat̰.yō.raosta.xšaϑrō.</rdg>
+          <rdg wit="#ms0410">haomō.təmcit̰. ẏim.kərəsānīm.apa.xšaϑrəm.nišāδaiiat̰. ẏō.raōsta.xša</rdg>
+        </app>
+        <app xml:id="app-Y9.24b-0-1">
+          <lem>yō.dauuata.nōit̰.mē.apąm.āϑrauua.aiβištiš.vərəiδiiē.daiŋ́hauua.carāt̰.</lem>
+          <rdg wit="#ms0005">yō.dauuata.nōit̰.mē.apąm.āϑrauua.aiβiš.tiš.vərəiδiiī.daiŋ́ha</rdg>
+          <rdg wit="#ms0006">yō.dauuata.nōit̰.mē.apąm.āϑrauua.aiβištiš.vərəδiiē.daŋhauua.</rdg>
+          <rdg wit="#ms0008">yō.dauuata.nōit̰.mē.apąm.āϑrauua.aiβištiš.vərəδiiē.daŋhauua.</rdg>
+          <rdg wit="#ms0015">yō.dauuata.nōit̰.mē.apąm.āϑrauua.aiβištiš.vərəδiiē.daŋ́hauue.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yō.dauuata.nōit̰.mē.apąm.āϑrauua.aiβištiš.vərəδiiī.daiŋ́hauua.</rdg>
+          <rdg wit="#ms0083">yō.dauuata.nōit̰.m.apąm.āϑrauua.aiβištiš.vərəiδiiē.daŋhauua.</rdg>
+          <rdg wit="#ms0088">yō.dauuata.nōit̰.mē.apąm.āϑrauua.aiβištiš.vərəiδiiē.daŋ́hauua.</rdg>
+          <rdg wit="#ms0100">ẏō.dauuatnōit̰.mē.apąm.āϑrauua.aiβiš.virəiδiie.daŋ́hauua.</rdg>
+          <rdg wit="#ms0110">ẏōi.zdauuata.nōit̰.apą̇m.āϑrauua.aiβištiš.vərədiie.daiŋ́hauua.</rdg>
+          <rdg wit="#ms0234">ō.dauuata.nōit̰.mē.apą̇m.āϑrauua.aiβištiš.vərəiδiie.daiŋ́hauua.</rdg>
+          <rdg wit="#ms0235">ō.dauuata.nōit̰.mē.apą̇m.āϑrauua.aivi.štiš.vərəiδiie.daiŋ́ha</rdg>
+          <rdg wit="#ms0400">ẏō.dauuata.nōit̰.mē.apą̇m.āϑrauua.aiβištiš.vərəiδiiē.daŋ́hauua.</rdg>
+          <rdg wit="#ms0410">ẏō.dauuata.nōit̰.mē.apą̇m.āϑrauua.aiβištiš.vərəiδiiē.daŋ́hauua.</rdg>
+        </app>
+        <app xml:id="app-Y9.24c-0-1">
+          <lem>hō.vīspə̄.vərəiδinąm.vanāt̰.nī.vīspə̄.vərəiδinąm.janāt̰.</lem>
+          <rdg wit="#ms0005">hō.vīspə̄.varəiδinąm.vanāt̰.nī.vīspə̄.varəiδinąm.</rdg>
+          <rdg wit="#ms0006">hō.vīspə̄.vərəδanąm.vanāt̰.nī.vīspē.vərəiδanąm.</rdg>
+          <rdg wit="#ms0008">hō.vīspə̄.vərəδanąm.vanāt̰.nī.vī spə̄.vərəδanąm.</rdg>
+          <rdg wit="#ms0015">hō.vīspə̄.vərəδanąm.vanat̰.nə̄.vīspə̄.vərəδanąm.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">hō.vīspə̄.varəiδanąm.vanāt̰.nī.vīspə̄.varəiδanąm.</rdg>
+          <rdg wit="#ms0083">hō.vīspə.varəiδinąm.vanāt̰.nī.vīspə.vərəiδinąm.</rdg>
+          <rdg wit="#ms0088">hō.vīspə̄.vərəiδinąm.vanāt̰.nī.vīspə̄.vərəiδinąm.janāt̰.</rdg>
+          <rdg wit="#ms0100">hōma.viispe.vərətanąm.vanāt̰.nī.vīspe.vərəδanąm.</rdg>
+          <rdg wit="#ms0110">hō.vīspe.vərəiδiną̇m.vanāt̰.nī.vīspe.vərəiδiną̇m.</rdg>
+          <rdg wit="#ms0234">hō.vīspe.varəiδinąm.vanāt̰.nī.vīspe.varəiδiną̇m.</rdg>
+          <rdg wit="#ms0235">hō.vīspe.varədaną̇m.vanāt̰.nīvīspe.varəδaną̇m.ja</rdg>
+          <rdg wit="#ms0400">hō.vīspə̄.vərəiδiną̇m.vanāt̰.nī.vīspə̄.vərəiδiną̇m.</rdg>
+          <rdg wit="#ms0410">hō.vīspə̄.vərəiδiną̇m.vanāt̰.nī.vīspə̄.vərəiδiną̇m.</rdg>
+        </app>
+        <app xml:id="app-Y9.25a-0-1">
+          <lem>ušta.tē.yō.xᵛā.aōjaŋha.vasō.xšaϑrō.ahi.haōma.</lem>
+          <rdg wit="#ms0005">ušta.tē.yō.xᵛā.aōjaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0006">uštatə̄.yō.xᵛā̊.aōjaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0008">ušta.tə̄.yō.xᵛā̊.aōjaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0015">uštatī.yō.xᵛā̊.aōjaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">ušta.tē.yō.xᵛā.aōjaŋha.vasō.xšaϑraō.ahe.</rdg>
+          <rdg wit="#ms0083">ušta.tə̄.yō.xᵛā.aōjaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0088">ušta.tə̄.yō.xᵛā.aōjaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0100">uštatē. ẏō.xᵛā.aojaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0110">uštatē. ẏōx́ā̊.aojaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0234">ušta.tē. ẏōi.x́ā̊.aōjaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0235">uštatē. ẏō.x́ā̊.aojaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0400">ušta.tē. ẏō.xᵛā.aojaŋha.vasō.xšaϑrō.ahe.</rdg>
+          <rdg wit="#ms0410">ušta.tē. ẏō.x́ā.aojaŋha.vasō.xšaϑrō.ahe.</rdg>
+        </app>
+        <app xml:id="app-Y9.25b-0-1">
+          <lem>ušta.tē.apiuuatahi.pouru.vacąm.ərəžuxδanąm.</lem>
+          <rdg wit="#ms0005">ušta.tē.aipe.vatahe.pouruua.cąm.ərəžu</rdg>
+          <rdg wit="#ms0006">ušta.tə̄.apauuatahe.paōuru.vacąm.ərəžuxδa</rdg>
+          <rdg wit="#ms0008">ušta.tə̄.apauuatahe.paōuru.vacąm.ərəžuxδa</rdg>
+          <rdg wit="#ms0015">uštatī.apauuatahe.pouru.vacąm.ərəžuxδa</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">.haōma.ušta.tī.apa.vatahe.pōiriiacąm.</rdg>
+          <rdg wit="#ms0083">ušta.tə̄.apuuatahe.puōuru.vacąm.ərəžu</rdg>
+          <rdg wit="#ms0088">ušta.tə̄.apiuuatahe.pouru.vacąm.ərəžuxδa</rdg>
+          <rdg wit="#ms0100">ušta.tē.apauuaitahe.pauruuacąm.ərəžuxδa</rdg>
+          <rdg wit="#ms0110">uštatē.apuuatahe.pōuruvacą̇m.ərəžuxδan</rdg>
+          <rdg wit="#ms0234">ušta.tē.apuuaitahe.pōuru.vacą̇m.ərəžxδa</rdg>
+          <rdg wit="#ms0235">uštatē.apauuaitahe.pōuru.vacą̇m.irizuxδa</rdg>
+          <rdg wit="#ms0400">ušta.tē.apiuuatahe.pouru.vacą̇m.ərəžuxδa</rdg>
+          <rdg wit="#ms0410">ušta.tē.apiuuatahe.pouru.vacą̇m.ərəžuxδa</rdg>
+        </app>
+        <app xml:id="app-Y9.25c-0-1">
+          <lem>ušta.tē.nōit̰.pairi.frāsa.ərəžuxδəm.pərəsahi.vācim.</lem>
+          <rdg wit="#ms0005">ušta.tē.nōit̰.pairi.frāsa.ərəžuxδəm.pərəsahe.</rdg>
+          <rdg wit="#ms0006">ušta.tə̄.nōit̰.pairi.frāsa.ərəžuxδəm.pərəsahe.</rdg>
+          <rdg wit="#ms0008">ušta.tə̄.nōit̰.pairi.frāsa.ərəžuxδəm.pərəsahe.</rdg>
+          <rdg wit="#ms0015">uštatī.nōit̰.pairi.frāsa.ərəžuxδəm.vrasahe.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060"></rdg>
+          <rdg wit="#ms0083"></rdg>
+          <rdg wit="#ms0088">ušta.tə̄.nōit̰.pairi.frāsa.ərəžuxδəm.pərəsahe.</rdg>
+          <rdg wit="#ms0100">ušta.tē.nōit̰.pairəfrāsa.ərəžuxδəm.pərəsahe.vā</rdg>
+          <rdg wit="#ms0110">uštatē.nōit̰.pairi.frāsa.ərəžuxδəm.pərəsahe.</rdg>
+          <rdg wit="#ms0234">ušta.tē.nōit̰.pairi.frāsa.ərəžuxδəm.pairišahe.</rdg>
+          <rdg wit="#ms0235">ušta.tə̄.nōit̰.pairi.frāsa.ərəzuxδəm.pairisaahe.</rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410">ušta.tē.nōit̰.pairi.frāsa.ərəžuxδəm.pərəsahi.</rdg>
+        </app>
+        <app xml:id="app-Y9.26a-0-1">
+          <lem>frā.tē.mazdā̊.barat̰.pauruuanīm.aiβiiā̊ŋhanəm.stəhrpaēsaŋhəm.maińiiutāštəm.vaŋᵛhīm.daēnąm.māzdaiiasnīm.</lem>
+          <rdg wit="#ms0005">frā.tē.mazdā̊.barat̰.pauruuanīm.aiβiiā̊ŋhanəm.stəhrpaēsaŋhəm.maińiiu.tāštəm.vaŋhīm.daēnąm.mā</rdg>
+          <rdg wit="#ms0006">frātə̄.mazdā̊.barat̰.paōuruuanīm.aiβiiā̊ŋhanəm.stəhrpaēsaŋhəm.maińiiu.tāštəm.vaŋhīm.daēnąm.mā</rdg>
+          <rdg wit="#ms0008">frātə̄.mazdā̊.barat̰.paōuruuanīm.aiβiiā̊ŋhanəm.stəhrpaēsaŋhəm.maińiiu.tāštəm.vaŋᵛhīm.daēnąm.mā</rdg>
+          <rdg wit="#ms0015">frātē.mazdā̊.barat̰.paōuruuanīm.aiβiiā̊ŋhanəm.stəhrpaēsaŋhəm.mańiiō.tāštəm.vaŋhīm.daēnąm.mā</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">frā.tē.mazdā̊.barat̰.pauruuanīm.aiβiiā̊ŋhanəm.stəhr.paēsaŋhəm.maińiiu.tāštəm.vaŋhīm.daēnąm.mā</rdg>
+          <rdg wit="#ms0083">frātə̄.mazdā̊.barat̰.pauruuanīm.aiβiiā̊ŋhanəm.stəhrpaēsaŋhəm.maińiiu.tāštəm.vaŋhīm.daēnąm.mā</rdg>
+          <rdg wit="#ms0088">frātə̄.mazdā̊.barat̰.pauruuanīm.aiβiiā̊ŋhanəm.stəhrpaēsaŋhəm.maińiiu.tāštəm.vaŋᵛhīm.daēnąm.mā</rdg>
+          <rdg wit="#ms0100">frā.tē.mazdā̊.barat̰.pauruuanīm.aiβiiā̊ŋhanəm.štəhr.paēsaŋhəm.maniiū.tāstəm.vaŋhuīm.daēnąm.mā</rdg>
+          <rdg wit="#ms0110">frātē.mazdā̊.barat̰.paouruuanīm.aiβiiā̊ŋhanəm.stəhrpaesaŋhəm.mainīutāštəm.vaŋuhīm.daeną̇m.māzdai</rdg>
+          <rdg wit="#ms0234">frā.tē.mazdā̊.barat̰.paouruuanīm.aiβiiā̊ŋhanəm.stəhrapaesaŋhəm.mainiiutāštəm.vaŋuhīm.daeną̇m.mā</rdg>
+          <rdg wit="#ms0235">frātē.mazdā̊.bart̰.paouruuanīm.aiβiiā̊ŋhanəm.stəhrapasaŋhəm.mainiiu.tāštəm.vaŋuhīm.dainą̇m.mā</rdg>
+          <rdg wit="#ms0400">frā.tē.mazdā̊.barat̰.paouruuanīm.aiβiiā̊ŋhanəm.stəhrpaēsaŋhəm.mainiiū.tāštəm.vaŋhīm.daēną̇m.mā</rdg>
+          <rdg wit="#ms0410">frā.tē.mazdā̊.barat̰.pauruuanīm.aiβiiā̊ŋhanəm.stəhrpaēsaŋhəm.mainiiō.tāštəm.vaŋhīm.daēną̇m.mā</rdg>
+        </app>
+        <app xml:id="app-Y9.26b-0-1">
+          <lem>āat̰.aiŋ́he.ahi.aiβiiāstō.barəšnuš.paiti.gairinąm.drājaŋhe.aiβiδāitīšca.graūsca.mąϑrahe.</lem>
+          <rdg wit="#ms0005">āat̰.aiŋ́he.ahe.aiβiiāstō.barəšnuš.paiti.gairinąm.drā̊.jaiŋ́he.aiβiδāitīšca.garə</rdg>
+          <rdg wit="#ms0006">āat̰.aŋ́hē.ahe.aiβiiāstō.barəšnuš.paiti.gairinąm.drājaŋhə.aiβiδāitīšca.garīsca.</rdg>
+          <rdg wit="#ms0008">āat̰.aŋ́hē.ahe.aiβiiāstō.barəšnuš.paiti.gairinąm.drājaŋha.aiβiδāitīšca.garīsca.</rdg>
+          <rdg wit="#ms0015">āat̰.aŋ́he.ahe.aiβiiāstō.barəšnuš.pairi.gairinąm.drājaŋha.aiβiδāitīšca.garīsca.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">āat̰.aiŋ́he.ahe.aiβiiāstō.barəšnuš paiti.gairinąm.drājaŋhe.aiβiδāitīšca.garə̄sca.</rdg>
+          <rdg wit="#ms0083">āat̰.aŋ́he.ahe.aiβiiāstō.barəšnuš.paiti.gairinąm.drajaŋhe.aiβiδāitīšca.garīsca.</rdg>
+          <rdg wit="#ms0088">āat̰.aŋ́he.ahe.aiβiiāstō.barəšnuš.paiti.gairinąm.drājaŋha.aiβidāitīšca.garaīsca.</rdg>
+          <rdg wit="#ms0100">āat̰.aŋhe.ahe.aiβiiāštō.barəsnuš.paiti.gairinąm.drājaŋhe.aiβi.δāitīšca.graū</rdg>
+          <rdg wit="#ms0110">āat̰.aiŋ́he.ahe.aiβiiāstō.barəšnuš.paiti.gairainą̇m.drājaiŋhe.aiβiδāitīsca.grauua</rdg>
+          <rdg wit="#ms0234">āat̰.aiŋ́he.aiβiiāstō.barəšnuš.paiti.gairinąm.drājaiŋhe.aiβiδāitīsca. ɤrauuasca.</rdg>
+          <rdg wit="#ms0235">āat̰.aiŋ́he.aiβiiāstō.birəšnuš.paiti.gairiną̇m.darājaŋhe.aividātīsca.garauuasca.</rdg>
+          <rdg wit="#ms0400">āat̰.aŋ́he.ah.aiβiiāstō.bərəšnuš.paiti.gairiną̇m.darājaŋhe.aiβidātīšca.grūsca.</rdg>
+          <rdg wit="#ms0410">āat̰.aiŋ́he.ahi.aiβiiāstōiš.baršnuš.paiti.gairigną̇m.darājaŋhe.aiβi.dātīšca.grūsca.</rdg>
+        </app>
+        <app xml:id="app-Y9.27a-0-1">
+          <lem>haōma.nmānō.paite.vīspaite.zaṇtu.paite.daiŋ́hu.paite.spanaŋha.vaēδiiā.paite.</lem>
+          <rdg wit="#ms0005">haōma.nmānō.paiti.vīspaiti.zaṇtu.paiti.daiŋ́hu.paiti.spanaŋha.vaēiδii</rdg>
+          <rdg wit="#ms0006">haōmō.nmānō.pitī.vīspaitī.zaṇtu.paitī.daŋ́hu.paitī.spanaŋha.vaiδii</rdg>
+          <rdg wit="#ms0008">haōmō.nmānō.paitī.vīspaiti.zaṇtu.paiti.daŋ́hu.paiti.spanaŋha.vaiδii</rdg>
+          <rdg wit="#ms0015">haōmō.nmānō.paitī.vīspaitī.zaṇtupaitī.daŋ́hupaitī.spanaŋha vīδiia.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">haōmō.nəmānō.paiti.vūs.paiti.zaṇtu.paiti.daiŋ́hu.paiti.spanaŋha.vaēi</rdg>
+          <rdg wit="#ms0083">haōma.nmānō.paiti.vīspaiti.zaṇtupaiti.daŋ́hupaiti.spanaŋha.vaiδiiā.</rdg>
+          <rdg wit="#ms0088">haōma.nmānō.paite.vīsupaiti.zaṇtupaiti.daŋ́hu.paiti.spanaŋha.vaiδii</rdg>
+          <rdg wit="#ms0100">haoma.nəmānō.paiti.vī.iti.jaiṇtu.paeti.δaŋ́hu.ite.spanaŋha.vaē</rdg>
+          <rdg wit="#ms0110">haomnmānō.paite.vīspaite.zaṇtu.paite.daiŋ́hu.paite.spanaŋha.vaiδii</rdg>
+          <rdg wit="#ms0234">haōma.nmānō.paiti.vīspaite.zaṇtu.paiti.daiŋ́hu.paite.spanaŋha.vaiδii</rdg>
+          <rdg wit="#ms0235">haoma.namānōpaiti.vīspaiti.zaṇtu.paiti.daiŋ́hu.paiti.spanaŋha.vaiδii</rdg>
+          <rdg wit="#ms0400">haoma.nmānō.paiti.vīspō.paiti.zaṇtu.paiti.daŋ́hu.paiti.spanaŋha.vaē</rdg>
+          <rdg wit="#ms0410">haoma.nmānō.paite.vīsō.paiti.zaṇtu.paite.daŋ́hu.paite.spanaŋha.vaē</rdg>
+        </app>
+        <app xml:id="app-Y9.27b-0-1">
+          <lem>amāica.ϑβā.vərəϑraγnāica.māuuōiia.upa.mruiiē.tanuiiē.ϑrimāica.yat̰.pouru.baōxšnahe.</lem>
+          <rdg wit="#ms0005">ahmāica.ϑβā.vərəϑraγnāica.māuuōiia.upa.mruiiē.tanuiiē.ϑrəmāica.yat̰.paōuru.</rdg>
+          <rdg wit="#ms0006">aɱāica.ϑβā.vərəϑraγnāica.māuuōiia.upa.mruiiē.tanuiiē.ϑrimāica.yat̰.paōuru.</rdg>
+          <rdg wit="#ms0008">aɱāica.ϑβā.vərəϑraγnāica.māuuōiia.upa.mruiiē.tanuiiē.ϑrəmāica.yat̰.paōuru.</rdg>
+          <rdg wit="#ms0015">ahmāi.ϑβā.vərəϑraγnāica.māuuaōiia.upa.mruiiē.tanuiiē.ϑrəmāica.yat̰.pouru.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">ahmāica.ϑβā.vərəϑraγnāi.māuuōiia.upa.mruiiē.tanuiiē.ϑrəmāica.yat̰.paōuru.</rdg>
+          <rdg wit="#ms0083">ahmāica.ϑβā.vərəϑraγnāica.māuuōiia.upa.mruiiē.tanuiie.ϑrəmāica.yat̰.paōuru..</rdg>
+          <rdg wit="#ms0088">amāica.ϑβā.vərəϑraγnāica.māuuōiia.upa.mruiiē.tanuiie.ϑrimāica.yat̰.paōuru.</rdg>
+          <rdg wit="#ms0100">āica.ϑβā.vərəϑra.γniiāica māuuōiia.upa.mruiie.tanuiie.ϑrimāica. ẏat̰.paouru.bao</rdg>
+          <rdg wit="#ms0110">ahmāica.ϑβā.vərəϑraγnāica.māuuōiia.upa.mruiiē.tanuiiē.※ ϑrimāca. ẏat̰.paouru.</rdg>
+          <rdg wit="#ms0234">amāica.ϑβā.vərəϑraγnāica.māuuōiia.apa.mruiie.tanuiiē.ϑrimāica. ẏat̰.paōru.</rdg>
+          <rdg wit="#ms0235">āica.ϑβā.vərəϑra.γniiāica.māuuō.iia.upa.maruiie.tanuiie.ϑrəmāica. ẏat̰.paou</rdg>
+          <rdg wit="#ms0400">ahmāica.ϑβā.vərəϑraγniiāica.māuuiia.upa.mruiiē.tanuiiē.ϑrimāica.yat̰.pouru.</rdg>
+          <rdg wit="#ms0410">aɱāica.ϑβā.vərəϑraγniiāica.māuuōiia.upa.mruiiē.tanuiie.ϑrimāca. ẏat̰.pouru.</rdg>
+        </app>
+        <app xml:id="app-Y9.28a-0-1">
+          <lem>vī.nō.t̰bišuuatąm.t̰baēšə̄bīš.vī.manō.bara.graməṇtąm.</lem>
+          <rdg wit="#ms0005">vī.nōit̰.bišuuatąm.t̰baēšəbīš.vīmanō.bara.garami</rdg>
+          <rdg wit="#ms0006">t̰.t̰baēšauuatąm.t̰baēšaēbiš.vī.manō.bara.gara.</rdg>
+          <rdg wit="#ms0008">t̰.t̰baēšauuatąm.t̰baēšaēbiš.vī.manō.bara.gara.</rdg>
+          <rdg wit="#ms0015">vī.nō.t̰baēšauuatąm.t̰baēšə̄bīš.manō.barəgarama</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">vī.nōit̰.bišuuatąm.t̰baēšə̄bīš.vīmanō.bara.gara.</rdg>
+          <rdg wit="#ms0083">vī.nōit̰.bišuuatąm.t̰baēšaēbīš.vī.manō.bara.gərəa.</rdg>
+          <rdg wit="#ms0088">vī.nō.t̰bišuuatąm.t̰baēšə̄bīš.vī.manō.bara.gara.</rdg>
+          <rdg wit="#ms0100">vī.nō.dabaēṣ̌auuatąm.t̰baēṣ̌ī.bīš.vīmanō.baragər</rdg>
+          <rdg wit="#ms0110">vīnō.t̰bišuuatą̇m.t̰bišə̄bīš.vīmanō.bara.grami</rdg>
+          <rdg wit="#ms0234">vī.nō.t̰bišuuatą̇m.t̰baešə̄bīš.vī.manō.bara.gra</rdg>
+          <rdg wit="#ms0235">vīnōt̰.baiṣ̌uuatą̇m.t̰baēšə̄biiš.vīmanō.baragara.</rdg>
+          <rdg wit="#ms0400">vīnō.t̰bišuuatą̇m.t̰baēšə̄bīš.vī.manō.bara.garəm</rdg>
+          <rdg wit="#ms0410">vī.nō.t̰bišuuatą̇m.t̰baēšə̄bīš.vī.manō.bara.garə</rdg>
+        </app>
+        <app xml:id="app-Y9.28b-0-1">
+          <lem>yō.cišca.aɱi.nmāne.yō.aiŋ́he.vīsi.yō.aɱi.zaṇtuuō.yō.aiŋ́he.daiŋ́huuō.aēnaŋᵛhā̊.asti.maṣ̌iiō.</lem>
+          <rdg wit="#ms0005">yō.cišca.ahmi.nmāne.yō.aŋ́he.vīse.yahmi.zaṇtauuō.yō.aŋ́he.daŋ́huuō.aēnaŋhā̊.</rdg>
+          <rdg wit="#ms0006">yō.cišca.ahmi.nmāne.yō.aŋ́hē.vīsē.yō.aɱi.zaṇtuuō.yō.aŋ́hē.daŋ́huuō.aēnaŋhā̊.</rdg>
+          <rdg wit="#ms0008">yō.cišca.aɱi.nmāne.yō.aŋ́hē.vīsē.yō.aɱi.zaṇtauuō.yō.aŋ́hē.daŋ́huuō.aēnaŋhā̊.</rdg>
+          <rdg wit="#ms0015">yōi.cišca.ahma.nmāne.yōi.aŋ́hē.vīsē.yōi.ahma.zaṇtauuō.yōi.aŋ́he.daŋ́hauuō.aēnaŋhā̊.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yō.cišca.ahmi.nmāne.yō.aŋ́he.vīse.yahmi.zaṇtauuō.yō.aŋ́he.daŋhuuō.aēnaŋhā̊.</rdg>
+          <rdg wit="#ms0083">yō.cišca.ahmi.nmāne.yō.aŋ́he.vīse.yō.aɱi.zaṇtuuō.yō.aŋ́he.daŋ́huuō.aēnaŋhā̊.</rdg>
+          <rdg wit="#ms0088">yō.cišca.ahmi.nmāne.yō.aŋ́he.vīse.yō.ahmi.zaṇtauuō.yō.aŋ́he.daŋ́hauuō.aēnaŋhā̊.</rdg>
+          <rdg wit="#ms0100">ō.cišca.aɱi.nmāni. ẏō.aŋ́he.vīse. ẏō.aŋ́he.aɱi.zaṇtuuō. ẏō.aŋ́he.daŋ́hauuō.aē.na</rdg>
+          <rdg wit="#ms0110">ẏō.cišca.ahminmāne. ẏō.aiŋ́he.vīse. ẏō.ahmizəṇtuuō. ẏō.aiŋ́he.daiŋ́hō.aēnaŋhā̊.</rdg>
+          <rdg wit="#ms0234">ẏō.cišta.ahminmāne. ẏō.aiŋ́he.vīse. ẏō.ahmi.zaṇtuuō. ẏō.aiŋ́he.daiŋ́hō.aenaŋhā̊.</rdg>
+          <rdg wit="#ms0235">ō.cista.aɱi.namāne. ẏō.aiŋ́hi.vīse. ẏō.ahmi.zaṇtauuō. ẏō.aiŋ́he.daiŋ́huuō.aenaŋhā̊.</rdg>
+          <rdg wit="#ms0400">ẏōi.cišta.ahmi.nmāne.yō.aŋ́he.vīsi. ẏō.ahmi.zaṇtuuō. ẏō.aŋ́he.daŋ́huuō.aēnaŋhā̊.</rdg>
+          <rdg wit="#ms0410">ẏō.cišca.ahmi.nmāne. ẏō.aŋ́he.vīsi. ẏō.ahmi.zaṇtuuō. ẏō.aŋ́he.daŋ́huuō.aēnaŋhā̊.</rdg>
+        </app>
+        <app xml:id="app-Y9.28c-0-1">
+          <lem>gə̄uruuaiia.hē.pāδauue.zāuuarə.</lem>
+          <rdg wit="#ms0005">gə̄uruuaiia.hə̄.pāδauue.zāuua</rdg>
+          <rdg wit="#ms0006">gə̄uruuaiia.hə̄.pāδauua.zāuua</rdg>
+          <rdg wit="#ms0008">gə̄uruuaiia.hē.pāδauua.zāuua</rdg>
+          <rdg wit="#ms0015">gə̄uruuaiiōit̰.hə̄.pāδauua zāuua</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">gə̄uruuaiia.hē.pāδauue.zāuuarə.</rdg>
+          <rdg wit="#ms0083">gə̄uruuaiia.hə̄.pāδauue.zāuua</rdg>
+          <rdg wit="#ms0088">gəuruuaiia.hə̄.pāδauua.zāuua</rdg>
+          <rdg wit="#ms0100">gə̄uruuaii.a.hē.pādauue.jā</rdg>
+          <rdg wit="#ms0110">gə̄uruuaiie.hē.pāδauuae.zāuua</rdg>
+          <rdg wit="#ms0234">gə̄uruuaiiaehe.pāδauuae.zāuua</rdg>
+          <rdg wit="#ms0235">gə̄uruuiiehe.pādauuahe.zāuua</rdg>
+          <rdg wit="#ms0400">gə̄uruuaiia.hē.pāδuue.zāuua</rdg>
+          <rdg wit="#ms0410">gəuruuaiia.hē.pāδauue.zāuua</rdg>
+        </app>
+        <app xml:id="app-Y9.28d-0-1">
+          <lem>pairi.šē.uši.vərənūiδi.skəṇdəm.šē.manō.kərənūiδi.</lem>
+          <rdg wit="#ms0005">pairi.šēuši.vərənīiδe.skəṇdəm.šē.manō.kər</rdg>
+          <rdg wit="#ms0006">pairišə̄.ušə̄.vərənīiδe.skaṇdəm.šə̄.manō.kə</rdg>
+          <rdg wit="#ms0008">pairišə̄.ušə̄.vərənīiδi.skaṇdəm.šə̄.manō.ka</rdg>
+          <rdg wit="#ms0015">pairi.šē.ušə̄.vərənīiδe.səkəṇdəm.šī.manō.k</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">pairi.šē.uši.vərənīiδe.skəṇdəm.šē.manō.kə</rdg>
+          <rdg wit="#ms0083">pairišə.uši.vərənīiδ .i.skṇdəm.š.manō.kə</rdg>
+          <rdg wit="#ms0088">pairišə̄.uši.vərənīiδe.skaṇdəm.šə̄.manō.kə</rdg>
+          <rdg wit="#ms0100">paē.risē.ašəvarənūit̰i.skəm.dəmē.manō.kər</rdg>
+          <rdg wit="#ms0110">pairiešē.usi.vərənuuiδi.skəṇdəm.šē.manō.kərə</rdg>
+          <rdg wit="#ms0234">pairišeə̄.uši.vərənūiδi.skəṇdəm.šē.manō.kər</rdg>
+          <rdg wit="#ms0235">pairišə̄uši.vərənuuiδi.sakəṇdəm.sē.manō.kərə</rdg>
+          <rdg wit="#ms0400">pairi.šē.uš́i.vərəinūiδi.</rdg>
+          <rdg wit="#ms0410">pairi.šē.uš́i.vərəniūi</rdg>
+        </app>
+        <app xml:id="app-Y9.29a-0-1">
+          <lem>mā.zbaraϑaēibiia.fratuiiā̊.mā.gauuaēibiia.aiβi.tūtuiiā̊.</lem>
+          <rdg wit="#ms0005">māzbarəϑaēibiia.fratuiiā̊.mā.gauuaēibiia.aiβi.tī.</rdg>
+          <rdg wit="#ms0006">māzbarəϑaēibiia.fratuiiā̊.mā̊.gauuaēibii.aiβi.tī.</rdg>
+          <rdg wit="#ms0008">māzbarətaēibiia.fratuiiā̊.mā̊.gauuaēibiia.aiβi.tī.</rdg>
+          <rdg wit="#ms0015">māzbərətaēibiia.fratuiiā̊.mā̊.gauuaēibiia.aiβi.tī.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">māzbaraϑaēibiia.fratuiiā̊.mā.gauuaēibiia.aiβi.tī.</rdg>
+          <rdg wit="#ms0083">mā.zbarəϑaēibiia.fratuiiā̊.mā.gauuaēibiia.aiβi.tī.</rdg>
+          <rdg wit="#ms0088">mā.zbaraϑaēibiia.fratuiiā̊.mā.gauuaēibiia.aiβi.tī.</rdg>
+          <rdg wit="#ms0100">māzbarətaēibiiratuiiā̊.mā.gauuaēibiia.aiβūtuīā</rdg>
+          <rdg wit="#ms0110">mā.zbarəϑaēibiia.fratuiiā̊.mā.gauuaēibiia.aiβi.tūtai</rdg>
+          <rdg wit="#ms0234">mā.zbarəϑaeibiia.fratuiiā̊.mā.gauuaeibiia.aiβi.tūtai</rdg>
+          <rdg wit="#ms0235">māz.barə.ϑaēi.biia.fratuiiā̊.māgauuaibiia.aivi.t</rdg>
+          <rdg wit="#ms0400">māzbaraϑaēibiia.fratuiiā̊.māgauuaēbiia.aiβitūtuiiā̊.</rdg>
+          <rdg wit="#ms0410">māzbaraϑaēibiiō.fratuiiā̊.mā.gauuaēibiia.aiβitūtuii</rdg>
+        </app>
+        <app xml:id="app-Y9.29b-0-1">
+          <lem>mā.ząm.vaēnōit̰.ašibiia.mā.gąm.vaēnōit̰.ašibiia.</lem>
+          <rdg wit="#ms0005">mā.ząm.vaēnōit̰.aṣ̌ibiia.mā.gąm.vaēnōit̰.a</rdg>
+          <rdg wit="#ms0006">mā.ząm.vīōit̰.aṣ̌ibiiōa.mā.gąm.vī.nōit̰.a</rdg>
+          <rdg wit="#ms0008">mā.ząm.vī.nōit̰.aṣ̌ibiia.mā.gąm.vī.nōit̰.</rdg>
+          <rdg wit="#ms0015">mā̊.ząm.vī.nōit̰.aṣ̌ibiia.mā̊.gąm.vī.nōit̰.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">mā.ząm.vaēnōit̰.aṣ̌ibiia.mā.gąm.vaēnōit̰.a</rdg>
+          <rdg wit="#ms0083">mā.ząm.vaēnōit̰.aṣ̌ibiia.mā.gąm.vaēnōit̰.aṣ̌ai</rdg>
+          <rdg wit="#ms0088">mā.ząm.vaēnōit̰.aṣ̌ibiia.mā.gąm.vaēnōit̰.a</rdg>
+          <rdg wit="#ms0100">mā.jąm.vīnōit̰.aṣ̌a.māgąm.viinōit̰.aṣ̌i</rdg>
+          <rdg wit="#ms0110"></rdg>
+          <rdg wit="#ms0234">māją̇m.vaenōit̰.ašibiia.mā.gą̇m.vaenōit̰.aši</rdg>
+          <rdg wit="#ms0235">māzą̇m.vaenōit̰.ašibiia.māgą̇m.vaenōit̰.aši</rdg>
+          <rdg wit="#ms0400">mā.zą̇m.vaēnōit̰.aš́ibiia.mā.gą̇m.vaenōit̰.a</rdg>
+          <rdg wit="#ms0410"></rdg>
+        </app>
+        <app xml:id="app-Y9.29c-0-1">
+          <lem>yō.</lem>
+          <rdg wit="#ms0005"></rdg>
+          <rdg wit="#ms0006"></rdg>
+          <rdg wit="#ms0008"></rdg>
+          <rdg wit="#ms0015"></rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060"></rdg>
+          <rdg wit="#ms0083"></rdg>
+          <rdg wit="#ms0088"></rdg>
+          <rdg wit="#ms0100"></rdg>
+          <rdg wit="#ms0110"></rdg>
+          <rdg wit="#ms0234"></rdg>
+          <rdg wit="#ms0235"></rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410"></rdg>
+        </app>
+        <app xml:id="app-Y9.29c-1-2">
+          <lem>⁺aēnaŋ́heiti.nō.manō.yō.</lem>
+          <rdg wit="#ms0005">yō.aēnaŋhəiti.nō.manō.</rdg>
+          <rdg wit="#ms0006">.aēnaŋhaite.nōit̰.manō.</rdg>
+          <rdg wit="#ms0008">yō.aēnaŋhaite.nō.manō.</rdg>
+          <rdg wit="#ms0015"></rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">yō.aēnaŋhaiti.nō.manō.</rdg>
+          <rdg wit="#ms0083">yō.aēnaŋhəite.nō.manō.</rdg>
+          <rdg wit="#ms0088">yō.aēnaŋhəite.nō.manō.</rdg>
+          <rdg wit="#ms0100">ẏinaŋhiti.nō.manō.</rdg>
+          <rdg wit="#ms0110">ẏō.aenaŋhaeti.nō.ma</rdg>
+          <rdg wit="#ms0234">ẏō.aenaŋhaiti.nō.ma</rdg>
+          <rdg wit="#ms0235">ẏō.ainaŋhaiti.nōmanō.</rdg>
+          <rdg wit="#ms0400">ẏō.aēnaŋhəiti.nō.ma</rdg>
+          <rdg wit="#ms0410">ẏō.aēnaŋhəiti.nō.ma</rdg>
+        </app>
+        <app xml:id="app-Y9.29c-2-3">
+          <lem>⁺aēnaŋ́heiti.nō.kəhrpəm.</lem>
+          <rdg wit="#ms0005">anō.aēnaiŋ́həiti.nō.k</rdg>
+          <rdg wit="#ms0006">anō.yō.aēnaŋhaiti.nō.</rdg>
+          <rdg wit="#ms0008">nō.yō.aēnaŋhaite.nō.※</rdg>
+          <rdg wit="#ms0015">.manō.yō.aēnaŋ́he.nō.ki</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">anō.yō.aēnaŋhaiti.nō.</rdg>
+          <rdg wit="#ms0083">nō.yō.aēnaŋ́haiti.nō.</rdg>
+          <rdg wit="#ms0088">nō.yō.aēnaŋ́həiti.nō.</rdg>
+          <rdg wit="#ms0100">ẏō.aēnaŋh nō.kəhrp</rdg>
+          <rdg wit="#ms0110">ẏō.aenaŋhaiti.nō.kəhr</rdg>
+          <rdg wit="#ms0234">enaŋhaiti.nō.manō. ẏō.kə</rdg>
+          <rdg wit="#ms0235">ẏō.ainaŋhaiti.nō.kəhr</rdg>
+          <rdg wit="#ms0400">ẏō.aēnaŋhəiti.nō.kəhr</rdg>
+          <rdg wit="#ms0410">ō.aēnaŋ́həiti.nō.kəhr</rdg>
+        </app>
+        <app xml:id="app-Y9.30a-0-1">
+          <lem>paiti.ažōiš.zairitahe.simahe.vīšō.vaēpahe.</lem>
+          <rdg wit="#ms0005">paiti.ažōiš.zairitahe.səmahe.vīṣ̌ō.vī</rdg>
+          <rdg wit="#ms0006">paiti.ažōiš.zairitahe.səmahe.vīšō.vī</rdg>
+          <rdg wit="#ms0008">paiti.ažōiš.zairitahe.səmahe.vīšō.vīpa</rdg>
+          <rdg wit="#ms0015">paiti.ažōiš.zairahe.səmahe.vīšō.vī</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">paiti.ažōiš.zaraitahe.səmahe.vīšō.vī</rdg>
+          <rdg wit="#ms0083">paiti.ažōiš.zairitahe.səmahe.vīṣ̌ō.vaē</rdg>
+          <rdg wit="#ms0088">paiti.ažōiš.zairitahe.səmahe.vīšō.vaē</rdg>
+          <rdg wit="#ms0100">paiti.ajōiš.jāhe.simahe.vīsō.vaē</rdg>
+          <rdg wit="#ms0110">paiti.ažōiš.zairitahe.※ simahe.vīsō.vaē</rdg>
+          <rdg wit="#ms0234">paiti.ažōiš.zairitahe.simahe.vīṣ̌ō.vi</rdg>
+          <rdg wit="#ms0235">paiti.ažōiš.zairitahe.simahe.vīsō.vae.</rdg>
+          <rdg wit="#ms0400">paiti.ažōiš.zairitahe.simahe.vīšō.vaēpahe.</rdg>
+          <rdg wit="#ms0410">paiti.ažōiš.zairitahe.simahe.vīšō.vaē</rdg>
+        </app>
+        <app xml:id="app-Y9.30b-0-1">
+          <lem>kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vadarə.jaiδi.</lem>
+          <rdg wit="#ms0005">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadar</rdg>
+          <rdg wit="#ms0006">kəhrəpəm.nāšəmnāi.aṣ̌aōne.haōmahe.zāiri.vadar</rdg>
+          <rdg wit="#ms0008">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarə</rdg>
+          <rdg wit="#ms0015">kihrpəm.nāšəmnāi.aṣ̌aōnō.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">kəhrpəm.nāšəmnāi.aṣ̌ōne.haōma.zāiri.vadarə.</rdg>
+          <rdg wit="#ms0083">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāirevadarəjai</rdg>
+          <rdg wit="#ms0088">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0100">kəhrpəm.nā.ṣ̌əm.nāi.aṣ̌aone.haoma.zāirə.vaδarə.</rdg>
+          <rdg wit="#ms0110">kəhrpəm.nāšəmanā.aone.haoma.zāire.vaδarəjai</rdg>
+          <rdg wit="#ms0234">kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāire.vaδarə.</rdg>
+          <rdg wit="#ms0235">kəharpəm.nāšəmanāi.ašaone.haoma.zairə.vadarə.</rdg>
+          <rdg wit="#ms0400">kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāiri.vadarə.</rdg>
+          <rdg wit="#ms0410">kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāire.vadarə.</rdg>
+        </app>
+        <app xml:id="app-Y9.30c-0-1">
+          <lem>paiti.gaδahe.vīuuarəzdauuatō.xruuīš́iiatō.zazarānō.</lem>
+          <rdg wit="#ms0005">paiti.gaδahe.vīuuarəzdauuatō.xrauuīšiiatō.zazarā</rdg>
+          <rdg wit="#ms0006">paiti.gaδahe.vīuuarəzdauuatō.xrauuīšaiiatō.zazarā</rdg>
+          <rdg wit="#ms0008">paiti.gaδahe.vīuuarəzdauuatō.xrauuīšaiiatō.zazarā</rdg>
+          <rdg wit="#ms0015">paiti.gaδahe.vīuuarəzdauuatō.xrauuīšaiiatō.zazrā</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">paiti.gaδahe.vīuuarəzdauuatō.xrauuīšiiatō.zarā</rdg>
+          <rdg wit="#ms0083">paiti.gaδahe.vīuuərəzdauuatō.xruuīš́iiatō.zazrā</rdg>
+          <rdg wit="#ms0088">paiti.gaδahe.vīuuərəzdauuatō.xruuīšiiatō.zazrā</rdg>
+          <rdg wit="#ms0100">paiti.gat̰ahe.vīvərəždauuatō.xraoruuīsīatō.zazarā</rdg>
+          <rdg wit="#ms0110">paiti.gaδahe.vīuuərəzdauuatō.xruuīšiiatō.zazarā</rdg>
+          <rdg wit="#ms0234">paiti.gaδahe.vīuuarəzdauuatō.xruuīšiiatō.zazarā</rdg>
+          <rdg wit="#ms0235">paiti.gaδahe.vīuuarəzdauuatō.xruuī.šīatō.zaza.</rdg>
+          <rdg wit="#ms0400">paiti.gaδahe.vīvərəzdauuatō.xruuī.š́iiatō.zazarā</rdg>
+          <rdg wit="#ms0410">paiti.gaδahe.vīvərəzdauuatō.xruuī⁛šiiatō⁛ zazarā</rdg>
+        </app>
+        <app xml:id="app-Y9.30d-0-1">
+          <lem>kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vadarə.jaiδi.</lem>
+          <rdg wit="#ms0005">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0006">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0008">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0015">kihrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarə.</rdg>
+          <rdg wit="#ms0083">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vadarəjai</rdg>
+          <rdg wit="#ms0088">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0100">kəhrpəm.nāṣ̌əm.nāi.aṣ̌aone.haomajāire.vadar</rdg>
+          <rdg wit="#ms0110">kəhrpəm. ńāšəmnāi.aṣ̌aone.haoma.zāire.vaδare.</rdg>
+          <rdg wit="#ms0234">kəhrpəm.nāšəmanāi.aṣ̌aōne.haoma.zāire.vaδarə.</rdg>
+          <rdg wit="#ms0235">kəhərpəm.nāšəmnāi.ašaone.haomazāiri.vaδarə.jai</rdg>
+          <rdg wit="#ms0400">kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāire.vadarəjai</rdg>
+          <rdg wit="#ms0410">kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāire.va darə.</rdg>
+        </app>
+        <app xml:id="app-Y9.31a-0-1">
+          <lem>paiti.maṣ̌iiehe.druuatō.sāstarš.aiβi.vōiždaiiaṇtahe.kamərəδəm.</lem>
+          <rdg wit="#ms0005">paiti.maš́iiehe.druuatō.sāstarəš.aiβi.vaōiždaiiaṇtahe.kam</rdg>
+          <rdg wit="#ms0006">paiti.maš́iiehe.druuatō.sāstarəš.aiβiuuaōždaiiaṇtahe.kam</rdg>
+          <rdg wit="#ms0008">paiti.maš́iiehe.druuatō.sāstarəš.aiβiuuaōiždaiiaṇtahe kamr</rdg>
+          <rdg wit="#ms0015">paiti.maš́iiehe.druuatō.sāstarəš.aiβiuuaōiždaiieiṇtahe.kam</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">paiti.mašiiehe.druuatō.sāstarəš.aiβi.vōiždaiiaṇtahe.kam</rdg>
+          <rdg wit="#ms0083">paiti.maš́iiehe.druuatō.sāstarəš.aiβiuuōiždaiiaṇtahe.kamə</rdg>
+          <rdg wit="#ms0088">paiti.maṣ̌iiehe.druuatō.sāstarəš.aiβiuuaōiždaiiaṇtahe.kamə</rdg>
+          <rdg wit="#ms0100">paeti.maṣ̌īehe.druuatō.ṣ̌āstarš.aiβi.vōi.zdaiiaṇtahe.ka</rdg>
+          <rdg wit="#ms0110">paiti.mašiiehe.druuatō.sāstarica.aiβoi.vōiždaiiaṇtahe.kam</rdg>
+          <rdg wit="#ms0234">paiti.mašiiehe.druuatō.sāstriš.aiβi.vōiždaiiaṇtahe.kam</rdg>
+          <rdg wit="#ms0235">paiti.maš́iiahe.druuatō.sāstarəš.aiβi.vaoiždaiiaṇtahe.kam</rdg>
+          <rdg wit="#ms0400">paiti.maš́aiiehe.druuatō.sāstriš.aiβi.vōždaiieiṇtahe.kam</rdg>
+          <rdg wit="#ms0410">paiti.maṣ̌iiehe.druuatō.sāstariš.aiβi.vōždaiiaṇtahe.kam</rdg>
+        </app>
+        <app xml:id="app-Y9.31b-0-1">
+          <lem>kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vadarə.jaiδi.</lem>
+          <rdg wit="#ms0005">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0006">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.va arəjai</rdg>
+          <rdg wit="#ms0008">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri vadarəjai</rdg>
+          <rdg wit="#ms0015">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarə.</rdg>
+          <rdg wit="#ms0083">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0088">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0100">kəhrpəm.nāṣ̌əm.nāi.aṣ̌aone.haoma.zāiri.vada</rdg>
+          <rdg wit="#ms0110">kəhrpəm.nāšəmanāi.aṣ̌aone.haomazāire.vadarəjai</rdg>
+          <rdg wit="#ms0234">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vaδarə.</rdg>
+          <rdg wit="#ms0235">kəharpəm.nāšimanāi.ašaoni.haoma.zāire.vaδarə.</rdg>
+          <rdg wit="#ms0400">kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāiri.vadarə.</rdg>
+          <rdg wit="#ms0410">kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāire.vadarə.</rdg>
+        </app>
+        <app xml:id="app-Y9.31c-0-1">
+          <lem>paiti.aṣ̌əmaōγahe.anaṣ̌aōnō.ahu.mərəcō.aiŋ́hā̊.daēnaiiā̊.mąs.vacō.daϑānahe.nōit̰.š́iiaōϑnāiš.apaiiaṇtahe.</lem>
+          <rdg wit="#ms0005">.vadarəjaiδe.paiti.aṣ̌əmaōγahe.anaṣ̌aōnō.ahīməmərəcō.aiŋ́hā̊.daēnaiiā̊.mąs.vacō.daϑānahe.nōit̰.</rdg>
+          <rdg wit="#ms0006">paiti.aṣ̌əmōγahe.anaṣ̌aōnō.ahumərətō.aŋ́hā̊.daēiiā̊.mąs.vaca.daϑānahe.nōit̰.š́iiaōϑanāiš.a</rdg>
+          <rdg wit="#ms0008">paiti aṣ̌maōγahe.ana.aṣ̌aōnō.ahumərəcō aŋ́hā̊.daēnaiiā̊.mąs.vaca.daϑānahe.nōit̰.š́iiaōϑanāiš.apai</rdg>
+          <rdg wit="#ms0015">paiti.aṣ̌əmaōγahe.anaṣ̌aōnō.ahumərəṇcō.aŋ́hā̊.daēnaiiā̊.mąs.vacō.daϑānahe.nōit̰.š́iiaōϑanāiš.a</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">paiti.aṣ̌əmaōγahe.anaṣ̌aōnō.ahumərəcō.aiŋ́hā̊.daēnaiiā̊.mąs.vacō.daϑānahe.nōit̰.š́iiaōϑanāiš.a</rdg>
+          <rdg wit="#ms0083">paiti.aṣ̌əmōγahe.anaṣ̌aōnō.ahīmərəcō.aŋ́hā̊.daēnaiiā̊.mąs.vaca.daϑānahe.nōit̰.š́iiaōϑanāiš..</rdg>
+          <rdg wit="#ms0088">paiti.aṣ̌əmaōγahe.anaṣ̌aōnō.ahīmərəcō.aŋ́hā̊.daēnaiiā̊.mąs.vaca.daϑānahe.nōit̰.š́iiaōϑanāiš.a</rdg>
+          <rdg wit="#ms0100">paiti.aṣ̌imaoγaheca.ana.aṣ̌aone.ahūm.mərəṇcō.aŋ́hā̊.aēnaiiā̊.mąm.sa.vaca.daϑānahnōit̰.š́iiaoϑanāi</rdg>
+          <rdg wit="#ms0110">paiti.aṣ̌əmaoγahe.ana.aṣ̌aonō.ahūməmca.aiŋ́hā̊.dainiiā̊.mą̇s.vaca.daϑānahe.nōit̰.šiiaoϑnāiš.</rdg>
+          <rdg wit="#ms0234">paiti.aṣ̌əmaōγahe.anaṣ̌iaōnō.ahumərəm.cō.aiŋ́hā̊.daēnaiiā̊.mą̇s.vaca.daϑānahe.nōit̰.š́iiaoϑanāiš.</rdg>
+          <rdg wit="#ms0235">paiti.ašəmaoγahe.ana.ašaonō.ahum.mərəcō.aiŋ́hā̊.dainiiā̊.mą̇s.vaca.daϑānahe.nōit̰.š́iiaoϑnāiš.</rdg>
+          <rdg wit="#ms0400">paiti.aṣ̌əmaoγahe.anaṣ̌aonō.ahū.mərəṇcō.aŋ́hā̊.daenaiiā̊.v mą̇s.vaca.daϑānahe.nōit̰.š́iiaoϑanāiš.</rdg>
+          <rdg wit="#ms0410">paiti.aṣ̌əmaoγahe.anaṣ̌aōnō.ahū.mərəṇcō.aŋ́hā̊.daenaiiā̊.mą̇s.vaca.daϑānahe.nōit̰.š́iiaoϑnāiš.</rdg>
+        </app>
+        <app xml:id="app-Y9.31d-0-1">
+          <lem>kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vadarə.jaiδi.</lem>
+          <rdg wit="#ms0005">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadr</rdg>
+          <rdg wit="#ms0006">kəhrpəm.nā̊šəmnāi.aṣ̌aōne.haōma.zāiri.vadar</rdg>
+          <rdg wit="#ms0008">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0015">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarə.</rdg>
+          <rdg wit="#ms0083">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vadarəjai</rdg>
+          <rdg wit="#ms0088">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjai</rdg>
+          <rdg wit="#ms0100">kəhrpəm.nā.ṣ̌əm.nāi.aṣ̌aoni.oma.zāiri.vaδa</rdg>
+          <rdg wit="#ms0110">kəhrpəm.nāšəmanāi.aṣ̌aone.haoma.zāire.vadare.</rdg>
+          <rdg wit="#ms0234">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vaδarəjai</rdg>
+          <rdg wit="#ms0235">kəhrpəm.nāšimanāi.ašaoni.haoma.zāiri.vaδarə.</rdg>
+          <rdg wit="#ms0400">kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāire.vadarə.</rdg>
+          <rdg wit="#ms0410">kəhrpəm.nāšəmnāi.a ṣ̌aone.haoma.zāiri.vadarə.</rdg>
+        </app>
+        <app xml:id="app-Y9.32a-0-1">
+          <lem>paiti.jahikaiiāi.yātumaitiiāi.maōδanō.kairiiāi.upaštā.bairiiāi.yeŋ́he.frafrauuaite.manō.yaϑa.aβrəm.</lem>
+          <rdg wit="#ms0005">paiti.jahekaiiāi.yātumaitiiāi.maōδanō.kairiiāi.upaštā.bairiiāi.yeŋ́hē.frafrauuaite.manō.</rdg>
+          <rdg wit="#ms0006">paiti.jahe.kaiiāi.yātumaitiiāi.mōδanō.kairiiāi.upaštā.bairiiāi.yeŋ́hē.frafrauuaiti.manō.</rdg>
+          <rdg wit="#ms0008">paiti.jahe.kaiiāi.yātu.maitiiāi.mōδanō.kairiiāi.upaštā.bairiiāi.yeŋ́hē.frafrauuaite.manō.</rdg>
+          <rdg wit="#ms0015">paiti.jahikaiiāi.yātumaitiiāi.maōδanō.kairiiāi.upaštā.bairiiāi.yeŋ́hē.frauuaiti.manō.yaϑa.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">paiti.jahekaiiāi.yātumaitiiāi.maōtanō.kairiiā.upaštā.bairiiāi.yeŋ́hē.frafrauuaite.manō.ya</rdg>
+          <rdg wit="#ms0083">paiti.jahe.kaiiāi.yātumaitiiāi.maōδanō.kairiiāi.upaštā.bairiiāi.yeŋ́he.frafrauuaiti.manō.</rdg>
+          <rdg wit="#ms0088">paiti.jahe.kaiiāi.yātumaitiiāi.maōδanō.kairiiāi.upaštā.bairiiāi.yeŋ́he.frafrauuaiti.manō.</rdg>
+          <rdg wit="#ms0100">pajahe.kaiiāi. ẏātu.maētiiaoδanō.kaerīāi.bairiiāi. ẏeŋ́he.fra.frauuaiti.manō. ẏaϑa.aβar</rdg>
+          <rdg wit="#ms0110">paiti.zahi.kaiiāi. ẏātu.maitiiāi.maoδnō.kairiiāi.upaštāi.bairiiāi. ẏeŋ́he.frafra</rdg>
+          <rdg wit="#ms0234">paiti.jahikaiiāi. ẏātumaitaiiāi.maōδanō.kairiiāi.upa.štā.bairiiāi. ẏeŋ́he.frafrauuaiti.manō.</rdg>
+          <rdg wit="#ms0235">paiti.jahikaiiāi.yātumaiāi.maoδanō.kairiiāi.upaštā.bairiiāi. ẏeŋ́he.frafrauuai</rdg>
+          <rdg wit="#ms0400">paiti.jahikaiiāi.yātō.maitaiiāi.maoδanō.kairiiāi.upaštā.bairiiāi.yeŋ́he.frafrauuai</rdg>
+          <rdg wit="#ms0410">paiti.jahikaiiāi.yātumaitiiāi.maoδanō.kairiiāi.upaštā.bairiiāi.yeŋ́he.frafrauuai</rdg>
+        </app>
+        <app xml:id="app-Y9.32a-1-2">
+          <lem>⁺vātō.š́ūtəm.</lem>
+          <rdg wit="#ms0005"></rdg>
+          <rdg wit="#ms0006"></rdg>
+          <rdg wit="#ms0008"></rdg>
+          <rdg wit="#ms0015"></rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060"></rdg>
+          <rdg wit="#ms0083"></rdg>
+          <rdg wit="#ms0088"></rdg>
+          <rdg wit="#ms0100">rəm.vātō.sū</rdg>
+          <rdg wit="#ms0110">rəm.vātō.sū</rdg>
+          <rdg wit="#ms0234"></rdg>
+          <rdg wit="#ms0235">rəm.vātō.sū</rdg>
+          <rdg wit="#ms0400">rəm.vātō.šū</rdg>
+          <rdg wit="#ms0410">rəm.vātō.šū</rdg>
+        </app>
+        <app xml:id="app-Y9.32b-0-1">
+          <lem>kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vadarə.jaiδi.yat̰.hē.kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire.vadarə.jaiδi.</lem>
+          <rdg wit="#ms0005">kəhrpəm.nāšəmnāi.aṣ̌aōnąme.haōma.zāiri.vadarəjaiδe.yat̰.hē.kəhrpəm.nāšəmnāi.aṣ̌aōnehaōma.zāiri.</rdg>
+          <rdg wit="#ms0006">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjaiδe.yat̰.hē.kəhrpəm.nāšəmnāi.aṣ̌ne.haōma.zāiri.</rdg>
+          <rdg wit="#ms0008">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjaiδe.yat̰.hē.※ kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.</rdg>
+          <rdg wit="#ms0015">kihrpəm nā̊šnəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjaiδe.yat̰.hē.kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.</rdg>
+          <rdg wit="#ms0040"></rdg>
+          <rdg wit="#ms0060">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjaiδi.yat̰.hē.kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.</rdg>
+          <rdg wit="#ms0083">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāirevadarejaiδe. .yat̰.hē.kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāire</rdg>
+          <rdg wit="#ms0088">kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.vadarəjaiδe.yat̰.hē.kəhrpəm.nāšəmnāi.aṣ̌aōne.haōma.zāiri.</rdg>
+          <rdg wit="#ms0100">ẏat̰a.hē.kəhrpəm.nā.ṣ̌əm.nāi.aṣ̌aone.haoma.jāiri.vada.</rdg>
+          <rdg wit="#ms0110">kəhrpəm.nāšəmanāi.aṣ̌aone.haomazāire.vadarəjaiδi. ẏat̰.hē.kəhrpəm.nāšəmanāi.aṣ̌aone.haoma.zāire.</rdg>
+          <rdg wit="#ms0234">kəhrpəm.nāšəmanāi.aṣ̌aōne.haōma.zāire.vaδarəjaiδi. ẏat̰.hē.kəhrpəm.nāšmanāi.aṣ̌aone.haōma.zāire.</rdg>
+          <rdg wit="#ms0235">kəharpəm.nāšimanāi.ašaoni.haoma.zāire.vaδarə.jaiδe.iiat̰.hē.kəhrpəm.nāšəmanāi.a</rdg>
+          <rdg wit="#ms0400">kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāire.vaδarə.jaiδe. ẏat̰.hē.kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāiri.</rdg>
+          <rdg wit="#ms0410">kəhrpəm.nāšəmnāi.aṣ̌aono.haoma.zāiri.vadairi.jaiδe.⁛ ẏat̰.hē.kəhrpəm.nāšəmnāi.aṣ̌aone.haoma.zāire.</rdg>
+        </app>
+      </div>
+    </body>
+  </text>
+</TEI>

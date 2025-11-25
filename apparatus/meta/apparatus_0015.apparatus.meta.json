@@ -1,0 +1,8 @@
+{
+  "input": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/res/Yasna/variant_spans_0015.jsonl",
+  "input_sha256": "db8b8c3bb574656cc124176832e0e52d3042e233bdfa712bfd559bae7302ec88",
+  "output": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/res/Yasna/apparatus_0015.xml",
+  "app_count": 76,
+  "script": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/scripts/export_apparatus.py",
+  "timestamp": "2025-10-20T17:39:58.819471Z"
+}

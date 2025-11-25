@@ -1,0 +1,13 @@
+{
+  "input": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/res/Yasna/0410.jsonl",
+  "input_sha256": "c173ac33e5971c1e389e75a50f3369bdda0275d92e54a3252a920e4440b59d60",
+  "output": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/res/Yasna/final_decisions_0410_with_types.jsonl",
+  "row_count": 6235,
+  "counts": {
+    "add": 2096,
+    "equal": 2861,
+    "subst": 1278
+  },
+  "script": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/scripts/classify_readings.py",
+  "timestamp": "2025-10-18T17:52:10.544717Z"
+}

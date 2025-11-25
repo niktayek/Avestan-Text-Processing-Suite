@@ -1,0 +1,10 @@
+{
+  "source_csv": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/data/CAB/Yasna/stanza_word_matches_0672_greedy_vs_dp.csv",
+  "source_sha256": "3dc76559ef2191b90d3d4cb89d5808c5cb82375b84851e00137da4747c2c24ae",
+  "row_count": 323,
+  "created_at": "2025-10-18T17:52:11.339883Z",
+  "pair_threshold": 0.9,
+  "script": "/Users/niktayekrangsafakar/Projects/Avestan-Text-Processing-Suite/scripts/persist_alignments.py",
+  "git_commit": "fdbbf04f9ba2308c4d8e656d5e1d3af83d9b8aa5",
+  "timestamp": "2025-10-18T17:52:11.351546Z"
+}

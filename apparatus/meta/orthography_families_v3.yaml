@@ -1,0 +1,146 @@
+version: 3
+families:
+  vowel_quantity:
+    patterns:
+      - "\\b([aiu])\\u0304\\b"          # macron forms
+      - "\\bā\\b|\\bī\\b|\\bū\\b"
+      - "\\baē\\b|\\bae\\b|\\baō\\b|\\bao\\b"
+  monophthongization:
+    patterns:
+      - "\\baē\\b|\\bē\\b|\\bī\\b|\\bə̄\\b"
+      - "\\baō\\b|\\bō\\b|\\bu\\b"
+  z_j_palatal:
+    # disabled: used illegal look-behind; neutralized by z_j_confusion
+    patterns: []
+  theta_occlusion:
+    # disabled: used illegal look-behind; covered by theta_to_t
+    patterns: []
+  fricative_occlusion:
+    patterns:
+      - "\\bf(?=[ra])|\\bp(?=[ra])"
+  sr_cluster:
+    patterns:
+      - "ϑr|sr"
+  retroflex_nasal:
+    # disabled: used illegal look-behind; covered by n_vs_retroflex_n
+    patterns: []
+  anaptyxis:
+    patterns:
+      - "(r|l)(ō|o)z|rəz"   # expand later as needed
+  vv_pseudodiphthongs:
+    patterns:
+      - "\\bou\\b|\\bōu\\b|\\baou\\b"
+  diacritic_only:
+    patterns:
+      - "[\\u0300-\\u036F]"  # combining marks present
+  b_v_confusion:
+    patterns:
+      - "\\bb(?=[aoeiu])|\\bv(?=[aoeiu])"
+  h_loss_gain:
+    # disabled: used illegal look-behind
+    patterns: []
+  ii_uu_long_vs_semivowel:
+    patterns:
+      - "\\bii\\b|\\bī\\b"
+      - "\\buu\\b|\\bū\\b"
+  punctuation_spacing:
+    patterns:
+      - "[\\.,;:·⸳]"
+  ae_vs_ae_macron:
+    patterns:
+      - "aē"
+      - "ae"
+  ao_vs_ao_macron:
+    patterns:
+      - "aō"
+      - "ao"
+  n_vs_retroflex_n:
+    patterns:
+      - "n"
+      - "ṇ"
+      - "ń"
+  palatal_sibilants:
+    patterns:
+      - "š"
+      - "ṣ̌"
+      - "ś"
+  z_j_confusion:
+    patterns:
+      - "z"
+      - "j"
+  theta_to_t:
+    patterns:
+      - "ϑ"
+      - "t"
+  f_to_p:
+    patterns:
+      - "f"
+      - "p"
+  theta_r_to_sr:
+    patterns:
+      - "ϑr"
+      - "sr"
+  long_vowel_vs_semivowel:
+    patterns:
+      - "ū"
+      - "ī"
+      - "uu"
+      - "ii"
+  ou_spellings:
+    patterns:
+      - "vouru"
+      - "ōu"
+      - "aou"
+      - "ou"
+  monophthongize_ae:
+    patterns:
+      - "aē"
+      - "ī"
+      - "ə̄"
+      - "ē"
+  monophthongize_ao:
+    patterns:
+      - "aō"
+      - "ō"
+      - "u"
+  anaptyxis_vowels:
+    compare_only_regex:
+      - "([rqzṣ̌šsxϑ])˙?([rzṣ̌šsxmnp])"
+    normalize:
+      - "a"
+      - "ə"
+      - ""
+  diacritics_only:
+    diacritic_insensitive: true
+  punctuation_only:
+    punctuation_insensitive: true
+
+  long_i_vs_u:
+    # ī ↔ ū (compare-only neutrality)
+    compare_only_regex: ["ī", "ū"]
+    diacritic_insensitive: true
+
+  ao_vs_au:
+    # aō ↔ āu alternation (compare-only)
+    compare_only_regex: ["aō", "āu"]
+
+  ring_long_a:
+    # ā̊ ≈ ā (compare-only)
+    compare_only_regex: ["ā̊", "ā"]
+
+  initial_y_prothesis:
+    # drop initial y- before vowels (compare-only)
+    compare_only_regex: ["\\b[yY](?=[aāeēiīoōuū])"]
+
+  nasal_vowel_vs_n:
+    # nasalized vowel vs. -n / -ām endings (compare-only; conservative)
+    compare_only_regex: ["ąm\\b", "an\\b", "ām\\b"]
+
+  palatal_sibilants_extended:
+    # š / ś / ṣ̌ / ṣ equivalence (compare-only)
+    patterns: ["š", "ś", "ṣ̌", "ṣ"]
+    diacritic_insensitive: true
+
+  final_e_vs_i:
+    # Word-final -e vs -i alternation (compare-only, conservative)
+    compare_only_regex: ["i\\b", "e\\b"]

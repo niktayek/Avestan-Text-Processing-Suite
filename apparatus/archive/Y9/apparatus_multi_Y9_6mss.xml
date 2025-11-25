@@ -1,0 +1,1744 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Yasna Y9 — apparatus (selected witnesses)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Generated automatically from selected witnesses</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Lemma: Yasna_Static.xml; Witnesses: user-provided TEI files</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <taxonomy xml:id="varClass">
+        <category xml:id="meaningful">Meaningful</category>
+        <category xml:id="trivial">Trivial</category>
+        <category xml:id="unknown">Unknown</category>
+      </taxonomy>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="apparatus_Y9">
+        <app xml:id="app-AV.a-0-4">
+          <lem>aṣ̌əm vohū vahištəm astī</lem>
+          <rdg wit="#ms0006">aṣ̌ əm vohī</rdg>
+          <rdg wit="#ms0088">yaϑā ahī vairii ō</rdg>
+        </app>
+        <app xml:id="app-Y8.9a-0-7">
+          <lem>haōmahe aṣ̌auuazaŋhō xšnaōϑra yasnāica vaɱāica xšnaōϑrāica frasastaiiaēca</lem>
+          <rdg wit="#ms0005">vasō xšaϑrō hiiāt̰ aṣ̌auua a uuasō xšaϑrō hiiāt̰ druuā̊</rdg>
+          <rdg wit="#ms0006">vasō xšaϑrō hiiāt̰ aṣ̌auua auuasō xš aϑrō iiāt̰ druuā̊</rdg>
+          <rdg wit="#ms0015">vasō xšaϑrō hiiāt̰ aṣ̌auua aβasō xšaϑr ō hiiāt̰ druuā̊</rdg>
+          <rdg wit="#ms0088">vasō xšaϑrō hii āt̰ aṣ̌auua auuasō xšaϑrō hiiāt̰ druuā̊</rdg>
+          <rdg wit="#ms0400">vasō xšaϑrō h iiāt̰ aṣ̌auua auuasō xšaϑrō hiiāt̰ dr uuā̊ ⁛</rdg>
+          <rdg wit="#ms0410">vasō xša ϑrō hiiāt̰ aṣ̌auua auuasō xšaϑrō hiiāt̰ druuā̊</rdg>
+        </app>
+        <app xml:id="app-Y9.1a-0-4">
+          <lem>zōt ud rāspīg hāuuanīm</lem>
+          <rdg wit="#ms0005">hāuuanīm</rdg>
+          <rdg wit="#ms0006">hā̊uuanīm</rdg>
+          <rdg wit="#ms0015">hāuuanīm</rdg>
+          <rdg wit="#ms0088">hāuuanīm</rdg>
+          <rdg wit="#ms0400">hāuuanīm</rdg>
+          <rdg wit="#ms0410">※hāuuanīm</rdg>
+        </app>
+        <app xml:id="app-Y9.1a-5-6">
+          <lem>ratūm</lem>
+          <rdg wit="#ms0005">ratīm</rdg>
+          <rdg wit="#ms0006">ratīm</rdg>
+          <rdg wit="#ms0015">ratīm</rdg>
+          <rdg wit="#ms0088">ratīm</rdg>
+          <rdg wit="#ms0400">ratūm</rdg>
+          <rdg wit="#ms0410">ratūm</rdg>
+        </app>
+        <app xml:id="app-Y9.1a-7-10">
+          <lem>haōmō upāit̰ zaraϑuštrəm</lem>
+          <rdg wit="#ms0005">haōmō upāit̰ zaraϑuštrəm</rdg>
+          <rdg wit="#ms0006">haōmō upā it̰ zaraϑuštrəm</rdg>
+          <rdg wit="#ms0015">haōmō up āat̰ zaraϑuštrəm</rdg>
+          <rdg wit="#ms0088">haōmō upāit̰ zaraϑuš trəm</rdg>
+          <rdg wit="#ms0400">haomō upāit̰ za raϑuštrəm ⁛</rdg>
+          <rdg wit="#ms0410">haomō upāit̰ zaraϑuštrəm</rdg>
+        </app>
+        <app xml:id="app-Y9.1b-0-1">
+          <lem>ātrəm</lem>
+          <rdg wit="#ms0005">ātərəm</rdg>
+          <rdg wit="#ms0006">ātərəm</rdg>
+          <rdg wit="#ms0015">āϑrəm</rdg>
+          <rdg wit="#ms0088">ātrəm</rdg>
+          <rdg wit="#ms0400">ātrəm</rdg>
+          <rdg wit="#ms0410">ātrəm</rdg>
+        </app>
+        <app xml:id="app-Y9.1b-2-3">
+          <lem>yaōždaϑəṇtəm</lem>
+          <rdg wit="#ms0005">yaōždaϑəṇtəm</rdg>
+          <rdg wit="#ms0006">yaōžda ϑəṇtəm</rdg>
+          <rdg wit="#ms0015">yaō ždaϑəṇtəm</rdg>
+          <rdg wit="#ms0088">yaōždaϑəṇtəm</rdg>
+          <rdg wit="#ms0400">ẏaoždaϑəṇ təm</rdg>
+          <rdg wit="#ms0410">ẏaōždaϑəṇtəm</rdg>
+        </app>
+        <app xml:id="app-Y9.1b-4-5">
+          <lem>srāuuaiiaṇtəm</lem>
+          <rdg wit="#ms0005">srāuuaiiaṇtəm</rdg>
+          <rdg wit="#ms0006">srāuuaiiaṇtəm</rdg>
+          <rdg wit="#ms0015">srāuuaiiaṇ təm</rdg>
+          <rdg wit="#ms0088">srāuuaiiaṇtəm</rdg>
+          <rdg wit="#ms0400">srāuuaiiaṇtəm ⁛</rdg>
+          <rdg wit="#ms0410">srāuuaii aṇtəm ※</rdg>
+        </app>
+        <app xml:id="app-Y9.1c-0-7">
+          <lem>ā dim pərəsat̰ zaraϑuštrō kō narə ahi</lem>
+          <rdg wit="#ms0005">ādəm ādəm pərəsat̰ zaraϑu štrō kō narə ahi</rdg>
+          <rdg wit="#ms0006">ādəm pərəsat̰ zaraϑuštrō kō narə ahi</rdg>
+          <rdg wit="#ms0015">ādəm pərəsat̰ zaraϑuštrō kō narə ahe</rdg>
+          <rdg wit="#ms0088">ādəm p ərəsat̰ zaraϑuštrō kō narə ahe</rdg>
+          <rdg wit="#ms0400">ādim pərəsat̰ za raϑuštrō kō narə ahī ⁛</rdg>
+          <rdg wit="#ms0410">ā dim pərəsat̰ zaraϑuštrō kō⁛narə ahī</rdg>
+        </app>
+        <app xml:id="app-Y9.1d-0-1">
+          <lem>yim</lem>
+          <rdg wit="#ms0005">yim</rdg>
+          <rdg wit="#ms0006">yim</rdg>
+          <rdg wit="#ms0015">yim</rdg>
+          <rdg wit="#ms0088">əm</rdg>
+          <rdg wit="#ms0400">ẏim</rdg>
+          <rdg wit="#ms0410">ẏim</rdg>
+        </app>
+        <app xml:id="app-Y9.1d-2-3">
+          <lem>vīspahe</lem>
+          <rdg wit="#ms0005">vīspah e</rdg>
+          <rdg wit="#ms0006">vīspahe</rdg>
+          <rdg wit="#ms0015">vīspahe</rdg>
+          <rdg wit="#ms0088">vīspahe</rdg>
+          <rdg wit="#ms0400">vīspahe</rdg>
+          <rdg wit="#ms0410">vīspahe</rdg>
+        </app>
+        <app xml:id="app-Y9.1d-4-5">
+          <lem>astuuatō</lem>
+          <rdg wit="#ms0005">astuuatō</rdg>
+          <rdg wit="#ms0006">astuuatō</rdg>
+          <rdg wit="#ms0015">astuuatō</rdg>
+          <rdg wit="#ms0088">astuuat ō</rdg>
+          <rdg wit="#ms0400">astuua tō</rdg>
+          <rdg wit="#ms0410">astuu atō</rdg>
+        </app>
+        <app xml:id="app-Y9.1d-6-11">
+          <lem>dādarəsa xᵛahe gaiiehe xᵛanuuatō aməṣ̌ahe</lem>
+          <rdg wit="#ms0005">dādarə sa xᵛahe gaiiahe xᵛanauuatō aməṣ̌ah e</rdg>
+          <rdg wit="#ms0006">dādarəsa xᵛahe gaiiehe xᵛanauuatō aməṣ̌ahe</rdg>
+          <rdg wit="#ms0015">dādarəsa xᵛah e gaiiehe xᵛanuuatō aməṣ̌ahe</rdg>
+          <rdg wit="#ms0088">dādarəsa xᵛahe ga iiehe xᵛanauuatō aməṣ̌ahe</rdg>
+          <rdg wit="#ms0400">dādarəsa xᵛahe gahiie he gaiie he gahiiehe gaiiehe xᵛanuuatō aməšahe ⁛</rdg>
+          <rdg wit="#ms0410">dādarəsa dādarəša dādarəsa x́ahe gaii ehe x́anuuatō aməšahe</rdg>
+        </app>
+        <app xml:id="app-Y9.2a-0-7">
+          <lem>āat̰ mē aēm paitiiaōxta haōmō aṣ̌auua dūraōšō</lem>
+          <rdg wit="#ms0005">āat̰ mē aēm paitiiaōxta haōmō aṣ̌auua dīraōšō</rdg>
+          <rdg wit="#ms0006">āat̰ mē aēm paitiiaōxta haōmō aṣ̌auua dīraōšō</rdg>
+          <rdg wit="#ms0015">āat̰ mē aēm paitiiaōxta haōm ō aṣ̌auua dīraōšō zaraϑuštrō zaraϑuštrō</rdg>
+          <rdg wit="#ms0088">āat̰ mē aēm paitiiaōxta haōmō aṣ̌ auua dīraōšō</rdg>
+          <rdg wit="#ms0400">amərəza gaiiehe stūna ※</rdg>
+          <rdg wit="#ms0410">āat̰ mē aēm paitiiaoxta haomō aṣ̌auua dūr aošō</rdg>
+        </app>
+        <app xml:id="app-Y9.2b-0-6">
+          <lem>azəm aɱi zaraϑuštra haōmō aṣ̌auua dūraōšō</lem>
+          <rdg wit="#ms0005">azəm ahmi zaraϑuštra ha ōmō aṣ̌auua dīraōšō</rdg>
+          <rdg wit="#ms0006">azəm ahmi za ra ϑuštrō haōmō aṣ̌auua dīraōš ō</rdg>
+          <rdg wit="#ms0015">a zəm ahma zaraϑuštra haōmō aṣ̌ auua dīraōšō</rdg>
+          <rdg wit="#ms0088">azəm ahmi zaraϑuštra haōmō aṣ̌auua dīraōšō</rdg>
+          <rdg wit="#ms0400">āat̰ mē aēm paitiiao xta haomō aṣ̌auua dūraošō ⁛</rdg>
+          <rdg wit="#ms0410">azəm ahmi zara ϑuštra haomō aṣ̌auua dūraošō ※</rdg>
+        </app>
+        <app xml:id="app-Y9.2c-0-8">
+          <lem>ā mąm yāsaŋᵛha spitama frā mąm hunuuaŋᵛha xᵛarətə̄e</lem>
+          <rdg wit="#ms0005">ā mąm yāsaŋh a spətama frā mąm hunuuaŋha xᵛarətə̄e</rdg>
+          <rdg wit="#ms0006">ā mąm yāsaŋha spətama frā mąm hunauuaŋha xᵛarətə̄e</rdg>
+          <rdg wit="#ms0015">ā mąm yāsaŋha spətama frā mąm hanauuaŋhe xᵛ arəϑə̄e</rdg>
+          <rdg wit="#ms0088">ā mąm yāsaŋha spətama frāmąm hunauu aŋha xᵛarətə̄e</rdg>
+          <rdg wit="#ms0400">azəm ahmi zara ϑuštra haomō ašauua dūraošō ⁛</rdg>
+          <rdg wit="#ms0410">āmą̇m yāsaŋha spəṇtama frā mą̇m hunuuaŋha x́arətə̄e</rdg>
+        </app>
+        <app xml:id="app-Y9.2d-0-9">
+          <lem>auui mąm staōmaine stūiδi yaϑa mā aparacit̰ saōš́iiaṇtō stauuąn</lem>
+          <rdg wit="#ms0005">aōui mąm staōmaini stīiδi yaϑa mā aparacit̰ saōšiiaṇtō stauuąn</rdg>
+          <rdg wit="#ms0006">aōui mąm staōmaińi stīit̰e stīit̰δe stīit̰e stīit̰δe yaϑa mā aparacit̰ saōš́iiaṇtō sta uuąn</rdg>
+          <rdg wit="#ms0015">aōui mąm staōimaine stī iδe yaϑa māmā aparacit̰ saōš́ii aṇtō stauuąn</rdg>
+          <rdg wit="#ms0088">aōui mąm staōmaińi stīiδe yaϑa mā afracit̰ afaracit̰ afracit̰ afaracit̰ saōš́ iiaṇtō stauuąn</rdg>
+          <rdg wit="#ms0400">āmą̇m yāsaŋ ha spətama frāmą̇m hunauuaŋha xᵛarətə̄ē ⁛</rdg>
+          <rdg wit="#ms0410">aoi mą̇m stao maine stauuiδi yaϑa mā aparacit̰ saoš́iiaṇtō stauuą̇n ※</rdg>
+        </app>
+        <app xml:id="app-Y9.3a-0-1">
+          <lem>zōt</lem>
+          <rdg wit="#ms0005"></rdg>
+          <rdg wit="#ms0006"></rdg>
+          <rdg wit="#ms0015"></rdg>
+          <rdg wit="#ms0088"></rdg>
+          <rdg wit="#ms0400"></rdg>
+          <rdg wit="#ms0410"></rdg>
+        </app>
+        <app xml:id="app-Y9.3a-2-4">
+          <lem>aōxta zaraϑuštrō</lem>
+          <rdg wit="#ms0005">aō xta zaraϑuštrō</rdg>
+          <rdg wit="#ms0006">aōxta zaraϑuštrō</rdg>
+          <rdg wit="#ms0015">aōxtō zar aϑuštrō</rdg>
+          <rdg wit="#ms0088">aōxta za raϑuštrō</rdg>
+          <rdg wit="#ms0400">ao xta zaraϑuštrō</rdg>
+          <rdg wit="#ms0410">aoxta zaraϑuštrō</rdg>
+        </app>
+        <app xml:id="app-Y9.3a-5-6">
+          <lem>haōmāi</lem>
+          <rdg wit="#ms0005">haōmāi</rdg>
+          <rdg wit="#ms0006">haōmā̊i</rdg>
+          <rdg wit="#ms0015">haōmāi</rdg>
+          <rdg wit="#ms0088">haōmāi</rdg>
+          <rdg wit="#ms0400">haomāi ⁛</rdg>
+          <rdg wit="#ms0410">haomāi</rdg>
+        </app>
+        <app xml:id="app-Y9.3b-0-8">
+          <lem>kasə ϑβąm paōiriiō haōma maṣ̌iiō astuuaiϑiiāi hunūta gaēϑaiiāi</lem>
+          <rdg wit="#ms0005">kasəϑβąm paōiriiō haōma maṣ̌iiō astuuaiϑiiāi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0006">kasəϑβąm paōiriiō haō ma maṣ̌iiō astuuaiϑiiāi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0015">kasə ϑβąm paōiriiō haōma maš́iiō astuua iϑiiāi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0088">kasə ϑβąm paōiriiō haōma maṣ̌iiō astuuaiϑii āi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0400">kasə ϑβą̇m paoirii ō haoma maš́iiō astuuaiϑiiāi hunūta gaēϑaiiāi</rdg>
+          <rdg wit="#ms0410">kasə ϑβą̇m paoi riiō haoma maš́iiō astuuaiϑiiāi h unūta gaēϑiiāi</rdg>
+        </app>
+        <app xml:id="app-Y9.3b-9-12">
+          <lem>aɱāi aṣ̌iš ərənāuui</lem>
+          <rdg wit="#ms0005">ahmāi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0006">aɱāi aṣ̌əm ərənā uui</rdg>
+          <rdg wit="#ms0015">ahmāi aṣ̌iš ərənāuue</rdg>
+          <rdg wit="#ms0088">ahmāi aṣ̌əš ərənāuui</rdg>
+          <rdg wit="#ms0400">ahmāi aṣ̌iš ərənāuui</rdg>
+          <rdg wit="#ms0410">ahmāi aṣ̌iš ərən āuui</rdg>
+        </app>
+        <app xml:id="app-Y9.3b-13-14">
+          <lem>aɱāi</lem>
+          <rdg wit="#ms0005">ahmāi</rdg>
+          <rdg wit="#ms0006">aɱāi</rdg>
+          <rdg wit="#ms0015">ahmā i</rdg>
+          <rdg wit="#ms0088">ahmāi</rdg>
+          <rdg wit="#ms0400">a hmāi</rdg>
+          <rdg wit="#ms0410">ahmāi</rdg>
+        </app>
+        <app xml:id="app-Y9.4a-3-5">
+          <lem>paitiiaōxta haōmō</lem>
+          <rdg wit="#ms0005">paitiiaōxta haōmō</rdg>
+          <rdg wit="#ms0006">paitiiaōxta haōm ō</rdg>
+          <rdg wit="#ms0015">paitiiaōxta haōmō</rdg>
+          <rdg wit="#ms0088">paitiiaōx ta haōmō</rdg>
+          <rdg wit="#ms0400">paitiiaoxta hao mō</rdg>
+          <rdg wit="#ms0410">paitii aoxta haomō</rdg>
+        </app>
+        <app xml:id="app-Y9.4a-6-7">
+          <lem>dūraōšō</lem>
+          <rdg wit="#ms0005">dīraōšō</rdg>
+          <rdg wit="#ms0006">dīraōšō</rdg>
+          <rdg wit="#ms0015">dīraōšō</rdg>
+          <rdg wit="#ms0088">dīraōšō</rdg>
+          <rdg wit="#ms0400">dūraošō ⁛</rdg>
+          <rdg wit="#ms0410">dūraošō ※</rdg>
+        </app>
+        <app xml:id="app-Y9.4b-0-11">
+          <lem>vīuuaŋᵛhā̊ mąm paōiriiō maṣ̌iiō astuuaiϑiiāi hunūta gaēϑaiiāi hā aɱāi aṣ̌iš ərənāuui</lem>
+          <rdg wit="#ms0005">vī uuaŋhā mąm paōiriiō maš́iiō astuuaiϑii āi hunīta gə̄ϑaiiāi hā ahāi ahmāi ahāi ahmāi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0006">vīuuaŋhā̊ m ąm paōiriiō maṣ̌iiō astuuaiϑiiāi hunīta gaēϑaiiāi hā ahmāi aṣ̌əm aṣ̌əš aṣ̌əm aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0015">vīuuaŋhā̊ mąm paōirii ō maṣ̌iiō astuuaiϑiiāi hunīta gaēϑiiāi hā ahmāi aṣ̌iš ərə nāuue</rdg>
+          <rdg wit="#ms0088">vī uuaŋhā̊ mąm paōiriiō maṣ̌iiō a stuuaiϑiiāi hunīta gaēϑaiiāi h ā ahmāi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0400">vīuuaŋhā̊ mą̇m paoiriiō mašiiō astuuaiϑiiāi hunūta gaēϑaiiāi hā ahmāi aṣ̌iš ərənāuui</rdg>
+          <rdg wit="#ms0410">vīuuaŋhā̊ mą̇m paoiriiō maṣ̌iiō astuuaiϑiiāi hun ūta gaēϑiiāi ⁛hā ahmāi ašiš ərənāuua</rdg>
+        </app>
+        <app xml:id="app-Y9.4b-12-13">
+          <lem>aɱāi</lem>
+          <rdg wit="#ms0005">ahmāi</rdg>
+          <rdg wit="#ms0006">ahmāi</rdg>
+          <rdg wit="#ms0015">ahmāi</rdg>
+          <rdg wit="#ms0088">a hmāi</rdg>
+          <rdg wit="#ms0400">ahmāi</rdg>
+          <rdg wit="#ms0410">ahmāi</rdg>
+        </app>
+        <app xml:id="app-Y9.4b-14-15">
+          <lem>āiiaptəm</lem>
+          <rdg wit="#ms0005">āiiaptəm</rdg>
+          <rdg wit="#ms0006">āiiaptəm</rdg>
+          <rdg wit="#ms0015">āiia ptəm</rdg>
+          <rdg wit="#ms0088">āiiaptəm</rdg>
+          <rdg wit="#ms0400">āiiaptəm</rdg>
+          <rdg wit="#ms0410">āiiaptəm</rdg>
+        </app>
+        <app xml:id="app-Y9.4c-0-1">
+          <lem>yat̰</lem>
+          <rdg wit="#ms0005">yat̰</rdg>
+          <rdg wit="#ms0006">yat̰</rdg>
+          <rdg wit="#ms0015">yat̰</rdg>
+          <rdg wit="#ms0088">yat̰</rdg>
+          <rdg wit="#ms0400">ẏat̰</rdg>
+          <rdg wit="#ms0410">ẏat̰</rdg>
+        </app>
+        <app xml:id="app-Y9.4c-2-3">
+          <lem>puϑrō</lem>
+          <rdg wit="#ms0005">puϑrō</rdg>
+          <rdg wit="#ms0006">puϑrō</rdg>
+          <rdg wit="#ms0015">puϑrō</rdg>
+          <rdg wit="#ms0088">puϑrō</rdg>
+          <rdg wit="#ms0400">puϑra</rdg>
+          <rdg wit="#ms0410">puϑrō</rdg>
+        </app>
+        <app xml:id="app-Y9.4c-4-5">
+          <lem>zaiiata</lem>
+          <rdg wit="#ms0005">zaiiata</rdg>
+          <rdg wit="#ms0006">zaii ata</rdg>
+          <rdg wit="#ms0015">zaiiat a</rdg>
+          <rdg wit="#ms0088">zaiiata</rdg>
+          <rdg wit="#ms0400">zaiiata</rdg>
+          <rdg wit="#ms0410">za iiata</rdg>
+        </app>
+        <app xml:id="app-Y9.4c-6-9">
+          <lem>yimō xšaētō huuąϑβō</lem>
+          <rdg wit="#ms0005">yəmō xšaētō huuąϑβō</rdg>
+          <rdg wit="#ms0006">yəmō xšaētō huuąϑβ</rdg>
+          <rdg wit="#ms0015">yəmō xšaētō huuąϑβō</rdg>
+          <rdg wit="#ms0088">yimō xš aētō huuąϑβō</rdg>
+          <rdg wit="#ms0400">ẏ imō xšaētō huuą̇ϑβō ⁛</rdg>
+          <rdg wit="#ms0410">ẏimō xšaētō huuϑβōhuuą̇ϑβōhuuϑβōhuuą̇ϑβō ⁛ ※</rdg>
+        </app>
+        <app xml:id="app-Y9.4d-0-5">
+          <lem>xᵛarənaŋᵛhastəmō zātanąm huuarə darəsō maṣ̌iiānąm</lem>
+          <rdg wit="#ms0005">xᵛarənaŋhastə̄mō zā tanąm huuarə darəsō maš́iiānąm</rdg>
+          <rdg wit="#ms0006">xᵛarənaŋhastəmō zātanąm huuarə darə sō maṣ̌iiānąm</rdg>
+          <rdg wit="#ms0015">xᵛa rənaŋhastəmō zātanąm huuarə da rəsō maš́iiānąm</rdg>
+          <rdg wit="#ms0088">xᵛarənaŋhastəmō zā tanąm huuarə darəsō maš́iiānąm</rdg>
+          <rdg wit="#ms0400">xᵛarənaŋhastə mō zātaną̇m huuarə darəsō maṣ̌iiāną̇m ⁛</rdg>
+          <rdg wit="#ms0410">x́arənaŋhastəmō zātaną̇m huu arə darəsō maṣ̌iiāną̇m ※</rdg>
+        </app>
+        <app xml:id="app-Y9.4e-0-10">
+          <lem>yat̰ kərənaōt̰ aiŋ́he xšaϑrāδa amaršaṇta pasu vīra aŋhaōšəmne āpa uruuaire</lem>
+          <rdg wit="#ms0005">yat̰ kərənaōit̰ aiŋ́he xšaϑrāδa amərəṣ̌aṇta pasō vīra aŋhaōšəmne āpe uruuaire</rdg>
+          <rdg wit="#ms0006">yat̰ kərənaōt̰ aŋ́ he xšaϑrāδa amərəšaṇta pasu vīra aŋhaōšəmne āpa uruuaire</rdg>
+          <rdg wit="#ms0015">yat̰ kərənaōt̰ a ŋhē xšaϑrāδa amərəšaṇta p asuuīra aŋhaōšəmne āpe uruua ire</rdg>
+          <rdg wit="#ms0088">ya t̰ kərənaōt̰ aŋ́he xšaϑrāδa amarṣ̌ aṇta pasu vīra aŋhaōšəmne āp a uruuaire</rdg>
+          <rdg wit="#ms0400">ẏat̰ kərənaot̰ aŋ́he xšaϑrāδa amarš aṇta pasu vīra aŋhaošəmne āpa uruuaire</rdg>
+          <rdg wit="#ms0410">ẏat̰ kərənaot̰ a ŋ́he xšaϑrāt̰a amaršaṇta pasu v īra aŋhaošəmne āpa uruuaire⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.4f-0-3">
+          <lem>xᵛairiiąn xᵛarəϑəm ajiiamnəm</lem>
+          <rdg wit="#ms0005">xᵛairiiąn xᵛarəϑəm ajaiiamnəm</rdg>
+          <rdg wit="#ms0006">xᵛairiiąn xᵛarəϑəm ajaiiamnəm</rdg>
+          <rdg wit="#ms0015">xᵛairiiąn xᵛarətəm ajaiiamnəm</rdg>
+          <rdg wit="#ms0088">xᵛairiiąn xᵛarəϑəm ajaiiam nəm</rdg>
+          <rdg wit="#ms0400">xᵛairiią̇n xᵛarəϑəm ajaiiamnəm ⁛</rdg>
+          <rdg wit="#ms0410">x́airiią̇n x́arəϑəm ajaiiamnəm ⁛ ※</rdg>
+        </app>
+        <app xml:id="app-Y9.5a-0-3">
+          <lem>yimahe xšaϑre auruuahe</lem>
+          <rdg wit="#ms0005">yəmahe xšaϑ rahe auruuahe</rdg>
+          <rdg wit="#ms0006">yəmahe xšaϑre auruuahe</rdg>
+          <rdg wit="#ms0015">yəmahe xšaϑre auruuahe</rdg>
+          <rdg wit="#ms0088">yəmahe xšaϑre auruuahe</rdg>
+          <rdg wit="#ms0400">ẏimahe xšaϑra auruuah e</rdg>
+          <rdg wit="#ms0410">ẏimahe xšaϑra auuruuahe</rdg>
+        </app>
+        <app xml:id="app-Y9.5a-4-5">
+          <lem>aōtəm</lem>
+          <rdg wit="#ms0005">aōxtəm</rdg>
+          <rdg wit="#ms0006">aōtəm</rdg>
+          <rdg wit="#ms0015">aōxtəm</rdg>
+          <rdg wit="#ms0088">aōtəm</rdg>
+          <rdg wit="#ms0400">aotəm</rdg>
+          <rdg wit="#ms0410">aotəm</rdg>
+        </app>
+        <app xml:id="app-Y9.5a-7-8">
+          <lem>garəməm</lem>
+          <rdg wit="#ms0005">garəməm</rdg>
+          <rdg wit="#ms0006">gərəməm</rdg>
+          <rdg wit="#ms0015">garəməm</rdg>
+          <rdg wit="#ms0088">garəməm</rdg>
+          <rdg wit="#ms0400">garəməm</rdg>
+          <rdg wit="#ms0410">garəməm</rdg>
+        </app>
+        <app xml:id="app-Y9.5b-1-3">
+          <lem>zauruua ā̊ŋha</lem>
+          <rdg wit="#ms0005">zauruua ā̊ŋha</rdg>
+          <rdg wit="#ms0006">zauruuā̊ŋha</rdg>
+          <rdg wit="#ms0015">zauruuåŋha</rdg>
+          <rdg wit="#ms0088">zauruua ā̊ŋha</rdg>
+          <rdg wit="#ms0400">zauruua ā̊ŋha</rdg>
+          <rdg wit="#ms0410">zauruua ā̊ ŋhā</rdg>
+        </app>
+        <app xml:id="app-Y9.5b-4-5">
+          <lem>mərəϑiiuš</lem>
+          <rdg wit="#ms0005">mərəϑiiu š</rdg>
+          <rdg wit="#ms0006">marəϑiiāuš</rdg>
+          <rdg wit="#ms0015">marəϑiiāuš</rdg>
+          <rdg wit="#ms0088">mərəϑiiuš</rdg>
+          <rdg wit="#ms0400">mərəϑiiuš</rdg>
+          <rdg wit="#ms0410">marəϑiiuš</rdg>
+        </app>
+        <app xml:id="app-Y9.5b-6-9">
+          <lem>araskō daēuuō dātō</lem>
+          <rdg wit="#ms0005">araskō daēuuō dātō</rdg>
+          <rdg wit="#ms0006">araskō daēuuō dā tō</rdg>
+          <rdg wit="#ms0015">araskō daēuuō dātō</rdg>
+          <rdg wit="#ms0088">araskō daēuuō dātō</rdg>
+          <rdg wit="#ms0400">araskō araškō daēuuō dātō</rdg>
+          <rdg wit="#ms0410">ariškō ariskō ariškō ariskō daeuuō dātō</rdg>
+        </app>
+        <app xml:id="app-Y9.5c-0-4">
+          <lem>paṇca dasa fracarōiϑe pita</lem>
+          <rdg wit="#ms0005">paṇca das a fraca raōiϑe piϑa</rdg>
+          <rdg wit="#ms0006">paṇca dasa fracaraōiϑe pita</rdg>
+          <rdg wit="#ms0015">paṇca das a fracaraōite paiti</rdg>
+          <rdg wit="#ms0088">paṇca dasa fracaraōiϑe pita</rdg>
+          <rdg wit="#ms0400">paṇ ca dasa fracarōiϑe paiti</rdg>
+          <rdg wit="#ms0410">pāṇca dasa fracarōiϑe paiti</rdg>
+        </app>
+        <app xml:id="app-Y9.5c-5-7">
+          <lem>raōδaēšuua katarascit̰</lem>
+          <rdg wit="#ms0005">raōδaēšuu e katarascit̰</rdg>
+          <rdg wit="#ms0006">raōδaēšuua katarasca</rdg>
+          <rdg wit="#ms0015">raōδaēšauua katarasca</rdg>
+          <rdg wit="#ms0088">raōdī šuua katarascit̰</rdg>
+          <rdg wit="#ms0400">rao δaešuua katarascit̰</rdg>
+          <rdg wit="#ms0410">raōδaēš uua katarascit̰</rdg>
+        </app>
+        <app xml:id="app-Y9.5d-0-6">
+          <lem>yauuata xšaiiōit̰ huuąϑβō yimō vīuuaŋᵛhatō puϑrō</lem>
+          <rdg wit="#ms0005">yauuaϑa xšaiiōit̰ huuąϑ βō yimō vīuuaŋhatō puϑrō</rdg>
+          <rdg wit="#ms0006">yauuata xšaiiōit̰ huuąϑβō yəm ō vīuuaŋhatō puϑrō</rdg>
+          <rdg wit="#ms0015">yauuat a xšaiiōit̰ huuąϑβō yəmō vauu aŋhatō puϑrō</rdg>
+          <rdg wit="#ms0088">yauuata xšaiiōi t̰ huuąϑβō yimō vīuuaŋhatō p uϑrō</rdg>
+          <rdg wit="#ms0400">ẏauuata x šaiiōit̰ huuą̇ϑβō ẏimō vīvaŋhatō pu ϑrō ⁛</rdg>
+          <rdg wit="#ms0410">ẏauuata xšaiiōit̰ huuą̇ϑβō ẏimō v aŋhatō puϑrō</rdg>
+        </app>
+        <app xml:id="app-Y9.6a-0-2">
+          <lem>kasə ϑβąm</lem>
+          <rdg wit="#ms0005">kasəϑβ ąm</rdg>
+          <rdg wit="#ms0006">kasiϑβąm</rdg>
+          <rdg wit="#ms0015">kasə ϑβąm</rdg>
+          <rdg wit="#ms0088">kasi ϑβąm</rdg>
+          <rdg wit="#ms0400">kasə ϑβą̇m</rdg>
+          <rdg wit="#ms0410">kasə ϑβą̇m</rdg>
+        </app>
+        <app xml:id="app-Y9.6a-3-12">
+          <lem>haōma maṣ̌iiō astuuaiϑiiāi hunūta gaēϑaiiāi kā aɱāi aṣ̌iš ərənāuui</lem>
+          <rdg wit="#ms0005">haōma maš́iiō astuuaiϑiiāi hunīta gaēϑaiiāi kāahmāi aṣ̌əš ərənā uue</rdg>
+          <rdg wit="#ms0006">haōma maš́iiō astuuaiϑiiā i hunīta gaēϑiiāi kā ahmāi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0015">haōma maš́iiō astuuaiϑiiāi h unīta gaēϑiiāi kā ahmāi a ṣ̌iš ərənāuue</rdg>
+          <rdg wit="#ms0088">haōma maṣ̌iiō astuuaitiiāi hunīta gaē ϑaiiāi kā ahmāi aṣ̌əš ərənā uui</rdg>
+          <rdg wit="#ms0400">haoma maṣ̌iiō astuuaiϑiiāi hu nūta gaēϑaiiāi kā ahmāi ašiš ərənāuua</rdg>
+          <rdg wit="#ms0410">haoma maṣ̌ii ō astuuaiϑiiāi hunūta gaēϑiiāi kā ahmāi aṣ̌iš ərənāuui</rdg>
+        </app>
+        <app xml:id="app-Y9.6a-13-14">
+          <lem>aɱāi</lem>
+          <rdg wit="#ms0005">ahmāi</rdg>
+          <rdg wit="#ms0006">ahmāi</rdg>
+          <rdg wit="#ms0015">ahmāi</rdg>
+          <rdg wit="#ms0088">ahmāi</rdg>
+          <rdg wit="#ms0400">ahmāi jast̰ jasat̰ jast̰</rdg>
+          <rdg wit="#ms0410">ahmāi</rdg>
+        </app>
+        <app xml:id="app-Y9.6a-15-16">
+          <lem>āiiaptəm</lem>
+          <rdg wit="#ms0005">āiiaptəm</rdg>
+          <rdg wit="#ms0006">ā̊iiaptəm</rdg>
+          <rdg wit="#ms0015">āiiaptəm</rdg>
+          <rdg wit="#ms0088">āiiapt əm</rdg>
+          <rdg wit="#ms0400">āiiaptəm</rdg>
+          <rdg wit="#ms0410">āiiaptəm</rdg>
+        </app>
+        <app xml:id="app-Y9.7a-3-5">
+          <lem>paitiiaōxta haōmō</lem>
+          <rdg wit="#ms0005">paitiiaōxta haōmō</rdg>
+          <rdg wit="#ms0006">paitiiaō xta haōmō</rdg>
+          <rdg wit="#ms0015">paitiia ōxta haōmō</rdg>
+          <rdg wit="#ms0088">paitiiaōxta h aōmō</rdg>
+          <rdg wit="#ms0400">paitii aoxta haomō</rdg>
+          <rdg wit="#ms0410">paitiia oxta haomō</rdg>
+        </app>
+        <app xml:id="app-Y9.7a-6-7">
+          <lem>dūraōšō</lem>
+          <rdg wit="#ms0005">dī raōšō</rdg>
+          <rdg wit="#ms0006">dīraōšō</rdg>
+          <rdg wit="#ms0015">dīraōšō</rdg>
+          <rdg wit="#ms0088">dīraōšō</rdg>
+          <rdg wit="#ms0400">dūraošō ⁛</rdg>
+          <rdg wit="#ms0410">dūraošō ※</rdg>
+        </app>
+        <app xml:id="app-Y9.7b-0-2">
+          <lem>āϑβiiō mąm</lem>
+          <rdg wit="#ms0005">āϑβiiō mąm</rdg>
+          <rdg wit="#ms0006">āϑ βiiō mąm</rdg>
+          <rdg wit="#ms0015">ā ϑβiiō mąm</rdg>
+          <rdg wit="#ms0088">āϑβiiō m ąm</rdg>
+          <rdg wit="#ms0400">āϑβiiō mą̇m</rdg>
+          <rdg wit="#ms0410">āϑβii ō mą̇m</rdg>
+        </app>
+        <app xml:id="app-Y9.7b-3-7">
+          <lem>maṣ̌iiō astuuaiϑiiāi hunūta gaēϑaiiāi</lem>
+          <rdg wit="#ms0005">maṣ̌iiō ast uuaiϑiiāi hunīta gaēϑaiiāi</rdg>
+          <rdg wit="#ms0006">maṣ̌iiō astuuaiϑ iiāi huīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0015">maš́iiaō astuu aiϑiiāi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0088">maṣ̌iiō astuuaiϑiiāi h unīta gaēϑaiiāi</rdg>
+          <rdg wit="#ms0400">maš́iiō astauuaiϑiiāi hunū ta gaēϑiiāi gaēϑaiiāi gaēϑiiāi gaēϑaiiāi</rdg>
+          <rdg wit="#ms0410">maṣ̌aiiō astuuaiϑiiāi hunūta gaēϑiiāi</rdg>
+        </app>
+        <app xml:id="app-Y9.7b-8-11">
+          <lem>aɱāi aṣ̌iš ərənāuui</lem>
+          <rdg wit="#ms0005">ahmā i aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0006">ahm āi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0015">ahmāi š aṣ̌iš š aṣ̌iš ərənāuue</rdg>
+          <rdg wit="#ms0088">ahmāi y y aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0400">ahmāi ašiš ərənāuua</rdg>
+          <rdg wit="#ms0410">ahmāi aṣ̌iš ərənāuui</rdg>
+        </app>
+        <app xml:id="app-Y9.7b-12-15">
+          <lem>aɱāi jasat̰ āiiaptəm</lem>
+          <rdg wit="#ms0005">ahmāi jasat̰ āiiap təm</rdg>
+          <rdg wit="#ms0006">aɱāi jasat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0015">ahmāi jasat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0088">ahmāi jasa t̰ āiiaptəm</rdg>
+          <rdg wit="#ms0400">ahmāi jasat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0410">ahmāi jasat̰ āiiaptəm</rdg>
+        </app>
+        <app xml:id="app-Y9.7c-0-1">
+          <lem>yat̰</lem>
+          <rdg wit="#ms0005">yat̰</rdg>
+          <rdg wit="#ms0006">yat̰</rdg>
+          <rdg wit="#ms0015">yat̰</rdg>
+          <rdg wit="#ms0088">yat̰</rdg>
+          <rdg wit="#ms0400">ẏat̰</rdg>
+          <rdg wit="#ms0410">yat̰</rdg>
+        </app>
+        <app xml:id="app-Y9.7c-6-8">
+          <lem>sūraiiā̊ ϑraētaōnō</lem>
+          <rdg wit="#ms0005">s īraiiā̊ ϑraētaōnō</rdg>
+          <rdg wit="#ms0006">sīraiiā̊ ϑraētaō nō</rdg>
+          <rdg wit="#ms0015">sīraiiā̊ ϑra ētaōnō</rdg>
+          <rdg wit="#ms0088">sīraiiā̊ ϑraētaō nō</rdg>
+          <rdg wit="#ms0400">sūraiiā̊ ϑraētaonō ⁛</rdg>
+          <rdg wit="#ms0410">sūraiiā̊ ϑraētaonō ※</rdg>
+        </app>
+        <app xml:id="app-Y9.8a-0-1">
+          <lem>yō</lem>
+          <rdg wit="#ms0005">yō</rdg>
+          <rdg wit="#ms0006">yō</rdg>
+          <rdg wit="#ms0015">yō</rdg>
+          <rdg wit="#ms0088">yō</rdg>
+          <rdg wit="#ms0400">ẏō</rdg>
+          <rdg wit="#ms0410">ẏō</rdg>
+        </app>
+        <app xml:id="app-Y9.8a-3-12">
+          <lem>dahākəm ϑri zafanəm ϑri kamərəδəm xšuuaš ašīm hazaŋhrā yaōxštīm</lem>
+          <rdg wit="#ms0005">dah ākəm ϑrizafanəm ϑri kamərəδəm xšauuaš a ṣ̌īm hazaŋrā yaōxštīm</rdg>
+          <rdg wit="#ms0006">dahākəm ϑrə zafanəm ϑrə kamrəδəm xšauuaš aṣ̌ī m hazaŋra yōxštīm</rdg>
+          <rdg wit="#ms0015">dahākəm ϑrizafanəm ϑri kamərəδəm xšauuaš a ṣ̌īm hazaŋrā yaōxštīm</rdg>
+          <rdg wit="#ms0088">dahākəm ϑrə zafanəm ϑrə kamərəδəm xšauuaš aṣ̌ ̣īm hazaŋrā yaōxštīm</rdg>
+          <rdg wit="#ms0400">dahākəm ϑrizafanəm ϑrikamərəδəm xšuuaš aṣ̌īm hazaŋrā ẏaoxštīm ⁛</rdg>
+          <rdg wit="#ms0410">dahākəm ϑrizafanəm ϑrikamərəδəm xšuuaš aṣ̌īm hazaŋrā yaoxštīm ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.8b-0-3">
+          <lem>ašaōjaŋhəm daēuuīm drujim</lem>
+          <rdg wit="#ms0005">ašaōjaŋhə m daēuuəm drujəm</rdg>
+          <rdg wit="#ms0006">aṣ̌aōjaŋhəm daēuuəm drujəm</rdg>
+          <rdg wit="#ms0015">aṣ̌aōja ŋhəm daēuuəm drujəm</rdg>
+          <rdg wit="#ms0088">aṣ̌aō jaŋhəm daēīuuim drujim</rdg>
+          <rdg wit="#ms0400">ašaojaŋhəm daēuuīm drujəm</rdg>
+          <rdg wit="#ms0410">aṣ̌aoja ŋhəm daēuuīm drujim</rdg>
+        </app>
+        <app xml:id="app-Y9.8b-4-6">
+          <lem>gaēϑāuuiiō druuaṇtəm</lem>
+          <rdg wit="#ms0005">gaiϑāuuaiiō druuaṇtą m</rdg>
+          <rdg wit="#ms0006">gaēϑāiiō gaēϑāuuaiiō gaēϑāiiō gaēϑāuuaiiō druu aṇtəm</rdg>
+          <rdg wit="#ms0015">gaēϑāuuaii ō druuaṇtəm</rdg>
+          <rdg wit="#ms0088">gaē ϑāuuaiiō druuaṇtəm</rdg>
+          <rdg wit="#ms0400">gaēϑāuuaiiō drauuaṇtəm ⁛</rdg>
+          <rdg wit="#ms0410">gaēϑāuuiiō druuaṇtəm ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.8c-0-11">
+          <lem>yąm ašaōjastəmąm drujim fraca kərəṇtat̰ aŋhrō maińiiuš auui yąm astuuaitīm gaēϑąm</lem>
+          <rdg wit="#ms0005">yąm ašaōjastəmąm drujəm fraca kə rətat̰ kə rəṇtat̰ kərətat̰ kərəṇtat̰ aŋrō maińiiuš aōui yąm astuait īm gaēϑąm</rdg>
+          <rdg wit="#ms0006">yąm aṣ̌aōjastəmąm drujəm fraca kərəṇtat̰ aŋrō maińiiə̄uš aōui yąm astuuaitīm gaēϑąm</rdg>
+          <rdg wit="#ms0015">yąm aṣ̌aōjastəmąm d rujəm paraca kərəṇtat̰ aŋrō maińiiə̄ uš aōui yąm astuuaitīm gaēϑąm</rdg>
+          <rdg wit="#ms0088">yąm aṣ̌ aō jastəmąm drujəm fraca kərəṇtat̰ aŋrō maińiiuš aōi yąm astuuait īm gaēϑąm</rdg>
+          <rdg wit="#ms0400">ẏą̇m aṣ̌aojastəmą̇m drujim fraca kərəṇtat̰ aŋrō mainiiuš aoi ẏą̇m astauuaiṇtīm gaēϑą̇m</rdg>
+          <rdg wit="#ms0410">ẏą̇m ašaojastəm ą̇m drujəm fraca kərəṇtat̰ aŋrō mainiiuš aoi ẏą̇m astuuaiṇtīm gaēϑą̇m</rdg>
+        </app>
+        <app xml:id="app-Y9.8c-12-14">
+          <lem>aṣ̌ahe gaēϑanąm</lem>
+          <rdg wit="#ms0005">aṣ̌ahe gaēϑanąm</rdg>
+          <rdg wit="#ms0006">aṣ̌ahe gaēϑanąm</rdg>
+          <rdg wit="#ms0015">aṣ̌ahe gaēϑąm gaēϑanąm</rdg>
+          <rdg wit="#ms0088">aṣ̌ahe g aēϑanąm</rdg>
+          <rdg wit="#ms0400">ašah e gaeϑaną̇m ⁛</rdg>
+          <rdg wit="#ms0410">aṣ̌ahe gaēϑaną̇m ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.9a-0-16">
+          <lem>kasə ϑβąm ϑritiiō haōma maṣ̌iiō astuuaiϑiiāi hunūta gaēϑaiiāi kā aɱāi aṣ̌iš ərənāuui cit̰ aɱāi jasat̰ āiiaptəm</lem>
+          <rdg wit="#ms0005">ϑβąm ksa ϑβąm ϑβąm ksaϑβąm ϑritiiō haōma maš́iiō astuuaiϑiiāastuuaiϑiiāi astuuaiϑiiāastuuaiϑiiāi hunīta gaēϑaiiāi kā ahmāi aṣ̌əš ərə nāuui cit̰ ahmāi jasat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0006">kasi ϑβąm ϑrətiiō hama maṣ̌iiō stuu aitiiāi hunīta gaēϑiiāi kā aɱāi aṣ̌əš ərənāuue cit̰ ahmāi jasat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0015">kasə ϑβ ąm ϑritiiō haōma maš́iiō astuua iϑiiāi hunīta gaēϑiiāi kā ah māi aṣ̌əš ərənāuue cit̰ ahmāi j asat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0088">kasə ϑβąm ϑrətiiō haōm a maṣ̌iiō astuuaitiiāi hunīta g aēϑiiāi kā ahmāi aṣ̌əš ərənāuu e cit̰ ahmāi jasat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0400">kō ϑβą̇m ẏim ahurəm mazdą̇m ⁛</rdg>
+          <rdg wit="#ms0410">kasə ϑβą̇m ϑritiiō haoma maṣ̌iiō astuuaiϑiiāi hunūta ga ēϑiiāi kā ahmāi aṣ̌iš ərənāuui cit̰ ahmāi jasat̰ āiiaptəm</rdg>
+        </app>
+        <app xml:id="app-Y9.10a-0-1">
+          <lem>āat̰</lem>
+          <rdg wit="#ms0005">āat̰</rdg>
+          <rdg wit="#ms0006">āat̰</rdg>
+          <rdg wit="#ms0015">āat̰</rdg>
+          <rdg wit="#ms0088">ā at̰</rdg>
+          <rdg wit="#ms0400">āat̰</rdg>
+          <rdg wit="#ms0410">āat̰</rdg>
+        </app>
+        <app xml:id="app-Y9.10a-3-5">
+          <lem>paitiiaōxta haōmō</lem>
+          <rdg wit="#ms0005">paitiiaōxta haōmō</rdg>
+          <rdg wit="#ms0006">pa iti aōxta haōmō</rdg>
+          <rdg wit="#ms0015">p aitiiaōxta haōmō</rdg>
+          <rdg wit="#ms0088">paitiiaōxta haōmō</rdg>
+          <rdg wit="#ms0400">paitiiaoxta h aomō</rdg>
+          <rdg wit="#ms0410">paitiiaōxta haomō</rdg>
+        </app>
+        <app xml:id="app-Y9.10a-6-7">
+          <lem>dūraōšō</lem>
+          <rdg wit="#ms0005">dī raōšō</rdg>
+          <rdg wit="#ms0006">dī raōšō</rdg>
+          <rdg wit="#ms0015">aṣ̌ auua dīraōšō</rdg>
+          <rdg wit="#ms0088">dīraōšō</rdg>
+          <rdg wit="#ms0400">dūraošō ⁛</rdg>
+          <rdg wit="#ms0410">dūraošō ※</rdg>
+        </app>
+        <app xml:id="app-Y9.10b-0-9">
+          <lem>ϑritō sāmanąm səuuištō ϑritiiō mąm maṣ̌iiō astuuaiϑiiāi hunūta gaēϑaiiāi</lem>
+          <rdg wit="#ms0005">ϑritō sāmanąm siuuištō ϑritiiō mąm maš́iiō astuuaiϑiiāi hunīta gaē ϑaiiāi</rdg>
+          <rdg wit="#ms0006">ϑrətō sāmanąm səuuištō ϑritiiō mąm maš́iiō astuuaitiiā i hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0015">ϑritō sāmanąm sə uuištō ϑritiiō mąm maš́iiō astuua iϑiiāi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0088">ϑrətō sāmanąm səuuištō ϑrətiiō mąm maṣ̌iiō a stuuaiϑiiāi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0400">ϑritō sāmaną̇m səuuištō ϑritiiō mą̇m maṣ̌iiō astuuai ϑiiāi hunūta gaēϑiiāi</rdg>
+          <rdg wit="#ms0410">ϑritō ϑritiiō ϑritō ⁛sāmaną̇m səuuištō ϑritiiō mą̇m maṣ̌iiō astuuai ϑiiāi hunūta gaēϑiiāi</rdg>
+        </app>
+        <app xml:id="app-Y9.10b-10-13">
+          <lem>aɱāi aṣ̌iš ərənāuui</lem>
+          <rdg wit="#ms0005">ahmāi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0006">aɱāi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0015">ah māi aṣ̌iš ərənāuue</rdg>
+          <rdg wit="#ms0088">ahmāi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0400">ahmāi ašiš ərənāuua</rdg>
+          <rdg wit="#ms0410">ahmāi a šiš ərənāuui</rdg>
+        </app>
+        <app xml:id="app-Y9.10b-14-17">
+          <lem>aɱāi jasat̰ āiiaptəm</lem>
+          <rdg wit="#ms0005">ahmāi jasat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0006">aɱāi jasat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0015">ahmāi j asat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0088">ahmāi jasat̰ āiiaptəm</rdg>
+          <rdg wit="#ms0400">ahmāi jasat̰ ā iiaptəm ⁛</rdg>
+          <rdg wit="#ms0410">ahmāi jasat̰ āiiap təm ※</rdg>
+        </app>
+        <app xml:id="app-Y9.10c-0-1">
+          <lem>yat̰</lem>
+          <rdg wit="#ms0005">yat̰</rdg>
+          <rdg wit="#ms0006">yat̰</rdg>
+          <rdg wit="#ms0015">yat̰</rdg>
+          <rdg wit="#ms0088">yat̰</rdg>
+          <rdg wit="#ms0400">ẏat̰</rdg>
+          <rdg wit="#ms0410">ẏat̰</rdg>
+        </app>
+        <app xml:id="app-Y9.10c-2-3">
+          <lem>puϑra</lem>
+          <rdg wit="#ms0005">puϑ rō</rdg>
+          <rdg wit="#ms0006">puϑra</rdg>
+          <rdg wit="#ms0015">puϑra</rdg>
+          <rdg wit="#ms0088">puϑra</rdg>
+          <rdg wit="#ms0400">pu ϑra</rdg>
+          <rdg wit="#ms0410">puϑrō</rdg>
+        </app>
+        <app xml:id="app-Y9.10c-4-5">
+          <lem>zaiiōiϑe</lem>
+          <rdg wit="#ms0005">zaiiaōiϑe</rdg>
+          <rdg wit="#ms0006">za iiōiϑe</rdg>
+          <rdg wit="#ms0015">zaiiōiϑe</rdg>
+          <rdg wit="#ms0088">zaiiōiϑe</rdg>
+          <rdg wit="#ms0400">zaiiōiϑe</rdg>
+          <rdg wit="#ms0410">zaiiaiti</rdg>
+        </app>
+        <app xml:id="app-Y9.10c-6-7">
+          <lem>kərəsāspasca</lem>
+          <rdg wit="#ms0005">kərəsāsps ca</rdg>
+          <rdg wit="#ms0006">kərəsāspasca</rdg>
+          <rdg wit="#ms0015">kərəsā spasca</rdg>
+          <rdg wit="#ms0088">kərəsāspasca</rdg>
+          <rdg wit="#ms0400">kərəs āspasca ⁛</rdg>
+          <rdg wit="#ms0410">kərəšāspasca</rdg>
+        </app>
+        <app xml:id="app-Y9.10d-1-3">
+          <lem>ańiiō dātō</lem>
+          <rdg wit="#ms0005">ańiiō dātō</rdg>
+          <rdg wit="#ms0006">ańiiō dātō</rdg>
+          <rdg wit="#ms0015">ańiō ańiiō ańiō ańiiō dātō</rdg>
+          <rdg wit="#ms0088">ańiiō dāt ō</rdg>
+          <rdg wit="#ms0400">a niiō dātō</rdg>
+          <rdg wit="#ms0410">aniiō aniiō aniiō aniiō dātō</rdg>
+        </app>
+        <app xml:id="app-Y9.10e-1-2">
+          <lem>ańiiō</lem>
+          <rdg wit="#ms0005">ańiiō</rdg>
+          <rdg wit="#ms0006">ańiiō</rdg>
+          <rdg wit="#ms0015">ańiiō</rdg>
+          <rdg wit="#ms0088">ańiiō</rdg>
+          <rdg wit="#ms0400">an iiō</rdg>
+          <rdg wit="#ms0410">aniiō</rdg>
+        </app>
+        <app xml:id="app-Y9.10e-3-7">
+          <lem>kairiiō yuua gaēsuš gaδauuarō</lem>
+          <rdg wit="#ms0005">kairiiō yauua aēsuš gaēsuš aēsuš gaēsuš gaduuarō</rdg>
+          <rdg wit="#ms0006">kairiiō yauuat̰ gaē suš gaδauuarō</rdg>
+          <rdg wit="#ms0015">kairiiō yauuat̰ gaēsuš gaδauuarō</rdg>
+          <rdg wit="#ms0088">kairii ō yauua gaēsuš gaδauuarō</rdg>
+          <rdg wit="#ms0400">kairiiō ẏauua gaēsuš gaδauuarō</rdg>
+          <rdg wit="#ms0410">kairiiō ẏauua gaēsuš gaδauuarō</rdg>
+        </app>
+        <app xml:id="app-Y9.11a-0-12">
+          <lem>yō janat̰ ažīm sruuarəm yim aspō garəm nərə garəm yim vīšauuaṇtəm zairitəm</lem>
+          <rdg wit="#ms0005">yō j anat̰ ažīm suruuarəm yim aspō garəm nəre garəm yəm vīšauuaṇtəm zairitəm</rdg>
+          <rdg wit="#ms0006">yō janat̰ ažə̄m sruuarəm yim aspō garəm nəri ga rəm yim vīšauuaṇtəm zairətəm</rdg>
+          <rdg wit="#ms0015">yō janat̰ a žīm saruuarəm yim aspō garəm nə rə garəm yim vaēšauuaṇtəm zairi təm</rdg>
+          <rdg wit="#ms0088">y ō janat̰ ažīm sruuarəm yim aspō garəm nəri garəm yim vīṣ̌auuaṇ təm zairitəm</rdg>
+          <rdg wit="#ms0400">ẏō janat̰ ažīm sruuarəm ẏim a spō garəm nərə garəm ẏim vīšauuaṇtəm zairitəm</rdg>
+          <rdg wit="#ms0410">ẏō janat̰ ažīm sruuarəm ẏim aspō ga rəm nərə garəm ẏim vīšauuaṇtəm zairitəm</rdg>
+        </app>
+        <app xml:id="app-Y9.11b-0-7">
+          <lem>yim upairi vīš ⁺araōδat̰ ārštiiō barəza zairitəm</lem>
+          <rdg wit="#ms0005">yim upairi vīš raōδat̰ ārəštaiiō barəz a zaritəm</rdg>
+          <rdg wit="#ms0006">yim upairi vəšaraōδat̰ ārəšta iiō barəza zairitəm</rdg>
+          <rdg wit="#ms0015">yim vīšauuaṇtəvīšauuaṇtəupairi vīš araōδat̰ ārəštaiiō bərəza zairitəm</rdg>
+          <rdg wit="#ms0088">yəm upairi vīš raō δat̰ ārəštiiō barəza zairətəm</rdg>
+          <rdg wit="#ms0400">ẏim upairi vi š raodat̰ raorat̰ raodat̰ raorat̰ ārištiiō barəza zairitəm</rdg>
+          <rdg wit="#ms0410">ẏim upairi vīš raodrat̰ ārəštiiō barəza zairitəm</rdg>
+        </app>
+        <app xml:id="app-Y9.11c-0-6">
+          <lem>yim upairi kərəsāspō aiiaŋha pitūm pacata</lem>
+          <rdg wit="#ms0005">yim upairi kərəsāspō aiiaŋ ha paitīm pacata</rdg>
+          <rdg wit="#ms0006">yim upairi kə rəsāspō aiiaŋha paitīm pacat a</rdg>
+          <rdg wit="#ms0015">yim upairi kərəsāspō aiiaŋha p itīm pacata</rdg>
+          <rdg wit="#ms0088">y əm upairi kərəsāspō aiiaŋha p itīm pacata</rdg>
+          <rdg wit="#ms0400">xšuuaēpaiia vanaiiata barəšna ⁛</rdg>
+          <rdg wit="#ms0410">ẏim upai ri kərəšāspō aiiaŋha paitīm pacata</rdg>
+        </app>
+        <app xml:id="app-Y9.11d-0-7">
+          <lem>ā rapiϑβinəm zruuānəm tafsat̰ca hō mairiiō xᵛīsat̰ca</lem>
+          <rdg wit="#ms0005">ā rapβanəm rapiϑβanəm rapβanəm rapiϑβanəm zruuānə m tafsat̰ca haōmairiiō xᵛīsat̰ca</rdg>
+          <rdg wit="#ms0006">ā rapiϑβanəm zauruuānəm tafs at̰ca hō mairiiō xᵛīsat̰ca</rdg>
+          <rdg wit="#ms0015">ā rapiϑβənəm zaur uuānəm tafsat̰ca hō mairiiō xᵛ īsat̰ca</rdg>
+          <rdg wit="#ms0088">ā rapiϑβainəm za uruuānəm tafsat̰ca hō mairiiō xᵛ īsat̰ca</rdg>
+          <rdg wit="#ms0400">ẏim upairi kərəsā spō aiiaŋha paitīm pacata ⁛</rdg>
+          <rdg wit="#ms0410">ā rapiϑβinəm zaruuā nəm tafsaδca hō mairiiō x́īsat̰ca ※</rdg>
+        </app>
+        <app xml:id="app-Y9.11e-0-6">
+          <lem>frąš aiiaŋhō frasparat̰ yaēš́iiaṇtīm āpəm parā̊ŋ́hāt̰</lem>
+          <rdg wit="#ms0005">fraąš aiiaŋhō frasparat̰ yīšaiiaṇ tīm āpəm frā̊ŋhāt̰</rdg>
+          <rdg wit="#ms0006">frą šaiiaŋhō frasparat̰ yaeš́iiaṇtī m āpəm parā̊ŋhāt̰</rdg>
+          <rdg wit="#ms0015">frąšaiiaŋhō fraspəra t̰ yaēšaiiaṇtəm āpəm frā̊ŋhāt̰</rdg>
+          <rdg wit="#ms0088">frąš aiiaŋhō frasparat̰ yaēš́iiaṇtīm āpəm parā̊ŋhāt̰</rdg>
+          <rdg wit="#ms0400">ā rapiϑβinəm z ruuānəm tafsaδca hō mairiiō xᵛīs at̰ca ⁛</rdg>
+          <rdg wit="#ms0410">frą̇š aiiaŋhō frasparat̰ ẏaešaii aṇtīm āpəm parā̊ŋ́hāt̰</rdg>
+        </app>
+        <app xml:id="app-Y9.11f-0-6">
+          <lem>parąš tarštō apatacat̰ naire manā̊ kərəsāspō</lem>
+          <rdg wit="#ms0005">parąštarštō ap atacat̰ nairi manā̊ kərəsāspō</rdg>
+          <rdg wit="#ms0006">prąštaršta a patacit̰ nairəmanā̊ kərəsāspō</rdg>
+          <rdg wit="#ms0015">frąštarštō apatacit̰ nairimanā̊ kərəsāspō</rdg>
+          <rdg wit="#ms0088">parąš tarštō apatacat̰ nairəm anā̊ kərəsāspō</rdg>
+          <rdg wit="#ms0400">frą̇š aiiaŋhō frasparat̰ ẏaēšiia ṇtīm āpəm parā̊ŋ́hāt̰ ⁛</rdg>
+          <rdg wit="#ms0410">parą̇š tarštō apatacit̰ nairi manā̊ kərəšāspō ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.12a-0-8">
+          <lem>kasə ϑβąm tūiriiō haōma maṣ̌iiō astuuaiϑiiāi hunūta gaēϑaiiāi</lem>
+          <rdg wit="#ms0005">ksi ϑβąm tīiriiō haōma maš́iiō astuuaiϑiiāi hun īta gaēϑaiiāi</rdg>
+          <rdg wit="#ms0006">kasi ϑβąm tīiriiō haōma maš́iiō a stuuaiϑiiāi hunīta gaēϑaiiāi</rdg>
+          <rdg wit="#ms0015">kasə ϑβąm tīiriiō ha ōma maš́iiō astuuaiϑiiāi hunī ta gaēϑiiāi</rdg>
+          <rdg wit="#ms0088">kasə ϑβąm tī iriiō haōma maṣ̌iiō astuuaiϑii āi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0400">kase ϑβą̇m tūiriiō haoma maṣ̌iiō as tuuaiϑiiāi hunūta gaeϑaiiāi</rdg>
+          <rdg wit="#ms0410">kasə ϑβą̇m tūiriiō haoma maṣ̌iiō astuuaiϑiiāi hunūta gaēϑiiāi</rdg>
+        </app>
+        <app xml:id="app-Y9.12a-9-12">
+          <lem>aɱāi aṣ̌iš ərənāuui</lem>
+          <rdg wit="#ms0005">ahmāi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0006">aɱāi aṣ̌əš ərənāuui</rdg>
+          <rdg wit="#ms0015">ahmāi aṣ̌iš ərənāuue</rdg>
+          <rdg wit="#ms0088">ah māi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0400">ahm āi ašiš ərənāuua</rdg>
+          <rdg wit="#ms0410">ahmāi aṣ̌iš ərənāuui</rdg>
+        </app>
+        <app xml:id="app-Y9.12a-13-14">
+          <lem>aɱāi</lem>
+          <rdg wit="#ms0005">ahmāi</rdg>
+          <rdg wit="#ms0006">aɱ āi</rdg>
+          <rdg wit="#ms0015">ahmāi</rdg>
+          <rdg wit="#ms0088">ahmāi</rdg>
+          <rdg wit="#ms0400">ahmāi</rdg>
+          <rdg wit="#ms0410">ahmāi</rdg>
+        </app>
+        <app xml:id="app-Y9.12a-15-16">
+          <lem>āiiaptəm</lem>
+          <rdg wit="#ms0005">āiiaptəm</rdg>
+          <rdg wit="#ms0006">āiiaptəm</rdg>
+          <rdg wit="#ms0015">āiia ptəm</rdg>
+          <rdg wit="#ms0088">āiiaptəm</rdg>
+          <rdg wit="#ms0400">ā iiaptəm ⁛</rdg>
+          <rdg wit="#ms0410">āiiptəm ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.13a-2-7">
+          <lem>aēm paitiiaōxta haōmō aṣ̌auua dūraōšō</lem>
+          <rdg wit="#ms0005">aē m paitiiaōxta haōmō aṣ̌auua dīraōšō</rdg>
+          <rdg wit="#ms0006">aē m paitiiaōxta haōmō aṣ̌auua dīraōšō</rdg>
+          <rdg wit="#ms0015">aēm paitiiaōxta haōmō aṣ̌auua dīraōšō</rdg>
+          <rdg wit="#ms0088">aēm p aitiiaōxta haōmō aṣ̌auua dīraō šō</rdg>
+          <rdg wit="#ms0400">aēm paitiiaoxta haomō ašauu dūraošō ⁛</rdg>
+          <rdg wit="#ms0410">aēm paiti aoxta haomō aṣ̌auua dūraošō</rdg>
+        </app>
+        <app xml:id="app-Y9.13b-0-7">
+          <lem>pourušaspō mąm tūiriiō maṣ̌iiō astuuaiϑiiāi hunūta gaēϑaiiāi</lem>
+          <rdg wit="#ms0005">p ōuru šaspō mąm tīiriiō maš́iiō astuu aiϑiiāi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0006">paōurušaspō mąm tīiriiō maṣ̌iiō astuuaiϑiiāi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0015">paōuruša spō mąm tīiriiō maš́iiō astuua iϑiiāi hunīta gaēϑiiāi</rdg>
+          <rdg wit="#ms0088">paōurušaspō mąm tīiriiō m aṣ̌iiō astuuaiϑiiāi hunīta gaē ϑiiāi</rdg>
+          <rdg wit="#ms0400">paouruṣ̌aspō mą̇m tūiriiō ma ṣ̌aiiō astauuaiϑiiāi hunūta gaēϑaii āi</rdg>
+          <rdg wit="#ms0410">paōurušaspō pōurušaspō paōurušaspō pōurušaspō mą̇m tūiriiō maṣ̌iiō hunuuaē hunuuaē astuuaiϑii āi hunūta gaēϑiiāi</rdg>
+        </app>
+        <app xml:id="app-Y9.13b-8-11">
+          <lem>aɱāi aṣ̌iš ərənāuui</lem>
+          <rdg wit="#ms0005">ahmāi a ṣ̌əš ərənāuuə</rdg>
+          <rdg wit="#ms0006">aɱāi aṣ̌əš ərənā uue</rdg>
+          <rdg wit="#ms0015">ah māi aṣ̌əš ərənāuue</rdg>
+          <rdg wit="#ms0088">ahmāi aṣ̌əš ərənāuu e</rdg>
+          <rdg wit="#ms0400">ahmāi ašiš ərənāuua</rdg>
+          <rdg wit="#ms0410">ahmāi aṣ̌iš ərənāuui</rdg>
+        </app>
+        <app xml:id="app-Y9.13b-12-13">
+          <lem>aɱāi</lem>
+          <rdg wit="#ms0005">ahmāi</rdg>
+          <rdg wit="#ms0006">aɱāi</rdg>
+          <rdg wit="#ms0015">ahmāi</rdg>
+          <rdg wit="#ms0088">ahmāi</rdg>
+          <rdg wit="#ms0400">ahmāi</rdg>
+          <rdg wit="#ms0410">ahmāi</rdg>
+        </app>
+        <app xml:id="app-Y9.13b-14-15">
+          <lem>āiiaptəm</lem>
+          <rdg wit="#ms0005">āiiapt əm</rdg>
+          <rdg wit="#ms0006">āiiapt əm</rdg>
+          <rdg wit="#ms0015">āiiaptəm</rdg>
+          <rdg wit="#ms0088">āiiaptəm</rdg>
+          <rdg wit="#ms0400">āiiaptəm</rdg>
+          <rdg wit="#ms0410">ā iiptəm ※</rdg>
+        </app>
+        <app xml:id="app-Y9.13c-0-1">
+          <lem>yat̰</lem>
+          <rdg wit="#ms0005">yat̰</rdg>
+          <rdg wit="#ms0006">yat̰</rdg>
+          <rdg wit="#ms0015">yat̰</rdg>
+          <rdg wit="#ms0088">yat̰</rdg>
+          <rdg wit="#ms0400">ẏat̰</rdg>
+          <rdg wit="#ms0410">ẏat̰</rdg>
+        </app>
+        <app xml:id="app-Y9.13c-2-3">
+          <lem>tūm</lem>
+          <rdg wit="#ms0005">tīm</rdg>
+          <rdg wit="#ms0006">tə̄m</rdg>
+          <rdg wit="#ms0015">tīm</rdg>
+          <rdg wit="#ms0088">tīm</rdg>
+          <rdg wit="#ms0400">tūm</rdg>
+          <rdg wit="#ms0410">tūm</rdg>
+        </app>
+        <app xml:id="app-Y9.13c-5-13">
+          <lem>tūm ərəzuuō zaraϑuštra nmānahe pourušaspahe vīdaēuuō ahura t̰kaēšō</lem>
+          <rdg wit="#ms0005">tīm ərəz uuō zaraϑuštra nmānahe pourušaspahe vīdaēuuō ahura t̰kaēšō</rdg>
+          <rdg wit="#ms0006">tī m ərəzuuō zaraϑuštra nmānahe paō uru šaspahe vīdaēuuō ahura t̰kaēš42r ō</rdg>
+          <rdg wit="#ms0015">tīm ərəzuuō zaraϑuštra nmānahe paōurušaspahe vīdaēuu o ahura t̰kaēšō</rdg>
+          <rdg wit="#ms0088">tī m ərəzauuō zaraϑuštra nəmānahe paourušaspahe vīdaēuuō ahura t̰kaēšō</rdg>
+          <rdg wit="#ms0400">tūm ərəzuuō zaraϑuš tra nmānahe paourušaspahe vīdaeuuō ahu ra t̰kaešō ⁛</rdg>
+          <rdg wit="#ms0410">tūm ərəzuuō z araϑuštra nmānahe pourušaspahe vīdaēuuō ahura t̰kaēšō</rdg>
+        </app>
+        <app xml:id="app-Y9.14a-0-5">
+          <lem>srūtō airiiene vaējahi tūm paōiriiō</lem>
+          <rdg wit="#ms0005">srītō airiiane vījahe tīm paōiriiō</rdg>
+          <rdg wit="#ms0006">srītō airiieni vījahe tīm paōiriiō</rdg>
+          <rdg wit="#ms0015">srītō airiiəne v ījahe tīm paōiriiō</rdg>
+          <rdg wit="#ms0088">srītō airiiane vījahe tīm paōiriiō</rdg>
+          <rdg wit="#ms0400">srūtō airiiene vaejahe tūm paoiriiō</rdg>
+          <rdg wit="#ms0410">srūtō airiiene vaējahe tūm paoiriiō</rdg>
+        </app>
+        <app xml:id="app-Y9.14a-6-11">
+          <lem>ahunəm vairīm frasrāuuaiiō vībərəϑβaṇtəm āxtūirīm</lem>
+          <rdg wit="#ms0005">ahun əm vairīm frasrāuuaiiō vībərəϑβəṇt əm āxtīirīm</rdg>
+          <rdg wit="#ms0006">ahunəm vairīm frasrāuuaiiō və̄ bərəϑβaṇtəm āht īirīm āxᵛt īirīm āhtīirīm āxᵛtīirīm</rdg>
+          <rdg wit="#ms0015">a hunəm vairīm frasrāuuaiiō vī bərəϑ βaṇtəm āxtīirīm</rdg>
+          <rdg wit="#ms0088">ahunəm v airīm frasrāuuaiiō vī bərəϑβaṇtəm āxtīirīm</rdg>
+          <rdg wit="#ms0400">ahunəm vairīm frasrā uuaiiō vībərəϑβəṇtəm āxtūirīm</rdg>
+          <rdg wit="#ms0410">ahunəm vairīm fr asrāuuaiiō vī bərəϑβəṇtəm āxtūirīm</rdg>
+        </app>
+        <app xml:id="app-Y9.14b-1-3">
+          <lem>xraōždiiehiia frasrūiti</lem>
+          <rdg wit="#ms0005">xraōždiieiia fra srīiti</rdg>
+          <rdg wit="#ms0006">xraōždaiiehiia frasrīite</rdg>
+          <rdg wit="#ms0015">xraō ždaiiehe frasrīite</rdg>
+          <rdg wit="#ms0088">xraōždaiiehii a frasrīite</rdg>
+          <rdg wit="#ms0400">xraoždaiiehiiā frasrūiti</rdg>
+          <rdg wit="#ms0410">xraoždiiehiiā frasrūiti</rdg>
+        </app>
+        <app xml:id="app-Y9.15a-0-4">
+          <lem>tūm zəmargūzō ākərənauuō vīspe</lem>
+          <rdg wit="#ms0005">tīm zəmargīzō ākərənuuō vīs pa</rdg>
+          <rdg wit="#ms0006">tīm zəmarəgīzō ākərəna uuō vīspe</rdg>
+          <rdg wit="#ms0015">tīm zəma rəgīzō ākərənauuō vīspe</rdg>
+          <rdg wit="#ms0088">tīm zəmarəgīzō ā kərənauuō vīspe</rdg>
+          <rdg wit="#ms0400">tūm zəmargūzō ākərənuuō vīspe</rdg>
+          <rdg wit="#ms0410">tūm zəmar gūzō ākərənuuō vīspe</rdg>
+        </app>
+        <app xml:id="app-Y9.15a-5-7">
+          <lem>zaraϑuštra yōi</lem>
+          <rdg wit="#ms0005">zaraϑuštra yōi</rdg>
+          <rdg wit="#ms0006">zaraϑuštra y ōi</rdg>
+          <rdg wit="#ms0015">zaraϑuštra yōi</rdg>
+          <rdg wit="#ms0088">zaraϑuštra yōi</rdg>
+          <rdg wit="#ms0400">zaraϑuštra ẏō</rdg>
+          <rdg wit="#ms0410">zaraϑ uštra ẏō</rdg>
+        </app>
+        <app xml:id="app-Y9.15a-8-12">
+          <lem>aɱāt̰ vīrō raōδa apataiiən</lem>
+          <rdg wit="#ms0005">ahmāt̰ vīrō raōδa apataiiən</rdg>
+          <rdg wit="#ms0006">aɱāt̰ vīrō raōδa apataiiən</rdg>
+          <rdg wit="#ms0015">ahmāt̰ v īrō raōδa apataiiən</rdg>
+          <rdg wit="#ms0088">ahmāt̰ vīrō raōδa a pataiiən</rdg>
+          <rdg wit="#ms0400">ahmāt̰ vīrō raoδa apataiiən</rdg>
+          <rdg wit="#ms0410">ahmāt̰ vīrō raōδa apataiiən</rdg>
+        </app>
+        <app xml:id="app-Y9.15a-13-15">
+          <lem>āiia zəmā</lem>
+          <rdg wit="#ms0005">āiia zəmā</rdg>
+          <rdg wit="#ms0006">āiiazəmā</rdg>
+          <rdg wit="#ms0015">ā iiazəmā</rdg>
+          <rdg wit="#ms0088">āiiazəmā</rdg>
+          <rdg wit="#ms0400">āiiazəmā ⁛</rdg>
+          <rdg wit="#ms0410">āiiazəmā ※</rdg>
+        </app>
+        <app xml:id="app-Y9.15b-0-11">
+          <lem>yō aōjištō yō taṇcištō yō ϑβaxšištō yō āsištō yō ⁺aš vərəϑrająstəmō</lem>
+          <rdg wit="#ms0005">yō aōjištō yō taṇcištō yō ϑ βaxšištō yō āsištō yōasa v ərəϑrająstəmō abaat̰</rdg>
+          <rdg wit="#ms0006">yō aōjəštō yō taṇcištō yō ϑβ axšištō yō āsištō yō as v ərəϑrająstəmō</rdg>
+          <rdg wit="#ms0015">yō aōjištō yō taṇj ištō yō ϑβaxšəštō yō āsišt ō yō as vərəϑrająstəmō</rdg>
+          <rdg wit="#ms0088">yō aō jištō yō taṇcištō yō ϑβa xšəštō yō āsəštō yō as və rəϑrająstəmō</rdg>
+          <rdg wit="#ms0400">ẏō aojištō ẏō taṇcištō ẏō ϑβaxšištō ẏō āsi štō ẏō as vərəϑrają̇stəmō</rdg>
+          <rdg wit="#ms0410">ẏō aojištō ẏō taṇc ištō ẏō ϑβaxšištō ẏō āsištō ẏō as vərəϑrają̇stəmō</rdg>
+        </app>
+        <app xml:id="app-Y9.15b-12-14">
+          <lem>mańiuuā̊ dāmąn</lem>
+          <rdg wit="#ms0005">abaat̰ abauuat̰ maiuuā̊ mainiiuuā̊ maiuuā̊ mainiiuuā̊ dāmąn</rdg>
+          <rdg wit="#ms0006">maińiuuā̊ dāmąn</rdg>
+          <rdg wit="#ms0015">maińiuuā̊ dāmąn</rdg>
+          <rdg wit="#ms0088">mańiuuā̊ dāmąn</rdg>
+          <rdg wit="#ms0400">mainiuuā̊ dāmą̇n ⁛</rdg>
+          <rdg wit="#ms0410">maini uuā̊ dāmą̇n ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.16a-1-3">
+          <lem>aōxta zaraϑuštrō</lem>
+          <rdg wit="#ms0005">aōxta zaraϑuštrō</rdg>
+          <rdg wit="#ms0006">aōxta zaraϑuštrō</rdg>
+          <rdg wit="#ms0015">aōxta zara ϑuštrō</rdg>
+          <rdg wit="#ms0088">aōxta zaraϑuštrō</rdg>
+          <rdg wit="#ms0400">aoxta zaraϑuštrō</rdg>
+          <rdg wit="#ms0410">aoxta zara ϑuštrō</rdg>
+        </app>
+        <app xml:id="app-Y9.16a-4-5">
+          <lem>haōmāi</lem>
+          <rdg wit="#ms0005">haōmāi</rdg>
+          <rdg wit="#ms0006">haōmāi</rdg>
+          <rdg wit="#ms0015">haōmāi</rdg>
+          <rdg wit="#ms0088">haōmāi</rdg>
+          <rdg wit="#ms0400">haomāi ⁛</rdg>
+          <rdg wit="#ms0410">haomāi ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.16b-1-6">
+          <lem>haōmō huδātō haōmō arš dātō</lem>
+          <rdg wit="#ms0005">haōmō huδātō haōmō arəš dātō</rdg>
+          <rdg wit="#ms0006">haōmō hu δātō haōmō arəš dātō</rdg>
+          <rdg wit="#ms0015">haō mō huδātō haōmō arš dātō</rdg>
+          <rdg wit="#ms0088">haōmō huδātō haōmō arš dātō</rdg>
+          <rdg wit="#ms0400">haomō huδātō haomō arš dātō</rdg>
+          <rdg wit="#ms0410">haomō huδātō haomō aršdātō ※</rdg>
+        </app>
+        <app xml:id="app-Y9.16c-0-1">
+          <lem>vaŋhuš</lem>
+          <rdg wit="#ms0005">vaŋhuš</rdg>
+          <rdg wit="#ms0006">vaŋhuš</rdg>
+          <rdg wit="#ms0015">va ŋhuš</rdg>
+          <rdg wit="#ms0088">va ŋhuš</rdg>
+          <rdg wit="#ms0400">vaŋhuš</rdg>
+          <rdg wit="#ms0410">vaŋhuš</rdg>
+        </app>
+        <app xml:id="app-Y9.16c-2-3">
+          <lem>baēšaziiō</lem>
+          <rdg wit="#ms0005">baēšaziiō</rdg>
+          <rdg wit="#ms0006">baēšaziiō</rdg>
+          <rdg wit="#ms0015">baēšaziiō</rdg>
+          <rdg wit="#ms0088">baēšaziiō</rdg>
+          <rdg wit="#ms0400">baešaziiō ⁛</rdg>
+          <rdg wit="#ms0410">baēšaziiō</rdg>
+        </app>
+        <app xml:id="app-Y9.16d-0-2">
+          <lem>hukərəfš huuarəš</lem>
+          <rdg wit="#ms0005">hukərəf š huuərəš huuərəš</rdg>
+          <rdg wit="#ms0006">hukərəfš huuarəš</rdg>
+          <rdg wit="#ms0015">hukərəfš huu arəš</rdg>
+          <rdg wit="#ms0088">hukərəfš huuarəš</rdg>
+          <rdg wit="#ms0400">hukərəfš huuərəš ⁛</rdg>
+          <rdg wit="#ms0410">hukərəfš huuərə š ※</rdg>
+        </app>
+        <app xml:id="app-Y9.16e-1-4">
+          <lem>zairi gaōnō nąmiiąsuš</lem>
+          <rdg wit="#ms0005">zairi gaōnō nąmiiąsuš</rdg>
+          <rdg wit="#ms0006">zairi gaōnō nąmiiąsu š</rdg>
+          <rdg wit="#ms0015">zairi gaōnō nąmii ąsuš</rdg>
+          <rdg wit="#ms0088">zairi gaōnō nąmiiąsuš</rdg>
+          <rdg wit="#ms0400">zairi gaonō ną̇miią̇suš ⁛</rdg>
+          <rdg wit="#ms0410">zairiga onō zai riga onō zairigaonō zai rigaonō ną̇miią̇suš ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.16f-0-6">
+          <lem>yaϑa xᵛarəṇte vahištō urunaēca pāϑmaińiiō təmō</lem>
+          <rdg wit="#ms0005">yaϑa xᵛarəṇtī vahištō urunaēca pāϑmaińiiōtəmō</rdg>
+          <rdg wit="#ms0006">yaϑa xᵛarəṇtī vahištō uru naēca pāϑmaēniiōtəmō</rdg>
+          <rdg wit="#ms0015">yaϑa xᵛarəṇtī vahištō urunaēca pāϑmaēniiōtəmō</rdg>
+          <rdg wit="#ms0088">yaϑa xᵛarəṇte vah ištō urunaēca pāϑmaińiiōtəmō</rdg>
+          <rdg wit="#ms0400">ẏ aϑa xᵛarəṇte vahištō urunaēca pāϑ mainiiaotəmō ⁛</rdg>
+          <rdg wit="#ms0410">ẏaϑa x́arəṇte vahi štō urunaēca pāϑmainiiaōtəmō ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.17a-0-3">
+          <lem>nī tē zāire</lem>
+          <rdg wit="#ms0005">nī tē zāiri</rdg>
+          <rdg wit="#ms0006">nī tī zāi ri</rdg>
+          <rdg wit="#ms0015">nə̄ tē zāiri</rdg>
+          <rdg wit="#ms0088">nī tē zāiri</rdg>
+          <rdg wit="#ms0400">nī tē zāire</rdg>
+          <rdg wit="#ms0410">nī tē zāiri</rdg>
+        </app>
+        <app xml:id="app-Y9.17a-4-5">
+          <lem>mruiiē</lem>
+          <rdg wit="#ms0005">mruii ē</rdg>
+          <rdg wit="#ms0006">mruiiē</rdg>
+          <rdg wit="#ms0015">mruiiē</rdg>
+          <rdg wit="#ms0088">mruiiē</rdg>
+          <rdg wit="#ms0400">mru iiē ⁛</rdg>
+          <rdg wit="#ms0410">mruiiē</rdg>
+        </app>
+        <app xml:id="app-Y9.17b-0-2">
+          <lem>nī aməm</lem>
+          <rdg wit="#ms0005">nī aməm</rdg>
+          <rdg wit="#ms0006">nī aməm</rdg>
+          <rdg wit="#ms0015">nə̄ aməm</rdg>
+          <rdg wit="#ms0088">nī aməm</rdg>
+          <rdg wit="#ms0400">nī a məm</rdg>
+          <rdg wit="#ms0410">nī aməm</rdg>
+        </app>
+        <app xml:id="app-Y9.17b-3-4">
+          <lem>vərəϑraγnəm</lem>
+          <rdg wit="#ms0005">vərəϑraγnəm</rdg>
+          <rdg wit="#ms0006">vərəϑ raγnəm</rdg>
+          <rdg wit="#ms0015">vərəϑraγnəm</rdg>
+          <rdg wit="#ms0088">vərəϑraγnəm</rdg>
+          <rdg wit="#ms0400">vərəϑraγnəm</rdg>
+          <rdg wit="#ms0410">vərəϑraγnəm</rdg>
+        </app>
+        <app xml:id="app-Y9.17c-0-2">
+          <lem>nī dasuuarə</lem>
+          <rdg wit="#ms0005">nī dasuuarəm</rdg>
+          <rdg wit="#ms0006">nī dasuuarəm</rdg>
+          <rdg wit="#ms0015">n ī dasuuarə</rdg>
+          <rdg wit="#ms0088">nī dasuuarəm</rdg>
+          <rdg wit="#ms0400">nī dasuuarə</rdg>
+          <rdg wit="#ms0410">nī dasuuarə</rdg>
+        </app>
+        <app xml:id="app-Y9.17c-3-4">
+          <lem>baēšazəm</lem>
+          <rdg wit="#ms0005">baēšazəm</rdg>
+          <rdg wit="#ms0006">baēšazəm</rdg>
+          <rdg wit="#ms0015">baēšazəm</rdg>
+          <rdg wit="#ms0088">baē šazəm</rdg>
+          <rdg wit="#ms0400">baeš azəm ⁛</rdg>
+          <rdg wit="#ms0410">baēšazəm</rdg>
+        </app>
+        <app xml:id="app-Y9.17d-1-2">
+          <lem>fradaϑəm</lem>
+          <rdg wit="#ms0005">fradaϑəm</rdg>
+          <rdg wit="#ms0006">fradaϑəm</rdg>
+          <rdg wit="#ms0015">fra daϑəm</rdg>
+          <rdg wit="#ms0088">fradaϑəm</rdg>
+          <rdg wit="#ms0400">fradaϑəm</rdg>
+          <rdg wit="#ms0410">fradaϑəm</rdg>
+        </app>
+        <app xml:id="app-Y9.17e-1-4">
+          <lem>aōjō vīspō tanūm</lem>
+          <rdg wit="#ms0005">aōjō vīspō tanīm</rdg>
+          <rdg wit="#ms0006">aōjō v īspō tanīm</rdg>
+          <rdg wit="#ms0015">aōjō vīsp ō tanīm</rdg>
+          <rdg wit="#ms0088">aōjō vīspō tanīm</rdg>
+          <rdg wit="#ms0400">aojō vīspō t anūm</rdg>
+          <rdg wit="#ms0410">aojō vīspō t anūm</rdg>
+        </app>
+        <app xml:id="app-Y9.17e-5-8">
+          <lem>mastīm vīspō paēsaŋhəm</lem>
+          <rdg wit="#ms0005">mastīm vī spō paēsaŋhanəm</rdg>
+          <rdg wit="#ms0006">mastīm vīspō paēsaŋhəm</rdg>
+          <rdg wit="#ms0015">mastīm vīspō paēs aŋhəm</rdg>
+          <rdg wit="#ms0088">mas tīm vīspō paēsaŋhəm</rdg>
+          <rdg wit="#ms0400">mastīm vīspō paēsaŋhəm</rdg>
+          <rdg wit="#ms0410">mastīm vīspō paēsaŋhəm</rdg>
+        </app>
+        <app xml:id="app-Y9.17f-1-11">
+          <lem>tat̰ yaϑa gaēϑāhuua vasō xšaϑrō fracarāne t̰baēšō tauruuā̊ drujim vanō</lem>
+          <rdg wit="#ms0005">tat̰ yaϑa gaē ϑāhuua vasō xšaϑrō fracarāne t̰baē šō tauruuā̊ drujəm vanō</rdg>
+          <rdg wit="#ms0006">tat̰ yaϑa gaēϑā̊ huua vasō xšaϑrō fracaranē t̰baē šō tauruuā̊ drujəm vanō</rdg>
+          <rdg wit="#ms0015">tat̰ yaϑa gaēϑāhuua vasō xšaϑrō fracarānē t̰baēšō t auruuā̊ drujəm vanō</rdg>
+          <rdg wit="#ms0088">ta t̰ yaϑa gaēϑāhuua vasō xš aϑrō fracarāne t̰baēšō tauruuā̊ drujim vanō</rdg>
+          <rdg wit="#ms0400">tat̰ ẏa ϑa gaeϑāhuua vasō xšaϑrō fra carāne t̰baešō tauruuā̊ drujim va nō ⁛</rdg>
+          <rdg wit="#ms0410">tat̰ ẏaϑa gaēϑāhuua v asō xšaϑrō fracarāne dt̰baēšō t̰baēšō dt̰baēšō t̰baēšō ta uruuā̊ drujim vanō</rdg>
+        </app>
+        <app xml:id="app-Y9.18a-2-9">
+          <lem>yaϑa tauruuaiieni vīspanąm t̰bišuuatąm t̰baēšā̊ daēuuanąm maṣ̌iiānąmca</lem>
+          <rdg wit="#ms0005">yaϑa t auruuaiieni vīspanąm t̰bišuuatąm t̰baēšā̊ daēuuanąm maš́iiānąmca</rdg>
+          <rdg wit="#ms0006">yaϑa tauruuaiieni vīspanąm t̰baēšuuatąm t̰baēšā̊ daēuuanąm maṣ̌iiā̊nąmca</rdg>
+          <rdg wit="#ms0015">yaϑa tauruuaiiəne vīspanąm t̰baēšauua tąm t̰baēšā̊ daēuuanąm maš́iiāną mca</rdg>
+          <rdg wit="#ms0088">yaϑa ta uruuaiieni vīspanąm t̰bišuuatą m t̰baēšā̊ daēuuanąm maṣ̌iiānąm ca</rdg>
+          <rdg wit="#ms0400">ẏaϑa gaeϑāgaeϑā tauruuaiieni v īspaną̇m t̰baešuuatą̇m t̰baešā̊ daē uuaną̇m maṣ̌iiāną̇mca ⁛</rdg>
+          <rdg wit="#ms0410">ẏaϑa tauruuaiieni vīspaną̇ m t̰baēšuuatą̇m t̰baēšā̊ daēuuaną̇m ma š́iiāną̇mca ※</rdg>
+        </app>
+        <app xml:id="app-Y9.18b-0-5">
+          <lem>yāϑβąm pairikanąmca sāϑrąm kaōiiąm karafnąmca</lem>
+          <rdg wit="#ms0005">yāϑβąm pairi kanąmca sāϑrąm kaōiium karafnąmca</rdg>
+          <rdg wit="#ms0006">yāϑβąm pairika nąmca sāϑrąm kōiiąm karapaną mca</rdg>
+          <rdg wit="#ms0015">yāϑβąm pairikanąmca sāϑrą m kaōiiąm karapanąmca</rdg>
+          <rdg wit="#ms0088">yāϑβąm pairəkanąmca sāϑrą m kaōiiąm karafnąmca</rdg>
+          <rdg wit="#ms0400">ẏāϑβą̇m pairikaną̇mca s āϑrą̇m kōiią̇m kaōiią̇m kōiią̇m kaōiią̇m karafną̇mca ⁛</rdg>
+          <rdg wit="#ms0410">ẏāϑ βą̇m pairikaną̇mca sāϑrą̇m kaoiią̇m karafną̇mca ※</rdg>
+        </app>
+        <app xml:id="app-Y9.18c-0-7">
+          <lem>mairiianąmca bizaṇgranąm aṣ̌əmaōγanąmca bizaṇgranąm vəhrkanąmca caϑβarə zaṇgranąm</lem>
+          <rdg wit="#ms0005">mairiianąmca bəzaṇgranąm aṣ̌əmaōγanąmca bəz aṇgarənąm vəhrkanąmca caϑβarəzaŋranąm</rdg>
+          <rdg wit="#ms0006">mairiianąmca bəzaṇgaranąm aṣ̌əmaōγanąmca bəzaṇgaranąm vəhrəkanąmca ciϑβarə zaṇgara nąm</rdg>
+          <rdg wit="#ms0015">mairiian ąmca bizaṇgranąm aṣ̌əmaōγaną mca bizaṇgranąm vəhrkanąmca ciϑ βarəzaṇgranąm</rdg>
+          <rdg wit="#ms0088">mairiianąmc a bəzaṇgaranąm aṣ̌əmaōγanąmca bəz aṇgaranąm vihrkanąmca caϑβarə zaṇgaranąm</rdg>
+          <rdg wit="#ms0400">mairiianą̇mca bizəŋṇgraną̇m bizəṇgraną̇m bizəŋṇgraną̇m bizəṇgraną̇m aṣ̌əmaoγaną̇mca bizaṇgraną̇m vəhrkaną̇mca ciϑβarə zəṇgraną̇maṣ̌əmaoγaną̇mca bizaṇgraną̇m vəhrkaną̇mca ciϑβarə zəṇgraną̇m ⁛</rdg>
+          <rdg wit="#ms0410">mairiianą̇mca biziṇgaraną̇m vava aṣ̌əmaōγaną̇mca biziṇgraną̇m vəhərka ną̇mca ciϑβarə ziṇgraną̇m</rdg>
+        </app>
+        <app xml:id="app-Y9.18d-0-5">
+          <lem>haēnaiiā̊sca pərəϑu ainikaiiā̊ dauuąiϑiiā̊ patąiϑiiā̊</lem>
+          <rdg wit="#ms0005">haēniiā̊sca pərəϑu aińikaiiā̊ dauuąiϑiiā̊ paϑąiϑiiā̊</rdg>
+          <rdg wit="#ms0006">hə̄niiā̊sca pərəϑō aińi ka iiā̊ dauuąniϑiiā̊ patąiϑiiā̊</rdg>
+          <rdg wit="#ms0015">aēnaiiā̊sca pərəϑ u ainikaiiā̊ dauuąiϑaiiā̊ patąni ϑaiiā̊</rdg>
+          <rdg wit="#ms0088">haēnaiiā̊sca pərəϑu aińikaiiā̊ dauuąniϑiiā̊ patąiϑiiā̊</rdg>
+          <rdg wit="#ms0400">haēnaiiā̊sca pərəϑu ainikaiiā̊ dauuą̇iϑiiā̊ patą̇iϑiiā̊ paṇtą̇iϑiiā̊ patą̇iϑiiā̊ paṇtą̇iϑiiā̊ ⁛</rdg>
+          <rdg wit="#ms0410">hēniiā̊sca pərəϑu anikaiiā̊ pərəϑu ainikaiiā̊ pərəϑu anikaiiā̊ pərəϑu ainikaiiā̊ dauuą̇iϑ iiā̊ patą̇iϑiiā̊</rdg>
+        </app>
+        <app xml:id="app-Y9.19a-0-5">
+          <lem>iməm ϑβąm paōirīm yānəm haōma</lem>
+          <rdg wit="#ms0005">iməm ϑβąm paōirīm yānəm h aōma</rdg>
+          <rdg wit="#ms0006">əm əm ϑβąm pōirīm yānəm haōma</rdg>
+          <rdg wit="#ms0015">iməm ϑβąm paōirīm yānəm haōma</rdg>
+          <rdg wit="#ms0088">iməm ϑβąm paōirīm yānəm haō ma</rdg>
+          <rdg wit="#ms0400">iməm ϑβą̇m paoirīm ẏānə m haoma</rdg>
+          <rdg wit="#ms0410">iməm ϑβą̇m paoirīm ẏānəm haoma</rdg>
+        </app>
+        <app xml:id="app-Y9.19a-6-13">
+          <lem>dūraōša vahištəm ahūm aṣ̌aōnąm raōcaŋhəm vīspō xᵛāϑrəm</lem>
+          <rdg wit="#ms0005">dīraōša vahištəm ah īm aṣ̌aōnąm raōcaŋhəm vīspō xᵛāϑrəm</rdg>
+          <rdg wit="#ms0006">dīraōša vahištəm ahīm aṣ̌aōnąm raōcaŋhəm vī spō xᵛāϑrəm</rdg>
+          <rdg wit="#ms0015">dīraōša vah ištəm ahīm aṣ̌aōnąm raōcaŋhəm v īspō xᵛāϑrəm</rdg>
+          <rdg wit="#ms0088">dīraōša vahištəm ahīm aṣ̌aunąm raōcaŋhəm vīspō xᵛāϑrəm</rdg>
+          <rdg wit="#ms0400">dūraoša vahiš təm ahūm aṣ̌aoną̇m raocaŋhəm vīspō xᵛāϑrəm</rdg>
+          <rdg wit="#ms0410">dūraoša vahištəm ahūm aṣ̌āuną̇m raocaŋhəm vīspō x́āϑrəm ※</rdg>
+        </app>
+        <app xml:id="app-Y9.19b-1-2">
+          <lem>ϑβąm</lem>
+          <rdg wit="#ms0005">ϑβąm</rdg>
+          <rdg wit="#ms0006">ϑβąm</rdg>
+          <rdg wit="#ms0015">ϑβąm</rdg>
+          <rdg wit="#ms0088">ϑβąm</rdg>
+          <rdg wit="#ms0400">ϑβą̇m</rdg>
+          <rdg wit="#ms0410">ϑβą̇m</rdg>
+        </app>
+        <app xml:id="app-Y9.19b-3-7">
+          <lem>yānəm haōma jaiδiiemi dūraōša</lem>
+          <rdg wit="#ms0005">yānəm haōma jaiϑiie mi dīraōša</rdg>
+          <rdg wit="#ms0006">yānəm haōma jaiδiiemi dīraō ša</rdg>
+          <rdg wit="#ms0015">yā nəm haōma jaiδiiemi dīraōša</rdg>
+          <rdg wit="#ms0088">yānəm h aōma jaiϑiiemi dīraōša</rdg>
+          <rdg wit="#ms0400">ẏānəm haoma jaiδiiemi dūraoša</rdg>
+          <rdg wit="#ms0410">ẏānəm haoma jai δiiemi dūraoša</rdg>
+        </app>
+        <app xml:id="app-Y9.19b-8-10">
+          <lem>aiŋ́hā̊sə tanuuō</lem>
+          <rdg wit="#ms0005">aŋ́hā̊sətanuuō</rdg>
+          <rdg wit="#ms0006">aŋ́hā̊̊sa tanuuō</rdg>
+          <rdg wit="#ms0015">aŋ́hā̊s tanuuō</rdg>
+          <rdg wit="#ms0088">aŋ́hā̊se tanuuō</rdg>
+          <rdg wit="#ms0400">aŋ́hā̊ se tanuuō</rdg>
+          <rdg wit="#ms0410">aŋ́haŋ́h aŋ́ hā̊sə tanuuō</rdg>
+        </app>
+        <app xml:id="app-Y9.19c-1-8">
+          <lem>ϑβąm ϑritīm yānəm haōma jaiδiiemi dūraōša darəγō</lem>
+          <rdg wit="#ms0005">ϑβąm ϑritīm yānəm haōma jaiδiie mi dīraōša darəγō</rdg>
+          <rdg wit="#ms0006">ϑβąm ϑrətīm yānəm haō ma jaiδiiemi dīraōša darəγō</rdg>
+          <rdg wit="#ms0015">ϑβąm ϑritīm yānəm haōma jai δiiemi dīraōša darəγō</rdg>
+          <rdg wit="#ms0088">ϑβąm ϑrətī m yānəm haōma jaiδiiemi dīraōš a darə̄γō</rdg>
+          <rdg wit="#ms0400">ϑβą̇m ϑ ritīm ẏānəm haoma jaiδiiemi dūraoša darəγō</rdg>
+          <rdg wit="#ms0410">ϑβ ą̇m ϑritīm yānəm haoma jaiδiiemi dūrao š darəγō</rdg>
+        </app>
+        <app xml:id="app-Y9.20a-0-9">
+          <lem>iməm ϑβąm tūirīm yānəm haōma jaiδiiemi dūraōša yaϑa aēšō</lem>
+          <rdg wit="#ms0005">aməm ϑβąm tīirīm yānəm haōma jaiδiiem i dīraōša yaϑa aēšā̊</rdg>
+          <rdg wit="#ms0006">iməm ϑβąm tīirīm yānəm haōma jaiδiiemi dīraōša yaϑa aēšō</rdg>
+          <rdg wit="#ms0015">iməm ϑβąm tīirīm y ānəm haōma jaiδiiemi dīraōša yaϑa aēšō</rdg>
+          <rdg wit="#ms0088">iməm ϑβąm tīirīm yānəm haōma jaiδiiemi dīraōša yaϑa aēšō</rdg>
+          <rdg wit="#ms0400">iməm ϑβą̇m tūirīm ẏānəm haoma jaiδiiemi dūraoša yaϑa aē šō</rdg>
+          <rdg wit="#ms0410">iməm ϑβą̇m tūirīm ẏānəm haomha haoma haomha haoma jai δiiemi dūraoš ẏaϑa aēšo</rdg>
+        </app>
+        <app xml:id="app-Y9.20a-10-13">
+          <lem>ϑrąfəδō fraxštāne zəmā</lem>
+          <rdg wit="#ms0005">ϑrąfəδō fra xštāne zəmā</rdg>
+          <rdg wit="#ms0006">ϑrąm fəδō fraxštāne zəmā̊</rdg>
+          <rdg wit="#ms0015">ϑrąfəδō fra xštāne zəmā̊</rdg>
+          <rdg wit="#ms0088">ϑrąfəδō fraxštāne zə mā</rdg>
+          <rdg wit="#ms0400">ϑrą̇fiδō fraxštāne zəmā̊</rdg>
+          <rdg wit="#ms0410">ϑrą̇fδō fraxštāne zəmā̊</rdg>
+        </app>
+        <app xml:id="app-Y9.20a-14-17">
+          <lem>t̰baēšō tauruuā̊ drujim</lem>
+          <rdg wit="#ms0005">t̰baēšā̊ tauruuā̊ drujim</rdg>
+          <rdg wit="#ms0006">t̰baē šō tauruuā̊ drujō drujəm drujō drujəm</rdg>
+          <rdg wit="#ms0015">t̰baēšō ta uruuā̊ drujəm</rdg>
+          <rdg wit="#ms0088">t̰baēšō tauruuā̊ druj əm</rdg>
+          <rdg wit="#ms0400">t̰baešō tauruuā̊ drujim</rdg>
+          <rdg wit="#ms0410">t̰ba ēšō tauruuā̊ drujim</rdg>
+        </app>
+        <app xml:id="app-Y9.20b-1-17">
+          <lem>ϑβąm puxδəm yānəm haōma jaiδiiemi dūraōša yaϑa vərəϑrajā̊ vanat̰ pəṣ̌anō fraxštāne zəmā paiti t̰baēšō tauruuā̊ drujim</lem>
+          <rdg wit="#ms0005">ϑβąm puxδəm yānəm haōma jaiδ iiemi dīraōša yaϑa vərəϑrajā vanat̰ pišanu fraxštāne zəmā paiti t̰baēšā̊ tauruuā̊ dru jəm</rdg>
+          <rdg wit="#ms0006">ϑβą m puxδəm yānəm haōma jaiδiie mi dīraōša yaϑa vərəϑrajā̊ va nat̰ pəšanō fraxštānə̄ zəmā̊ pait i t̰baēšō tauruuā̊ drujəm</rdg>
+          <rdg wit="#ms0015">ϑβąm puxδə m yānəm haōma jaδaiiemi jaiδaiiemi jaδaiiemi jaiδaiiemi dīra ōša yaϑa vərəϑrajā̊ vanat̰ fš anō frāxštāne zəmā paiti t̰ba ēšō tauruuā̊ drujəm</rdg>
+          <rdg wit="#ms0088">ϑβąm puxδəm yā nəm haōma jaiδiiemi dīraōša y aϑa vərəϑrajā̊ vanat̰ pəṣ̌anō fra xštāne zəmā paiti t̰baēšō t auruuā̊ drujim</rdg>
+          <rdg wit="#ms0400">ϑβą̇m puxδəm yānəm haoma jaiδiie mi dūraoša yaϑa vərəϑrajā̊ vanat̰ pəṣ̌anō fraxštāne zəmā paiti t̰baešō tauruuā̊ d rujim</rdg>
+          <rdg wit="#ms0410">ϑβą̇m puxδəm ẏānəm haom jaiδiiaemi dūraoš ẏaϑa vərəϑrajā̊ vanat̰ pəṣ̌anō fraxštāne zəmā paiti t̰baēšō tauruuā̊ drujim</rdg>
+        </app>
+        <app xml:id="app-Y9.21a-1-10">
+          <lem>ϑβąm xštūm yānəm haōma jaiδiiemi dūraōša pauruua tāiiūm pauruua</lem>
+          <rdg wit="#ms0005">ϑβąm xštīm yānəm haō ma jaiδiiemi dīraōša pauruua tāiiīm pauruua</rdg>
+          <rdg wit="#ms0006">ϑβąm xštīm yānəm haōma jai δiiemi dīraōša pauruuatāiium p aruua</rdg>
+          <rdg wit="#ms0015">ϑβą m xštīm yānəm yānəm yānəm haōma ja iδiiemi dīraōša pauruuatāiium p auruua</rdg>
+          <rdg wit="#ms0088">ϑβąm xštīm yānəm haōma jaiδiiemi dīraōša pauruuatāiium pauruua</rdg>
+          <rdg wit="#ms0400">ϑ βą̇m xštūm yānəm haoma jaiδiiemi dūraoš a paouruuatāiiūm paouruua</rdg>
+          <rdg wit="#ms0410">ϑβą̇m xštūm ẏānəm haoma jaiδiiemi dūraoš pauruu a tāiium pauruua</rdg>
+        </app>
+        <app xml:id="app-Y9.21a-11-14">
+          <lem>pauruua vəhrkəm būiδiiōimaiδe</lem>
+          <rdg wit="#ms0005">pauruua vəhrkəm bīiδiiō maiδe</rdg>
+          <rdg wit="#ms0006">pauruua vhrkəm bīiδ iiōi maiδe</rdg>
+          <rdg wit="#ms0015">pauruua vəhrkəm bīiδ iiōi maiδe maiδe maiδe</rdg>
+          <rdg wit="#ms0088">pauruua vəhrkəm bīiδiiō i maiδe</rdg>
+          <rdg wit="#ms0400">paouruu a vəhrkəm būiδiiōimaiδe</rdg>
+          <rdg wit="#ms0410">pauruua vəhrkəm būiδiiōi maiδe ※</rdg>
+        </app>
+        <app xml:id="app-Y9.21b-0-4">
+          <lem>mā ciš pauruuō būiδiiaēta</lem>
+          <rdg wit="#ms0005">māciš pauruuō baēδiiaēta</rdg>
+          <rdg wit="#ms0006">māciš paōuruuō baēδii aēta</rdg>
+          <rdg wit="#ms0015">māciš pour u bīδiiaēta</rdg>
+          <rdg wit="#ms0088">māciš paōuruuō baēiδii aēta</rdg>
+          <rdg wit="#ms0400">mā ciš paouruuō būiδiieta būiδiiaeta būiδiieta būiδiiaeta</rdg>
+          <rdg wit="#ms0410">māciš pōuruuō būiδiiaēta</rdg>
+        </app>
+        <app xml:id="app-Y9.21b-5-8">
+          <lem>vīspə̄ pauruua būiδiiōimaiδe</lem>
+          <rdg wit="#ms0005">vīspe pauruua bīiδiiō i maiδe</rdg>
+          <rdg wit="#ms0006">vīspə̄ paōuruua bīiδiiōi maiδe</rdg>
+          <rdg wit="#ms0015">vīspə̄ paōuruua bīiδiiōi maiδe</rdg>
+          <rdg wit="#ms0088">vīspē pauruua bīiδii ōimaiδe</rdg>
+          <rdg wit="#ms0400">vīspē pauruua būi δiiōi maiδe ⁛</rdg>
+          <rdg wit="#ms0410">vīspē pauruua būi δiiōi maiδe ※</rdg>
+        </app>
+        <app xml:id="app-Y9.22a-0-4">
+          <lem>haōmō aēibiš yōi auruuaṇtō</lem>
+          <rdg wit="#ms0005">haōmō aēbiš yōi auruuaṇtō</rdg>
+          <rdg wit="#ms0006">haōma aēibiš yōi uruuaṇ tō</rdg>
+          <rdg wit="#ms0015">haōmō aēibiš yōi uruuaṇtō</rdg>
+          <rdg wit="#ms0088">haōmō aēibiš yōi au ruuaṇtō</rdg>
+          <rdg wit="#ms0400">haomō aēibiš yōi auruuaṇtō</rdg>
+          <rdg wit="#ms0410">haomō aēibiš ẏōi auruuaṇtō</rdg>
+        </app>
+        <app xml:id="app-Y9.22a-5-10">
+          <lem>taxšəṇti arənāum zāuuarə aōjā̊sca baxšaiti</lem>
+          <rdg wit="#ms0005">taxšəṇte arənāum zāuuarə aōjāsca baxša iti</rdg>
+          <rdg wit="#ms0006">taxšəṇti arənāum zā uuarə aōjā̊sca baxšaiti</rdg>
+          <rdg wit="#ms0015">taxšəṇt i arənāum zāuuarə aōjasca bax šaiti</rdg>
+          <rdg wit="#ms0088">taxšəṇti arənā um zāuuarə aōjā̊sca baxšaiti</rdg>
+          <rdg wit="#ms0400">tax šəṇti arənāum zāuuarə aojā̊sca baxšiti baxšaiti</rdg>
+          <rdg wit="#ms0410">taxšəṇte arənāum zāuuarə aōjā̊sca baxšaite</rdg>
+        </app>
+        <app xml:id="app-Y9.22b-0-5">
+          <lem>haōmō āzīzanāitibiš daδāiti xšaētō puϑrīm</lem>
+          <rdg wit="#ms0005">haōmō āzīzanāiti biš daδāiti xša aētō puϑrə̄m</rdg>
+          <rdg wit="#ms0006">haōmō āzīzanāite bišdaδāiti xšaētō puϑrīm</rdg>
+          <rdg wit="#ms0015">haōmō āzīzināiti bišda δāiti xšaētō puϑrīm</rdg>
+          <rdg wit="#ms0088">haōmō āzīzanāite biš daδāiti xšaētō puϑrīm</rdg>
+          <rdg wit="#ms0400">haomō āzīzanāiti biš daδ āiti xšaētō puϑrīm</rdg>
+          <rdg wit="#ms0410">haomō āzīza nāiti biš daδāiti xšaētō piuϑrīm xšaētō puϑrīm xšaētō piuϑrīm xšaētō puϑrīm</rdg>
+        </app>
+        <app xml:id="app-Y9.22b-6-8">
+          <lem>aṣ̌auua frazaiṇtīm</lem>
+          <rdg wit="#ms0005">aṣ̌auua frazaiṇtīm</rdg>
+          <rdg wit="#ms0006">aṣ̌auua frazaṇtīm</rdg>
+          <rdg wit="#ms0015">aṣ̌ auua frazaṇtīm</rdg>
+          <rdg wit="#ms0088">aṣ̌auua fra zaiṇtīm</rdg>
+          <rdg wit="#ms0400">aṣ̌auua fraza ṇtīm ⁛</rdg>
+          <rdg wit="#ms0410">aṣ̌auua frazaiṇtīm ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.22c-0-1">
+          <lem>haōmō</lem>
+          <rdg wit="#ms0005">h aōmō</rdg>
+          <rdg wit="#ms0006">haōmō</rdg>
+          <rdg wit="#ms0015">haōmō</rdg>
+          <rdg wit="#ms0088">haōmō</rdg>
+          <rdg wit="#ms0400">haomō</rdg>
+          <rdg wit="#ms0410">haomō</rdg>
+        </app>
+        <app xml:id="app-Y9.22c-2-7">
+          <lem>yōi kataiiō naskō frasā̊ŋhō ā̊ŋhəṇte</lem>
+          <rdg wit="#ms0005">yōi kataiiō naskō frasā̊ŋh ō ā̊ŋhəṇti</rdg>
+          <rdg wit="#ms0006">yōi kataiiō nask ō frasā̊ŋhō ā̊ŋhaṇtī</rdg>
+          <rdg wit="#ms0015">yōi katiiō naskō frasā̊ŋhō ā̊ŋ həṇti</rdg>
+          <rdg wit="#ms0088">yōi ka taiiō naskō frasā̊ŋhō ā̊ŋhiṇ te</rdg>
+          <rdg wit="#ms0400">ẏōi kataiiō naskō frasā̊ŋhō ā̊ŋhiṇti</rdg>
+          <rdg wit="#ms0410">ẏō kataiiō naskō fra sā̊ŋhō ā̊ŋhiṇti</rdg>
+        </app>
+        <app xml:id="app-Y9.22c-8-10">
+          <lem>mastīmca baxšaiti</lem>
+          <rdg wit="#ms0005">mastīmca baxšaiti</rdg>
+          <rdg wit="#ms0006">m astīmca baxšaiti</rdg>
+          <rdg wit="#ms0015">mastīmca baxša iti</rdg>
+          <rdg wit="#ms0088">mastīmca baxšaiti</rdg>
+          <rdg wit="#ms0400">mastīmca baxšaite ⁛</rdg>
+          <rdg wit="#ms0410">mastīmca ba xšaiti ※</rdg>
+        </app>
+        <app xml:id="app-Y9.23a-0-3">
+          <lem>haōmō tā̊scit̰ yā̊</lem>
+          <rdg wit="#ms0005">haōmō tā̊scit̰ yā̊</rdg>
+          <rdg wit="#ms0006">haōmō tā̊sc it̰ yā</rdg>
+          <rdg wit="#ms0015">haōmō tā̊scit̰ yā̊</rdg>
+          <rdg wit="#ms0088">haōmō tā̊scit̰ yā</rdg>
+          <rdg wit="#ms0400">haomō tā̊scit̰ yā̊</rdg>
+          <rdg wit="#ms0410">haomō tā̊scit̰ ẏā̊</rdg>
+        </app>
+        <app xml:id="app-Y9.23a-4-12">
+          <lem>ā̊ŋhaire darəγəm aγruuō haiϑīm rāδəmca baxšaiti mošu jaiδiiamnō</lem>
+          <rdg wit="#ms0005">ā̊ŋhaire darə γəm aγruuō haiϑīm rāδəmca baxšaite mōṣ̌ō jaiδiiamnō</rdg>
+          <rdg wit="#ms0006">ā̊ŋhairi darəγəm aγrauuō haiϑīm rāδəmca baxšaibaxšaiti baxšaibaxšaiti mōšō mušō mōšō mušō jaiδiiamnō</rdg>
+          <rdg wit="#ms0015">ā̊ŋhaire darəγəm aγrauuō haiϑīm rāδəm rāδəmca rāδəm rāδəmca baxšaite mušō jaiδiiamnō</rdg>
+          <rdg wit="#ms0088">ā̊ ŋhairi darəγəm aγrauuō haiϑəm rā δəmca baxšaēti mušō jaiδiia mnō</rdg>
+          <rdg wit="#ms0400">ā̊ŋhaire darəγəm aγruuō haiϑīm rādəmca baxšai ti mušu jaiδiiamanō</rdg>
+          <rdg wit="#ms0410">ā̊ŋhaire darəγəm aγruuō haiϑīm rāδəmca baxšaiti mūšu jaiδiiamanō</rdg>
+        </app>
+        <app xml:id="app-Y9.24a-0-11">
+          <lem>haōmō təmcit̰ yim kərəsānīm apa xšaϑrəm nišāδaiiat̰ yō raōsta xšaϑrō kāmiia</lem>
+          <rdg wit="#ms0005">haōmō təmcit̰ yəm k ərəsānīm apa xšaϑrəm nišāδaiiat̰ yō raōs ta xšaϑrō kāmaiia</rdg>
+          <rdg wit="#ms0006">haō mō təmcit̰ yəm kərəsānīm apa xšaϑrəm nišāδaiiat̰ yō raōsta xš ϑrō kāmaiia</rdg>
+          <rdg wit="#ms0015">haōmō təmcit̰ yim kərəs ānīm apa xšaϑrəm nišāδaiiāt̰ y ō raōsta xšaϑrō kāmiia</rdg>
+          <rdg wit="#ms0088">haōmō təmcit̰ y əm kərəsānīm apa xšaϑrəm nišāδ aiiat̰ yō raōsta xšaϑrō kāma iia</rdg>
+          <rdg wit="#ms0400">haomō timcit̰ ẏim kərə sānīm apaxšaϑrəm nišāδaiiat̰ yō raos ta xšaϑrō kāmaiia ⁛</rdg>
+          <rdg wit="#ms0410">haomō təmcit̰ ẏim kərəsānīm apa xšaϑrəm nišāδaii at̰ ẏō raōsta xšaϑrō kāmiia</rdg>
+        </app>
+        <app xml:id="app-Y9.24b-0-3">
+          <lem>yō dauuata nōit̰</lem>
+          <rdg wit="#ms0005">yō dauuata nōit̰</rdg>
+          <rdg wit="#ms0006">yō dauuata nō it̰</rdg>
+          <rdg wit="#ms0015">yō dauua ta nōit̰</rdg>
+          <rdg wit="#ms0088">yō dauuata nōit̰</rdg>
+          <rdg wit="#ms0400">ẏō dauuata nōit̰</rdg>
+          <rdg wit="#ms0410">ẏō dauuata nōit̰</rdg>
+        </app>
+        <app xml:id="app-Y9.24b-4-5">
+          <lem>apąm</lem>
+          <rdg wit="#ms0005">a pąm</rdg>
+          <rdg wit="#ms0006">apąm</rdg>
+          <rdg wit="#ms0015">apąm</rdg>
+          <rdg wit="#ms0088">apąm</rdg>
+          <rdg wit="#ms0400">apą̇m</rdg>
+          <rdg wit="#ms0410">apą̇m</rdg>
+        </app>
+        <app xml:id="app-Y9.24b-6-9">
+          <lem>aiβištiš vərəiδiiē daiŋ́hauua</lem>
+          <rdg wit="#ms0005">aiβiš tiš vərəiδiiī daiŋ́ hauua</rdg>
+          <rdg wit="#ms0006">aiβištiš vərəδiiē daŋhauua</rdg>
+          <rdg wit="#ms0015">aiβi štiš vərəδiiē daŋ́hauue</rdg>
+          <rdg wit="#ms0088">aiβištiš vərəiδiiē daŋ́ hauua</rdg>
+          <rdg wit="#ms0400">aiβištiš vərəiδiiē daŋ́hauua</rdg>
+          <rdg wit="#ms0410">aiβištiš vərəiδiiē daŋ́hauua</rdg>
+        </app>
+        <app xml:id="app-Y9.24c-0-7">
+          <lem>hō vīspə̄ vərəiδinąm vanāt̰ nī vīspə̄ vərəiδinąm</lem>
+          <rdg wit="#ms0005">hō vīspə̄ varəiδinąm vanā t̰ nī vīspə̄ varəiδinąm</rdg>
+          <rdg wit="#ms0006">hō vīsp ə̄ vərəδanąm vanāt̰ nī vīspē vərəi δanąm</rdg>
+          <rdg wit="#ms0015">h ō vīspə̄ vərəδanąm vanat̰ nə̄ v īspə̄ vərəδanąm</rdg>
+          <rdg wit="#ms0088">hō vīspə̄ vərəiδin ąm vanāt̰ nī vīspə̄ vərəiδinąm</rdg>
+          <rdg wit="#ms0400">hō vīspə̄ və rəiδiną̇m vanāt̰ nī vīspə̄ vərəiδiną̇m</rdg>
+          <rdg wit="#ms0410">hō vīspə̄ vərəiδiną̇m vanāt̰ nī vīspə̄ vərəiδiną̇m</rdg>
+        </app>
+        <app xml:id="app-Y9.25a-0-5">
+          <lem>ušta tē yō xᵛā aōjaŋha</lem>
+          <rdg wit="#ms0005">ušta tē y ō xᵛā aōjaŋha</rdg>
+          <rdg wit="#ms0006">uštatə̄ yō xᵛā̊ aōj aŋha</rdg>
+          <rdg wit="#ms0015">uštatī yō xᵛā̊ aōjaŋha</rdg>
+          <rdg wit="#ms0088">ušta tə̄ yō xᵛā aōj aŋha</rdg>
+          <rdg wit="#ms0400">ušta tē ẏō xᵛā aojaŋha</rdg>
+          <rdg wit="#ms0410">ušta tē ẏō x́ā aojaŋha</rdg>
+        </app>
+        <app xml:id="app-Y9.25a-6-9">
+          <lem>xšaϑrō ahi haōma</lem>
+          <rdg wit="#ms0005">xšaϑrō ahe haōma</rdg>
+          <rdg wit="#ms0006">xšaϑrō ahe haōma</rdg>
+          <rdg wit="#ms0015">xšaϑrō a he haōma</rdg>
+          <rdg wit="#ms0088">xšaϑrō ahe haō ma</rdg>
+          <rdg wit="#ms0400">xšaϑrō ahe hao ma ⁛</rdg>
+          <rdg wit="#ms0410">xš aϑrō ahe haoma ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.25b-0-6">
+          <lem>ušta tē apiuuatahi pouru vacąm ərəžuxδanąm</lem>
+          <rdg wit="#ms0005">ušta tē aipe vatahe pouruua cąm ərəžuxδ anąm</rdg>
+          <rdg wit="#ms0006">ušta tə̄ apauuatahe paōuru vacą m ərəžuxδanąm</rdg>
+          <rdg wit="#ms0015">uštatī apauuatah e pouru vacąm ərəžuxδanąm</rdg>
+          <rdg wit="#ms0088">ušta tə̄ apiuuatahe pouru vacąm ərəžuxδanąm</rdg>
+          <rdg wit="#ms0400">ušta tē apiuuatahe pouru vacą̇ m ərəžuxδaną̇m ⁛</rdg>
+          <rdg wit="#ms0410">ušta tē apiuuatahe pouru v acą̇m ərəžuxδaną̇m</rdg>
+        </app>
+        <app xml:id="app-Y9.25c-0-8">
+          <lem>ušta tē nōit̰ pairi frāsa ərəžuxδəm pərəsahi vācim</lem>
+          <rdg wit="#ms0005">ušta tē nōit̰ pairi frāsa ərəžuxδəm pərəsahe vācim</rdg>
+          <rdg wit="#ms0006">ušta tə̄ nōit̰ pairi frāsa ərəžuxδəm pərəsahe vācim</rdg>
+          <rdg wit="#ms0015">uštat ī nōit̰ pairi frāsa ərəžuxδəm v rasahe vācim</rdg>
+          <rdg wit="#ms0088">ušta tə̄ nōi t̰ pairi frāsa ərəžuxδəm pərəs ahe vācəm</rdg>
+          <rdg wit="#ms0400">kānā vaca arəšuxδa※</rdg>
+          <rdg wit="#ms0410">ušta tē nōit̰ pairi frāsa ərəžuxδəm pərəsahi vācim</rdg>
+        </app>
+        <app xml:id="app-Y9.26a-0-5">
+          <lem>frā tē mazdā̊ barat̰ pauruuanīm</lem>
+          <rdg wit="#ms0005">frā tē mazdā̊ barat̰ pauruuanīm</rdg>
+          <rdg wit="#ms0006">frātə̄ mazdā̊ barat̰ paōuruuanīm</rdg>
+          <rdg wit="#ms0015">frātē mazdā̊ bar at̰ paōuruuanīm</rdg>
+          <rdg wit="#ms0088">frātə̄ mazdā̊ barat̰ pauruuanīm</rdg>
+          <rdg wit="#ms0400">frā tē mazdā̊ barat̰ paouruuanīm</rdg>
+          <rdg wit="#ms0410">frā tē ma zdā̊ barat̰ pauruuanīm</rdg>
+        </app>
+        <app xml:id="app-Y9.26a-6-11">
+          <lem>stəhrpaēsaŋhəm maińiiutāštəm vaŋᵛhīm daēnąm māzdaiiasnīm</lem>
+          <rdg wit="#ms0005">stəhrpaēsaŋ həm maińiiu tāštəm vaŋhīm daēnąm m āzdaiiasnīm</rdg>
+          <rdg wit="#ms0006">stəhrpaēsaŋhəm mai ńiiu tāštəm vaŋhīm daēnąm māz daiiasnīm</rdg>
+          <rdg wit="#ms0015">stə hrpaēsaŋhəm mańiiō tāštəm vaŋh īm daēnąm māzdaiiasnīm</rdg>
+          <rdg wit="#ms0088">stəhrp aēsaŋhəm maińiiu tāštəm vaŋᵛh īm daēnąm māzdaiiasnīm</rdg>
+          <rdg wit="#ms0400">s təhrpaēsaŋhəm mainiiū tāštəm v aŋhīm daēną̇m māzdaiiasnīm</rdg>
+          <rdg wit="#ms0410">stəhr paēsaŋhəm mainiiō tāštəm vaŋhīm daē ną̇m māzdaiiasnīm</rdg>
+        </app>
+        <app xml:id="app-Y9.26b-1-11">
+          <lem>aiŋ́he ahi aiβiiāstō barəšnuš paiti gairinąm drājaŋhe aiβiδāitīšca graūsca mąϑrahe</lem>
+          <rdg wit="#ms0005">aiŋ́he ahe aiβiiā stō barəšnuš paiti gairinąm drā̊ jaiŋ́ he aiβiδāitīšca garə̄sca mąϑrahe</rdg>
+          <rdg wit="#ms0006">aŋ́hē ahe aiβii āstō barəšnuš paiti gairinąm drājaŋhə aiβiδāitīšca garīs ca mąϑrahe</rdg>
+          <rdg wit="#ms0015">aŋ́ he ahe aiβiiāstō barəšnuš pa iri gairinąm drājaŋha aiβiδāit īšca garīsca mąϑrahe</rdg>
+          <rdg wit="#ms0088">aŋ́he ahe aiβiiāstō barəšnu š paiti gairinąm drājaŋha ai βidāitīšca garaīsca mąϑrah e</rdg>
+          <rdg wit="#ms0400">aŋ́he ah ahi ah ahi aiβiiāstō bərəšnuš paiti gairiną̇m darājaŋhe aiβidātī šca grūsca mą̇ϑrahe ⁛</rdg>
+          <rdg wit="#ms0410">aiŋ́he ahi aiβiiā stōiš aiβiiā stō aiβiiāstōiš aiβiiāstō baršnuš paiti gairigną̇m gairiną̇m gairigną̇m gairiną̇m darājaŋhe aiβi dātīšca grūsca mą̇ϑrahe ※</rdg>
+        </app>
+        <app xml:id="app-Y9.27a-0-1">
+          <lem>haōma</lem>
+          <rdg wit="#ms0005">haōma</rdg>
+          <rdg wit="#ms0006">haōmō</rdg>
+          <rdg wit="#ms0015">haōm ō</rdg>
+          <rdg wit="#ms0088">haōma</rdg>
+          <rdg wit="#ms0400">haoma</rdg>
+          <rdg wit="#ms0410">haoma</rdg>
+        </app>
+        <app xml:id="app-Y9.27a-2-11">
+          <lem>paite vīspaite zaṇtu paite daiŋ́hu paite spanaŋha vaēδiiā paite</lem>
+          <rdg wit="#ms0005">paiti vīspaiti zaṇtu p aiti daiŋ́hu paiti spanaŋha vaēiδiiāi paiti</rdg>
+          <rdg wit="#ms0006">pit ī vīspaitī zaṇtu paitī daŋ́ hu paitī spanaŋha vaiδiiā paitī</rdg>
+          <rdg wit="#ms0015">paitī vīspaitī zaṇt upaitī daŋ́hupaitī spanaŋha vīδiia paitī</rdg>
+          <rdg wit="#ms0088">paite vīsupai ti zaṇtupaiti daŋ́hu paiti s panaŋha vaiδiiā paiti</rdg>
+          <rdg wit="#ms0400">paiti vīspō paiti zaṇtu paiti daŋ́hu paiti spanaŋha vaēδiiā paiti ⁛</rdg>
+          <rdg wit="#ms0410">paite vīsō paiti zaṇtu paite daŋ́hu paite spanaŋha vaēδiiā paiti</rdg>
+        </app>
+        <app xml:id="app-Y9.27b-0-1">
+          <lem>amāica</lem>
+          <rdg wit="#ms0005">ahmāica</rdg>
+          <rdg wit="#ms0006">aɱāica</rdg>
+          <rdg wit="#ms0015">ahmāi ahmāica ahmāi ahmāica</rdg>
+          <rdg wit="#ms0088">amāica</rdg>
+          <rdg wit="#ms0400">ahmāica</rdg>
+          <rdg wit="#ms0410">aɱāica</rdg>
+        </app>
+        <app xml:id="app-Y9.27b-2-4">
+          <lem>vərəϑraγnāica māuuōiia</lem>
+          <rdg wit="#ms0005">vərəϑraγnāica māuuō iia</rdg>
+          <rdg wit="#ms0006">vərəϑraγ nāica māuuōiia</rdg>
+          <rdg wit="#ms0015">vərə ϑraγnāica māuuaōiia</rdg>
+          <rdg wit="#ms0088">vərəϑraγnāica māuuōiia</rdg>
+          <rdg wit="#ms0400">vərəϑra γniiāica māuuiia</rdg>
+          <rdg wit="#ms0410">vərəϑraγniiāi ca māuuōiia</rdg>
+        </app>
+        <app xml:id="app-Y9.27b-5-11">
+          <lem>mruiiē tanuiiē ϑrimāica yat̰ pouru baōxšnahe</lem>
+          <rdg wit="#ms0005">mruiiē tanuiiē ϑrəmāica yat̰ paō uru baōxšnahe</rdg>
+          <rdg wit="#ms0006">mruiiē ta nuiiē ϑrimāica yat̰ paōuru baōx šnahe</rdg>
+          <rdg wit="#ms0015">mruiiē t anuiiē ϑrəmāica yat̰ pouru baōxšn ahe</rdg>
+          <rdg wit="#ms0088">m ruiiē tanuiie ϑrimāica yat̰ paōuru baōxšnahe</rdg>
+          <rdg wit="#ms0400">mruiiē tanuiiē ϑri māica yat̰ pouru baoxšnahe ⁛</rdg>
+          <rdg wit="#ms0410">mruiiē tanuiie ϑrimāca ϑrimāica ϑrimāca ϑrimāica ẏat̰ pouru baoxšnahe ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.28a-1-8">
+          <lem>nō t̰bišuuatąm t̰baēšə̄bīš vī manō bara graməṇtąm</lem>
+          <rdg wit="#ms0005">nōit̰ bišuuatąm t̰baēšəbī š vīmanō bara garamiṇtąm</rdg>
+          <rdg wit="#ms0006">nōit̰ t̰baēšauuatąm t̰baēšaēbiš vī manō bara gara maṇtąm</rdg>
+          <rdg wit="#ms0015">nō t̰baēšauuatąm t̰baēš ə̄bīš vī vī manō barəgaramaṇtąm</rdg>
+          <rdg wit="#ms0088">nō t̰bišuu atąm t̰baēšə̄bīš vī manō bara g ara maṇtąm</rdg>
+          <rdg wit="#ms0400">nō vīnō vī nō t̰bišuuatą̇m t̰baēšə̄bīš vī manō ba ra garəməṇtą̇m ⁛</rdg>
+          <rdg wit="#ms0410">nō t̰bi šuuatą̇m t̰baēšə̄bīš vī manō bara ga rəməṇtą̇m ※</rdg>
+        </app>
+        <app xml:id="app-Y9.28b-0-14">
+          <lem>yō cišca aɱi nmāne yō aiŋ́he vīsi yō aɱi zaṇtuuō yō aiŋ́he daiŋ́huuō aēnaŋᵛhā̊</lem>
+          <rdg wit="#ms0005">yō cišca ahmi nmāne yō aŋ́he vīse yahmi z aṇtauuō yō aŋ́he daŋ́huuō aēnaŋhā̊</rdg>
+          <rdg wit="#ms0006">yō cišca ahmi nmāne yō aŋ́hē vīsē yō aɱi zaṇt uuō yō aŋ́hē daŋ́huuō aēnaŋhā̊</rdg>
+          <rdg wit="#ms0015">yōi c išca ahma nmāne yōi aŋ́hē v īsē yōi ahma zaṇtauuō yōi aŋ́he daŋ́hauuō aēnaŋhā̊</rdg>
+          <rdg wit="#ms0088">yō cišca ahmi nmā ne yō aŋ́he vīse yō ahmi z aṇtauuō yō aŋ́he daŋ́hauuō aē naŋhā̊</rdg>
+          <rdg wit="#ms0400">ẏōi cišta ahmi nmāne yō aŋ́he vīsi ẏō ahmi zaṇtuuō ẏō aŋ́he daŋ́huuō aēnaŋhā̊</rdg>
+          <rdg wit="#ms0410">ẏō cišca ahmi nmāne ẏō aŋ́he vī si ẏō ahmi zaṇtuuō ẏō aŋ́he daŋ́ huuō aēnaŋhā̊</rdg>
+        </app>
+        <app xml:id="app-Y9.28b-15-16">
+          <lem>maṣ̌iiō</lem>
+          <rdg wit="#ms0005">maṣ̌iiō</rdg>
+          <rdg wit="#ms0006">maš́iiō</rdg>
+          <rdg wit="#ms0015">maš́iiō</rdg>
+          <rdg wit="#ms0088">maṣ̌iiō</rdg>
+          <rdg wit="#ms0400">maṣ̌iiō</rdg>
+          <rdg wit="#ms0410">maṣ̌iiō</rdg>
+        </app>
+        <app xml:id="app-Y9.28c-0-4">
+          <lem>gə̄uruuaiia hē pāδauue zāuuarə</lem>
+          <rdg wit="#ms0005">gə̄uruuaiia hə̄ pāδauue zā uuarə</rdg>
+          <rdg wit="#ms0006">gə̄uruuaiia hə̄ pāδ auua zāuuarə</rdg>
+          <rdg wit="#ms0015">gə̄uruuaiiōit̰ hə̄ pāδauua zāuuarə</rdg>
+          <rdg wit="#ms0088">gə̄uruuaiia gəuruuaiia gə̄uruuaiia h ə̄ pāδauua zāuuarə</rdg>
+          <rdg wit="#ms0400">gə̄uruuaiia hē pā δuue zāuuarə</rdg>
+          <rdg wit="#ms0410">gəuruu aiia hē pāδauue zāuuarə</rdg>
+        </app>
+        <app xml:id="app-Y9.28d-0-8">
+          <lem>pairi šē uši vərənūiδi skəṇdəm šē manō kərənūiδi</lem>
+          <rdg wit="#ms0005">pairi šēuši vərənīiδe skəṇdəm šē manō kərənīiδe</rdg>
+          <rdg wit="#ms0006">pairišə̄ ušə̄ vərənīi δe skaṇdəm šə̄ manō kərənīiδe</rdg>
+          <rdg wit="#ms0015">pairi šē ušə̄ vərənīiδe səkəṇdəm šī manō kərənīiδe</rdg>
+          <rdg wit="#ms0088">pairišə̄ uši v ərənīiδe skaṇdəm šə̄ manō kərənīi δe</rdg>
+          <rdg wit="#ms0400">pairi šē uš́i vərəinūiδi ⁛</rdg>
+          <rdg wit="#ms0410">pairi šē uš́i vərəniūiδi</rdg>
+        </app>
+        <app xml:id="app-Y9.29a-0-2">
+          <lem>mā zbaraϑaēibiia</lem>
+          <rdg wit="#ms0005">māzbarəϑaēibiia</rdg>
+          <rdg wit="#ms0006">māzbarəϑaēibiia</rdg>
+          <rdg wit="#ms0015">māz bərətaēibiia</rdg>
+          <rdg wit="#ms0088">mā zbaraϑaēibiia</rdg>
+          <rdg wit="#ms0400">māzbaraϑaēibiia</rdg>
+          <rdg wit="#ms0410">māzbaraϑaēibiiō</rdg>
+        </app>
+        <app xml:id="app-Y9.29a-3-7">
+          <lem>mā gauuaēibiia aiβi tūtuiiā̊</lem>
+          <rdg wit="#ms0005">mā gauuaēibiia aiβi tī tuiiā̊</rdg>
+          <rdg wit="#ms0006">mā̊ g auuaēibii aiβi tī tuiiā̊</rdg>
+          <rdg wit="#ms0015">mā̊ gauuaēi biia aiβi tī tuiiā̊</rdg>
+          <rdg wit="#ms0088">mā gauuaēibiia aiβi tī tuiiā̊</rdg>
+          <rdg wit="#ms0400">māgauuaēbii a aiβitūtuiiā̊ ⁛</rdg>
+          <rdg wit="#ms0410">mā gauuaēibiia aiβitūtuii ā̊ ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.29b-0-8">
+          <lem>mā ząm vaēnōit̰ ašibiia mā gąm vaēnōit̰ ašibiia</lem>
+          <rdg wit="#ms0005">mā ząm vaēnōit̰ aṣ̌ibiia mā gąm vaēnōit̰ aṣ̌i biia</rdg>
+          <rdg wit="#ms0006">mā ząm vīōit̰ aṣ̌ibiiōa aṣ̌ibiia aṣ̌ibiiōa aṣ̌ibiia mā g ąm vī nōit̰ aṣ̌ibiia</rdg>
+          <rdg wit="#ms0015">mā̊ ząm v ī nōit̰ aṣ̌ibiia mā̊ gąm vī nō it̰ aṣ̌ibiia</rdg>
+          <rdg wit="#ms0088">mā ząm vaēnōit̰ aṣ̌ibiia mā gąm vaēnōit̰ aṣ̌ibiia</rdg>
+          <rdg wit="#ms0400">mā zą̇m vaēnōit̰ aš́ibiia mā gą̇m vaenōit̰ aš́ibiia ⁛</rdg>
+          <rdg wit="#ms0410">mā zą̇m vaēnōit̰ ašaibiia mā gą̇m vaēnōi t̰ ašibiia ※</rdg>
+        </app>
+        <app xml:id="app-Y9.29c-0-2">
+          <lem>yō ⁺aēnaŋ́heiti</lem>
+          <rdg wit="#ms0005">yō aēnaŋhəiti</rdg>
+          <rdg wit="#ms0006">yō aēnaŋha ite nōit̰ nō nōit̰</rdg>
+          <rdg wit="#ms0015">yōi aēnaŋ́haite</rdg>
+          <rdg wit="#ms0088">yō aēnaŋhəite</rdg>
+          <rdg wit="#ms0400">ẏō aēnaŋhəiti</rdg>
+          <rdg wit="#ms0410">ẏō aēnaŋhəiti</rdg>
+        </app>
+        <app xml:id="app-Y9.29c-4-6">
+          <lem>yō ⁺aēnaŋ́heiti</lem>
+          <rdg wit="#ms0005">aēnaiŋ́həiti</rdg>
+          <rdg wit="#ms0006">yō aēnaŋhaiti</rdg>
+          <rdg wit="#ms0015">yō aēnaŋ́he aēnaŋ́haite aēnaŋ́he aēnaŋ́haite</rdg>
+          <rdg wit="#ms0088">yō aēnaŋ́həiti</rdg>
+          <rdg wit="#ms0400">ẏō aēna ŋhəiti</rdg>
+          <rdg wit="#ms0410">ẏō aēnaŋ́ həiti</rdg>
+        </app>
+        <app xml:id="app-Y9.29c-7-8">
+          <lem>kəhrpəm</lem>
+          <rdg wit="#ms0005">kəhrpəm</rdg>
+          <rdg wit="#ms0006">kəhrpəm</rdg>
+          <rdg wit="#ms0015">kihrpəm</rdg>
+          <rdg wit="#ms0088">kəhrp əm</rdg>
+          <rdg wit="#ms0400">kəhrpəm</rdg>
+          <rdg wit="#ms0410">kəhrpəm</rdg>
+        </app>
+        <app xml:id="app-Y9.30a-0-1">
+          <lem>paiti</lem>
+          <rdg wit="#ms0005">paiti</rdg>
+          <rdg wit="#ms0006">paiti</rdg>
+          <rdg wit="#ms0015">pa iti</rdg>
+          <rdg wit="#ms0088">paiti</rdg>
+          <rdg wit="#ms0400">paiti</rdg>
+          <rdg wit="#ms0410">paiti</rdg>
+        </app>
+        <app xml:id="app-Y9.30a-2-6">
+          <lem>zairitahe simahe vīšō vaēpahe</lem>
+          <rdg wit="#ms0005">zairitahe s əmahe vīṣ̌ō vīpahe</rdg>
+          <rdg wit="#ms0006">zairi tahe səmahe vīšō vīpahe</rdg>
+          <rdg wit="#ms0015">zairitahe zairahe zairitahe səmahe v īšō vīpahe</rdg>
+          <rdg wit="#ms0088">zairitahe sə mahe vīšō vaēpahe</rdg>
+          <rdg wit="#ms0400">zairitahe simahe vīšō vaēpahe</rdg>
+          <rdg wit="#ms0410">zairitahe simahe vīšō vaēpahe</rdg>
+        </app>
+        <app xml:id="app-Y9.30b-0-7">
+          <lem>kəhrpəm nāšəmnāi aṣ̌aōne haōma zāire vadarə jaiδi</lem>
+          <rdg wit="#ms0005">kəhrpəm nāšəmn āi aṣ̌aōne haōma zāiri vadarəjiδi</rdg>
+          <rdg wit="#ms0006">kəh rəpəm nāšəmnāi aṣ̌aōne haōmahe haōma haōmahe haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0015">kihrpəm nāšəmnāi aṣ̌aōnō haōma zāiri vadarəjaiδ e</rdg>
+          <rdg wit="#ms0088">kəhrpəm n āšəmnāi aṣ̌aōne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0400">kəhrpəm nā šəmnāi aṣ̌aone haoma zāiri vadarə jai δi ⁛</rdg>
+          <rdg wit="#ms0410">kəhrpəm nāšəmnāi aṣ̌ao ne haoma zāire vadarə jaiδi</rdg>
+        </app>
+        <app xml:id="app-Y9.30c-0-5">
+          <lem>paiti gaδahe vīuuarəzdauuatō xruuīš́iiatō zazarānō</lem>
+          <rdg wit="#ms0005">pai ti gaδahe vīuuarəzdauuatō xrauuīšiia tō zazarānō</rdg>
+          <rdg wit="#ms0006">paiti gaδahe vīuuarəzdauuatō xrauuīšaiiatō zazarānō</rdg>
+          <rdg wit="#ms0015">paiti gaδahe vīuuarəzdauua tō xrauuīšaiiatō zazrānō</rdg>
+          <rdg wit="#ms0088">paiti gaδahe vīuu ərəzdauuatō xruuīšiiatō zazrānō</rdg>
+          <rdg wit="#ms0400">paiti gaδahe vīvərəzdauuatō xruuī š́iiatō zazarānō</rdg>
+          <rdg wit="#ms0410">paiti gaδa he vīvərəzdauuatō xruuī⁛šiiatō⁛ zazarānō</rdg>
+        </app>
+        <app xml:id="app-Y9.30d-0-1">
+          <lem>kəhrpəm</lem>
+          <rdg wit="#ms0005">kəhrpəm</rdg>
+          <rdg wit="#ms0006">kəhrpəm</rdg>
+          <rdg wit="#ms0015">kihr pəm</rdg>
+          <rdg wit="#ms0088">kəhrpəm</rdg>
+          <rdg wit="#ms0400">kəhrpəm</rdg>
+          <rdg wit="#ms0410">kəhrpəm</rdg>
+        </app>
+        <app xml:id="app-Y9.30d-2-7">
+          <lem>aṣ̌aōne haōma zāire vadarə jaiδi</lem>
+          <rdg wit="#ms0005">aṣ̌aōne h aōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0006">aṣ̌aō ne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0015">aṣ̌aōne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0088">aṣ̌aōne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0400">aṣ̌aone hao ma zāire vadarəjaiδi ⁛</rdg>
+          <rdg wit="#ms0410">aṣ̌aone haoma zāire va darə jaiδi</rdg>
+        </app>
+        <app xml:id="app-Y9.31a-1-7">
+          <lem>maṣ̌iiehe druuatō sāstarš aiβi vōiždaiiaṇtahe kamərəδəm</lem>
+          <rdg wit="#ms0005">maš́iie he druuatō sāstarəš aiβi vaōižda iiaṇtahe kamərəδəm</rdg>
+          <rdg wit="#ms0006">maš́iiehe druuatō sā starəš aiβiuuaōždaiiaṇtahe kamrəδəm</rdg>
+          <rdg wit="#ms0015">maš́iiehe druua tō sāstarəš aiβiuuaōiždaiieiṇtah e kamərəδəm</rdg>
+          <rdg wit="#ms0088">maṣ̌iie he druuatō sāstarəš aiβiuuaōiž daiiaṇtahe kamərəδəm</rdg>
+          <rdg wit="#ms0400">maš́aiie he druuatō sāstriš aiβi vōždaiie iṇtahe kamərəδəm</rdg>
+          <rdg wit="#ms0410">maṣ̌iiehe druua tō sāstariš aiβi vōždaiiaṇtahe kamərəδəm</rdg>
+        </app>
+        <app xml:id="app-Y9.31b-1-7">
+          <lem>nāšəmnāi aṣ̌aōne haōma zāire vadarə jaiδi</lem>
+          <rdg wit="#ms0005">nāšəmnāi a ṣ̌aōne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0006">nāšəmnāi aṣ̌ aōne haōma zāiri va arəjaiδe</rdg>
+          <rdg wit="#ms0015">nāšəmnāi aṣ̌a ōne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0088">nāš əmnāi aṣ̌aōne haōma zāiri va darəjaiδe</rdg>
+          <rdg wit="#ms0400">nāšəmnāi aṣ̌aone haoma zāiri vadarə jaiδi</rdg>
+          <rdg wit="#ms0410">nāšəmnāi aṣ̌aone haoma zāire vadarə jaiδe ⁛ ※</rdg>
+        </app>
+        <app xml:id="app-Y9.31c-0-10">
+          <lem>paiti aṣ̌əmaōγahe anaṣ̌aōnō ahu mərəcō aiŋ́hā̊ daēnaiiā̊ mąs vacō daϑānahe</lem>
+          <rdg wit="#ms0005">paiti aṣ̌əmaōγahe anaṣ̌aōnō ahīməmərəcō a iŋ́hā̊ daēnaiiā̊ mąs vacō daϑānahe</rdg>
+          <rdg wit="#ms0006">paiti aṣ̌əmōγahe anaṣ̌aōnō ahumərətō ahumərəcō ahumərətō ahumərəcō aŋ́hā̊ daēiiā̊ mąs vaca daϑānahe</rdg>
+          <rdg wit="#ms0015">pa iti aṣ̌əmaōγahe anaṣ̌aōnō ahumərəṇ cō aŋ́hā̊ daēnaiiā̊ mąs vacō da ϑānahe</rdg>
+          <rdg wit="#ms0088">paiti aṣ̌əmaōγahe an aṣ̌aōnō ahīmərəcō aŋ́hā̊ daēna iiā̊ mąs vaca daϑānahe</rdg>
+          <rdg wit="#ms0400">paiti aṣ̌əmaoγahe anaṣ̌aonō ahū mə rəṇcō aŋ́hā̊ daenaiiā̊ v v mą̇s vaca daϑānahe</rdg>
+          <rdg wit="#ms0410">paiti aṣ̌əmaoγahe anaṣ̌aōnō ahū mərəṇcō aŋ́hā̊ daenaiiā̊ mą̇s vaca daϑānahe</rdg>
+        </app>
+        <app xml:id="app-Y9.31c-11-13">
+          <lem>š́iiaōϑnāiš apaiiaṇtahe</lem>
+          <rdg wit="#ms0005">š́iiaōϑanāiš apaiiaṇtahe</rdg>
+          <rdg wit="#ms0006">š́iiaōϑ anāiš apaiiaṇtahe</rdg>
+          <rdg wit="#ms0015">š́iiaōϑanāiš apa iiaṇtahe</rdg>
+          <rdg wit="#ms0088">š́iiaōϑanāiš apaiieṇtahe</rdg>
+          <rdg wit="#ms0400">š́iiaoϑanāiš apaii eṇtahe ⁛</rdg>
+          <rdg wit="#ms0410">š́iiaoϑnāiš apaiieṇtahe ⁛※</rdg>
+        </app>
+        <app xml:id="app-Y9.31d-0-7">
+          <lem>kəhrpəm nāšəmnāi aṣ̌aōne haōma zāire vadarə jaiδi</lem>
+          <rdg wit="#ms0005">kəhrpəm nāšə mnāi aṣ̌aōne haōma zāiri vadrəjaδe vadarəjaδe vadrəjaδe vadarəjaδe</rdg>
+          <rdg wit="#ms0006">kəhrpəm nā̊šəmnāi aṣ̌aōne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0015">kəhrpəm nāšəmnāi aṣ̌ aōne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0088">kəhr pəm nāšəmnāi aṣ̌aōne haōma zāi ri vadarəjaiδe</rdg>
+          <rdg wit="#ms0400">kəhrpəm nāšəmnāi aṣ̌aone hao ma zāire vadarə jaiδi</rdg>
+          <rdg wit="#ms0410">kəhrpəm nāšəmnāi a ṣ̌aone haoma zāiri vadarə jaiδi</rdg>
+        </app>
+        <app xml:id="app-Y9.32a-0-5">
+          <lem>paiti jahikaiiāi yātumaitiiāi maōδanō kairiiāi</lem>
+          <rdg wit="#ms0005">pait i jahekaiiāi yātumaitiiāi maōδanō kairii āi</rdg>
+          <rdg wit="#ms0006">paiti jahe kaiiā i yātumaitiiāi mōδanō kairii āi</rdg>
+          <rdg wit="#ms0015">paiti jahikaiiāi yātumaitii āi maōδanō kairiiāi</rdg>
+          <rdg wit="#ms0088">paiti jahe kaii āi yātumaitiiāi maōδanō kairii āi</rdg>
+          <rdg wit="#ms0400">paiti jahikaiiāi yātō maitaiiāi yātu maitaiiāi yātō maitaiiāi yātu maitaiiāi maoδanō kairiiāi</rdg>
+          <rdg wit="#ms0410">paiti jahikaiiāi yātumaitiiāi maoδanō kairiiāi</rdg>
+        </app>
+        <app xml:id="app-Y9.32a-6-9">
+          <lem>bairiiāi yeŋ́he frafrauuaite</lem>
+          <rdg wit="#ms0005">bairiiāi yeŋ́hē frafrauuaite</rdg>
+          <rdg wit="#ms0006">bairiiāi yeŋ́hē frafrauuaiti</rdg>
+          <rdg wit="#ms0015">b airiiāi yeŋ́hē frauuaiti frafrauuaiti frauuaiti frafrauuaiti</rdg>
+          <rdg wit="#ms0088">bairiiāi yeŋ́he fraf rauuaiti</rdg>
+          <rdg wit="#ms0400">b airiiāi yeŋ́he frafrauuaite</rdg>
+          <rdg wit="#ms0410">bairiiāi ye ŋ́he frafrauuaiti</rdg>
+        </app>
+        <app xml:id="app-Y9.32a-10-14">
+          <lem>yaϑa aβrəm ⁺vātō š́ūtəm</lem>
+          <rdg wit="#ms0005">yaϑa aβrəm vātō šītəm</rdg>
+          <rdg wit="#ms0006">yaϑa aβrəm vātō šīitəm</rdg>
+          <rdg wit="#ms0015">yaϑa aβrəm vātō šītəm</rdg>
+          <rdg wit="#ms0088">yaϑa aβrəm vā tō šītəm</rdg>
+          <rdg wit="#ms0400">ẏaϑa aβarəm vātō šūtəm ⁛</rdg>
+          <rdg wit="#ms0410">ẏaϑa aβrəm v ātō šūtəm ※</rdg>
+        </app>
+        <app xml:id="app-Y9.32b-0-16">
+          <lem>kəhrpəm nāšəmnāi aṣ̌aōne haōma zāire vadarə jaiδi yat̰ hē kəhrpəm nāšəmnāi aṣ̌aōne haōma zāire vadarə jaiδi</lem>
+          <rdg wit="#ms0005">kəhrpəm nāšəmnāi aṣ̌aōnąme aṣ̌aōnąe aṣ̌aōnąme aṣ̌aōnąe haōma zāiri vadarə jaiδe yat̰ hē kəhrpəm nāšəmnāi aṣ̌aōne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0006">kəhrpəm nāšəmnāi aṣ̌aōne haōma zāiri vadarəjai δe yat̰ hē kəhrpəm nāšəmnāi a ṣ̌ne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0015">kihrpəm nā̊šnəmnāi aṣ̌aōne haōma zāiri vadarəjaiδe yat̰ hē kəhrpəm nā šəmnāi aṣ̌aōne haōma zāiri va darəjaiδe</rdg>
+          <rdg wit="#ms0088">kəhrpəm nāšəmnāi aṣ̌aōne haōma zāiri vadarəjai δe yat̰ hē kəhrpəm nāšəmnāi a ṣ̌aōne haōma zāiri vadarəjaiδe</rdg>
+          <rdg wit="#ms0400">kəhrpəm nāšəmnāi aṣ̌aone haoma zāire vaδarə jaiδe jaiδi jaiδe jaiδi ẏat̰ hē kəhrpəm nāšəm nāi aṣ̌aone haoma zāiri vadarə jaiδi ⁛</rdg>
+          <rdg wit="#ms0410">kəhrpəm nāšəmnāi aṣ̌aono haoma zāiri vadairi jaiδe ⁛ ẏat̰ hē kəhrpəm nāšəmnāi aṣ̌aone h aoma zāire vadairə jaiδi</rdg>
+        </app>
+      </div>
+    </body>
+  </text>
+</TEI>

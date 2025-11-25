@@ -1,0 +1,138 @@
+# Orthography families v4 (contextual, directional)
+# This file is a scaffold. Populate from your PDF rules.
+# Schema:
+# families:
+#   <name>:
+#     patterns: [regex, ...]            # applied bidirectionally, replaces with placeholder for comparison
+#     compare_only_regex: [regex, ...]  # compare-only neutralizations
+#     diacritic_insensitive: true|false
+#     punctuation_insensitive: true|false
+# notes:
+#   - You can model contexts via regex look-arounds if safe, or keep contexts in the policy file instead.
+
+families:
+  long_i_vs_u:
+    compare_only_regex:
+      - "ī|ii"
+      - "ū|uu"
+    diacritic_insensitive: true
+    punctuation_insensitive: true
+
+    # Short palatal vowel cluster: ə, e, i confusion (opening/closing tendencies)
+    short_palatal_cluster:
+      compare_only_regex:
+        - "[əei]"
+      diacritic_insensitive: true
+      punctuation_insensitive: true
+
+    # Long palatal vowel cluster: ē, ī, ə̄ confusion (closing/shortening tendencies)
+    long_palatal_cluster:
+      compare_only_regex:
+        - "[ēīə̄]"
+      diacritic_insensitive: true
+      punctuation_insensitive: true
+
+    # Labial confusion: u vs ō (especially final position)
+    labial_u_o_cluster:
+    compare_only_regex:
+        - "[uō]"
+    diacritic_insensitive: true
+    punctuation_insensitive: true
+
+    # Circled a and variants: ā̊ vs ā vs āu (labialization, Indian āu tendency)
+    a_circle_cluster:
+      compare_only_regex:
+        - "ā̊|āu"
+      diacritic_insensitive: true
+      punctuation_insensitive: true
+
+    # Nasal vowel: ą̄ vs ā (Iranian universal ā, Indian universal ą̄)
+    nasal_vowel_a_cluster:
+      compare_only_regex:
+        - "ą̄|ā"
+      diacritic_insensitive: true
+      punctuation_insensitive: true
+
+  nasal_palatal_n_acute:
+    # ń vs n (often before -ii-) — trivial
+    patterns:
+      - "[ńn]"
+
+  semivowel_y_vs_y_dotted:
+    # y vs ẏ — trivial
+    patterns:
+      - "[yẏ]"
+
+  nasal_vowel_dotted:
+    # ą vs ą̇ — trivial
+    patterns:
+      - "ą̇|ą"
+
+  diphthong_o_cluster:
+    # Neutralize confusion among aō, ōi, and ō within a token (monophthongization/orthography)
+    # Examples: aōi ~ ōi ~ ō; affects forms like zaiiaōi ~ zaiiōi ~ zaiiō
+    compare_only_regex:
+      - "aōi|ōi|aō|ō"
+
+  diphthong_e_cluster:
+    # Neutralize confusion among aē, ae, ī, ē, and ai within a token
+    # Examples: aē ~ ī ~ ē; Indian falling diphthong tendency ai
+    compare_only_regex:
+      - "aē|ae|ī|ē|ai"
+
+  pseudo_diphthong_ou_cluster:
+    # Neutralize pseudo-diphthong ou vs ōu (labialization/length); often in vohu-/pouru-
+    compare_only_regex:
+      - "ōu|ou"
+
+  # Keep simpler second-vowel families after clusters so they don't pre-empt cluster matching
+  diphthong_second_vowel_o:
+    # aō vs ao — trivial
+    compare_only_regex:
+      - "a[ōo]"
+
+  diphthong_second_vowel_e:
+    # aē vs ae — trivial
+    compare_only_regex:
+      - "a[ēe]"
+
+  vohu_spelling_o_vs_ō:
+    # vohu- vs vōhu- — trivial
+    compare_only_regex:
+      - "\\bv[ōo]hu"
+
+  fricative_t_vs_thorn:
+    # t vs ϑ — trivial
+    patterns:
+      - "[tϑ]"
+
+  palatal_series_confusion:
+    # j/ž/z — trivial among themselves
+    patterns:
+      - "[jžz]"
+
+  archaism_ngr_hr:
+    # ŋhr preserved vs missing (normalize both ŋhr and nhr)
+    compare_only_regex:
+      - "ŋhr|nhr"
+
+  archaism_ngv_variants:
+    # ŋᵛ (and its h/u realizations) vs ŋ — trivial orthographic archaism
+    # Covers substitutions noted in traditions: ŋᵛ, ŋᵛh, ŋh, ŋhu, ŋuh, and plain ŋ
+    compare_only_regex:
+      - "ŋᵛh|ŋhu|ŋuh|ŋᵛ|ŋh|ŋ"
+
+  x_series_variants:
+    # x́ vs xᵛ vs x — trivial (recitation-influenced neutralization)
+    compare_only_regex:
+      - "x́|xᵛ|x"
+
+  labial_nasal_variants:
+    # ɱ vs hm — trivial
+    compare_only_regex:
+      - "ɱ|hm"
+
+  gamma_vs_g:
+    # γ vs g — trivial
+    patterns:
+      - "[γg]"
