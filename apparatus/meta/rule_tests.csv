@@ -1,0 +1,10 @@
+lem,rdg,expected_label,expected_n,notes
+"gaēϑaiiāi","gaēϑiiāi","trivial","ai deleted; i deleted; ii inserted","sample from Y9"
+"āiiaptəm","āiiap təm","trivial","space inserted","spacing-only"
+"aō","ō","trivial","a deleted","monophthongization"
+"aē","ī","trivial","ī→ē; a deleted","monophthongization"
+"vohu","vōhu","trivial","ō→o","vohu- spelling"
+"ϑratu","sratu","trivial","s→ϑ","seseo"
+"āϑrasca","ātrasca","trivial","t→ϑ","occlusion"
+"nava","ńava","trivial","ń→n","nasal palatal"
+"gātha","γātha","trivial","γ→g","initial fricative"

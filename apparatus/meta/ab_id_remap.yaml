@@ -1,0 +1,16 @@
+# Per-witness AB id remapping for misnumbered or shifted segments
+# Use witness ids without leading '#'
+# ms0400 has multiple section offsets:
+# - Y9.2: content shifted by -1 label (what should be 2a is in 2b, 2b in 2c, etc.)
+# - Y9.11c-e: shifted by +1 vs lemma
+witnesses:
+  ms0400:
+    # Y9.2 sections: canonical Y9.2a is in ms0400 Y9.2b, etc.
+    Y9.2a: Y9.2b
+    Y9.2b: Y9.2c
+    Y9.2c: Y9.2d
+    Y9.2d: Y9.2e
+    # Y9.11 sections: canonical Y9.11c is in ms0400 Y9.11d, etc.
+    Y9.11c: Y9.11d
+    Y9.11d: Y9.11e
+    Y9.11e: Y9.11f

@@ -1,0 +1,13 @@
+app_id,wit_list,rdg_text,lem_text,feature,variant_likelihood,reason,inference_rule
+app-Y1.6-20-20,#ms0006,yāiriiaiiusca.,yāiriiaiiā̊sca.,yāiriiaiiusca→yāiriiaiiā̊sca,0.5,borderline/unstable or unmapped,none
+app-Y1.17-19-19,#ms0005 #ms0008 #ms0015,hīrō.,hūrō.,hīrō→hūrō,0.5,borderline/unstable or unmapped,none
+app-Y1.19-5-5,#ms0005 #ms0015,aiβiϑīranąm.,aiβiϑūranąm.,aiβiϑīranąm→aiβiϑūranąm,0.5,borderline/unstable or unmapped,none
+app-Y1.19-11-12,#ms0005,urune. frauuašə̄e.,urunō. frauuaṣ̌ə̄e.,urune.→urunō.,0.5,borderline/unstable or unmapped,none
+app-Y1.21-9-9,#ms0005,aṣ̌aōm.,aṣ̌āum.,aṣ̌aōm→aṣ̌āum,0.5,borderline/unstable or unmapped,none
+app-Y1.23-3-3,#ms0005,aṣ̌aōm.,aṣ̌āum.,aṣ̌aōm→aṣ̌āum,0.5,borderline/unstable or unmapped,none
+app-Y1.6-20-20,#ms0006,yāiriiaiiusca.,yāiriiaiiā̊sca.,yāiriiaiiusca→yāiriiaiiā̊sca,0.5,borderline/unstable or unmapped,none
+app-Y1.17-19-19,#ms0005 #ms0008 #ms0015,hīrō.,hūrō.,hīrō→hūrō,0.5,borderline/unstable or unmapped,none
+app-Y1.19-5-5,#ms0005 #ms0015,aiβiϑīranąm.,aiβiϑūranąm.,aiβiϑīranąm→aiβiϑūranąm,0.5,borderline/unstable or unmapped,none
+app-Y1.19-11-12,#ms0005,urune. frauuašə̄e.,urunō. frauuaṣ̌ə̄e.,urune.→urunō.,0.5,borderline/unstable or unmapped,none
+app-Y1.21-9-9,#ms0005,aṣ̌aōm.,aṣ̌āum.,aṣ̌aōm→aṣ̌āum,0.5,borderline/unstable or unmapped,none
+app-Y1.23-3-3,#ms0005,aṣ̌aōm.,aṣ̌āum.,aṣ̌aōm→aṣ̌āum,0.5,borderline/unstable or unmapped,none
