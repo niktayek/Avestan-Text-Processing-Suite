@@ -10,18 +10,22 @@ build-backend = "poetry.core.masonry.api"
 ################################################################################
 
 [tool.poetry]
-name = "OCR"
+name = "avestan-text-processing-suite"
 version = "0.1.0"
-description = ""
-authors = []
+description = "End-to-end pipeline for Avestan manuscript processing: OCR via transfer learning and rule-based critical apparatus construction"
+authors = ["Nikta Yekrang Safakar <niktaayekrang@gmail.com>"]
 readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/Nikyek/avestan-text-processing-suite"
+repository = "https://github.com/Nikyek/avestan-text-processing-suite"
+documentation = "https://github.com/Nikyek/avestan-text-processing-suite/blob/main/README.md"
+keywords = ["Avestan", "OCR", "critical apparatus", "digital philology", "low-resource languages"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
 nltk = "^3.9.1"
 lxml = "^5.3.1"
-# ketos = "^2.7.1"
-# kraken = "5.2.9"
+kraken = "^5.2.9"
 pillow = "^11.1.0"
 levenshtein = "^0.27.1"
 seaborn = "^0.13.2"
