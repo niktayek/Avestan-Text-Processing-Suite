@@ -6,7 +6,7 @@ authors:
     given-names: "Nikta"
     affiliation: "Leibniz-Zentrum Allgemeine Sprachwissenschaft (ZAS) and Humboldt University of Berlin"
 version: 0.1.0
-date-released: 2025-02-23
+date-released: 2026-02-23
 repository-code: "https://github.com/Nikyek/avestan-text-processing-suite"
 repository-artifact: "https://huggingface.co/Nikyek/avestan-ocr-kraken-v1"
 license: MIT
