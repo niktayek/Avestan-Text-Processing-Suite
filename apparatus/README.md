@@ -40,6 +40,6 @@ poetry run python apparatus/scripts/tag_apparatus.py \
 ```
 
 ## Notes
-- Scripts are copies of the primary implementations under `src/interfaces/xml_translator` to make this folder self-contained.
-- Outputs are mirrored here for convenience; originals remain under `res/Yasna/apparatus/Y9`.
-- Archives include all retired outputs for traceability.
+- Primary implementation: `apparatus/scripts/tag_apparatus.py`
+- Outputs are generated to `apparatus/outputs/Y9/`; results also stored under `res/Yasna/apparatus/Y9/`
+- Archives in `apparatus/archive/Y9/` preserve historical outputs for traceability

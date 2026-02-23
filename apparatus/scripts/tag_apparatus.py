@@ -258,11 +258,16 @@ def classify_rdg(lem_text: str, rdg_text: str, wit_id: str,
     rdg_length = len(rdg_norm.replace('.', '').replace(' ', ''))
     if lem_length > 0:
         length_ratio = rdg_length / lem_length
-        # If reading is less than 60% of lemma length, it's a significant omission
+        # If reading < 60% of lemma length, significant material is missing.
+        # Threshold empirically determined: small drops (vowel loss) are trivial,
+        # but >40% loss indicates lexical corruption or major scribal error.
         if length_ratio < 0.6:
             return "meaningful"
     
     # 2. Large additions: reading is significantly longer than lemma
+    # If reading > 150% of lemma length, significant material was added.
+    # Common in Indian manuscripts (anaptyxis, diacritics) but >50% addition
+    # suggests non-orthographic change (lexical insertion or duplication).
     if rdg_length > lem_length * 1.5:
         return "meaningful"
     
@@ -284,10 +289,13 @@ def classify_rdg(lem_text: str, rdg_text: str, wit_id: str,
     
     # If consonantal structure differs significantly, it's meaningful
     if lem_consonants != rdg_consonants:
-        # Allow small differences (1-2 characters) for common variations
+        # Allow small differences (1-2 characters) for common variations.
+        # Use 80% consonant similarity threshold: differences in >20% of
+        # consonantal structure suggest word-level substitution or major error,
+        # not orthographic variation. (Documented in thesis methodology.)
         import difflib
         similarity = difflib.SequenceMatcher(None, lem_consonants, rdg_consonants).ratio()
-        if similarity < 0.8:  # Less than 80% consonant similarity = meaningful change
+        if similarity < 0.8:  # Less than 80% = meaningful change
             return "meaningful"
     
     # Detect atomic operations
