@@ -7,7 +7,7 @@
 
 **Citation**: Please use [CITATION.cff](CITATION.cff) for citation metadata. This repository implements research from:
 
-> Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Construction for Avestan Texts*. Doctoral thesis, Freie Universität Berlin.
+> Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Construction for Avestan Texts*. Master's thesis, Freie Universität Berlin.
 
 ---
 
@@ -198,11 +198,11 @@ Contributions are welcome! Please:
 
 ## Acknowledgments
 
-This thesis was supervised by **Prof. Melanie Malzahn** (Freie Universität Berlin, Iranistik department) and developed in collaboration with the **Corpus Avesticum Berolinense (CAB) project**.
+This Master's thesis was supervised by **Prof. Dr. Alberto Cantera Glera** (primary supervisor) and **Dr. des. Jaime Martínez Porro** (second supervisor) at the Iranistik department, Freie Universität Berlin. The work was developed in collaboration with the **Corpus Avesticum Berolinense (CAB) project**.
 
 Special thanks to:
-- **Alberto Cantera** (Director, CAB; Freie Universität Berlin) for manuscript access and guidance
-- **Javier Martínez Porro** (Avestan philologist) whose systematic orthographic analysis provided the theoretical foundation for classification rules
+- **Alberto Cantera** (Director, CAB; Freie Universität Berlin) for manuscript access, guidance, and supervision
+- **Javier Martínez Porro** (Avestan philologist) whose systematic orthographic analysis provided the theoretical foundation for classification rules and for serving as second supervisor
 - **Daniel Stökl Ben Ezra** (Hebrew philology and eScriptorium expertise) for technical advice on historical script OCR
 - **The Kraken and eScriptorium communities** for open-source tools and responsive development support
 
@@ -211,7 +211,7 @@ Special thanks to:
 ## Author & Affiliation
 
 **Nikta Yekrang Safakar**
-- Doctoral thesis, Freie Universität Berlin (2025)
+- Master's thesis, Freie Universität Berlin (December 2025)
 - Current affiliation: Leibniz-Zentrum Allgemeine Sprachwissenschaft (ZAS) and Humboldt University of Berlin
 - Email: niktaayekrang@gmail.com
 
@@ -233,7 +233,7 @@ See [CITATION.cff](CITATION.cff) for machine-readable citation metadata.
 
 See [CITATION.cff](CITATION.cff) for machine-readable metadata. Standard form:
 
-Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Construction for Avestan Texts*. Doctoral thesis, Freie Universität Berlin. https://github.com/niktayek/Avestan-Text-Processing-Suite
+Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Construction for Avestan Texts*. Master's thesis, Freie Universität Berlin. https://github.com/niktayek/Avestan-Text-Processing-Suite
 
 ## Questions
 
