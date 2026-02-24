@@ -9,6 +9,8 @@
 
 > Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Construction for Avestan Texts*. Master's thesis, Freie Universität Berlin.
 
+**Security note**: GitHub alerts a Pillow PSD issue. The latest available version in the current Poetry index is 11.3.0, so we cannot upgrade further right now. This repo processes PNG/JPG/TIFF inputs, not PSD. We will update Pillow as soon as a fixed release is available.
+
 ---
 
 ## Overview
