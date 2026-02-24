@@ -9,7 +9,11 @@
 
 > Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Construction for Avestan Texts*. Master's thesis, Freie Universität Berlin.
 
-**Security note**: GitHub alerts a Pillow PSD issue. The latest available version in the current Poetry index is 11.3.0, so we cannot upgrade further right now. This repo processes PNG/JPG/TIFF inputs, not PSD. We will update Pillow as soon as a fixed release is available.
+**Security note**: GitHub Dependabot reports 4 remaining alerts, all transitive dependencies from the Kraken OCR framework:
+- **Pillow PSD vulnerability** (High): This codebase only processes PNG/JPG/TIFF manuscript images, not PSD files, so the vulnerability does not apply. Will update when Pillow 11.4.0+ becomes available in the Poetry index.
+- **PyTorch vulnerabilities** (3 alerts: Critical, Moderate, Low): These relate to `torch.load()` on untrusted models and resource handling. This project does not load external PyTorch models or call `torch.load()` directly—OCR inference is handled internally by Kraken. Will update when patched PyTorch releases become available.
+
+All dependencies are locked at their latest available versions (as of Feb 2025) and pose minimal practical risk for this research codebase's intended use.
 
 ---
 
