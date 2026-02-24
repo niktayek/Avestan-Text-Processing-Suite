@@ -25,12 +25,12 @@
 
 5. **Get Results**
    - Four files will automatically download to your computer:
-     - `relabeled_TIMESTAMP.xml` - Your relabeled target file ✓
+     - `relabeled_TIMESTAMP.xml` - Your relabeled target file
      - `backup_original_TIMESTAMP.xml` - Safety copy of original
      - `replacements_report_TIMESTAMP.csv` - All ID changes made
      - `verification_report_TIMESTAMP.txt` - Detailed summary
 
-### That's it! ✅
+### That's it!
 
 ---
 

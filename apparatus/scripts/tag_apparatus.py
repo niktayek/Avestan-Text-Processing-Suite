@@ -368,7 +368,7 @@ def tag_apparatus_xml(input_path: str, output_path: str,
     tree.write(output_path, encoding='utf-8', xml_declaration=True, pretty_print=True)
     
     # Print statistics
-    print(f"✅ Tagged apparatus written to: {output_path}")
+    print(f"Tagged apparatus written to: {output_path}")
     print(f"   {app_count} apparatus entries processed")
     print(f"   {rdg_count} readings tagged:")
     for rdg_type, count in sorted(type_counts.items()):

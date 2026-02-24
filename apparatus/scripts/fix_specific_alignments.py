@@ -86,7 +86,7 @@ def fix_alignments(input_path: Path, output_path: Path):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     tree.write(str(output_path), encoding='utf-8', xml_declaration=True, pretty_print=True)
     
-    print(f"✅ Applied {len(fixes_applied)} alignment fixes:")
+    print(f"Applied {len(fixes_applied)} alignment fixes:")
     for fix in fixes_applied:
         print(f"   • {fix}")
     print(f"\nOutput written to: {output_path}")
