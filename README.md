@@ -172,7 +172,7 @@ The full methodology is documented in the thesis: *Integrating OCR and Automated
 
 ---
 
-## ⚠️ Limitations & Scope
+## Limitations & Scope
 
 1. **Apparatus requires error-free input**: The classification pipeline works best with manually reviewed transcriptions. Raw OCR output should be post-edited before feeding to apparatus generation.
 2. **Witness group metadata not yet loaded**: Configuration exists for distinguishing scribal schools (Iranian Yazdi/Kermani, Indian Navsari/Surat) but is currently commented out in the code. Future work will integrate this.
@@ -182,7 +182,7 @@ See [Chapter 5](Chapter5_Conclusion_FutureWork.md) for detailed discussion of li
 
 ---
 
-## 🛠️ Development & Contributing
+## Development & Contributing
 
 Contributions are welcome! Please:
 
@@ -196,7 +196,7 @@ Contributions are welcome! Please:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This thesis was supervised by **Prof. Melanie Malzahn** (Freie Universität Berlin, Iranistik department) and developed in collaboration with the **Corpus Avesticum Berolinense (CAB) project**.
 
