@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build:apparatus Y9 (10 mss)",
+			"type": "shell",
+			"command": "/Users/niktayekrangsafakar/Library/Caches/pypoetry/virtualenvs/ocr-lQ8MIrUH-py3.10/bin/python -m src.interfaces.xml_translator.tei_build_apparatus_from_witnesses --lemma data/Yasna_Static.xml --parts Y9 --witness-files data/CAB/Yasna/0005.xml,data/CAB/Yasna/0006.xml,data/CAB/Yasna/0008.xml,data/CAB/Yasna/0015.xml,/Users/niktayekrangsafakar/Downloads/0040.xml,/Users/niktayekrangsafakar/Downloads/0060.xml,/Users/niktayekrangsafakar/Downloads/0083.xml,data/CAB/Yasna/0088.xml,data/CAB/Yasna/0400.xml,data/CAB/Yasna/0410.xml --out res/Yasna/apparatus/Y9/apparatus_multi_Y9_10mss.xml",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
