@@ -1,13 +1,15 @@
 cff-version: 1.2.0
 title: "Integrating OCR and Automated Apparatus Construction for Avestan Texts"
 message: "If you use this software in your research, please cite it using these metadata."
+type: software
 authors:
   - family-names: "Yekrang Safakar"
     given-names: "Nikta"
     affiliation: "Leibniz-Zentrum Allgemeine Sprachwissenschaft (ZAS) and Humboldt University of Berlin"
+    email: "niktaayekrang@gmail.com"
 version: 0.1.0
 date-released: 2026-02-23
-repository-code: "https://github.com/Nikyek/avestan-text-processing-suite"
+repository-code: "https://github.com/niktayek/Avestan-Text-Processing-Suite"
 repository-artifact: "https://huggingface.co/Nikyek/avestan-ocr-kraken-v1"
 license: MIT
 keywords:
@@ -19,3 +21,14 @@ keywords:
   - "transfer learning"
   - "low-resource languages"
   - "historical manuscripts"
+references:
+  - type: thesis
+    authors:
+      - family-names: "Yekrang Safakar"
+        given-names: "Nikta"
+    title: "Integrating OCR and Automated Apparatus Construction for Avestan Texts"
+    thesis-type: "Master's thesis"
+    institution:
+      name: "Freie Universität Berlin"
+    date-published: 2025-12
+    department: "Iranistik"
