@@ -1,9 +1,59 @@
-# src — Avestan OCR & Analysis Toolkit
+# src — Avestan Thesis Code
 
-Python modules for the end-to-end Avestan OCR workflow: image/OCR helpers, token matching, feature/Leitfehler analysis, and scribal-school exploration. Each module can run on its own; together they form the research pipeline.
+Core Python modules for the Master's thesis: OCR preprocessing, TEI apparatus construction, and external tool interfaces.
 
-> For model training & OCR setup, see `../applying_ocr/README.md`
-> or the Hugging Face card: **avestan-ocr-kraken-v1** — [https://huggingface.co/Nikyek/avestan-ocr-kraken-v1](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1)
+> For OCR model training, see `../applying_ocr/README.md`  
+> Published model: **avestan-ocr-kraken-v1** — [https://huggingface.co/Nikyek/avestan-ocr-kraken-v1](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1)
+
+---
+
+## Directory Structure
+
+```
+src/
+├─ image_processing/            # Pre-OCR image preprocessing
+│  └─ mirror.py                 # Image mirroring for Persian manuscript layout
+│
+├─ interfaces/                  # External tool integrations
+│  ├─ cab/                      # CAB (Corpus Avesticum Berolinense) XML readers
+│  ├─ escriptorium/             # eScriptorium OCR platform API
+│  └─ xml_translator/           # TEI apparatus builder & variant classifier
+│     ├─ tei_build_apparatus.py     # Extract collation from witnesses
+│     ├─ tei_annotate_v3_direct.py  # Classification logic (decision ladder)
+│     └─ verify_rules.py            # Rule validation utility
+│
+└─ tools/                       # Command-line utilities
+```
+
+---
+
+## Pipeline Overview
+
+**OCR Pipeline:**
+1. Image preprocessing (`image_processing/mirror.py` for right-to-left manuscripts)
+2. Model training via `../applying_ocr/Makefile` (Kraken framework)
+3. Inference through eScriptorium (`interfaces/escriptorium/`)
+
+**Apparatus Pipeline:**
+1. Read witness transcriptions from CAB XML (`interfaces/cab/`)
+2. Build collation (`xml_translator/tei_build_apparatus.py`)
+3. Classify variants (`xml_translator/tei_annotate_v3_direct.py`)
+4. Output TEI-encoded critical apparatus with @type annotations
+
+---
+
+## Quick Start
+
+```bash
+# From repository root
+poetry install
+
+# Run apparatus pipeline (requires witness data)
+poetry run python apparatus/scripts/tei_build_apparatus.py --help
+poetry run python apparatus/scripts/tag_apparatus.py --help
+```
+
+See `../apparatus/README.md` for complete apparatus pipeline documentation.
 
 ---
 
