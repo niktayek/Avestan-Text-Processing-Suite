@@ -4,7 +4,18 @@ This document maps the system architecture to the four research questions that f
 
 ---
 
-## Overview: RQ1 → RQ2 → RQ3 ✓ RQ4
+## Key Design Principles
+
+1. **Expert Knowledge First**: Encode philological research as executable rules
+2. **Transparency Over Accuracy**: Prefer interpretable rules over opaque ML
+3. **Configuration-Driven**: Logic in external files, not code
+4. **Modular Components**: Each stage can run independently
+5. **Publish Intermediate Results**: Make OCR model, rules, and data available
+6. **Community Accountability**: Invite critique, iteration, improvement
+
+---
+
+## Overview: RQ1 → RQ2 → RQ3 → RQ4
 
 ```
 RQ1: OCR Pipeline        RQ2: Apparatus Pipeline      RQ3: Pattern Capture      RQ4: Modularity
@@ -288,33 +299,22 @@ Would require:
 Research Questions → Thesis Chapters → Code Components → Configuration
 ───────────────────────────────────────────────────────────────────────
 
-RQ1: Transfer Learning     Chapter 3.4          src/interfaces/      (no external
-     OCR                   (Model Dev)          escriptorium/          config)
+RQ1: Transfer Learning     OCR Development      src/interfaces/      (no external
+     OCR                                        escriptorium/          config)
                                                 + Kraken
 
-RQ2: Classification        Chapter 3.5–3.6      apparatus/scripts/   classification
-     Rules                 (Apparatus           tag_apparatus.py     _policy.yaml
-                           Pipeline)                                 +
+RQ2: Classification        Apparatus            apparatus/scripts/   classification
+     Rules                 Pipeline             tag_apparatus.py     _policy.yaml
+                                                                     +
                                                                      orthography
                                                                      _families.yaml
 
-RQ3: Pattern Capture       Chapter 4            apparatus/policies/  Regional rules
-     (Iran vs India)       (Evaluation)         + classification    in YAML
+RQ3: Pattern Capture       Regional             apparatus/policies/  Regional rules
+     (Iran vs India)       Analysis             + classification    in YAML
 
-RQ4: Modularity &          Chapter 5            All components       Config-driven
-     Reusability           (Synthesis)          + clear interfaces   throughout
+RQ4: Modularity &          System Design        All components       Config-driven
+     Reusability                                + clear interfaces   throughout
 ```
-
----
-
-## Key Design Principles
-
-1. **Expert Knowledge First**: Encode philological research as executable rules
-2. **Transparency Over Accuracy**: Prefer interpretable rules over opaque ML
-3. **Configuration-Driven**: Logic in external files, not code
-4. **Modular Components**: Each stage can run independently
-5. **Publish Intermediate Results**: Make OCR model, rules, and data available
-6. **Community Accountability**: Invite critique, iteration, improvement
 
 ---
 
@@ -337,13 +337,13 @@ All without rewriting the core pipeline.
 
 To understand each RQ:
 
-| RQ | Primary Thesis Chapter | Primary Code | Configuration | Test Results |
-|----|------------------------|--------------|----------------|--------------|
-| **RQ1** | Chapter 3.4 | `src/interfaces/escriptorium/` | — | [HuggingFace Model](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1) |
-| **RQ2** | Chapter 3.5–3.6 | `apparatus/scripts/tag_apparatus.py` | `apparatus/policies/` | Table 4.1–4.3 |
-| **RQ3** | Chapter 4.2–4.3 | `apparatus/policies/` | `classification_policy.yaml` | Figures 4.1–4.5 |
-| **RQ4** | Chapter 5.2.4 | All components | All `.yaml` files | Demo configs in repo |
+| RQ | Primary Code | Configuration | Resources |
+|----|--------------|---------------|------------|
+| **RQ1** | `src/interfaces/escriptorium/` | — | [HuggingFace Model](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1) |
+| **RQ2** | `apparatus/scripts/tag_apparatus.py` | `apparatus/policies/` | [apparatus/README.md](apparatus/README.md) |
+| **RQ3** | `apparatus/policies/` | `classification_policy.yaml` | Policy YAML files in repo |
+| **RQ4** | All components | All `.yaml` files | Configuration examples throughout |
 
 ---
 
-**Last updated**: February 23, 2026
+**Last updated**: February 24, 2026
