@@ -54,26 +54,30 @@ This repository implements two interconnected pipelines for processing historica
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Nikyek/avestan-text-processing-suite.git
-cd avestan-text-processing-suite
+git clone https://github.com/niktayek/Avestan-Text-Processing-Suite.git
+cd Avestan-Text-Processing-Suite
 
 # Install dependencies
 poetry install
 ```
 
-### Run the Apparatus Pipeline (Example: Yasna 9)
+### Run the Apparatus Pipeline
+
+**Note**: The example commands below require Avestan text data and witness transcriptions, which are not included in this repository due to copyright considerations. You'll need to provide your own TEI-encoded lemma file and witness manuscripts.
+
+Example workflow (adapt paths to your data):
 ```bash
 # Build apparatus from witness transcriptions
 poetry run python apparatus/scripts/tei_build_apparatus.py \
-  --lemma-file data/Yasna_Static.xml \
-  --witness-dir res/Yasna/witnesses \
-  --output apparatus/outputs/Y9/apparatus_Y9_14mss.xml \
-  --stanza-range Y9.1-Y9.14
+  --lemma-file <path-to-your-lemma.xml> \
+  --witness-dir <path-to-witness-directory> \
+  --output apparatus/outputs/apparatus_output.xml \
+  --stanza-range <stanza-range>
 
 # Classify variants as trivial vs. meaningful
 poetry run python apparatus/scripts/tag_apparatus.py \
-  --input apparatus/outputs/Y9/apparatus_Y9_14mss.xml \
-  --output apparatus/outputs/Y9/apparatus_Y9_14mss_tagged.xml \
+  --input apparatus/outputs/apparatus_output.xml \
+  --output apparatus/outputs/apparatus_output_tagged.xml \
   --policy apparatus/policies/classification_policy.yaml \
   --families apparatus/policies/orthography_families_v4.yaml
 ```
@@ -155,8 +159,6 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed explanation of each RQ and h
 
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** — System design and research questions
 - **[apparatus/README.md](apparatus/README.md)** — The variant classification pipeline (decision ladder)
-- **[COLAB_INSTRUCTIONS.md](COLAB_INSTRUCTIONS.md)** — Training OCR models in Google Colab for non-technical users
-- **[colab_ocr_package/](colab_ocr_package/)** — Complete package with trained models, test images, and Colab notebooks for hands-on model training
 
 The full methodology is documented in the thesis: *Integrating OCR and Automated Apparatus Construction for Avestan Texts* (Yekrang Safakar, 2025).
 
@@ -188,7 +190,7 @@ Contributions are welcome! Please:
 - Master's degree: Iranistik, Freie Universität Berlin (2024)
 - Current affiliation: Leibniz-Zentrum Allgemeine Sprachwissenschaft (ZAS) and Humboldt University of Berlin
 - Email: niktaayekrang@gmail.com
-- GitHub: [@Nikyek](https://github.com/Nikyek)
+- GitHub: [@niktayek](https://github.com/niktayek)
 
 ---
 
@@ -229,7 +231,7 @@ See [CITATION.cff](CITATION.cff) for machine-readable citation metadata.
 
 See [CITATION.cff](CITATION.cff) for machine-readable metadata. Standard form:
 
-Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Construction for Avestan Texts*. Doctoral thesis, Freie Universität Berlin. https://github.com/Nikyek/avestan-text-processing-suite
+Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Construction for Avestan Texts*. Doctoral thesis, Freie Universität Berlin. https://github.com/niktayek/Avestan-Text-Processing-Suite
 
 ## Questions
 
@@ -237,5 +239,5 @@ Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Constructio
 - Methodology: See ARCHITECTURE.md or the thesis
 - Contact: niktaayekrang@gmail.com
 
-**Repository**: https://github.com/Nikyek/avestan-text-processing-suite  
-**Last updated**: February 2025
+**Repository**: https://github.com/niktayek/Avestan-Text-Processing-Suite  
+**Last updated**: February 2026
