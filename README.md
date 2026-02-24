@@ -94,37 +94,45 @@ poetry run python apparatus/scripts/tag_apparatus.py \
 
 ```
 avestan-text-processing-suite/
-├── apparatus/                          # Critical apparatus pipeline
+├── applying_ocr/                      # OCR training pipeline
+│   ├── Makefile                      # Kraken training workflow
+│   ├── README.md                     # OCR setup documentation
+│   └── data/                         # Training data and ground truth
+│
+├── apparatus/                         # Critical apparatus pipeline
 │   ├── scripts/
-│   │   ├── tei_build_apparatus.py     # Extract apparatus from witnesses
-│   │   ├── tag_apparatus.py           # Classify variants (the decision ladder)
-│   │   ├── verify_rules.py            # Validate classification rules
-│   │   └── tei_annotation_summary.py  # Statistics on tagged apparatus
+│   │   ├── tei_build_apparatus.py    # Extract apparatus from witnesses
+│   │   ├── tag_apparatus.py          # Classify variants (the decision ladder)
+│   │   ├── verify_rules.py           # Validate classification rules
+│   │   └── tei_annotation_summary.py # Statistics on tagged apparatus
 │   ├── policies/
 │   │   ├── classification_policy.yaml        # Decision rules (trivial vs. meaningful)
 │   │   └── orthography_families_v4.yaml      # Regional tradition rules (Iranian vs. Indian)
-│   ├── outputs/                        # Generated apparatus outputs
-│   └── README.md                       # Apparatus pipeline documentation
+│   ├── outputs/                      # Generated apparatus outputs
+│   └── README.md                     # Apparatus pipeline documentation
 │
 ├── src/
-│   └── interfaces/                    # Integrations with external tools
-│       ├── escriptorium/              # eScriptorium OCR platform interface
-│       ├── cab/                       # CAB (Corpus Avesticum Berolinense) reader
-│       └── xml_translator/            # ALTO/PAGE XML conversions
+│   ├── image_processing/             # Image preprocessing for OCR
+│   │   └── mirror.py                 # Image mirroring utility
+│   ├── interfaces/                   # Integrations with external tools
+│   │   ├── escriptorium/             # eScriptorium OCR platform interface
+│   │   ├── cab/                      # CAB (Corpus Avesticum Berolinense) reader
+│   │   └── xml_translator/           # TEI apparatus builder & ALTO/PAGE XML conversions
+│   └── tools/                        # Command-line utilities
 │
-├── data/                              # Reference texts and canonical editions
-│   └── Yasna_Static.xml              # Canonical lemma for Yasna apparatus
+├── data/                             # Reference texts and canonical editions
+│   └── Yasna_Static.xml             # Canonical lemma for Yasna apparatus
 │
-├── res/                               # Results and witness transcriptions
+├── res/                              # Results and witness transcriptions
 │   └── Yasna/
-│       ├── witnesses/                # Manuscript transcriptions
-│       └── apparatus/                # Generated apparatus outputs
+│       ├── witnesses/               # Manuscript transcriptions
+│       └── apparatus/               # Generated apparatus outputs
 │
-├── LICENSE                            # MIT License
-├── CITATION.cff                       # Citation metadata
-├── README.md                          # This file
-├── ARCHITECTURE.md                    # System design & research questions
-└── pyproject.toml                     # Python project configuration
+├── LICENSE                           # MIT License
+├── CITATION.cff                      # Citation metadata
+├── README.md                         # This file
+├── ARCHITECTURE.md                   # System design & research questions
+└── pyproject.toml                    # Python project configuration
 ```
 
 ## Key Results (Validation on Yasna 9)
