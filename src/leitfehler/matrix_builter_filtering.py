@@ -25,11 +25,11 @@ def clean_manuscript_list(cell):
 all_blocks = []
 for path in variation_files:
     if not os.path.exists(path):
-        print(f"⚠️ File not found, skipping: {path}")
+        print(f" File not found, skipping: {path}")
         continue
     df = pd.read_csv(path)
     if 'block_id' not in df.columns or 'manuscripts' not in df.columns:
-        print(f"⚠️ Invalid file skipped: {path}")
+        print(f" Invalid file skipped: {path}")
         continue
     df['manuscripts'] = df['manuscripts'].apply(clean_manuscript_list)
     for _, row in df.iterrows():
@@ -49,7 +49,7 @@ binary_matrix = pd.DataFrame(
 
 binary_matrix_path = os.path.join(output_dir, "manuscript_block_matrix_filtered.csv")
 binary_matrix.to_csv(binary_matrix_path)
-print(f"✅ Filtered binary matrix saved to: {binary_matrix_path}")
+print(f" Filtered binary matrix saved to: {binary_matrix_path}")
 
 # === Jaccard distance matrix ===
 jaccard_distances = pdist(binary_matrix.values, metric='jaccard')
@@ -74,7 +74,7 @@ sch.dendrogram(
 )
 
 plt.gca().yaxis.tick_left()       # manuscript labels on left
-plt.gca().invert_xaxis()          # Jaccard axis grows left-to-right ✅
+plt.gca().invert_xaxis()          # Jaccard axis grows left-to-right 
 
 plt.title("Manuscript Clustering Based on Shared Leitfehler (2–10 Manuscripts)")
 plt.xlabel("Jaccard Distance")

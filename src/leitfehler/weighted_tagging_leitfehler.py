@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # === CONFIG ===
-# ✅ Simply change the rule version here:
+#  Simply change the rule version here:
 RULE_VERSION = 1  # ← ← ← change this number for v1, v2, ..., v6
 
 # File paths
@@ -59,10 +59,10 @@ df["Leitfehler_tag"] = df["the change"].apply(tag_row)
 # === Quick diagnostic output ===
 total_rows = len(df)
 uncertain_rows = sum(df["Leitfehler_tag"].str.contains(r"\?"))
-print(f"✅ Tagging complete for rule set v{RULE_VERSION}.")
+print(f" Tagging complete for rule set v{RULE_VERSION}.")
 print(f"Total rows processed: {total_rows}")
 print(f"Total rows containing '?': {uncertain_rows}")
 
 # === Save output ===
 df.to_csv(TAGGED_OUTPUT_FILE, index=False)
-print(f"✅ Output saved to: {TAGGED_OUTPUT_FILE}")
+print(f" Output saved to: {TAGGED_OUTPUT_FILE}")

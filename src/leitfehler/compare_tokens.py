@@ -199,4 +199,4 @@ for bid in shared_ids:
 # === Export
 df = pd.DataFrame(records)
 df.to_csv(output_csv, index=False)
-print(f"✅ Token alignment complete. Output saved to: {output_csv}")
+print(f" Token alignment complete. Output saved to: {output_csv}")

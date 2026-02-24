@@ -36,4 +36,4 @@ with open(output_txt, "w", encoding="utf-8") as out:
     for block_id, text in blocks:
         out.write(f"{block_id}\t{text}\n")
 
-print(f"✅ Mother ID blocks written in correct order to: {output_txt}")
+print(f" Mother ID blocks written in correct order to: {output_txt}")

@@ -89,4 +89,4 @@ for vid, vdata in ocr_blocks.items():
 # === SAVE ===
 df = pd.DataFrame(results)
 df.to_csv(output_file, index=False)
-print(f"✅ Done. Output saved to: {output_file}")
+print(f" Done. Output saved to: {output_file}")

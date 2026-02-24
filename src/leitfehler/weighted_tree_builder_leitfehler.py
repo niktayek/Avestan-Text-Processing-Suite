@@ -8,7 +8,7 @@ from io import StringIO
 from Bio import Phylo
 
 # === CONFIG ===
-# ✅ Set the same rule version you used in the tagging phase:
+#  Set the same rule version you used in the tagging phase:
 RULE_VERSION = 1  # <--- Change this when you test different rule versions
 
 # File paths

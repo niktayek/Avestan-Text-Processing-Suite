@@ -139,21 +139,21 @@ avestan-text-processing-suite/
 
 This work addresses four core research questions:
 
-### **RQ1: Can transfer learning enable high-accuracy OCR for Avestan?**
+### **RQ1: Can OCR models trained on other languages, e.g., Hebrew, be successfully adapted for Avestan manuscripts via transfer learning, and what level of recognition accuracy is achievable with limited ground-truth data?**
 **Answer**: Yes. Starting from a Hebrew-trained Kraken model and iteratively refining on ~43 pages of ground truth achieved 99.2% character accuracy. This demonstrates a template for bootstrapping OCR for other low-resource scripts.
 
-### **RQ2: Can philological knowledge be encoded into auditable rules?**
-**Answer**: Yes. Martínez Porro's (2020) systematic orthographic analysis was formalized as configuration files (YAML) defining "orthography families" (character groupings by phonetic equivalence) and "decision policies" (rules for classification). Because all logic is explicit and human-readable, the system is transparent and adjustable.
+### **RQ2: Can orthographic variants in Avestan manuscripts be automatically classified as trivial or substantive using rule-based systems that encode philological knowledge?**
+**Answer**: Yes. Martínez Porro's systematic orthographic analysis was formalized as configuration files (YAML) defining "orthography families" (character groupings by phonetic equivalence) and "decision policies" (rules for classification). Because all logic is explicit and human-readable, the system is transparent and adjustable.
 
-### **RQ3: Can the apparatus capture regional transmission patterns?**
+### **RQ3: Can computational analysis of orthographic patterns support the construction of critical apparatuses that accurately reflect regional transmission traditions and manuscript relationships?**
 **Answer**: Yes. Configuration-driven rules distinguish Iranian vs. Indian traditions. For example, Iranian monophthongization (aō → ō) occurs in ~3% of Iranian witnesses but is preserved in Indian copies, correctly captured by tradition-specific rules.
 
-### **RQ4: Is the architecture modular and reusable?**
-**Answer**: Yes. Each component (OCR, alignment, normalization, classification) operates independently via well-defined interfaces. All philological logic is externalized in configuration files, allowing users to adapt rules for different texts or scripts without code changes.
+### **RQ4: To what extent is the apparatus pipeline scalable, modular, and adaptable for other Avestan texts or related scripts?**
+**Answer**: Each component (OCR, alignment, normalization, classification) operates independently via well-defined interfaces. All philological logic is externalized in configuration files, allowing users to adapt rules for different texts or scripts without code changes.
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed explanation of each RQ and how the codebase addresses it.
 
----how the codebase addresses each research question.
+---
 
 ## Documentation
 
@@ -164,12 +164,6 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed explanation of each RQ and h
 
 The full methodology is documented in the thesis: *Integrating OCR and Automated Apparatus Construction for Avestan Texts* (Yekrang Safakar, 2025).
 
-##CR Model**: [avestan-ocr-kraken-v1 on Hugging Face](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1)
-- **Scholarly references**:
-  - Martínez Porro, J. (2020). *Orthography and recitation in the Avestan manuscripts*. Doctoral dissertation, Freie Universität Berlin.
-  - Cantera, A. (Ed.). (2013). *Corpus Avesticum Berolinense (CAB): A comprehensive online resource for Avestan studies*. Berlin: CAB Project.
-  - Robinson, P. (2013). *Towards a theory of digital editions*. *19th CEdIES Conference*.
-
 ---
 
 ## Limitations & Scope
@@ -177,8 +171,6 @@ The full methodology is documented in the thesis: *Integrating OCR and Automated
 1. **Apparatus requires error-free input**: The classification pipeline works best with manually reviewed transcriptions. Raw OCR output should be post-edited before feeding to apparatus generation.
 2. **Witness group metadata not yet loaded**: Configuration exists for distinguishing scribal schools (Iranian Yazdi/Kermani, Indian Navsari/Surat) but is currently commented out in the code. Future work will integrate this.
 3. **Syncope detection incomplete**: The system detects most orthographic operations but omits "vowel deleted" changes in some cases.
-##
-See [Chapter 5](Chapter5_Conclusion_FutureWork.md) for detailed discussion of limitations and future directions.
 
 ---
 
@@ -215,25 +207,15 @@ Special thanks to:
 - Current affiliation: Leibniz-Zentrum Allgemeine Sprachwissenschaft (ZAS) and Humboldt University of Berlin
 - Email: niktaayekrang@gmail.com
 
-##
-**APA form**:
-> Yekrang Safakar, N. (2026). *Avestan text processing suite: OCR and critical apparatus pipeline*. Retrieved from https://github.com/Nikyek/avestan-text-processing-suite
-
-See [CITATION.cff](CITATION.cff) for machine-readable citation metadata.
-
 ---
-
-## Questions
-
-- **About apparatus classification**: See [apparatus/README.md](apparatus/README.md)
-- **About methodology**: See ARCHITECTURE.md or the thesis
-- **Technical issues**: Open a GitHub issue or contact niktaayekrang@gmail.com
 
 ## Citation
 
 See [CITATION.cff](CITATION.cff) for machine-readable metadata. Standard form:
 
 Yekrang Safakar, N. (2025). *Integrating OCR and Automated Apparatus Construction for Avestan Texts*. Master's thesis, Freie Universität Berlin. https://github.com/niktayek/Avestan-Text-Processing-Suite
+
+---
 
 ## Questions
 

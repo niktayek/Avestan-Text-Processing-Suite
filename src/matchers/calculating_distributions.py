@@ -49,4 +49,4 @@ result_df = result_df.set_index("Change")
 result_df = result_df.sort_index()
 result_df.to_csv(OUTPUT_CSV)
 
-print(f"✅ Per-manuscript change distribution (with counts and percentages) saved to:\n{Path(OUTPUT_CSV).resolve()}")
+print(f" Per-manuscript change distribution (with counts and percentages) saved to:\n{Path(OUTPUT_CSV).resolve()}")

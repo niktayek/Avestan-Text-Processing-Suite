@@ -12,7 +12,7 @@ def get_all_ab_blocks(xml_file):
         tree = ET.parse(xml_file)
         root = tree.getroot()
         blocks = []
-        for ab in root.findall(".//ab"):  # ✅ No 'tei:' prefix
+        for ab in root.findall(".//ab"):  #  No 'tei:' prefix
             # xml:id attribute still uses XML namespace
             block_id = ab.attrib.get("{http://www.w3.org/XML/1998/namespace}id")
             text = "".join(ab.itertext()).strip()
@@ -20,7 +20,7 @@ def get_all_ab_blocks(xml_file):
                 blocks.append((block_id, text))
         return blocks
     except ET.ParseError as e:
-        print(f"⚠️ Failed to parse {xml_file}: {e}")
+        print(f" Failed to parse {xml_file}: {e}")
         return []
 
 # === Collect blocks from all XML files ===
@@ -35,4 +35,4 @@ for fname in os.listdir(ocr_folder):
 # === Save to CSV ===
 df = pd.DataFrame(all_blocks, columns=["block_id", "ocr_text"])
 df.to_csv(output_csv, index=False)
-print(f"✅ OCR blocks saved to: {output_csv}")
+print(f" OCR blocks saved to: {output_csv}")

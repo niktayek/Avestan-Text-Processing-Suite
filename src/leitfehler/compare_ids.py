@@ -67,7 +67,7 @@ canon_blocks = {bid: dot_based_tokenize(text) for bid, text in canon_raw.items()
 variant_blocks = {bid: dot_based_tokenize(text) for bid, text in variant_raw.items()}
 
 shared_ids = sorted(set(canon_blocks.keys()) & set(variant_blocks.keys()))
-print(f"✅ Shared block IDs: {len(shared_ids)}")
+print(f" Shared block IDs: {len(shared_ids)}")
 
 records = []
 skipped_blocks = 0
@@ -78,7 +78,7 @@ for bid in shared_ids:
 
     if not canon_tokens or not variant_tokens:
         skipped_blocks += 1
-        print(f"⚠️ Skipping {bid}:")
+        print(f" Skipping {bid}:")
         if not canon_tokens:
             print(f"   🟥 Canonical side is empty")
             print(f"   Raw text: {repr(canon_raw.get(bid, '')[:120])}...")
@@ -96,7 +96,7 @@ for bid in shared_ids:
         if ctok == vtok:
             status = "match"
         elif (ctok, vtok) in substitutions:
-            status = "substitution (✓)"
+            status = "substitution ()"
         else:
             ratio = levenshtein_ratio(ctok, vtok)
             status = "substitution (?)" if ratio >= 0.75 else "addition/omission"
@@ -116,4 +116,4 @@ df.to_csv(output_csv, index=False)
 # === Summary
 print(f"📄 Token comparison complete. Output saved to: {output_csv}")
 print(f"🧭 Compared {len(shared_ids) - skipped_blocks} block(s)")
-print(f"⚠️ Skipped {skipped_blocks} block(s) due to missing tokens")
+print(f" Skipped {skipped_blocks} block(s) due to missing tokens")
