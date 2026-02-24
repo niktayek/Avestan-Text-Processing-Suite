@@ -42,11 +42,11 @@ def extract_canonical_blocks(xml_path):
     return reference_map
 
 canonical_text_by_block = extract_canonical_blocks(STATIC_YASNA_PATH)
-print(f"✅ Loaded {len(canonical_text_by_block)} normalized reference blocks")
+print(f" Loaded {len(canonical_text_by_block)} normalized reference blocks")
 
 # === Step 4: Filter to only blocks present in the reference ===
 df = df[df["normalized_id"].isin(canonical_text_by_block)]
-print(f"✅ {len(df)} rows remain after filtering for available reference stanzas")
+print(f" {len(df)} rows remain after filtering for available reference stanzas")
 
 # === Step 5: Compare manual vs canonical — Loose substitution detection ===
 block_rows = []
@@ -94,7 +94,7 @@ for (norm_id, ms_id), group in df.groupby(["normalized_id", "manuscript_id"]):
 # === Step 6: Save outputs ===
 block_df = pd.DataFrame(block_rows)
 block_df.to_csv(BLOCK_OUTPUT, index=False)
-print(f"✅ Substitution stanza-level results saved to:\n  {BLOCK_OUTPUT}")
+print(f" Substitution stanza-level results saved to:\n  {BLOCK_OUTPUT}")
 
 comparison_df = pd.DataFrame(comparison_rows)
 comparison_df.to_csv(COMPARISON_OUTPUT, index=False)
@@ -113,6 +113,6 @@ summary_df = pd.DataFrame(summary_rows)
 if not summary_df.empty:
     summary_df = summary_df.sort_values(by=["num_manuscripts", "block_id"], ascending=[False, True])
     summary_df.to_csv(RANKED_OUTPUT, index=False)
-    print(f"📊 Ranked summary saved to:\n  {RANKED_OUTPUT}")
+    print(f" Ranked summary saved to:\n  {RANKED_OUTPUT}")
 else:
-    print("⚠️ No loose substitutions detected — ranked summary not created.")
+    print(" No loose substitutions detected — ranked summary not created.")

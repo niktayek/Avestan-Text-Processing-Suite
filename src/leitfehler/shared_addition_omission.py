@@ -54,11 +54,11 @@ def extract_reference_map(xml_path):
     return ref_map
 
 reference_map = extract_reference_map(yasna_reference_path)
-print(f"✅ Parsed {len(reference_map)} reference stanzas from XML.")
+print(f" Parsed {len(reference_map)} reference stanzas from XML.")
 
 # === Step 5: Filter to blocks with reference ===
 df = df[df["normalized_id"].isin(reference_map)]
-print(f"✅ Filtered to {len(df)} rows with reference matches.")
+print(f" Filtered to {len(df)} rows with reference matches.")
 
 # === Step 6: Group OCR words by stanza and manuscript using index ===
 ocr_map = defaultdict(lambda: defaultdict(list))
@@ -158,4 +158,4 @@ pd.DataFrame(addition_rows).to_csv(addition_comparison, index=False)
 pd.DataFrame(long_format_rows).to_csv(long_format_output, index=False)
 print(f"📦 Omission saved to: {omission_ranked}")
 print(f"📦 Addition saved to: {addition_ranked}")
-print(f"📊 Long-format saved to: {long_format_output}")
+print(f" Long-format saved to: {long_format_output}")

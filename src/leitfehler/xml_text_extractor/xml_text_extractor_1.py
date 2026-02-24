@@ -32,4 +32,4 @@ with open(output_txt, "w", encoding="utf-8") as out:
     for block_id, text in blocks:
         out.write(f"{block_id}\t{text}\n")
 
-print(f"✅ Cleaned blocks written to: {output_txt}")
+print(f" Cleaned blocks written to: {output_txt}")

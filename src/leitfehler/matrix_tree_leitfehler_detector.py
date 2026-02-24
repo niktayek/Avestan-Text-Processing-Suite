@@ -45,11 +45,11 @@ def clean_manuscript_list(cell):
 all_blocks = []
 for path in variation_files:
     if not os.path.exists(path):
-        print(f"⚠️ File not found, skipping: {path}")
+        print(f" File not found, skipping: {path}")
         continue
     df = pd.read_csv(path)
     if 'block_id' not in df.columns or 'manuscripts' not in df.columns:
-        print(f"⚠️ Invalid file skipped: {path}")
+        print(f" Invalid file skipped: {path}")
         continue
     df['manuscripts'] = df['manuscripts'].apply(clean_manuscript_list)
     for _, row in df.iterrows():
@@ -69,7 +69,7 @@ binary_matrix = pd.DataFrame(
 
 binary_matrix_path = os.path.join(output_dir, "manuscript_block_matrix_filtered.csv")
 binary_matrix.to_csv(binary_matrix_path)
-print(f"✅ Filtered binary matrix saved to: {binary_matrix_path}")
+print(f" Filtered binary matrix saved to: {binary_matrix_path}")
 
 # === Jaccard distance matrix ===
 jaccard_distances = pdist(binary_matrix.values, metric='jaccard')
@@ -148,11 +148,11 @@ presence_table = presence_table[presence_table["present"] == 1].drop(columns=["p
 def resolve_field(lf_id, field):
     lf_id = normalize(lf_id)
     if lf_id in type_lookup:
-        return type_lookup[lf_id].get(field, "❌ ERROR")
+        return type_lookup[lf_id].get(field, " ERROR")
     parent = normalize_address_id(lf_id)
     if parent in type_lookup:
         return type_lookup[parent].get(field, "❔ APPROX")
-    return "❌ ERROR"
+    return " ERROR"
 
 presence_table["type"] = presence_table["leitfehler_id"].apply(lambda x: resolve_field(x, "type"))
 presence_table["description"] = presence_table["leitfehler_id"].apply(lambda x: resolve_field(x, "description"))
@@ -165,11 +165,11 @@ leitfehler_groups["block_id"] = leitfehler_groups["leitfehler_id"].apply(lambda 
 leitfehler_groups["description"] = leitfehler_groups["leitfehler_id"].apply(lambda x: resolve_field(x, "description"))
 leitfehler_groups["type"] = leitfehler_groups["leitfehler_id"].apply(lambda x: resolve_field(x, "type"))
 
-errors = leitfehler_groups[leitfehler_groups["type"] == "❌ ERROR"]
+errors = leitfehler_groups[leitfehler_groups["type"] == " ERROR"]
 if not errors.empty:
     print("❗ WARNING: Unresolved Leitfehler IDs found!")
     print(errors.head())
-    raise ValueError("❌ Some Leitfehler IDs could not be resolved.")
+    raise ValueError(" Some Leitfehler IDs could not be resolved.")
 
 leitfehler_groups = leitfehler_groups[["leitfehler_id", "block_id", "description", "type", "manuscript_id", "num_mss"]]
 leitfehler_groups = leitfehler_groups.sort_values(by="num_mss", ascending=False)

@@ -40,11 +40,11 @@ try:
     dom = xml.dom.minidom.parseString(text)
     pretty_xml = dom.toprettyxml(indent="  ")
 except Exception as e:
-    print("⚠️ Pretty-print failed:", e)
+    print(" Pretty-print failed:", e)
     pretty_xml = text
 
 # === Save cleaned and formatted XML
 with output_path.open("w", encoding="utf-8") as f:
     f.write(pretty_xml)
 
-print(f"✅ Cleaned and formatted XML saved to: {output_path.resolve()}")
+print(f" Cleaned and formatted XML saved to: {output_path.resolve()}")

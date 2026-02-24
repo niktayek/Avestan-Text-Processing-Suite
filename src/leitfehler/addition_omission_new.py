@@ -76,18 +76,18 @@ for ab in root.findall(".//ab[@xml:id]", ns):
     xml_id = ab.attrib.get("{http://www.w3.org/XML/1998/namespace}id")
 
     if xml_id not in canonical_blocks:
-        print(f"⚠️ Skipping: {xml_id} not in canonical (from {fname})")
+        print(f" Skipping: {xml_id} not in canonical (from {fname})")
         continue
 
     if not canonical_blocks[xml_id]:
-        print(f"⚠️ Skipping: {xml_id} has no tokens in canonical")
+        print(f" Skipping: {xml_id} has no tokens in canonical")
         continue
 
     variant_text = ET.tostring(ab, encoding="unicode", method="text").strip()
     variant_tokens = tokenize(variant_text)
 
     if not variant_tokens:
-        print(f"⚠️ Skipping: {xml_id} has no tokens in manuscript ({fname})")
+        print(f" Skipping: {xml_id} has no tokens in manuscript ({fname})")
         continue
 
     canonical_tokens = canonical_blocks[xml_id]
@@ -140,5 +140,5 @@ for ab in root.findall(".//ab[@xml:id]", ns):
 # === Export
 df = pd.DataFrame(results)
 df.to_csv(output_path, index=False)
-print(f"\n✅ Total differences found: {len(results)}")
+print(f"\n Total differences found: {len(results)}")
 print(f"📄 Output written to: {output_path}")

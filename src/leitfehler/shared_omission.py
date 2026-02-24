@@ -40,11 +40,11 @@ def extract_canonical_ids_from_xml(xml_path):
     return reference_map
 
 reference_map = extract_canonical_ids_from_xml(yasna_reference_path)
-print(f"✅ Parsed {len(reference_map)} reference stanzas from XML.")
+print(f" Parsed {len(reference_map)} reference stanzas from XML.")
 
 # === Step 4: Filter to rows with matching stanza ID ===
 df = df[df["normalized_id"].isin(reference_map)]
-print(f"✅ Remaining rows with reference: {len(df)}")
+print(f" Remaining rows with reference: {len(df)}")
 
 # === Step 5: Group OCR words by stanza and manuscript using index from address
 ocr_map = defaultdict(lambda: defaultdict(list))  # normalized_id → manuscript_id → list of (index, word)
@@ -102,4 +102,4 @@ comparison_df = pd.DataFrame(comparison_rows)
 comparison_df.to_csv(comparison_output, index=False)
 
 print(f"📦 Omission ranking saved to: {ranked_output}")
-print(f"📊 Comparison details saved to: {comparison_output}")
+print(f" Comparison details saved to: {comparison_output}")

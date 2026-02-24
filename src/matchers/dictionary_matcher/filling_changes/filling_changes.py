@@ -139,7 +139,7 @@ for idx, row in df[df[change_col].isna() | (df[change_col] == "")].iterrows():
 
 # === Save output CSV ===
 df.to_csv(OUTPUT_CSV, index=False)
-print(f"\n✅ Updated file saved to: {Path(OUTPUT_CSV).resolve()}")
+print(f"\n Updated file saved to: {Path(OUTPUT_CSV).resolve()}")
 
 # === Save new rule candidates ===
 if new_candidates:
@@ -153,4 +153,4 @@ if new_candidates:
                 f.write(f"{ocr} inserted\n")
     print(f"📝 New rule candidates saved to: {Path(NEW_RULE_LOG).resolve()}")
 else:
-    print("✅ No new rule candidates found.")
+    print(" No new rule candidates found.")

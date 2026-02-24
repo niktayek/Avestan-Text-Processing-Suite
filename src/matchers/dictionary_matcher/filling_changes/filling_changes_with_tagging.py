@@ -246,4 +246,4 @@ df[flag_col] = df[change_col].apply(flag_undocumented)
 
 # === Export final
 df.to_csv(OUTPUT_CSV, index=False)
-print(f"✅ Exported tagged file: {OUTPUT_CSV}")
+print(f" Exported tagged file: {OUTPUT_CSV}")

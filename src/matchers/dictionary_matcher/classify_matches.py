@@ -23,4 +23,4 @@ df["match_type"] = df.apply(classify, axis=1)
 
 # === Save result ===
 df.to_csv(output_file, index=False)
-print(f"✅ Tagged alignments saved to: {output_file}")
+print(f" Tagged alignments saved to: {output_file}")

@@ -36,7 +36,7 @@ for fname in os.listdir(from_path):
         fixed_path = os.path.join(to_path, fname)
         with open(fixed_path, "w", encoding="utf-8") as f:
             f.write(content)
-        print(f"✅ OK: {fname}")
+        print(f" OK: {fname}")
         continue
     except ET.ParseError:
         pass
@@ -50,4 +50,4 @@ for fname in os.listdir(from_path):
             f.write(fixed_content)
         print(f"🔧 Fixed: {fname}")
     except ET.ParseError as e:
-        print(f"❌ Still broken: {fname} — {e}")
+        print(f" Still broken: {fname} — {e}")

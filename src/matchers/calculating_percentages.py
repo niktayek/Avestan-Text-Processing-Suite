@@ -55,4 +55,4 @@ result_df = pd.DataFrame(rows)
 result_df = result_df.sort_values(by=["manuscript", "change"])
 result_df.to_csv(OUTPUT_CSV, index=False)
 
-print(f"✅ All 'x for y' substitution statistics saved to:\n{Path(OUTPUT_CSV).resolve()}")
+print(f" All 'x for y' substitution statistics saved to:\n{Path(OUTPUT_CSV).resolve()}")

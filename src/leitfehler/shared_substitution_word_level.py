@@ -14,7 +14,7 @@ df["manuscript_id"] = df["manuscript_id"].astype(str)
 
 # === Step 2: Normalize stanza ID if block_id is missing ===
 if "block_id" not in df.columns:
-    print("⚠️ 'block_id' column missing — deriving from 'address' or 'address_id'")
+    print(" 'block_id' column missing — deriving from 'address' or 'address_id'")
 
 
     def extract_block_id(addr):
@@ -72,5 +72,5 @@ ranked_df.to_csv(RANKED_OUTPUT, index=False)
 comparison_df = pd.DataFrame(comparison_rows)
 comparison_df.to_csv(COMPARISON_OUTPUT, index=False)
 
-print(f"✅ Substitution ranking saved to: {RANKED_OUTPUT}")
+print(f" Substitution ranking saved to: {RANKED_OUTPUT}")
 print(f"📋 Substitution comparison saved to: {COMPARISON_OUTPUT}")

@@ -33,7 +33,7 @@ if "block_id" not in df.columns:
 
     df["block_id"] = df["address"].apply(extract_block_id)
 
-print("✅ Loaded tagged file with shape:", df.shape)
+print(" Loaded tagged file with shape:", df.shape)
 print("📌 Sample block IDs:", df["block_id"].unique()[:5])
 
 # === Load static Yasna reference (no TEI namespace) ===
@@ -50,7 +50,7 @@ for elem in root.findall(".//ab[@xml:id]", ns):
     tokens = re.findall(r"\b\w+\b", text)
     reference_map[block_id] = tokens
 
-print(f"✅ Loaded reference XML with {len(reference_map)} blocks")
+print(f" Loaded reference XML with {len(reference_map)} blocks")
 print("📌 Sample reference block IDs:", list(reference_map.keys())[:5])
 
 # === Compare OCR stanza order with canonical reference ===
@@ -68,7 +68,7 @@ for (ms_id, block_id), group in groups:
     if block_id not in reference_map:
         skipped_blocks += 1
         if skipped_blocks <= 10:
-            print(f"⚠️ Skipping unknown block_id in XML: {block_id}")
+            print(f" Skipping unknown block_id in XML: {block_id}")
         continue
 
     ocr_tokens = [normalize_token(t) for t in group["ocr_word"].dropna().astype(str)]
@@ -94,7 +94,7 @@ for (ms_id, block_id), group in groups:
             printed += 1
 
 if not permutations_by_block:
-    print("⚠️ No permutations detected after comparison.")
+    print(" No permutations detected after comparison.")
 
 # === Rank permutation blocks ===
 ranked_data = []
@@ -109,9 +109,9 @@ ranked_df = pd.DataFrame(ranked_data)
 if not ranked_df.empty:
     ranked_df = ranked_df.sort_values(by=["num_manuscripts", "block_id"], ascending=[False, True])
     ranked_df.to_csv(RANKED_OUTPUT, index=False)
-    print(f"\n✅ Permutation ranking saved to: {RANKED_OUTPUT}")
+    print(f"\n Permutation ranking saved to: {RANKED_OUTPUT}")
 else:
-    print("\n⚠️ No permutation blocks detected — output file not written.")
+    print("\n No permutation blocks detected — output file not written.")
 
 # === Write detailed comparison table ===
 comparison_df = pd.DataFrame(comparison_rows)
@@ -119,4 +119,4 @@ if not comparison_df.empty:
     comparison_df.to_csv(COMPARISON_OUTPUT, index=False)
     print(f"📋 Detailed comparisons saved to: {COMPARISON_OUTPUT}")
 else:
-    print("⚠️ No detailed comparisons found.")
+    print(" No detailed comparisons found.")

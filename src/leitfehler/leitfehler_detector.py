@@ -76,18 +76,18 @@ leitfehler_groups["num_mss"] = leitfehler_groups["manuscript_id"].apply(len)
 # === Step 6: Resolve metadata (support fallback ID) ===
 def resolve_field(lf_id, field):
     lf_id = normalize(lf_id)
-    return type_lookup.get(lf_id, {}).get(field, "❌ ERROR")
+    return type_lookup.get(lf_id, {}).get(field, " ERROR")
 
 leitfehler_groups["block_id"] = leitfehler_groups["leitfehler_id"].apply(lambda x: resolve_field(x, "block_id"))
 leitfehler_groups["description"] = leitfehler_groups["leitfehler_id"].apply(lambda x: resolve_field(x, "description"))
 leitfehler_groups["type"] = leitfehler_groups["leitfehler_id"].apply(lambda x: resolve_field(x, "type"))
 
 # === Step 7: Check for unresolved cases ===
-errors = leitfehler_groups[leitfehler_groups["type"] == "❌ ERROR"]
+errors = leitfehler_groups[leitfehler_groups["type"] == " ERROR"]
 if not errors.empty:
     print("❗ WARNING: Unresolved Leitfehler IDs found!")
     print(errors.head())
-    raise ValueError("❌ Some Leitfehler IDs could not be resolved.")
+    raise ValueError(" Some Leitfehler IDs could not be resolved.")
 
 # === Step 8: Save result ===
 leitfehler_groups = leitfehler_groups[[
@@ -96,4 +96,4 @@ leitfehler_groups = leitfehler_groups[[
 leitfehler_groups = leitfehler_groups.sort_values(by="num_mss", ascending=False)
 
 leitfehler_groups.to_csv(output_path, index=False)
-print(f"✅ Leitfehler list with exact types saved to:\n{output_path}")
+print(f" Leitfehler list with exact types saved to:\n{output_path}")

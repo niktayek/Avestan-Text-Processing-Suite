@@ -25,14 +25,14 @@ for i, m1 in enumerate(manuscripts):
 
 jac_df = pd.DataFrame(jac_matrix, index=manuscripts, columns=manuscripts)
 jac_df.to_csv(JACCARD_OUT_CSV)
-print(f"✅ Jaccard similarity matrix saved to: {JACCARD_OUT_CSV}")
+print(f" Jaccard similarity matrix saved to: {JACCARD_OUT_CSV}")
 
 # === Plot clustermap ===
 sns.clustermap(jac_df, cmap="viridis", annot=True, linewidths=0.5)
 plt.title("Manuscript Similarity (Jaccard Index)", pad=100)
 plt.savefig(CLUSTERMAP_OUT, dpi=300)
 plt.close()
-print(f"📊 Clustermap saved to: {CLUSTERMAP_OUT}")
+print(f" Clustermap saved to: {CLUSTERMAP_OUT}")
 
 # === Generate independent manuscript tree ===
 # Convert similarity to distance

@@ -66,7 +66,7 @@ def process():
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(pretty)
 
-    print(f"✅ Cleaned static Yasna saved to: {output_path}")
+    print(f" Cleaned static Yasna saved to: {output_path}")
 
 if __name__ == "__main__":
     process()

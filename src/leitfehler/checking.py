@@ -36,7 +36,7 @@ for filename in sorted(os.listdir(manuscript_dir)):
         tree = ET.parse(path)
         root = tree.getroot()
     except ET.ParseError as e:
-        print(f"❌ Error in file {filename}: {e}")
+        print(f" Error in file {filename}: {e}")
         continue
 
     manuscripts.append(ms_id)
@@ -49,11 +49,11 @@ for filename in sorted(os.listdir(manuscript_dir)):
         found_ids.add(xml_id)
 
     for block_id in canonical_blocks:
-        presence_matrix[block_id][ms_id] = "✅" if block_id in found_ids else "❌"
+        presence_matrix[block_id][ms_id] = "" if block_id in found_ids else ""
 
 # === Step 3: Save as CSV ===
 df = pd.DataFrame.from_dict(presence_matrix, orient="index")
 df.index.name = "block_id"
 df.to_csv(output_csv)
 
-print(f"✅ Presence matrix saved to: {output_csv}")
+print(f" Presence matrix saved to: {output_csv}")

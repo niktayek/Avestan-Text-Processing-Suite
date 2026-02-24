@@ -44,4 +44,4 @@ for block_token in sorted_tokens:
 
 df_matrix = pd.DataFrame(matrix)
 df_matrix.to_csv(OUTPUT_MATRIX, index=False)
-print(f"✅ Matrix saved to: {OUTPUT_MATRIX}")
+print(f" Matrix saved to: {OUTPUT_MATRIX}")

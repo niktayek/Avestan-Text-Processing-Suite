@@ -85,4 +85,4 @@ The code includes detailed error messages. If something fails:
 
 ---
 
-**Status**: ✅ Ready to use - no Python installation, no CLI, no Terminal knowledge required!
+**Status**: Ready to use - no Python installation, no CLI, no Terminal knowledge required!

@@ -57,4 +57,4 @@ for elem in root.iter():
 
 # === SAVE OUTPUT ===
 tree.write(output_file, encoding="utf-8", xml_declaration=True)
-print(f"✅ Final cleaned XML written to: {output_file}")
+print(f" Final cleaned XML written to: {output_file}")
