@@ -65,10 +65,10 @@ git checkout pre-cleanup-backup-20260224
 git checkout pre-cleanup-backup-20260224 -- src/leitfehler
 ```
 
-### Future Repositories (Planned)
-This experimental code may be published separately:
-- **avestan-ocr-colab-notebooks**: Jupyter notebooks for colleagues
-- **avestan-philology-experiments**: Leitfehler and scribal school analysis tools
+### Published Companion Repositories
+This experimental code now lives in dedicated repositories:
+- **[avestan-manuscript-digitization-toolkit](https://github.com/niktayek/avestan-manuscript-digitization-toolkit)**: Jupyter notebooks and Colab workflows for OCR training and manuscript processing
+- **[avestan-computational-philology](https://github.com/niktayek/avestan-computational-philology)**: Leitfehler, matchers, and scribal school analysis tools
 
 ---
 
@@ -104,8 +104,9 @@ If you're reviewing this repository for PhD applications or research evaluation:
 
 ## Questions?
 
-Contact: [Your email or GitHub profile]
+Contact: niktaayekrang@gmail.com
 
 **Related Repositories**:
 - [Avestan OCR Model](https://huggingface.co/Nikyek/avestan-ocr-kraken-v1) - Published model on HuggingFace
-- [Future: avestan-philology-experiments] - Experimental code repository (coming soon)
+- [Avestan Manuscript Digitization Toolkit](https://github.com/niktayek/avestan-manuscript-digitization-toolkit) - Colab notebooks and OCR training workflows
+- [Avestan Computational Philology](https://github.com/niktayek/avestan-computational-philology) - Experimental computational philology tools

@@ -17,6 +17,16 @@ All dependencies are locked at their latest available versions (as of Feb 2025) 
 
 ---
 
+## Companion Repositories
+
+This thesis repository is supported by two related repositories for specialized use cases:
+
+- **[avestan-manuscript-digitization-toolkit](https://github.com/niktayek/avestan-manuscript-digitization-toolkit)** — Google Colab notebooks for OCR model training and manuscript processing (designed for collaborators and researchers without local computational infrastructure)
+
+- **[avestan-computational-philology](https://github.com/niktayek/avestan-computational-philology)** — Experimental tools for textual variant analysis, manuscript clustering, and scribal tradition identification (research exploration that did not make it into the final thesis scope)
+
+---
+
 ## Overview
 
 This repository implements two interconnected pipelines for processing historical Avestan manuscripts:
