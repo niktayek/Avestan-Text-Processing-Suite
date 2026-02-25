@@ -183,8 +183,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed explanation of each RQ and h
 
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** — System design and research questions
 - **[apparatus/README.md](apparatus/README.md)** — The variant classification pipeline (decision ladder)
-- **[COLAB_INSTRUCTIONS.md](COLAB_INSTRUCTIONS.md)** — Training OCR models in Google Colab for non-technical users
-- **[colab_ocr_package/](colab_ocr_package/)** — Complete package with trained models, test images, and Colab notebooks for hands-on model training
+- **[Avestan Manuscript Digitization Toolkit](https://github.com/niktayek/avestan-manuscript-digitization-toolkit)** — Colab notebooks, training workflows, and example assets for non-technical users
 
 The full methodology is documented in the thesis: *Integrating OCR and Automated Apparatus Construction for Avestan Texts* (Yekrang Safakar, 2025).
 
