@@ -1,0 +1,29 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: "/"
+    target-branch: main
+    schedule:
+      interval: weekly
+      day: monday
+      time: "05:00"
+      timezone: "Europe/Berlin"
+    open-pull-requests-limit: 2
+    labels:
+      - dependencies
+      - security
+    groups:
+      pip-security-and-maintenance:
+        patterns:
+          - "*"
+    # Temporary suppressions for repetitive alerts that are currently
+    # constrained by upstream transitive dependencies (not directly fixable here).
+    ignore:
+      - dependency-name: pygments
+      - dependency-name: aiohttp
+      - dependency-name: lxml
+      - dependency-name: nltk
+      - dependency-name: pillow
+      - dependency-name: requests
+      - dependency-name: torch
+      - dependency-name: urllib3
