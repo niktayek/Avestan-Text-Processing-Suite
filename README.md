@@ -13,6 +13,11 @@
 - **Pillow PSD vulnerability** (High): This codebase only processes PNG/JPG/TIFF manuscript images, not PSD files, so the vulnerability does not apply. Will update when Pillow 11.4.0+ becomes available in the Poetry index.
 - **PyTorch vulnerabilities** (3 alerts: Critical, Moderate, Low): These relate to `torch.load()` on untrusted models and resource handling. This project does not load external PyTorch models or call `torch.load()` directly—OCR inference is handled internally by Kraken. Will update when patched PyTorch releases become available.
 
+Dependabot policy for this repository is defined in [.github/dependabot.yml](.github/dependabot.yml):
+- pip updates are grouped and rate-limited to reduce duplicate PR churn.
+- Temporary ignore rules are in place for repeatedly noisy dependencies that are currently constrained by upstream transitive pins.
+- Remove the ignore entries once Kraken publishes compatible releases that unlock patched dependency lines (especially Torch/Pillow-related chains).
+
 All dependencies are locked at their latest available versions (as of Feb 2025) and pose minimal practical risk for this research codebase's intended use.
 
 ---
